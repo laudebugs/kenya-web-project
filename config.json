@@ -1,0 +1,10 @@
+{
+    
+    "lighthouseFlags": {
+	"output": "json",
+        "disableDeviceEmulation": true
+    },
+    "chromeFlags": ["--headless"],
+    "writeTo": "./",
+    "sortByDate": true
+}
