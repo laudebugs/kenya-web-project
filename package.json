@@ -1,0 +1,22 @@
+{
+  "name": "kenya-web-project",
+  "version": "1.0.0",
+  "description": "### References [Starting off](https://stackoverflow.com/questions/47515808/run-chrome-lighthouses-audit-from-command-line)",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbugasu/kenya-web-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbugasu/kenya-web-project/issues"
+  },
+  "homepage": "https://github.com/lbugasu/kenya-web-project#readme",
+  "dependencies": {
+    "lighthouse": "^6.1.0"
+  }
+}
