@@ -18,21 +18,15 @@ function launchChromeAndRunLighthouse(url, opts, config = null) {
     });
 }
 
-var data = "";
+var data = [];
 try {
   data = JSON.parse(fs.readFileSync("websiteData.json", "utf8"));
 } catch (e) {
   console.log("Error", e.stack);
 }
-fs.appendFile(
-  "out.csv",
-  data[0] + ",Perfomance,Data Transfer On Site Load\n",
-  function (err) {
-    if (err) throw err;
-    console.log("Updated Labels");
-  }
-);
-data.forEach((thisOne) => {
+
+console.log(data.splice(1, 5));
+data.splice(1, 5).forEach((thisOne) => {
   var address = "https://www." + thisOne.site;
 
   launchChromeAndRunLighthouse(address, configJson)

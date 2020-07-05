@@ -1,33 +1,63 @@
-# multisite-lighthouse
+## Generating the Reports
+Since my computer crawled at even the thought of running lighthouse on 500 websites, I decided to run the ```runLightHouse.js``` script on AWS.
+Here are the steps for creating an AWS instance:
+1. After Creating an Amazon AWS account, 
+2. Create an EC2 instance. You can proceed with launching an instance that contains the free tier. 
+   - ```Launch instance > Amazon Linux (with Free tier eligible) > General Purpose Instance Type > Choose an Existing Key-pair for ssh into your instance or download a new instance >Launch instance```
+   - I however created an instance type with a GPU (just for fun) and to perform lighthouse processes fast. (this cost a couple of cents/hr)
+3. SSH into your instance:
+   1. move your .pem file into the come folder
+        - Assuming you downloaded the .pem file to the downloads folder:
+        ```bash
+        # cd into the root directory
+        cd 
 
-Uses Google's lighthouse (https://github.com/GoogleChrome/lighthouse) to build a set of reports from the URL list you pass into the configuration file.
+        # check whether a .ssh folder exists
+        ls -al
+        
+        # if it doesn't, create the folder
+        mkdir .ssh
 
-It's a Node.JS script, so you need Node / NPM installed on your machine.
+        #move the .pem file into the .ssh folder. Here assume I call my .pem file myKeyPair
+        mv [path where the .pem file exists]/myKeyPair.pem myKeyPair.pem
+        
+        # change the permissions of the .pem file
+        chmod 400 .ssh/myKeyPair.pem
 
-# Setup
+        # 
+        ```
+    2. Copy your public ip from your AWS instance - this is usually located at your instances page when you click on your instance
+    3. SSH into your instance
+        ```bash
+        # replace [my public ip with the actual ip]
+        ssh -i ~/.ssh/myKeyPair.pem ec2-user@[my public ip]
 
-After cloning the repo, run 
-
-`npm install`
-
-to install the dependencies.
-
-In `config.json`, edit the following fields:
-
-| Field | Example | Description |
-|-------|---------|-------------|
-| `url` | `["https://www.google.com/", "https://www.simoahava.com/about-simo-ahava/"]` | Array with list of fully formatted URLs to audit. |
-| `lighthouseFlags` | `{"output": "csv", "disableDeviceEmulation": true}` | List of flags to pass to lighthouse. Full list available here: https://github.com/GoogleChrome/lighthouse/blob/8f500e00243e07ef0a80b39334bedcc8ddc8d3d0/typings/externs.d.ts#L52 |
-| `chromeFlags` | `["--headless"]` | List of flags to pass to the Chrome launcher. Full list available here: https://peter.sh/experiments/chromium-command-line-switches/ |
-| `writeTo` | `"/users/sahava/Desktop/"` | The path where to write the reports - the tool will create the path if it doesn't exist. Remember the trailing slash in the end. |
-| `sortByDate` | `true` | If `true`, stores the report in a folder structure of `writeTo`/year/month/url_1.csv, for example. If set to `false`, sorts by file, so `writeTo`/url_1/year/month/url_1.csv. |
-
-# Run
-
-Once you've set it up, you can run the audit tool with
-
-`node script.js`
-
-The process will be logged into the console. 
-
-The reports will be written in the format you chose for the `output` key in the configuration, and they will be written in the folder structure you specified in the `writeTo` and `sortByDate` keys of the configuration file.
+        # you may be asked whether to type yes or no to proceed. Type yes to proceed
+        ```
+4. Prepare the server to run your script
+    1. install git
+    ``` bash
+    
+    sudo yum install git -y
+    ```
+    2. [install npm using Amazon's instructions](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
+    3. Install latest version of npm
+        ```bash
+        npm install -g npm@latest
+        ```
+    4. Install Chrome. I referenced [this article](https://intoli.com/blog/installing-google-chrome-on-centos/)
+        ```bash
+        curl https://intoli.com/install-google-chrome.sh | bash
+        ```
+5. Running the script
+    1. Clone the repo
+        ```bash
+        git clone https://github.com/lbugasu/kenya-web-project.git
+        # enter project folder
+        cd kenya-web-project
+        ```
+    2. Install packages
+        ```bash
+        npm i
+        ```
+### References
