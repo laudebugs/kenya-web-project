@@ -5,23 +5,47 @@ import java.util.Scanner;
 public class Split{
     public static void main (String[]args){
         try {
-            File fileIn = new File("websites.txt");
+            File fileIn = new File("rawWebsiteData.txt");
             Scanner sc = new Scanner(fileIn);
 
             //The output file
             File fileOut = new File("");
             
-            FileWriter myWriter = new FileWriter("websiteData.csv");
+            FileWriter myWriter = new FileWriter("websiteData.json");
             int i=1;
+            String info = "";
+            myWriter.write("[\n");
             while (sc.hasNextLine()){
-                myWriter.write(sc.nextLine());
-                if(i<6) myWriter.write(",");
-                if(i==6){
-                    myWriter.write("\n");
+                switch (i){
+                    case 1:
+                        info+= "{\"rank\":\""+sc.nextLine()+"\",";
+                        break;
+                    case 2:
+                        info+= "\"site\":\""+sc.nextLine()+"\",";
+                        break;
+                    case 3:
+                        info+= "\"daily time on site\":\""+sc.nextLine()+"\",";
+                        break;
+                    case 4:
+                        info+= "\"daily pageviews per visitor\":\""+sc.nextLine()+"\",";
+                        break;
+                    case 5:
+                        info+= "\"% of Traffic From Search\":\""+sc.nextLine()+"\",";
+                        break;
+                    case 6:
+                        info+= "\"total Sites Linking In\":\""+sc.nextLine()+"\"},";
+                        break;
+                }
+
+                if(i>=6){
+                    myWriter.write(info+"\n");
+                    info = "";
                     i=0;
                 }
                 i++;
+
             }
+            myWriter.write("\n]");
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
         } catch (Exception e) {
