@@ -1,63 +1,30 @@
-## Generating the Reports
-Since my computer crawled at even the thought of running lighthouse on 500 websites, I decided to run the ```runLightHouse.js``` script on AWS.
-Here are the steps for creating an AWS instance:
-1. After Creating an Amazon AWS account, 
-2. Create an EC2 instance. You can proceed with launching an instance that contains the free tier. 
-   - ```Launch instance > Amazon Linux (with Free tier eligible) > General Purpose Instance Type > Choose an Existing Key-pair for ssh into your instance or download a new instance >Launch instance```
-   - I however created an instance type with a GPU (just for fun) and to perform lighthouse processes fast. (this cost a couple of cents/hr)
-3. SSH into your instance:
-   1. move your .pem file into the come folder
-        - Assuming you downloaded the .pem file to the downloads folder:
-        ```bash
-        # cd into the root directory
-        cd 
+# Kenya Web Project
 
-        # check whether a .ssh folder exists
-        ls -al
-        
-        # if it doesn't, create the folder
-        mkdir .ssh
+For this simple project, I wanted to answer the question, are the websites that Kenyans access accessible to a populus that is keen on data consumption. I used, on average, 100MB of data and I could not afford to access websites that would use even 5MB on a single page. And therefore, the websites that used the least amount of data, but that were also fast were the ones I tended to access from day to day. WhatsApp is a good example of a situation where I would get the most value for the data I used. If I turned off automatic video and image downloads, I could spend just 10MB each day communicating with friends as opposed to using direct text messages that were more expensive (a bundle of 200 text messages from [Safaricom](https://niabusiness.com/buy-safaricom-sms-bundles/) would cost Kes 10, each with a limit of ~160 characters). Brings back memories of how I started to use short-forms like _imy_ and _gn_ among others to use every single character of a text message.
 
-        #move the .pem file into the .ssh folder. Here assume I call my .pem file myKeyPair
-        mv [path where the .pem file exists]/myKeyPair.pem myKeyPair.pem
-        
-        # change the permissions of the .pem file
-        chmod 400 .ssh/myKeyPair.pem
+## Stages
 
-        # 
-        ```
-    2. Copy your public ip from your AWS instance - this is usually located at your instances page when you click on your instance
-    3. SSH into your instance
-        ```bash
-        # replace [my public ip with the actual ip]
-        ssh -i ~/.ssh/myKeyPair.pem ec2-user@[my public ip]
+1. Data Collection and Preparation
+   I gathered data from Alexa of the 500 most popular websites in Kenya [here](rawWebsiteData.txt).<br/>
+   To parse the data, I ran a simple [java script](Split.java) to transform the dataset into json format [here](websiteData.json)<br/>
+   ```bash
+   # compile the java program
+   javac Script.java
+   # run the java file
+   java Script
+   ```
+   Now we are ready to use the dataset to generate reports
+2. Generating reports. Borrowing heavily from this [multiple-lighthouse](https://github.com/sahava/multisite-lighthouse) repository, I modified the code to accept a json file that contained the websites. I have a far more detailed process on generating reports on [this blog post](). Since my personal pc didn't have the raw power to generate all the reports at once, I ran the script `runLightHouse.js` on an AWS server and generated this [file](websiteData-n-reports.json). I also stored the full lighthouse reports for all the websites [here](complete-reports).<br/>
+   To generate the reports locally and append the performance score and data download onto the json defining one site:
 
-        # you may be asked whether to type yes or no to proceed. Type yes to proceed
-        ```
-4. Prepare the server to run your script
-    1. install git
-    ``` bash
-    
-    sudo yum install git -y
-    ```
-    2. [install npm using Amazon's instructions](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
-    3. Install latest version of npm
-        ```bash
-        npm install -g npm@latest
-        ```
-    4. Install Chrome. I referenced [this article](https://intoli.com/blog/installing-google-chrome-on-centos/)
-        ```bash
-        curl https://intoli.com/install-google-chrome.sh | bash
-        ```
-5. Running the script
-    1. Clone the repo
-        ```bash
-        git clone https://github.com/lbugasu/kenya-web-project.git
-        # enter project folder
-        cd kenya-web-project
-        ```
-    2. Install packages
-        ```bash
-        npm i
-        ```
-### References
+```bash
+# install dependencies
+npm i
+# run script - the sampleRunLightHouse.js file will run lighthouse reports on only 5 websites - for not so powerful machines
+node sampleRunLightHouse.js
+
+# To generate reports for all the websites, (only if you have a very powerful machine )
+node runLightHouse.js
+```
+
+3. Examining the data

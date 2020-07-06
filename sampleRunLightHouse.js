@@ -1,22 +1,6 @@
-const lighthouse = require("lighthouse");
-const chromeLauncher = require("chrome-launcher");
+import launchChromeAndRunLighthouse from "./launchChromeAndRunLighthouse";
 const fs = require("fs");
-const { Console } = require("console");
-
 const configJson = JSON.parse(fs.readFileSync("config.json"));
-
-function launchChromeAndRunLighthouse(url, opts, config = null) {
-  return chromeLauncher
-    .launch({ chromeFlags: opts.chromeFlags })
-    .then((chrome) => {
-      // console.log("Launching lighthouse for " + url);
-      opts.lighthouseFlags.port = chrome.port;
-      return lighthouse(url, opts.lighthouseFlags, config).then((res) => {
-        console.log("Parsing report for " + url);
-        return chrome.kill().then(() => res.report);
-      });
-    });
-}
 
 var data = [];
 try {
@@ -25,8 +9,7 @@ try {
   console.log("Error", e.stack);
 }
 
-console.log(data.splice(1, 5));
-data.splice(1, 5).forEach((thisOne) => {
+data.splice(0, 5).forEach((thisOne) => {
   var address = "https://www." + thisOne.site;
 
   launchChromeAndRunLighthouse(address, configJson)

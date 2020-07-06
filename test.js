@@ -1,62 +1,54 @@
-const fs = require('fs');
-const lighthouse = require('lighthouse');
-const chromeLauncher = require('chrome-launcher');
+import launchChromeAndRunLighthouse from "./launchChromeAndRunLighthouse";
+const fs = require("fs");
 
 const configJson = JSON.parse(fs.readFileSync("config.json"));
 // const flags = { onlyCategories: ['performance'] };
 
-function launchChromeAndRunLighthouse(url, opts, config = null) {
-  return chromeLauncher.launch({chromeFlags: opts.chromeFlags}).then(chrome => {
-    // console.log("Launching lighthouse for " + url);
-    opts.lighthouseFlags.port = chrome.port;
-    return lighthouse(url, opts.lighthouseFlags, config).then(res => {
-      // console.log("Pa  rsing report for " + url);
-      return chrome.kill().then(() => res.report);
-    });
-  });
-}
-
 var content = "";
-try{
-  content = fs.readFileSync("websiteData.csv", 'utf8');
-}
-catch (e){
-  console.log('Error', e.stack)
+try {
+  content = fs.readFileSync("websiteData.csv", "utf8");
+} catch (e) {
+  console.log("Error", e.stack);
 }
 let data = content.split("\n");
 
 let performanceOutput = "";
 
-data.splice(1,5).forEach(webInfo => {
-  let thisSite = webInfo
-  let parsedWebInfo = webInfo.split(',');
-  console.log(parsedWebInfo)
+data.splice(1, 5).forEach((webInfo) => {
+  let thisSite = webInfo;
+  let parsedWebInfo = webInfo.split(",");
+  console.log(parsedWebInfo);
   let website = "https://www." + parsedWebInfo[1];
   // console.log("Starting analysis on " + website);
-  launchChromeAndRunLighthouse(website, configJson).then(results => {
-    const parsedResults = JSON.parse(results);
-    console.log("size: ",parsedResults["audits"]["total-byte-weight"]["displayValue"].split(" "))
-    let performance = parsedResults.categories.performance.id * 100;
-    let sizeString = parsedResults["audits"]["total-byte-weight"]["displayValue"].split(" ")
+  launchChromeAndRunLighthouse(website, configJson)
+    .then((results) => {
+      const parsedResults = JSON.parse(results);
+      console.log(
+        "size: ",
+        parsedResults["audits"]["total-byte-weight"]["displayValue"].split(" ")
+      );
+      let performance = parsedResults.categories.performance.id * 100;
+      let sizeString = parsedResults["audits"]["total-byte-weight"][
+        "displayValue"
+      ].split(" ");
 
-    // let size = parseInt(sizeString[sizeString.length - 2])
-    // let multiple = sizeString[sizeString.length - 1]
-    // if (multiple === "KiB") {
-    //   size *= 1000;
-    // }
-    // else if (multiple === "MiB") {
-    //   size *= 1000000;
-    // }
+      // let size = parseInt(sizeString[sizeString.length - 2])
+      // let multiple = sizeString[sizeString.length - 1]
+      // if (multiple === "KiB") {
+      //   size *= 1000;
+      // }
+      // else if (multiple === "MiB") {
+      //   size *= 1000000;
+      // }
 
-    // thisSite += ("," + performance + "," + size)
-    // performanceOutput += thisSite + "\n"
-    // const file = website.replace(/^https?:\/\//, "").replace(/[./]/g, "_") + "." + configJson.lighthouseFlags.output;
-    // const today = new Date();
-    // const folder = configJson.sortByDate ? configJson.writeTo + today.getFullYear() + "/" + (today.getMonth() + 1) + "/" : configJson.writeTo + file.replace("." + configJson.lighthouseFlags.output, "") + "/" + today.getFullYear() + "/" + (today.getMonth() + 1) + "/";
-    // const dest = folder + file;
+      // thisSite += ("," + performance + "," + size)
+      // performanceOutput += thisSite + "\n"
+      // const file = website.replace(/^https?:\/\//, "").replace(/[./]/g, "_") + "." + configJson.lighthouseFlags.output;
+      // const today = new Date();
+      // const folder = configJson.sortByDate ? configJson.writeTo + today.getFullYear() + "/" + (today.getMonth() + 1) + "/" : configJson.writeTo + file.replace("." + configJson.lighthouseFlags.output, "") + "/" + today.getFullYear() + "/" + (today.getMonth() + 1) + "/";
+      // const dest = folder + file;
 
-
-    /*
+      /*
     console.log("Writing analysis to " + dest);
     fs.mkdir(folder, { recursive: true }, (err) => {
       if (err) { console.log(err); }
@@ -68,7 +60,8 @@ data.splice(1,5).forEach(webInfo => {
       }
     });
     */
-  }).catch(err => console.log(err));
+    })
+    .catch((err) => console.log(err));
 });
 
 /*
