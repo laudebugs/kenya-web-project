@@ -3,10 +3,10 @@
   "environment": {
     "networkUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
     "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
-    "benchmarkIndex": 27.722772277227723
+    "benchmarkIndex": 224
   },
   "lighthouseVersion": "3.2.1",
-  "fetchTime": "2020-07-06T19:56:33.920Z",
+  "fetchTime": "2020-07-06T20:14:12.082Z",
   "requestedUrl": "https://www.cnn.com/",
   "finalUrl": "https://www.cnn.com/",
   "runWarnings": [],
@@ -125,7 +125,7 @@
       "rawValue": true,
       "details": {
         "type": "screenshot",
-        "timestamp": 1050757.968,
+        "timestamp": 2111598.866,
         "data": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAF2AfIDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAj/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9k="
       }
     },
@@ -144,7 +144,7 @@
       "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns.",
       "score": 0,
       "scoreDisplayMode": "binary",
-      "rawValue": 8,
+      "rawValue": 6,
       "details": {
         "type": "table",
         "headings": [
@@ -167,7 +167,7 @@
           },
           {
             "source": "security",
-            "description": "Refused to prefetch content from 'https://54201dec3046d6d2611db58599ea07db.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html' because it violates the following Content Security Policy directive: \"default-src 'self' blob: https://*.cnn.com:* http://*.cnn.com:* *.cnn.io:* *.cnn.net:* *.turner.com:* *.turner.io:* *.ugdturner.com:* courageousstudio.com *.vgtf.net:*\". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.\n",
+            "description": "Refused to prefetch content from 'https://7f138a37db857138bab79e0eec51f24f.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html' because it violates the following Content Security Policy directive: \"default-src 'self' blob: https://*.cnn.com:* http://*.cnn.com:* *.cnn.io:* *.cnn.net:* *.turner.com:* *.turner.io:* *.ugdturner.com:* courageousstudio.com *.vgtf.net:*\". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.\n",
             "url": "https://d2uap9jskdzp2.cloudfront.net/script.js"
           },
           {
@@ -177,18 +177,8 @@
           },
           {
             "source": "network",
-            "description": "Failed to load resource: net::ERR_CONNECTION_REFUSED",
-            "url": "https://csm2waycm-atl.netmng.com/cm/"
-          },
-          {
-            "source": "network",
             "description": "Failed to load resource: the server responded with a status of 403 (Forbidden)",
             "url": "https://bea4.v.fwmrm.net/ad/u?mode=echo&cr=https%3A%2F%2Fbeacon.krxd.net%2Fusermatch.gif%3Fpartner%3Dfreewheel%26partner_uid%3D%23%7Buser.id%7D"
-          },
-          {
-            "source": "network",
-            "description": "Failed to load resource: net::ERR_TIMED_OUT",
-            "url": "https://ads.yahoo.com/cms/v1?nwid=10000010181&eid=KCAXGDB6-1Z-5L2F&sigv=1&esig=2~48423e071f3420763d680f51d46aa08fbacd6069"
           },
           {
             "source": "Runtime.exception",
@@ -209,11 +199,11 @@
       "description": "Time To First Byte identifies the time at which your server sends a response. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/ttfb).",
       "score": 1,
       "scoreDisplayMode": "binary",
-      "rawValue": 18.674000000000007,
+      "rawValue": 18.375,
       "displayValue": "Root document took 20 ms",
       "details": {
         "type": "opportunity",
-        "overallSavingsMs": -581.326,
+        "overallSavingsMs": -581.625,
         "headings": [],
         "items": []
       }
@@ -256,21 +246,21 @@
       "details": {
         "type": "criticalrequestchain",
         "chains": {
-          "D97ACAB4A7B57A423E81D9A25F92B8EF": {
+          "36F61280BC52EA3D01C83350704079AB": {
             "request": {
               "url": "https://www.cnn.com/",
-              "startTime": 1038.370635,
-              "endTime": 1042.443025,
-              "responseReceivedTime": 1038.54826,
-              "transferSize": 160465
+              "startTime": 2100.828976,
+              "endTime": 2103.944894,
+              "responseReceivedTime": 2100.94629,
+              "transferSize": 160455
             },
             "children": {}
           }
         },
         "longestChain": {
-          "duration": 4072.3900000000413,
+          "duration": 3115.91800000042,
           "length": 1,
-          "transferSize": 160465
+          "transferSize": 160455
         }
       }
     },
@@ -445,10 +435,10 @@
       "id": "uses-rel-preconnect",
       "title": "Preconnect to required origins",
       "description": "Consider adding preconnect or dns-prefetch resource hints to establish early connections to important third-party origins. [Learn more](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect).",
-      "score": 0.74,
+      "score": 0.68,
       "scoreDisplayMode": "numeric",
-      "rawValue": 310.13599999999997,
-      "displayValue": "Potential savings of 310 ms",
+      "rawValue": 431.986,
+      "displayValue": "Potential savings of 430 ms",
       "details": {
         "type": "opportunity",
         "headings": [
@@ -465,19 +455,15 @@
         ],
         "items": [
           {
-            "url": "https://geolocation.onetrust.com",
-            "wastedMs": 310.13599999999997
+            "url": "https://cdn.cookielaw.org",
+            "wastedMs": 431.986
           },
           {
             "url": "https://cdn.jsdelivr.net",
-            "wastedMs": 306.782
-          },
-          {
-            "url": "https://cdn.cookielaw.org",
-            "wastedMs": 300
+            "wastedMs": 418.31
           }
         ],
-        "overallSavingsMs": 310.13599999999997
+        "overallSavingsMs": 431.986
       }
     },
     "font-display": {
@@ -504,31 +490,23 @@
         "items": [
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-regular.woff2",
-            "wastedMs": 2257.239000000027
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-lightit.woff2",
-            "wastedMs": 2507.616000000098
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-italic.woff2",
-            "wastedMs": 2709.9299999999857
+            "wastedMs": 2402.2009999998772
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/icons/2.4.10/cnn-icons.woff2",
-            "wastedMs": 2790.5970000001616
+            "wastedMs": 2606.565000000046
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-medium.woff2",
-            "wastedMs": 2916.3840000001073
+            "wastedMs": 2806.195000000116
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-bold.woff2",
-            "wastedMs": 2939.000999999962
+            "wastedMs": 2899.5270000000346
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-light.woff2",
-            "wastedMs": -1095086.871
+            "wastedMs": 19.9600000000828
           }
         ]
       }
@@ -539,7 +517,7 @@
       "description": "Lists the network requests that were made during page load.",
       "score": null,
       "scoreDisplayMode": "informative",
-      "rawValue": 111,
+      "rawValue": 123,
       "details": {
         "type": "table",
         "headings": [
@@ -587,16 +565,16 @@
           {
             "url": "https://www.cnn.com/",
             "startTime": 0,
-            "endTime": 4072.3900000000413,
-            "transferSize": 160465,
+            "endTime": 3115.91800000042,
+            "transferSize": 160455,
             "statusCode": 200,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "https://cdn.cnn.com/ads/cnn/cnn_homepage.json",
-            "startTime": 456.08500000003005,
-            "endTime": 2110.5210000000625,
+            "startTime": 229.59400000036112,
+            "endTime": 2357.1600000000217,
             "transferSize": 1075,
             "statusCode": 200,
             "mimeType": "application/json",
@@ -604,26 +582,26 @@
           },
           {
             "url": "https://www.cnn.com/.a/bundles/header.aefd20da933a91d1c224.bundle.js",
-            "startTime": 457.35899999999674,
-            "endTime": 2162.221999999929,
-            "transferSize": 85963,
+            "startTime": 229.91500000034648,
+            "endTime": 2358.5110000003624,
+            "transferSize": 85940,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.googletagservices.com/tag/js/gpt.js",
-            "startTime": 492.57200000010926,
-            "endTime": 2793.928000000051,
-            "transferSize": 16760,
+            "startTime": 252.03500000043277,
+            "endTime": 2254.6590000001743,
+            "transferSize": 17258,
             "statusCode": 200,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
-            "startTime": 610.6199999999262,
-            "endTime": 2761.940000000095,
+            "startTime": 252.306000000317,
+            "endTime": 2355.79400000006,
             "transferSize": 27036,
             "statusCode": 200,
             "mimeType": "application/javascript",
@@ -631,53 +609,53 @@
           },
           {
             "url": "https://www.cnn.com/.a/2.218.0/js/cnn-header-second-react.min.js",
-            "startTime": 611.1029999999573,
-            "endTime": 6227.446999999984,
-            "transferSize": 384336,
+            "startTime": 252.7290000002722,
+            "endTime": 3840.484000000288,
+            "transferSize": 383745,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.cnn.com/optimizelyjs/131788053.js",
-            "startTime": 611.562000000049,
-            "endTime": 5422.497000000021,
-            "transferSize": 137647,
+            "startTime": 253.01500000023225,
+            "endTime": 5020.739000000049,
+            "transferSize": 137655,
             "statusCode": 200,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-regular.woff2",
-            "startTime": 650.096000000076,
-            "endTime": 2907.335000000103,
-            "transferSize": 46558,
+            "startTime": 253.27000000015687,
+            "endTime": 2655.471000000034,
+            "transferSize": 47195,
             "statusCode": 200,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-lightit.woff2",
-            "startTime": 651.4509999999518,
-            "endTime": 3159.06700000005,
-            "transferSize": 47602,
+            "startTime": 253.48500000018248,
+            "endTime": 2702.5460000004387,
+            "transferSize": 47611,
             "statusCode": 200,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-italic.woff2",
-            "startTime": 651.7750000000433,
-            "endTime": 3361.705000000029,
-            "transferSize": 48063,
+            "startTime": 266.7950000000019,
+            "endTime": 2873.7670000000435,
+            "transferSize": 48054,
             "statusCode": 200,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/icons/2.4.10/cnn-icons.woff2",
-            "startTime": 652.1929999998974,
-            "endTime": 3442.790000000059,
+            "startTime": 267.88200000009965,
+            "endTime": 2874.4470000001456,
             "transferSize": 21354,
             "statusCode": 200,
             "mimeType": "font/woff2",
@@ -685,8 +663,8 @@
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-medium.woff2",
-            "startTime": 652.7340000000095,
-            "endTime": 3569.118000000117,
+            "startTime": 269.6810000002188,
+            "endTime": 3075.876000000335,
             "transferSize": 34594,
             "statusCode": 200,
             "mimeType": "font/woff2",
@@ -694,17 +672,17 @@
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-bold.woff2",
-            "startTime": 806.9060000000263,
-            "endTime": 3745.9069999999883,
-            "transferSize": 35935,
+            "startTime": 270.21700000022975,
+            "endTime": 3169.7440000002644,
+            "transferSize": 35298,
             "statusCode": 200,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
             "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
-            "startTime": 807.2899999999663,
-            "endTime": 3015.4090000000906,
+            "startTime": 281.0420000000704,
+            "endTime": 2356.568000000152,
             "transferSize": 4136,
             "statusCode": 200,
             "mimeType": "application/javascript",
@@ -712,26 +690,26 @@
           },
           {
             "url": "https://agility.cnn.com/turner/cnn-prod/Bootstrap.js",
-            "startTime": 807.6770000000124,
-            "endTime": 4957.576999999901,
-            "transferSize": 87878,
+            "startTime": 301.1770000002798,
+            "endTime": 3299.9170000002778,
+            "transferSize": 87869,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.cnn.com/.a/2.218.0/js/cnn-footer-lib-react.min.js",
-            "startTime": 808.0119999999624,
-            "endTime": 5924.77800000006,
-            "transferSize": 224878,
+            "startTime": 303.3670000004349,
+            "endTime": 5115.167000000383,
+            "transferSize": 225459,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://amplify.outbrain.com/cp/obtp.js",
-            "startTime": 808.77200000009,
-            "endTime": 2794.538999999986,
+            "startTime": 308.60900000016045,
+            "endTime": 2035.8439999999973,
             "transferSize": 2974,
             "statusCode": 200,
             "mimeType": "application/x-javascript",
@@ -739,8 +717,8 @@
           },
           {
             "url": "https://cdn.cnn.com/ads/cnn/singles/cnn_homepage_rb.js",
-            "startTime": 8169.681999999966,
-            "endTime": 8287.248999999974,
+            "startTime": 6311.104000000341,
+            "endTime": 6689.15300000026,
             "transferSize": 540,
             "statusCode": 200,
             "mimeType": "application/x-javascript",
@@ -748,17 +726,17 @@
           },
           {
             "url": "https://cdn.cookielaw.org/consent/3d9a6f21-8e47-43f8-8d58-d86150f3e92b/3d9a6f21-8e47-43f8-8d58-d86150f3e92b.json",
-            "startTime": 12706.21499999993,
-            "endTime": 12886.136999999962,
-            "transferSize": 1740,
+            "startTime": 11300.540000000183,
+            "endTime": 11632.358000000295,
+            "transferSize": 1739,
             "statusCode": 200,
             "mimeType": "application/x-javascript",
             "resourceType": "XHR"
           },
           {
             "url": "https://cdn.jsdelivr.net/gh/prebid/category-mapping-file@1/freewheel-mapping.json",
-            "startTime": 16795.566000000006,
-            "endTime": 16918.319999999992,
+            "startTime": 16011.360000000423,
+            "endTime": 16317.030000000159,
             "transferSize": 1631,
             "statusCode": 200,
             "mimeType": "application/json",
@@ -766,35 +744,26 @@
           },
           {
             "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
-            "startTime": 18913.426999999956,
-            "endTime": 19112.798999999995,
-            "transferSize": 546,
+            "startTime": 18759.260000000268,
+            "endTime": 18953.640000000178,
+            "transferSize": 545,
             "statusCode": 200,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://cdn3.optimizely.com/js/geo2.js",
-            "startTime": 21806.765999999923,
-            "endTime": 21942.931999999928,
+            "startTime": 22492.653000000246,
+            "endTime": 22738.70500000021,
             "transferSize": 697,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://mid.rkdms.com/idsv2?ptk=17c1789b-e660-493b-aa74-3c8fb990dc5f&pubid=TURNER",
-            "startTime": 24411.08099999997,
-            "endTime": 24666.762999999948,
-            "transferSize": 473,
-            "statusCode": 200,
-            "mimeType": "application/json",
-            "resourceType": "XHR"
-          },
-          {
             "url": "https://api.rlcdn.com/api/identity?pid=2&rt=envelope",
-            "startTime": 24412.837999999967,
-            "endTime": 24756.763999999974,
+            "startTime": 25914.954000000307,
+            "endTime": 25993.561000000227,
             "transferSize": 301,
             "statusCode": 200,
             "mimeType": "text/plain",
@@ -802,26 +771,35 @@
           },
           {
             "url": "https://match.adsrvr.org/track/rid?ttd_pid=casale&fmt=json&p=186948",
-            "startTime": 24527.307000000066,
-            "endTime": 24879.36800000011,
-            "transferSize": 540,
+            "startTime": 25917.920000000322,
+            "endTime": 25992.41800000027,
+            "transferSize": 539,
+            "statusCode": 200,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://mid.rkdms.com/idsv2?ptk=17c1789b-e660-493b-aa74-3c8fb990dc5f&pubid=TURNER",
+            "startTime": 26064.646000000266,
+            "endTime": 26284.06300000006,
+            "transferSize": 473,
             "statusCode": 200,
             "mimeType": "application/json",
             "resourceType": "XHR"
           },
           {
             "url": "https://cdn.cnn.com/ads/adfuel/modules/keypress.js",
-            "startTime": 25751.54799999996,
-            "endTime": 25795.282999999927,
-            "transferSize": 5659,
+            "startTime": 27337.60600000005,
+            "endTime": 27508.42300000022,
+            "transferSize": 5614,
             "statusCode": 200,
             "mimeType": "application/x-javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.ugdturner.com/xd.sjs",
-            "startTime": 25753.005999999914,
-            "endTime": 26061.31400000004,
+            "startTime": 27447.721,
+            "endTime": 28568.460000000414,
             "transferSize": 533,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -829,35 +807,35 @@
           },
           {
             "url": "https://cdn.adsafeprotected.com/iasPET.1.js",
-            "startTime": 25796.603000000003,
-            "endTime": 26567.70000000006,
-            "transferSize": 6609,
+            "startTime": 27448.031000000356,
+            "endTime": 28517.383000000336,
+            "transferSize": 6614,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://cdn.krxd.net/controltag?confid=ITb_4eqO",
-            "startTime": 25847.60200000005,
-            "endTime": 26457.887000000028,
-            "transferSize": 10420,
+            "startTime": 27448.300000000017,
+            "endTime": 28199.81800000005,
+            "transferSize": 10422,
             "statusCode": 200,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://d2uap9jskdzp2.cloudfront.net/script.js",
-            "startTime": 25951.675000000025,
-            "endTime": 26825.783000000003,
-            "transferSize": 102618,
+            "startTime": 27448.54400000031,
+            "endTime": 28810.047000000395,
+            "transferSize": 102617,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://a125375509.cdn.optimizely.com/client_storage/a125375509.html",
-            "startTime": 26321.059000000103,
-            "endTime": 26842.08400000011,
+            "startTime": 28568.778000000293,
+            "endTime": 28981.11000000017,
             "transferSize": 1324,
             "statusCode": 200,
             "mimeType": "text/html",
@@ -865,53 +843,62 @@
           },
           {
             "url": "https://logx.optimizely.com/v1/events",
-            "startTime": 26504.957000000104,
-            "endTime": 27171.477000000094,
+            "startTime": 28526.10500000037,
+            "endTime": 28982.117000000017,
             "transferSize": 356,
             "statusCode": 204,
             "mimeType": "text/plain",
             "resourceType": "XHR"
           },
           {
-            "url": "https://c.amazon-adsystem.com/e/dtb/bid?src=3159&u=https%3A%2F%2Fwww.cnn.com%2F&pid=2Ohsfjur2zLCW&cb=0&ws=800x600&v=7.52.00&t=500&slots=%5B%7B%22id%22%3A%22aps-preroll%22%2C%22mt%22%3A%22v%22%7D%5D&pj=%7B%22si_section%22%3A%22video%22%7D&gdprl=%7B%22status%22%3A%22no-cmp%22%7D",
-            "startTime": 27514.19400000009,
-            "endTime": 27603.196000000025,
-            "transferSize": 504,
+            "url": "https://rum.optimizely.com/rum",
+            "startTime": 28873.6200000003,
+            "endTime": 29328.797000000122,
+            "transferSize": 612,
+            "statusCode": 200,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://c.amazon-adsystem.com/e/dtb/bid?src=3159&u=https%3A%2F%2Fwww.cnn.com%2F&pid=CSb7KAATUTSfi&cb=0&ws=800x600&v=7.52.00&t=500&slots=%5B%7B%22id%22%3A%22aps-preroll%22%2C%22mt%22%3A%22v%22%7D%5D&pj=%7B%22si_section%22%3A%22video%22%7D&gdprl=%7B%22status%22%3A%22no-cmp%22%7D",
+            "startTime": 30033.708000000388,
+            "endTime": 30207.426000000396,
+            "transferSize": 503,
             "statusCode": 200,
             "mimeType": "text/javascript",
             "resourceType": "XHR"
           },
           {
             "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js",
-            "startTime": 27516.83099999991,
-            "endTime": 27755.472000000053,
-            "transferSize": 3052,
+            "startTime": 30087.32000000009,
+            "endTime": 30332.292000000052,
+            "transferSize": 3049,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "XHR"
           },
           {
-            "url": "https://logx.optimizely.com/v1/events",
-            "startTime": 30053.294000000053,
-            "endTime": 30097.24899999992,
-            "transferSize": 356,
-            "statusCode": 204,
-            "mimeType": "text/plain",
-            "resourceType": "XHR"
-          },
-          {
             "url": "https://as-sec.casalemedia.com/headerstats?s=263047&u=https%3A%2F%2Fwww.cnn.com%2F&v=3",
-            "startTime": 30315.321999999924,
-            "endTime": 30421.473999999987,
+            "startTime": 32573.823000000175,
+            "endTime": 32634.889000000385,
             "transferSize": 335,
             "statusCode": 200,
             "mimeType": "text/plain",
             "resourceType": "XHR"
           },
           {
+            "url": "https://logx.optimizely.com/v1/events",
+            "startTime": 32706.441000000268,
+            "endTime": 32758.4710000001,
+            "transferSize": 356,
+            "statusCode": 204,
+            "mimeType": "text/plain",
+            "resourceType": "XHR"
+          },
+          {
             "url": "https://cdn.cookielaw.org/scripttemplates/6.0.0/otBannerSdk.js",
-            "startTime": 30466.055999999982,
-            "endTime": 30488.875000000007,
+            "startTime": 33083.16600000035,
+            "endTime": 33287.11000000021,
             "transferSize": 69742,
             "statusCode": 200,
             "mimeType": "application/javascript",
@@ -919,98 +906,26 @@
           },
           {
             "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
-            "startTime": 35308.344999999914,
-            "endTime": 35489.58199999993,
+            "startTime": 33662.76200000038,
+            "endTime": 33941.12800000039,
             "transferSize": 16935,
             "statusCode": 200,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.1&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=7FF852E2556756057F000101%40AdobeOrg&d_nsid=0&ts=1594065436829",
-            "startTime": 37109.973000000085,
-            "endTime": 37351.451,
-            "transferSize": 1750,
-            "statusCode": 200,
-            "mimeType": "application/json",
-            "resourceType": "XHR"
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/zion/zion-mb.min.js",
-            "startTime": 37266.57399999999,
-            "endTime": 37425.600999999915,
-            "transferSize": 825,
-            "statusCode": 200,
-            "mimeType": "application/x-javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://ib.adnxs.com/getuid?https://umto.cnn.com/user-sync?zwmc=$UID&domain=cnn.com",
-            "startTime": 37516.49399999996,
-            "endTime": 37702.862000000096,
-            "transferSize": 690,
-            "statusCode": 200,
-            "mimeType": "image/gif",
-            "resourceType": "Image"
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/usabilla.47d08e555bb6759c9290.bundle.js",
-            "startTime": 37701.96899999996,
-            "endTime": 37875.26699999989,
-            "transferSize": 2139,
-            "statusCode": 200,
-            "mimeType": "application/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://static.chartbeat.com/js/chartbeat_mab.js",
-            "startTime": 37702.30599999991,
-            "endTime": 38596.350999999915,
-            "transferSize": 8341,
-            "statusCode": 200,
-            "mimeType": "application/x-javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://bat.bing.com/bat.js",
-            "startTime": 37794.22700000009,
-            "endTime": 38860.96999999995,
-            "transferSize": 8285,
-            "statusCode": 200,
-            "mimeType": "application/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://tag.bounceexchange.com/340/i.js",
-            "startTime": 37794.532000000116,
-            "endTime": 39148.12899999993,
-            "transferSize": 46732,
-            "statusCode": 200,
-            "mimeType": "text/plain",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://static.ads-twitter.com/uwt.js",
-            "startTime": 37794.783000000054,
-            "endTime": 38794.01400000006,
-            "transferSize": 2268,
-            "statusCode": 200,
-            "mimeType": "application/javascript",
-            "resourceType": "Script"
-          },
-          {
             "url": "https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727",
-            "startTime": 38644.002,
-            "endTime": 39226.62199999991,
-            "transferSize": 81620,
+            "startTime": 39443.894,
+            "endTime": 39572.11700000016,
+            "transferSize": 81638,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://i.clean.gg/1a",
-            "startTime": 39698.036,
-            "endTime": 39883.64900000011,
+            "startTime": 40571.085000000036,
+            "endTime": 40858.21000000033,
             "transferSize": 0,
             "statusCode": 204,
             "mimeType": "text/plain",
@@ -1018,8 +933,8 @@
           },
           {
             "url": "https://dw7nrwnn2bkh1.cloudfront.net/958153f1b8b96ec4c4eb2147429105d9.json",
-            "startTime": 39700.166000000085,
-            "endTime": 40062.80199999992,
+            "startTime": 40651.8130000004,
+            "endTime": 41014.64100000021,
             "transferSize": 0,
             "statusCode": 200,
             "mimeType": "",
@@ -1027,8 +942,8 @@
           },
           {
             "url": "https://i.clean.gg/1a",
-            "startTime": 39884.06400000008,
-            "endTime": 40035.10000000006,
+            "startTime": 40858.46400000037,
+            "endTime": 40931.956000000355,
             "transferSize": 104,
             "statusCode": 200,
             "mimeType": "application/octet-stream",
@@ -1036,43 +951,133 @@
           },
           {
             "url": "https://dw7nrwnn2bkh1.cloudfront.net/958153f1b8b96ec4c4eb2147429105d9.json",
-            "startTime": 40063.219000000114,
-            "endTime": 40123.012999999904,
-            "transferSize": 2036,
+            "startTime": 41014.87900000029,
+            "endTime": 41092.52600000036,
+            "transferSize": 2035,
             "statusCode": 200,
             "mimeType": "application/json",
             "resourceType": "XHR"
           },
           {
+            "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.1&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=7FF852E2556756057F000101%40AdobeOrg&d_nsid=0&ts=1594066505242",
+            "startTime": 43094.61200000033,
+            "endTime": 43500.278000000435,
+            "transferSize": 1747,
+            "statusCode": 200,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/zion/zion-mb.min.js",
+            "startTime": 43326.281000000105,
+            "endTime": 43499.862000000125,
+            "transferSize": 824,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://ib.adnxs.com/getuid?https://umto.cnn.com/user-sync?zwmc=$UID&domain=cnn.com",
+            "startTime": 43586.39000000039,
+            "endTime": 44074.573000000324,
+            "transferSize": 690,
+            "statusCode": 200,
+            "mimeType": "image/gif",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/bundles/usabilla.47d08e555bb6759c9290.bundle.js",
+            "startTime": 43835.362000000256,
+            "endTime": 44070.95900000013,
+            "transferSize": 2163,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.chartbeat.com/js/chartbeat_mab.js",
+            "startTime": 43892.13700000028,
+            "endTime": 44615.341000000175,
+            "transferSize": 8341,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://bat.bing.com/bat.js",
+            "startTime": 43892.53400000007,
+            "endTime": 44430.3460000001,
+            "transferSize": 8286,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://tag.bounceexchange.com/340/i.js",
+            "startTime": 44073.20900000013,
+            "endTime": 45013.40700000037,
+            "transferSize": 46732,
+            "statusCode": 200,
+            "mimeType": "text/plain",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.ads-twitter.com/uwt.js",
+            "startTime": 44073.498000000196,
+            "endTime": 44864.770000000135,
+            "transferSize": 2268,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://cdn.cookielaw.org/consent/3d9a6f21-8e47-43f8-8d58-d86150f3e92b/8145d935-9d82-4536-b048-a908fce5c68c/en.json",
+            "startTime": 45610.68400000022,
+            "endTime": 45625.1470000002,
+            "transferSize": 20111,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Fetch"
+          },
+          {
             "url": "https://turner2.demdex.net/dest5.html?d_nsid=0",
-            "startTime": 40914.375999999946,
-            "endTime": 41061.99399999991,
+            "startTime": 46071.67400000026,
+            "endTime": 46311.52100000008,
             "transferSize": 650,
             "statusCode": 200,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "https://smetrics.cnn.com/id?d_visid_ver=4.4.1&d_fieldgroup=A&mcorgid=7FF852E2556756057F000101%40AdobeOrg&mid=36735412188298182321674700483860712558&ts=1594065440973",
-            "startTime": 41215.88500000007,
-            "endTime": 41700.63600000003,
-            "transferSize": 638,
+            "url": "https://smetrics.cnn.com/id?d_visid_ver=4.4.1&d_fieldgroup=A&mcorgid=7FF852E2556756057F000101%40AdobeOrg&mid=65803600366079389431397355887804106716&ts=1594066508494",
+            "startTime": 46336.29900000006,
+            "endTime": 46729.25700000042,
+            "transferSize": 639,
             "statusCode": 200,
             "mimeType": "application/x-javascript",
             "resourceType": "XHR"
           },
           {
-            "url": "https://cm.everesttech.net/cm/dd?d_uuid=36718874889753244721671850614154940462",
-            "startTime": 41273.55200000011,
-            "endTime": 51512.0159999999,
+            "url": "https://cm.everesttech.net/cm/dd?d_uuid=65831399499545511031399009488892418972",
+            "startTime": 46682.340000000295,
+            "endTime": 57430.44800000007,
             "transferSize": 527,
             "statusCode": 302,
             "mimeType": ""
           },
           {
+            "url": "https://pixel.adsafeprotected.com/services/pub?anId=925660&slot=%7Bid:ad_mod_35731bb1e,ss:%5B1.1,1.2%5D,p:/8663477/CNN/homepage/landing/pushdown,t:display%7D&wr=800.600&sr=800.600&sessionId=01b51f80-55be-78c3-be36-ac3dd84a986c&url=https%253A%252F%252Fwww.cnn.com%252F",
+            "startTime": 47348.778000000035,
+            "endTime": 47492.441000000326,
+            "transferSize": 466,
+            "statusCode": 200,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
             "url": "https://acdn.adnxs.com/dmp/firstpartyuid/uidsync.js",
-            "startTime": 42011.40299999998,
-            "endTime": 42612.02499999991,
+            "startTime": 47563.63400000009,
+            "endTime": 48070.00400000015,
             "transferSize": 7888,
             "statusCode": 200,
             "mimeType": "application/javascript",
@@ -1080,35 +1085,35 @@
           },
           {
             "url": "https://sb.scorecardresearch.com/beacon.js",
-            "startTime": 42068.34699999991,
-            "endTime": 42752.08999999995,
+            "startTime": 47644.123000000036,
+            "endTime": 48006.78500000003,
             "transferSize": 1165,
             "statusCode": 200,
             "mimeType": "application/x-javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://agility.cnn.com/turner/cnn-prod/serverComponent.php?r=4290520.784556758&ClientID=1511&PageID=https%3A%2F%2Fwww.cnn.com%2F",
-            "startTime": 42078.173000000104,
-            "endTime": 42233.06400000001,
-            "transferSize": 460,
+            "url": "https://agility.cnn.com/turner/cnn-prod/serverComponent.php?r=78.88306937020097&ClientID=1511&PageID=https%3A%2F%2Fwww.cnn.com%2F",
+            "startTime": 47763.63200000014,
+            "endTime": 47969.64600000001,
+            "transferSize": 459,
             "statusCode": 200,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://tr.outbrain.com/pixel?marketerId=00b2d6c56fc76084821b9d05abf2f201d9&obApiVersion=1.0&obtpVersion=1.1.9&name=PAGE_VIEW&dl=https%3A%2F%2Fwww.cnn.com%2F&optOut=false&bust=06849019684057016",
-            "startTime": 42359.48899999994,
-            "endTime": 43002.105000000025,
+            "url": "https://tr.outbrain.com/pixel?marketerId=00b2d6c56fc76084821b9d05abf2f201d9&obApiVersion=1.0&obtpVersion=1.1.9&name=PAGE_VIEW&dl=https%3A%2F%2Fwww.cnn.com%2F&optOut=false&bust=041431679087947004",
+            "startTime": 48135.56000000017,
+            "endTime": 48622.605000000025,
             "transferSize": 275,
             "statusCode": 200,
             "mimeType": "image/gif",
             "resourceType": "Image"
           },
           {
-            "url": "https://amplifypixel.outbrain.com/pixel?mid=00b2d6c56fc76084821b9d05abf2f201d9&dl=https%3A%2F%2Fwww.cnn.com%2F&bust=0287417910298293",
-            "startTime": 42360.61799999993,
-            "endTime": 42981.980999999905,
+            "url": "https://amplifypixel.outbrain.com/pixel?mid=00b2d6c56fc76084821b9d05abf2f201d9&dl=https%3A%2F%2Fwww.cnn.com%2F&bust=05544839624982658",
+            "startTime": 48135.989000000336,
+            "endTime": 48622.99200000007,
             "transferSize": 256,
             "statusCode": 200,
             "mimeType": "image/gif",
@@ -1116,35 +1121,35 @@
           },
           {
             "url": "https://get.s-onetag.com/c15ddde9-ec7d-4a49-b8ca-7a21bc4b943b/tag.min.js",
-            "startTime": 42609.981999999945,
-            "endTime": 43355.665000000045,
-            "transferSize": 11976,
+            "startTime": 48262.2980000001,
+            "endTime": 48785.055000000284,
+            "transferSize": 11978,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://tru.am/scripts/custom/cnn.js",
-            "startTime": 42677.47200000008,
-            "endTime": 43266.200000000026,
-            "transferSize": 1347,
+            "startTime": 48265.05800000041,
+            "endTime": 48729.43000000032,
+            "transferSize": 1348,
             "statusCode": 200,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://cdn.boomtrain.com/p13n/cnn/p13n.min.js",
-            "startTime": 42749.849999999926,
-            "endTime": 43447.68599999997,
-            "transferSize": 24044,
+            "startTime": 48378.843000000415,
+            "endTime": 48842.39000000025,
+            "transferSize": 24043,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.cnn.com/data/ocs/section/_homepage-zone-injection/index.html:homepage-injection-zone-1/views/zones/common/zone-manager.izl",
-            "startTime": 43553.4540000001,
-            "endTime": 43601.41900000008,
+            "startTime": 49004.32500000033,
+            "endTime": 49079.0890000003,
             "transferSize": 1357,
             "statusCode": 200,
             "mimeType": "application/json",
@@ -1152,44 +1157,44 @@
           },
           {
             "url": "https://www.cnn.com/data/ocs/section/index.html:homepage1-zone-1/views/zones/common/zone-manager.izl",
-            "startTime": 43601.82499999996,
-            "endTime": 43683.52800000002,
-            "transferSize": 4453,
+            "startTime": 49137.35900000029,
+            "endTime": 49230.70100000041,
+            "transferSize": 4467,
             "statusCode": 200,
             "mimeType": "application/json",
             "resourceType": "XHR"
           },
           {
             "url": "https://www.cnn.com/data/ocs/section/_homepage-zone-injection/index.html:homepage-injection-zone-2/views/zones/common/zone-manager.izl",
-            "startTime": 43805.04399999995,
-            "endTime": 43951.137999999904,
-            "transferSize": 1247,
+            "startTime": 49341.72400000034,
+            "endTime": 49402.26900000016,
+            "transferSize": 1263,
             "statusCode": 200,
             "mimeType": "application/json",
             "resourceType": "XHR"
           },
           {
             "url": "https://www.cnn.com/data/ocs/section/index.html:homepage2-zone-1/views/zones/common/zone-manager.izl",
-            "startTime": 43805.405999999944,
-            "endTime": 44016.65099999991,
-            "transferSize": 6790,
+            "startTime": 49485.687000000325,
+            "endTime": 49544.87300000028,
+            "transferSize": 6204,
             "statusCode": 200,
             "mimeType": "application/json",
             "resourceType": "XHR"
           },
           {
             "url": "https://www.cnn.com/data/ocs/section/index.html:homepage3-zone-1/views/zones/common/zone-manager.izl",
-            "startTime": 44031.00700000004,
-            "endTime": 44182.97499999994,
-            "transferSize": 8610,
+            "startTime": 49611.86700000007,
+            "endTime": 49680.764000000185,
+            "transferSize": 9119,
             "statusCode": 200,
             "mimeType": "application/json",
             "resourceType": "XHR"
           },
           {
             "url": "https://cdn.segment.com/analytics.js/v1/mXFw59FFEpUNOu3aeVJChKAsqAlZ4NEf/analytics.min.js",
-            "startTime": 44243.80700000006,
-            "endTime": 44448.34399999991,
+            "startTime": 49818.469000000274,
+            "endTime": 50085.66900000005,
             "transferSize": 63488,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -1197,290 +1202,266 @@
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/0-92c22bd3ff80830b384f.min.js",
-            "startTime": 47775.96799999992,
-            "endTime": 47794.759000000115,
-            "transferSize": 28752,
+            "startTime": 54233.71900000029,
+            "endTime": 54284.59000000021,
+            "transferSize": 167,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/1-92c22bd3ff80830b384f.min.js",
-            "startTime": 47782.07199999997,
-            "endTime": 47795.519000000015,
-            "transferSize": 101,
+            "startTime": 54427.654000000075,
+            "endTime": 54597.593000000415,
+            "transferSize": 6041,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/3-92c22bd3ff80830b384f.min.js",
-            "startTime": 47898.275999999896,
-            "endTime": 48605.69600000008,
-            "transferSize": 34407,
+            "startTime": 54597.88100000014,
+            "endTime": 54901.999000000156,
+            "transferSize": 34289,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/6-92c22bd3ff80830b384f.min.js",
-            "startTime": 47898.797999999944,
-            "endTime": 48605.96600000008,
-            "transferSize": 28033,
+            "startTime": 54621.70800000013,
+            "endTime": 54999.17200000027,
+            "transferSize": 28181,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/44-92c22bd3ff80830b384f.min.js",
-            "startTime": 48033.6749999999,
-            "endTime": 61927.4519999999,
-            "transferSize": 176231,
+            "startTime": 54736.464000000065,
+            "endTime": 65552.10600000009,
+            "transferSize": 176776,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/50-92c22bd3ff80830b384f.min.js",
-            "startTime": 48034.15199999995,
-            "endTime": 48943.146000000066,
-            "transferSize": 3782,
+            "startTime": 54792.62600000038,
+            "endTime": 55232.58700000042,
+            "transferSize": 3770,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/49-92c22bd3ff80830b384f.min.js",
-            "startTime": 48034.86399999997,
-            "endTime": 49253.95499999991,
-            "transferSize": 6045,
+            "startTime": 54957.99100000022,
+            "endTime": 55692.14500000044,
+            "transferSize": 5512,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ym_rbd_3lift",
-            "startTime": 48328.246000000036,
-            "endTime": 49615.91300000009,
+            "startTime": 55547.80100000017,
+            "endTime": 56064.078000000336,
             "transferSize": 591,
             "statusCode": 302,
             "mimeType": ""
           },
           {
             "url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ym_rbd_3lift&dcc=t",
-            "startTime": 49616.488000000114,
-            "endTime": 49736.782000000174,
+            "startTime": 56064.501000000295,
+            "endTime": 56108.94100000041,
             "transferSize": 691,
             "statusCode": 200,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "https://logx.optimizely.com/v1/events",
-            "startTime": 50005.231999999975,
-            "endTime": 50063.941999999995,
-            "transferSize": 356,
-            "statusCode": 204,
-            "mimeType": "text/plain",
-            "resourceType": "XHR"
-          },
-          {
-            "url": "https://logx.optimizely.com/v1/events",
-            "startTime": 50269.543000000114,
-            "endTime": 50287.32599999989,
-            "transferSize": 356,
-            "statusCode": 204,
-            "mimeType": "text/plain",
-            "resourceType": "XHR"
-          },
-          {
-            "url": "https://logx.optimizely.com/v1/events",
-            "startTime": 50726.69100000007,
-            "endTime": 50830.2369999999,
-            "transferSize": 356,
-            "statusCode": 204,
-            "mimeType": "text/plain",
-            "resourceType": "XHR"
-          },
-          {
-            "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=XwOCIQAAATtIy2ay",
-            "startTime": 51512.16100000011,
-            "endTime": 51615.83799999994,
-            "transferSize": 913,
-            "statusCode": 200,
-            "mimeType": "image/gif",
-            "resourceType": "Image"
-          },
-          {
-            "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.1&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=7FF852E2556756057F000101%40AdobeOrg&d_nsid=0&d_mid=36735412188298182321674700483860712558&d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&d_cid_ic=AVID%012F81C1108515A94A-600008F2AD0E17AD&ts=1594065451704",
-            "startTime": 51927.4519999999,
-            "endTime": 51979.383999999984,
-            "transferSize": 1750,
-            "statusCode": 200,
-            "mimeType": "application/json",
-            "resourceType": "XHR"
-          },
-          {
-            "url": "https://pixel.adsafeprotected.com/services/pub?anId=925660&slot=%7Bid:ad_mod_35731bb1e,ss:%5B1.1,1.2%5D,p:/8663477/CNN/homepage/landing/pushdown,t:display%7D&wr=800.600&sr=800.600&sessionId=14fe5445-e7e8-c391-e415-ccc3ed142925&url=https%253A%252F%252Fwww.cnn.com%252F",
-            "startTime": 52251.27100000009,
-            "endTime": 52515.16300000003,
-            "transferSize": 466,
-            "statusCode": 200,
-            "mimeType": "application/json",
-            "resourceType": "XHR"
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/2.218.0/assets/video_buffer_square_blk.gif",
-            "startTime": 53663.039999999906,
-            "endTime": 53679.724000000075,
-            "transferSize": 4137,
-            "statusCode": 200,
-            "mimeType": "image/gif",
-            "resourceType": "Image"
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/one_tap.97eefd55890d020b48de.bundle.js",
-            "startTime": 55302.13400000002,
-            "endTime": 55350.26199999993,
-            "transferSize": 90,
-            "statusCode": 200,
-            "mimeType": "application/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-light.woff2",
-            "startTime": 55716.23599999998,
-            "transferSize": 0,
-            "statusCode": -1,
-            "mimeType": "",
-            "resourceType": "Font"
-          },
-          {
-            "url": "data:image/gif;base64,R0lGODlhEAAJAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAQAAkAAAIKlI+py+0Po5yUFQA7",
-            "startTime": 57062.92899999994,
-            "endTime": 57062.952,
-            "transferSize": 0,
-            "statusCode": 200,
-            "mimeType": "image/gif",
-            "resourceType": "Image"
-          },
-          {
-            "url": "https://widgets.tree.com/widget/5bbcee9cc41b5300018c719d",
-            "startTime": 58834.397000000085,
-            "endTime": 59160.49399999997,
-            "transferSize": 386,
-            "statusCode": 200,
-            "mimeType": "text/html",
-            "resourceType": "Document"
-          },
-          {
-            "url": "https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.min.js",
-            "startTime": 59001.997000000076,
-            "endTime": 59631.523000000016,
-            "transferSize": 458,
-            "statusCode": 200,
-            "mimeType": "application/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/animations.d9f22c9312f2b39c2401.bundle.js",
-            "startTime": 59049.32600000007,
-            "endTime": 59157.56899999997,
-            "transferSize": 90,
-            "statusCode": 200,
-            "mimeType": "application/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/listexpandable.761a28039df153599d56.bundle.js",
-            "startTime": 59102.13199999998,
-            "endTime": 59158.61399999994,
-            "transferSize": 100,
-            "statusCode": 200,
-            "mimeType": "application/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/grid_resize.4a9a21ba38c6766d3421.bundle.js",
-            "startTime": 59571.51799999997,
-            "endTime": 59791.938000000075,
-            "transferSize": 145,
-            "statusCode": 200,
-            "mimeType": "application/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/financial_libs.524cd111acd7ddcb5c27.bundle.js",
-            "startTime": 59747.66199999999,
-            "endTime": 59892.37800000001,
-            "transferSize": 612,
-            "statusCode": 200,
-            "mimeType": "application/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://cdn.cnn.com/cnn/.e1mo/img/4.0/placeholders/video_placeholder.jpg",
-            "startTime": 61304.810000000085,
-            "endTime": 61415.47199999991,
-            "transferSize": 22360,
-            "statusCode": 200,
-            "mimeType": "image/jpeg",
-            "resourceType": "Image"
-          },
-          {
-            "url": "https://ad.doubleclick.net/ddm/ad/dsnsmsp/twjrrs/;ord=1594065462649?",
-            "startTime": 63246.02099999993,
-            "endTime": 63511.73999999992,
-            "transferSize": 639,
-            "statusCode": 200,
-            "mimeType": "image/gif",
-            "resourceType": "Image"
-          },
-          {
             "url": "https://adservice.google.com/adsid/integrator.js?domain=www.cnn.com",
-            "startTime": 63961.45000000001,
-            "endTime": 64282.11099999999,
-            "transferSize": 765,
+            "startTime": 56411.824000000255,
+            "endTime": 56632.972000000336,
+            "transferSize": 887,
             "statusCode": 200,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020062902.js",
-            "startTime": 64007.180000000066,
-            "transferSize": 0,
-            "statusCode": -1,
-            "mimeType": "",
+            "startTime": 56430.04700000028,
+            "endTime": 56791.4810000002,
+            "transferSize": 90757,
+            "statusCode": 200,
+            "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://cdn.cookielaw.org/consent/3d9a6f21-8e47-43f8-8d58-d86150f3e92b/8145d935-9d82-4536-b048-a908fce5c68c/en.json",
-            "startTime": 65290.625999999975,
-            "endTime": 65302.88100000007,
-            "transferSize": 190,
+            "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.1&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=7FF852E2556756057F000101%40AdobeOrg&d_nsid=0&d_mid=65803600366079389431397355887804106716&d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&d_cid_ic=AVID%012F81C32605159A83-400009016CF4B3E9&ts=1594066519282",
+            "startTime": 57046.979000000196,
+            "endTime": 57196.40400000026,
+            "transferSize": 1748,
             "statusCode": 200,
-            "mimeType": "application/x-javascript",
-            "resourceType": "Fetch"
+            "mimeType": "application/json",
+            "resourceType": "XHR"
           },
           {
-            "url": "https://cdn.cnn.com/cnnnext/dam/assets/200628224342-01-texas-coronavirus-0626-exlarge-tease.jpg",
-            "startTime": 67051.21299999996,
+            "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=XwOGTQAAA2DXa-5i",
+            "startTime": 57430.60300000025,
+            "endTime": 57513.83800000031,
+            "transferSize": 913,
+            "statusCode": 200,
+            "mimeType": "image/gif",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/2.218.0/assets/video_buffer_square_blk.gif",
+            "startTime": 58481.88500000015,
+            "endTime": 58516.59100000006,
+            "transferSize": 4137,
+            "statusCode": 200,
+            "mimeType": "image/gif",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://widgets.tree.com/widget/5bbcee9cc41b5300018c719d",
+            "startTime": 60640.251000000266,
+            "endTime": 60897.993000000046,
+            "transferSize": 385,
+            "statusCode": 200,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.min.js",
+            "startTime": 60675.922000000355,
+            "endTime": 61131.29900000013,
+            "transferSize": 5454,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/bundles/animations.d9f22c9312f2b39c2401.bundle.js",
+            "startTime": 60796.29400000021,
+            "endTime": 60926.22300000039,
+            "transferSize": 2715,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/bundles/listexpandable.761a28039df153599d56.bundle.js",
+            "startTime": 60925.281000000265,
+            "endTime": 61632.02799999999,
+            "transferSize": 779,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/bundles/one_tap.97eefd55890d020b48de.bundle.js",
+            "startTime": 61131.80900000043,
+            "endTime": 61674.510000000286,
+            "transferSize": 698,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/bundles/grid_resize.4a9a21ba38c6766d3421.bundle.js",
+            "startTime": 61526.192000000265,
+            "endTime": 61866.236000000295,
+            "transferSize": 1118,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-light.woff2",
+            "startTime": 78831.53100000026,
+            "endTime": 78851.49100000036,
+            "transferSize": 46069,
+            "statusCode": 200,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/gif;base64,R0lGODlhEAAJAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAQAAkAAAIKlI+py+0Po5yUFQA7",
+            "startTime": 64411.22200000018,
+            "endTime": 64411.245000000235,
+            "transferSize": 0,
+            "statusCode": 200,
+            "mimeType": "image/gif",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://cdn.cnn.com/cnn/.e1mo/img/4.0/placeholders/video_placeholder.jpg",
+            "startTime": 64451.82600000044,
+            "endTime": 64599.67300000017,
+            "transferSize": 22360,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://logx.optimizely.com/v1/events",
+            "startTime": 66434.25300000035,
+            "endTime": 66742.61000000025,
+            "transferSize": 356,
+            "statusCode": 204,
+            "mimeType": "text/plain",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://logx.optimizely.com/v1/events",
+            "startTime": 66744.1160000003,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://logx.optimizely.com/v1/events",
+            "startTime": 67522.27700000003,
+            "endTime": 67794.24500000005,
+            "transferSize": 356,
+            "statusCode": 204,
+            "mimeType": "text/plain",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
+            "startTime": 70044.39000000001,
+            "endTime": 70108.30699999997,
+            "transferSize": 315,
+            "statusCode": 200,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://ad.doubleclick.net/ddm/ad/pqhsdixki/;ord=1594066535282?",
+            "startTime": 73651.74400000024,
+            "endTime": 74245.31100000013,
+            "transferSize": 639,
+            "statusCode": 200,
+            "mimeType": "image/gif",
             "resourceType": "Image"
           },
           {
             "url": "https://widgets.outbrain.com/outbrain.js",
-            "startTime": 74734.35599999994,
-            "transferSize": 0,
-            "statusCode": -1,
-            "mimeType": "",
+            "startTime": 84856.671,
+            "endTime": 85075.76299999983,
+            "transferSize": 408,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://cdn.cnn.com/ads/cnn/singles/cnn_entitlement_hp_01.js",
-            "startTime": 76051.04899999993,
+            "startTime": 87031.35200000042,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
@@ -1488,48 +1469,115 @@
           },
           {
             "url": "https://cdn.cnn.com/ads/cnn/singles/cnn_entitlement_hp_02.js",
-            "startTime": 76176.7870000001,
-            "transferSize": 0,
-            "statusCode": -1,
-            "mimeType": "",
+            "startTime": 87291.93900000019,
+            "endTime": 87419.81299999998,
+            "transferSize": 203,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://img.bleacherreport.net/img/images/photos/003/848/638/hi-res-f9f12800c23ce9b82efdc4ad1a8c7889_crop_exact.jpg?w=460&h=259&q=75",
-            "startTime": 78217.3909999999,
+            "startTime": 89160.86700000006,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
             "resourceType": "Image"
           },
           {
-            "url": "https://bat.bing.com/action/0?ti=5526986&Ver=2&mid=63371893-f8fc-609e-4642-b0aa0c24ecb0&sid=2d2d49d4-ad15-da03-ece1-8d4795e15ea1&vid=36c9c1de-eb85-60a7-c783-7b9a4db82b36-1&pi=0&lg=en-US&sw=800&sh=600&sc=24&tl=CNN%20-%20Breaking%20News,%20Latest%20News%20and%20Videos&kw=cnn%20news,%20daily%20news,%20breaking%20news,%20news%20today,%20current%20events&p=https%3A%2F%2Fwww.cnn.com%2F&r=&lt=48563&evt=pageLoad&msclkid=N&sv=1&rn=778002",
-            "startTime": 79607.48400000011,
+            "url": "https://bat.bing.com/action/0?ti=5526986&Ver=2&mid=3e493c02-d048-910d-6fc8-3e35c4c03dc5&sid=69a76eb6-a161-a81a-77ce-343be9082a2f&vid=ba9ff11b-9328-386b-b270-d020ca7c4433-1&pi=0&lg=en-US&sw=800&sh=600&sc=24&tl=CNN%20-%20Breaking%20News,%20Latest%20News%20and%20Videos&kw=cnn%20news,%20daily%20news,%20breaking%20news,%20news%20today,%20current%20events&p=https%3A%2F%2Fwww.cnn.com%2F&r=&lt=55558&evt=pageLoad&msclkid=N&sv=1&rn=503908",
+            "startTime": 91368.73600000035,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
             "resourceType": "Image"
           },
           {
-            "url": "https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c115760a5f87cf5401fb8ca40e9339d2.js",
-            "startTime": 80007.06700000001,
+            "url": "https://consumer.krxd.net/consent/get/e9eaedd3-c1da-4334-82f0-d7e3ff883c87?idt=device&dt=kxcookie&callback=Krux.ns._default.kxjsonp_consent_get_0",
+            "startTime": 99521.68900000016,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
             "resourceType": "Script"
           },
           {
-            "url": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
-            "startTime": 81639.8240000001,
-            "endTime": 81652.6490000001,
-            "transferSize": 315,
+            "url": "https://assets.bounceexchange.com/assets/smart-tag/versioned/ijs_all_modules_c115760a5f87cf5401fb8ca40e9339d2.js",
+            "startTime": 100447.77700000032,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://cdn.cnn.com/cnnnext/dam/assets/200616094842-harvard-university-view-large-tease.jpg",
+            "startTime": 100576.75600000039,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://cdn.cnn.com/cnnnext/dam/assets/200628224342-01-texas-coronavirus-0626-exlarge-tease.jpg",
+            "startTime": 100765.26400000011,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://cdn.cookielaw.org/scripttemplates/6.0.0/assets/otFlat.json",
+            "startTime": 101623.25200000033,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://cdn.cookielaw.org/scripttemplates/6.0.0/assets/otPcTab.json",
+            "startTime": 101691.60500000043,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://bleacherreport.com/uidcheck?uuid_origin=https://www.cnn.com",
+            "startTime": 102751.89200000023,
+            "endTime": 102951.30900000004,
+            "transferSize": 1907,
             "statusCode": 200,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
+            "url": "https://www.warnermediaprivacy.com/uidc.html?uuid_origin=https://www.cnn.com",
+            "startTime": 103008.18300000037,
+            "endTime": 103315.66200000043,
+            "transferSize": 673,
+            "statusCode": 200,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://acdn.adnxs.com/dmp/firstpartyuid/uidcheck.html?uuid_origin=https://www.cnn.com",
+            "startTime": 103757.84900000007,
+            "endTime": 103817.61899999992,
+            "transferSize": 570,
+            "statusCode": 200,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://sb.scorecardresearch.com/b?c1=2&c2=6035748&cs_ucfr=1&ns__t=1594066565684&ns_c=UTF-8&cv=3.5&c8=CNN%20-%20Breaking%20News%2C%20Latest%20News%20and%20Videos&c7=https%3A%2F%2Fwww.cnn.com%2F&c9=",
+            "startTime": 103448.34100000025,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Image"
+          },
+          {
             "url": "https://agility.cnn.com/turner/cnn-prod/code/b36f8180d63a47cac9254c4c9f80628d.js?conditionId0=423209",
-            "startTime": 82328.29799999991,
+            "startTime": 103508.73700000011,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
@@ -1537,7 +1585,7 @@
           },
           {
             "url": "https://agility.cnn.com/turner/cnn-prod/code/abcfa4dfb3f8bde0aa6f48032209976a.js?conditionId0=4839055",
-            "startTime": 82414.80999999998,
+            "startTime": 103717.76300000011,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
@@ -1545,27 +1593,59 @@
           },
           {
             "url": "https://agility.cnn.com/turner/cnn-prod/code/837961b61998134001793e260325694c.js?conditionId0=4881242",
-            "startTime": 82456.61700000006,
+            "startTime": 103836.27700000034,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
             "resourceType": "Script"
           },
           {
-            "url": "https://bleacherreport.com/uidcheck?uuid_origin=https://www.cnn.com",
-            "startTime": 82757.48199999999,
+            "url": "https://w.usabilla.com/c3244e3d16ba.js?lv=1",
+            "startTime": 107201.34300000018,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
-            "resourceType": "Document"
+            "resourceType": "Script"
           },
           {
-            "url": "https://www.warnermediaprivacy.com/uidc.html?uuid_origin=https://www.cnn.com",
-            "startTime": 82938.31999999998,
+            "url": "https://tru.am/scripts/a/cnn_pixel.fb475d.js",
+            "startTime": 107457.53000000013,
             "transferSize": 0,
             "statusCode": -1,
             "mimeType": "",
-            "resourceType": "Document"
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://onetag-geo.s-onetag.com/",
+            "startTime": 107964.63700000005,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://beacon.s-onetag.com/cnn-beacon.min.js",
+            "startTime": 108215.31600000025,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://people.api.boomtrain.com/identify/resolve?data=eyJjb29raWUiOnsiYnNpbiI6IiJ9LCJxdWVyeXN0cmluZyI6e319&site_id=cnn",
+            "startTime": 110165.92100000025,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://beacon.krxd.net/optout_check?callback=Krux.ns._default.kxjsonp_optOutCheck",
+            "startTime": 110524.93200000026,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Script"
           }
         ]
       }
@@ -1605,834 +1685,318 @@
     },
     "accesskeys": {
       "id": "accesskeys",
-      "title": "`[accesskey]` values are unique",
+      "title": "`[accesskey]` values are not unique",
       "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://dequeuniversity.com/rules/axe/2.2/accesskeys?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "aria-allowed-attr": {
       "id": "aria-allowed-attr",
-      "title": "`[aria-*]` attributes match their roles",
+      "title": "`[aria-*]` attributes do not match their roles",
       "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-allowed-attr?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "aria-required-attr": {
       "id": "aria-required-attr",
-      "title": "`[role]`s have all required `[aria-*]` attributes",
+      "title": "`[role]`s do not have all required `[aria-*]` attributes",
       "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-required-attr?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "aria-required-children": {
       "id": "aria-required-children",
-      "title": "Elements with `[role]` that require specific children `[role]`s, are present",
+      "title": "Elements with `[role]` that require specific children `[role]`s, are missing.",
       "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-required-children?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "aria-required-parent": {
       "id": "aria-required-parent",
-      "title": "`[role]`s are contained by their required parent element",
+      "title": "`[role]`s are not contained by their required parent element",
       "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-required-parent?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "aria-roles": {
       "id": "aria-roles",
-      "title": "`[role]` values are valid",
+      "title": "`[role]` values are not valid",
       "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-roles?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "aria-valid-attr-value": {
       "id": "aria-valid-attr-value",
-      "title": "`[aria-*]` attributes have valid values",
+      "title": "`[aria-*]` attributes do not have valid values",
       "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-valid-attr-value?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "aria-valid-attr": {
       "id": "aria-valid-attr",
-      "title": "`[aria-*]` attributes are valid and not misspelled",
+      "title": "`[aria-*]` attributes are not valid or misspelled",
       "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-valid-attr?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "audio-caption": {
       "id": "audio-caption",
-      "title": "`<audio>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+      "title": "`<audio>` elements are missing a `<track>` element with `[kind=\"captions\"]`.",
       "description": "Captions make audio elements usable for deaf or hearing-impaired users, providing critical information such as who is talking, what they're saying, and other non-speech information. [Learn more](https://dequeuniversity.com/rules/axe/2.2/audio-caption?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "button-name": {
       "id": "button-name",
       "title": "Buttons do not have an accessible name",
       "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://dequeuniversity.com/rules/axe/2.2/button-name?application=lighthouse).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "node",
-            "itemType": "node",
-            "text": "Failing Elements"
-          }
-        ],
-        "items": [
-          {
-            "node": {
-              "type": "node",
-              "selector": "#geocorona-dismiss-button",
-              "path": "1,HTML,1,BODY,8,DIV,2,SECTION,0,DIV,0,DIV,2,DIV,0,BUTTON",
-              "snippet": "<button type=\"button\" id=\"geocorona-dismiss-button\" data-zjs-logged-in-state=\"false\" data-zjs-campaign=\"geocorona-zip-dismiss\">",
-              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element has a value attribute and the value attribute is empty\n  Element has no value attribute or the value attribute is empty\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
-            }
-          }
-        ],
-        "impact": "critical",
-        "tags": [
-          "cat.name-role-value",
-          "wcag2a",
-          "wcag412",
-          "section508",
-          "section508.22.a"
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "bypass": {
       "id": "bypass",
-      "title": "The page contains a heading, skip link, or landmark region",
+      "title": "The page does not contain a heading, skip link, or landmark region",
       "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://dequeuniversity.com/rules/axe/2.2/bypass?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "color-contrast": {
       "id": "color-contrast",
       "title": "Background and foreground colors do not have a sufficient contrast ratio.",
       "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://dequeuniversity.com/rules/axe/2.2/color-contrast?application=lighthouse).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "node",
-            "itemType": "node",
-            "text": "Failing Elements"
-          }
-        ],
-        "items": [
-          {
-            "node": {
-              "type": "node",
-              "selector": ".covid-title",
-              "path": "1,HTML,1,BODY,8,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,H1",
-              "snippet": "<h1 class=\"covid-title\">Covid-19.</h1>",
-              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #e63840, background color: #fefefe, font size: 13.5pt, font weight: bold). Expected contrast ratio of 4.5:1"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": "#covid-detail-text",
-              "path": "1,HTML,1,BODY,8,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,P",
-              "snippet": "<p class=\"covid-detail-text\" id=\"covid-detail-text\">\n                    Set your location and log in to find local resources and information on Covid-19 in your area.\n                </p>",
-              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.09 (foreground color: #797d86, background color: #fefefe, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": "#covid-submit-button",
-              "path": "1,HTML,1,BODY,8,DIV,2,SECTION,0,DIV,0,DIV,1,DIV,0,FORM,1,BUTTON",
-              "snippet": "<button type=\"submit\" id=\"covid-submit-button\" class=\"covid-zip-button\" data-zjs=\"click\" data-zjs-logged-in-state=\"false\" data-zjs-campaign=\"geocorona-zip\">\n                    Set location\n                </button>",
-              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.86 (foreground color: #ffffff, background color: #2a81ea, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".str-content > h1",
-              "path": "1,HTML,1,BODY,8,DIV,5,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,H1",
-              "snippet": "<h1>Content by <span>CNN Underscored</span></h1>",
-              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.41 (foreground color: #ffffff, background color: #c3a354, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": "h1 > span",
-              "path": "1,HTML,1,BODY,8,DIV,5,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,H1,1,SPAN",
-              "snippet": "<span>CNN Underscored</span>",
-              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.41 (foreground color: #ffffff, background color: #c3a354, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1"
-            }
-          }
-        ],
-        "impact": "serious",
-        "tags": [
-          "cat.color",
-          "wcag2aa",
-          "wcag143"
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "definition-list": {
       "id": "definition-list",
-      "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>` or `<template>` elements.",
+      "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>` or `<template>` elements.",
       "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://dequeuniversity.com/rules/axe/2.2/definition-list?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "dlitem": {
       "id": "dlitem",
-      "title": "Definition list items are wrapped in `<dl>` elements",
+      "title": "Definition list items are not wrapped in `<dl>` elements",
       "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://dequeuniversity.com/rules/axe/2.2/dlitem?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "document-title": {
       "id": "document-title",
-      "title": "Document has a `<title>` element",
+      "title": "Document doesn't have a `<title>` element",
       "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/title).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "duplicate-id": {
       "id": "duplicate-id",
       "title": "`[id]` attributes on the page are not unique",
       "description": "The value of an id attribute must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://dequeuniversity.com/rules/axe/2.2/duplicate-id?application=lighthouse).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "node",
-            "itemType": "node",
-            "text": "Failing Elements"
-          }
-        ],
-        "items": [
-          {
-            "node": {
-              "type": "node",
-              "selector": ".indexes__HideOnMobile-nujtvs-13 > .indexes__AccountIconButton-nujtvs-0.kmRdGR[role=\"button\"]",
-              "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV",
-              "snippet": "<div id=\"account-icon-button\" tabindex=\"-1\" role=\"button\" class=\"Box-sc-1fet97o-0 indexes__AccountIconButton-nujtvs-0 kmRdGR\">",
-              "explanation": "Fix any of the following:\n  Document has multiple elements with the same id attribute: account-icon-button"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".indexes__HideOnMobile-nujtvs-13 > .indexes__AccountIconButton-nujtvs-0.kmRdGR[role=\"button\"] > .user-icon[aria-labelledby=\"userIconTitle\"][fill=\"currentColor\"] > title",
-              "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,svg,0,title",
-              "snippet": "<title id=\"userIconTitle\">User Account</title>",
-              "explanation": "Fix any of the following:\n  Document has multiple elements with the same id attribute: userIconTitle"
-            }
-          }
-        ],
-        "impact": "moderate",
-        "tags": [
-          "cat.parsing",
-          "wcag2a",
-          "wcag411"
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "frame-title": {
       "id": "frame-title",
       "title": "`<frame>` or `<iframe>` elements do not have a title",
       "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://dequeuniversity.com/rules/axe/2.2/frame-title?application=lighthouse).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "node",
-            "itemType": "node",
-            "text": "Failing Elements"
-          }
-        ],
-        "items": [
-          {
-            "node": {
-              "type": "node",
-              "selector": "article[data-analytics=\"tool-type_list-xs_webtag\"] > .element-raw > .lt-widget-iframe",
-              "path": "1,HTML,1,BODY,8,DIV,5,SECTION,1,DIV,0,DIV,0,DIV,0,UL,12,LI,0,ARTICLE,0,DIV,0,IFRAME",
-              "snippet": "<iframe class=\"lt-widget-iframe\" src=\"https://widgets.tree.com/widget/5bbcee9cc41b5300018c719d\" width=\"100%\" height=\"57px\" scrolling=\"no\" frameborder=\"0\"></iframe>",
-              "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": "iframe:nth-child(39)",
-              "path": "1,HTML,1,BODY,38,IFRAME",
-              "snippet": "<iframe style=\"width:1px;height:1px;position:absolute;left:-99px;top:-99px;\" src=\"https://bleacherreport.com/uidcheck?uuid_origin=https://www.cnn.com\"></iframe>",
-              "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": "iframe:nth-child(40)",
-              "path": "1,HTML,1,BODY,39,IFRAME",
-              "snippet": "<iframe style=\"width:1px;height:1px;position:absolute;left:-99px;top:-99px;\" src=\"https://www.warnermediaprivacy.com/uidc.html?uuid_origin=https://www.cnn.com\"></iframe>",
-              "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": "iframe:nth-child(41)",
-              "path": "1,HTML,1,BODY,40,IFRAME",
-              "snippet": "<iframe style=\"width:1px;height:1px;position:absolute;left:-99px;top:-99px;\" src=\"https://acdn.adnxs.com/dmp/firstpartyuid/uidcheck.html?uuid_origin=https://www.cnn.com\"></iframe>",
-              "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": "iframe[src$=\"about:blank\"]",
-              "path": "1,HTML,1,BODY,51,IFRAME",
-              "snippet": "<iframe src=\"about:blank\" style=\"width: 0px !important; height: 0px !important; border: 0px !important; position: absolute !important; top: -10000px !important; left: -10000px !important;\"></iframe>",
-              "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
-            }
-          }
-        ],
-        "impact": "serious",
-        "tags": [
-          "cat.text-alternatives",
-          "wcag2a",
-          "wcag241",
-          "section508",
-          "section508.22.i"
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "html-has-lang": {
       "id": "html-has-lang",
       "title": "`<html>` element does not have a `[lang]` attribute",
       "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://dequeuniversity.com/rules/axe/2.2/html-lang?application=lighthouse).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "node",
-            "itemType": "node",
-            "text": "Failing Elements"
-          }
-        ],
-        "items": [
-          {
-            "node": {
-              "type": "node",
-              "selector": "html",
-              "path": "1,HTML",
-              "snippet": "<html class=\"js no-flash geolocation websockets localstorage webworkers no-touchevents fontface supports textshadow csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox csstransforms3d no-mobile no-phone no-tablet mobilegradea no-gdpr no-ios no-android no-iospre10 no-iemobile no-ieunsupported no-ie11unsupported no-ie no-edge\" style=\"\" data-formfactor=\"desktop\" data-triggered=\"true\">",
-              "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
-            }
-          }
-        ],
-        "impact": "serious",
-        "tags": [
-          "cat.language",
-          "wcag2a",
-          "wcag311"
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "html-lang-valid": {
       "id": "html-lang-valid",
-      "title": "`<html>` element has a valid value for its `[lang]` attribute",
+      "title": "`<html>` element does not have a valid value for its `[lang]` attribute.",
       "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://dequeuniversity.com/rules/axe/2.2/valid-lang?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "image-alt": {
       "id": "image-alt",
       "title": "Image elements do not have `[alt]` attributes",
       "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://dequeuniversity.com/rules/axe/2.2/image-alt?application=lighthouse).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "node",
-            "itemType": "node",
-            "text": "Failing Elements"
-          }
-        ],
-        "items": [
-          {
-            "node": {
-              "type": "node",
-              "selector": ".indexes__LiveTVWrap-nujtvs-15 > .indexes__LiveTvLink-sc-1h431j6-0.hFjXER[color=\"\\#E6E6E6\"] > .Image-p11edh-0.indexes__IndicatorGif-sc-744qys-0.kDGlmJ",
-              "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,3,DIV,0,A,0,IMG",
-              "snippet": "<img src=\"//cdn.cnn.com/cnn/2019/images/03/20/live-story-status_dark.gif\" size=\"6\" class=\"Image-p11edh-0 indexes__IndicatorGif-sc-744qys-0 kDGlmJ\" data-demand-load=\"loaded\">",
-              "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": "body > img",
-              "path": "1,HTML,1,BODY,45,IMG",
-              "snippet": "<img src=\"https://d.agkn.com/pixel/10106/?atr=cnn,CNNhomepagelandingpushdown\" style=\"width: 1px; height: 1px; border: 0px;\" data-demand-load=\"loaded\">",
-              "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
-            }
-          }
-        ],
-        "impact": "critical",
-        "tags": [
-          "cat.text-alternatives",
-          "wcag2a",
-          "wcag111",
-          "section508",
-          "section508.22.a"
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "input-image-alt": {
       "id": "input-image-alt",
-      "title": "`<input type=\"image\">` elements have `[alt]` text",
+      "title": "`<input type=\"image\">` elements do not have `[alt]` text",
       "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://dequeuniversity.com/rules/axe/2.2/input-image-alt?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "label": {
       "id": "label",
       "title": "Form elements do not have associated labels",
       "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://dequeuniversity.com/rules/axe/2.2/label?application=lighthouse).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "node",
-            "itemType": "node",
-            "text": "Failing Elements"
-          }
-        ],
-        "items": [
-          {
-            "node": {
-              "type": "node",
-              "selector": "#footer-search-bar",
-              "path": "1,HTML,1,BODY,11,DIV,0,DIV,0,FOOTER,0,DIV,0,DIV,0,FORM,0,INPUT",
-              "snippet": "<input type=\"search\" autocomplete=\"off\" id=\"footer-search-bar\" name=\"q\" placeholder=\"Search CNN...\" class=\"sc-jKJlTe iMiisc\">",
-              "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  Element has no title attribute or the title attribute is empty"
-            }
-          }
-        ],
-        "impact": "critical",
-        "tags": [
-          "cat.forms",
-          "wcag2a",
-          "wcag332",
-          "wcag131",
-          "section508",
-          "section508.22.n"
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "layout-table": {
       "id": "layout-table",
-      "title": "Presentational `<table>` elements avoid using `<th>`, `<caption>` or the `[summary]` attribute.",
+      "title": "Presentational `<table>` elements do not avoid using `<th>`, `<caption>` or the `[summary]` attribute.",
       "description": "A table being used for layout purposes should not include data elements, such as the th or caption elements or the summary attribute, because this can create a confusing experience for screen reader users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/layout-table?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "link-name": {
       "id": "link-name",
       "title": "Links do not have a discernible name",
       "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/link-name?application=lighthouse).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "node",
-            "itemType": "node",
-            "text": "Failing Elements"
-          }
-        ],
-        "items": [
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cd--media__animation.cd--small[data-ad-section=\"const-video-leaf\"] > .cd__wrapper > .media > a",
-              "path": "1,HTML,1,BODY,8,DIV,5,SECTION,1,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,ARTICLE,0,DIV,0,DIV,0,A",
-              "snippet": "<a href=\"/videos/us/2020/07/04/police-borrow-bike-to-catch-murder-suspect-orig-llr.cnn\">",
-              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
-            }
-          }
-        ],
-        "impact": "serious",
-        "tags": [
-          "cat.name-role-value",
-          "wcag2a",
-          "wcag111",
-          "wcag412",
-          "wcag244",
-          "section508",
-          "section508.22.a"
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "list": {
       "id": "list",
       "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
       "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://dequeuniversity.com/rules/axe/2.2/list?application=lighthouse).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "node",
-            "itemType": "node",
-            "text": "Failing Elements"
-          }
-        ],
-        "items": [
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-container_4671018A-5678-4C7B-5905-CA38C95B83DF",
-              "path": "1,HTML,1,BODY,8,DIV,5,SECTION,1,DIV,0,DIV,0,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-xs cn--idx-0 cn-container_4671018A-5678-4C7B-5905-CA38C95B83DF cn--expandable cn--collapsed\" data-layout=\"list-xs\" data-bundle=\"listexpandable\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-container_278253B4-EFFA-EE2A-1956-2462D6823AE1",
-              "path": "1,HTML,1,BODY,8,DIV,5,SECTION,1,DIV,0,DIV,1,DIV,1,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-1 cn-container_278253B4-EFFA-EE2A-1956-2462D6823AE1\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-container_EB7AADC9-ADAF-7C05-72A5-20177B7EA2E9",
-              "path": "1,HTML,1,BODY,8,DIV,5,SECTION,1,DIV,0,DIV,3,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-3 cn-container_EB7AADC9-ADAF-7C05-72A5-20177B7EA2E9\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-coverageContainer_8C4FF4C7-3E30-1ABB-5B13-C072E64EDA38",
-              "path": "1,HTML,1,BODY,8,DIV,5,SECTION,1,DIV,0,DIV,5,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-xs cn--idx-5 cn-coverageContainer_8C4FF4C7-3E30-1ABB-5B13-C072E64EDA38 cn--has-shingle cn--expandable cn--collapsed\" data-layout=\"list-xs\" data-bundle=\"listexpandable\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-container_EB6FC92B-66DF-E926-5C2D-81ACBB34D236",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,0,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-0 cn-container_EB6FC92B-66DF-E926-5C2D-81ACBB34D236\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-coverageContainer_04D9210E-684D-2251-CF9B-49D7A384B828",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,1,DIV,1,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-1 cn-coverageContainer_04D9210E-684D-2251-CF9B-49D7A384B828\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-coverageContainer_6CE44821-A427-1A1C-57A8-EE10F2E9E229",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,2,DIV,1,UL",
-              "snippet": "<ul class=\"cn cn-list-xs cn--idx-2 cn-coverageContainer_6CE44821-A427-1A1C-57A8-EE10F2E9E229 cn--expandable cn--collapsed\" data-layout=\"list-xs\" data-bundle=\"listexpandable\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-coverageContainer_8DDF4E26-8632-6418-1586-B910547ED120",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,3,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-3 cn-coverageContainer_8DDF4E26-8632-6418-1586-B910547ED120\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-coverageContainer_35DB3D2D-AC3D-85A6-F7F3-9694BBCB125F",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,4,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-4 cn-coverageContainer_35DB3D2D-AC3D-85A6-F7F3-9694BBCB125F\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-coverageContainer_148BCE1E-0D4A-FCCE-CC2C-9B1301424292",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,5,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-5 cn-coverageContainer_148BCE1E-0D4A-FCCE-CC2C-9B1301424292\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-coverageContainer_21948641-BF4F-596F-9FE6-3DAB5367FFEC",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,6,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-6 cn-coverageContainer_21948641-BF4F-596F-9FE6-3DAB5367FFEC\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-coverageContainer_0CCFE124-2618-127B-E53E-1E90CED906D7",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,7,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-7 cn-coverageContainer_0CCFE124-2618-127B-E53E-1E90CED906D7\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn-coverageContainer_E79D9B5D-A232-6A5A-9932-D8EFA2AD6DE4",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,8,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-8 cn-coverageContainer_E79D9B5D-A232-6A5A-9932-D8EFA2AD6DE4\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn--idx-9",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,9,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-9 cn-coverageContainer_B5ED9522-33C5-5FB3-7CEE-3E0FA1AA1D2B cn--has-shingle\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn--idx-10",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,10,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-10 cn-coverageContainer_7B64F8A7-1183-AF81-87C0-3E18473445EF\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          },
-          {
-            "node": {
-              "type": "node",
-              "selector": ".cn--idx-11",
-              "path": "1,HTML,1,BODY,8,DIV,6,SECTION,5,DIV,0,DIV,11,DIV,0,UL",
-              "snippet": "<ul class=\"cn cn-list-hierarchical-xs cn--idx-11 cn-coverageContainer_7DCDFE55-B833-9E14-A9C7-066A2EAB9CCE\" data-layout=\"list-hierarchical-xs\">",
-              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
-            }
-          }
-        ],
-        "impact": "serious",
-        "tags": [
-          "cat.structure",
-          "wcag2a",
-          "wcag131"
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "listitem": {
       "id": "listitem",
-      "title": "List items (`<li>`) are contained within `<ul>` or `<ol>` parent elements",
+      "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
       "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://dequeuniversity.com/rules/axe/2.2/listitem?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "meta-refresh": {
       "id": "meta-refresh",
-      "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+      "title": "The document uses `<meta http-equiv=\"refresh\">`",
       "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://dequeuniversity.com/rules/axe/2.2/meta-refresh?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "meta-viewport": {
       "id": "meta-viewport",
-      "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+      "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
       "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://dequeuniversity.com/rules/axe/2.2/meta-viewport?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "object-alt": {
       "id": "object-alt",
-      "title": "`<object>` elements have `[alt]` text",
+      "title": "`<object>` elements do not have `[alt]` text",
       "description": "Screen readers cannot translate non-text content. Adding alt text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/object-alt?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "tabindex": {
       "id": "tabindex",
-      "title": "No element has a `[tabindex]` value greater than 0",
+      "title": "Some elements have a `[tabindex]` value greater than 0",
       "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://dequeuniversity.com/rules/axe/2.2/tabindex?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "td-headers-attr": {
       "id": "td-headers-attr",
-      "title": "Cells in a `<table>` element that use the `[headers]` attribute only refer to other cells of that same table.",
+      "title": "Cells in a `<table>` element that use the `[headers]` attribute refers to other cells of that same table.",
       "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/td-headers-attr?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "th-has-data-cells": {
       "id": "th-has-data-cells",
-      "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+      "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` do not have data cells they describe.",
       "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/th-has-data-cells?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "valid-lang": {
       "id": "valid-lang",
-      "title": "`[lang]` attributes have a valid value",
+      "title": "`[lang]` attributes do not have a valid value",
       "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://dequeuniversity.com/rules/axe/2.2/valid-lang?application=lighthouse).",
       "score": null,
-      "scoreDisplayMode": "not-applicable",
-      "rawValue": true
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "video-caption": {
       "id": "video-caption",
-      "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+      "title": "`<video>` elements do not contain a `<track>` element with `[kind=\"captions\"]`.",
       "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://dequeuniversity.com/rules/axe/2.2/video-caption?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "video-description": {
       "id": "video-description",
-      "title": "`<video>` elements contain a `<track>` element with `[kind=\"description\"]`",
+      "title": "`<video>` elements do not contain a `<track>` element with `[kind=\"description\"]`.",
       "description": "Audio descriptions provide relevant information for videos that dialogue cannot, such as facial expressions and scenes. [Learn more](https://dequeuniversity.com/rules/axe/2.2/video-description?application=lighthouse).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true,
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Accessibility gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "custom-controls-labels": {
       "id": "custom-controls-labels",
@@ -2526,10 +2090,10 @@
       "id": "uses-long-cache-ttl",
       "title": "Serve static assets with an efficient cache policy",
       "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/cache-policy).",
-      "score": 0.08,
+      "score": 0.07,
       "scoreDisplayMode": "numeric",
-      "rawValue": 716420.9520545985,
-      "displayValue": "49 resources found",
+      "rawValue": 719867.8790296529,
+      "displayValue": "51 resources found",
       "details": {
         "type": "table",
         "headings": [
@@ -2558,16 +2122,16 @@
             "cacheControl": null,
             "cacheLifetimeMs": 0,
             "cacheHitProbability": 0,
-            "totalBytes": 102618,
-            "wastedBytes": 102618
+            "totalBytes": 102617,
+            "wastedBytes": 102617
           },
           {
             "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
             "cacheControl": null,
             "cacheLifetimeMs": 0,
             "cacheHitProbability": 0,
-            "totalBytes": 546,
-            "wastedBytes": 546
+            "totalBytes": 545,
+            "wastedBytes": 545
           },
           {
             "url": "https://tag.bounceexchange.com/340/i.js",
@@ -2587,8 +2151,8 @@
             },
             "cacheLifetimeMs": 300000,
             "cacheHitProbability": 0.041666666666666664,
-            "totalBytes": 87878,
-            "wastedBytes": 84216.41666666667
+            "totalBytes": 87869,
+            "wastedBytes": 84207.79166666667
           },
           {
             "url": "https://cdn.segment.com/analytics.js/v1/mXFw59FFEpUNOu3aeVJChKAsqAlZ4NEf/analytics.min.js",
@@ -2608,8 +2172,8 @@
             },
             "cacheLifetimeMs": 600000,
             "cacheHitProbability": 0.08333333333333333,
-            "totalBytes": 137647,
-            "wastedBytes": 126176.41666666666
+            "totalBytes": 137655,
+            "wastedBytes": 126183.75
           },
           {
             "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
@@ -2621,6 +2185,18 @@
             "cacheHitProbability": 0.10625000000000001,
             "totalBytes": 27036,
             "wastedBytes": 24163.425000000003
+          },
+          {
+            "url": "https://www.googletagservices.com/tag/js/gpt.js",
+            "cacheControl": {
+              "private": true,
+              "max-age": 900,
+              "stale-while-revalidate": "3600"
+            },
+            "cacheLifetimeMs": 900000,
+            "cacheHitProbability": 0.10625000000000001,
+            "totalBytes": 17258,
+            "wastedBytes": 15424.337500000001
           },
           {
             "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
@@ -2635,18 +2211,6 @@
             "wastedBytes": 15135.65625
           },
           {
-            "url": "https://www.googletagservices.com/tag/js/gpt.js",
-            "cacheControl": {
-              "private": true,
-              "max-age": 900,
-              "stale-while-revalidate": "3600"
-            },
-            "cacheLifetimeMs": 900000,
-            "cacheHitProbability": 0.10625000000000001,
-            "totalBytes": 16760,
-            "wastedBytes": 14979.25
-          },
-          {
             "url": "https://cdn.krxd.net/controltag?confid=ITb_4eqO",
             "cacheControl": {
               "public": true,
@@ -2654,8 +2218,8 @@
             },
             "cacheLifetimeMs": 1200000,
             "cacheHitProbability": 0.11666666666666667,
-            "totalBytes": 10420,
-            "wastedBytes": 9204.333333333332
+            "totalBytes": 10422,
+            "wastedBytes": 9206.1
           },
           {
             "url": "https://amplify.outbrain.com/cp/obtp.js",
@@ -2675,8 +2239,8 @@
             },
             "cacheLifetimeMs": 1800000,
             "cacheHitProbability": 0.1375,
-            "totalBytes": 8285,
-            "wastedBytes": 7145.8125
+            "totalBytes": 8286,
+            "wastedBytes": 7146.675
           },
           {
             "url": "https://cdn.boomtrain.com/p13n/cnn/p13n.min.js",
@@ -2686,8 +2250,8 @@
             },
             "cacheLifetimeMs": 3600000,
             "cacheHitProbability": 0.2,
-            "totalBytes": 24044,
-            "wastedBytes": 19235.2
+            "totalBytes": 24043,
+            "wastedBytes": 19234.4
           },
           {
             "url": "https://cdn.cnn.com/cnn/.e1mo/img/4.0/placeholders/video_placeholder.jpg",
@@ -2706,8 +2270,8 @@
             },
             "cacheLifetimeMs": 3600000,
             "cacheHitProbability": 0.2,
-            "totalBytes": 5659,
-            "wastedBytes": 4527.2
+            "totalBytes": 5614,
+            "wastedBytes": 4491.2
           },
           {
             "url": "https://www.i.cdn.cnn.com/zion/zion-mb.min.js",
@@ -2716,8 +2280,8 @@
             },
             "cacheLifetimeMs": 3600000,
             "cacheHitProbability": 0.2,
-            "totalBytes": 825,
-            "wastedBytes": 660
+            "totalBytes": 824,
+            "wastedBytes": 659.2
           },
           {
             "url": "https://cdn.cnn.com/ads/cnn/singles/cnn_homepage_rb.js",
@@ -2728,6 +2292,16 @@
             "cacheHitProbability": 0.2,
             "totalBytes": 540,
             "wastedBytes": 432
+          },
+          {
+            "url": "https://cdn.cnn.com/ads/cnn/singles/cnn_entitlement_hp_02.js",
+            "cacheControl": {
+              "max-age": 3600
+            },
+            "cacheLifetimeMs": 3600000,
+            "cacheHitProbability": 0.2,
+            "totalBytes": 203,
+            "wastedBytes": 162.4
           },
           {
             "url": "https://static.chartbeat.com/js/chartbeat_mab.js",
@@ -2760,14 +2334,24 @@
             "wastedBytes": 2812.4799999999996
           },
           {
+            "url": "https://widgets.outbrain.com/outbrain.js",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 408,
+            "wastedBytes": 277.44
+          },
+          {
             "url": "https://cdn3.optimizely.com/js/geo2.js",
             "cacheControl": {
-              "max-age": 33710
+              "max-age": 32647
             },
-            "cacheLifetimeMs": 33710000,
-            "cacheHitProbability": 0.43409722222222225,
+            "cacheLifetimeMs": 32647000,
+            "cacheHitProbability": 0.4267152777777778,
             "totalBytes": 697,
-            "wastedBytes": 394.4342361111111
+            "wastedBytes": 399.57945138888886
           },
           {
             "url": "https://get.s-onetag.com/c15ddde9-ec7d-4a49-b8ca-7a21bc4b943b/tag.min.js",
@@ -2776,8 +2360,8 @@
             },
             "cacheLifetimeMs": 86400000,
             "cacheHitProbability": 0.6,
-            "totalBytes": 11976,
-            "wastedBytes": 4790.400000000001
+            "totalBytes": 11978,
+            "wastedBytes": 4791.2
           },
           {
             "url": "https://sb.scorecardresearch.com/beacon.js",
@@ -2808,8 +2392,8 @@
             },
             "cacheLifetimeMs": 604800000,
             "cacheHitProbability": 0.9,
-            "totalBytes": 6609,
-            "wastedBytes": 660.8999999999999
+            "totalBytes": 6614,
+            "wastedBytes": 661.3999999999999
           },
           {
             "url": "https://www.cnn.com/.a/2.218.0/js/cnn-header-second-react.min.js",
@@ -2818,8 +2402,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 384336,
-            "wastedBytes": 35964.40223463685
+            "totalBytes": 383745,
+            "wastedBytes": 35909.09916201115
           },
           {
             "url": "https://www.cnn.com/.a/2.218.0/js/cnn-footer-lib-react.min.js",
@@ -2828,8 +2412,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 224878,
-            "wastedBytes": 21043.053072625684
+            "totalBytes": 225459,
+            "wastedBytes": 21097.420391061438
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/44-92c22bd3ff80830b384f.min.js",
@@ -2838,8 +2422,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 176231,
-            "wastedBytes": 16490.889664804457
+            "totalBytes": 176776,
+            "wastedBytes": 16541.888268156414
           },
           {
             "url": "https://www.cnn.com/.a/bundles/header.aefd20da933a91d1c224.bundle.js",
@@ -2848,8 +2432,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 85963,
-            "wastedBytes": 8044.023743016754
+            "totalBytes": 85940,
+            "wastedBytes": 8041.871508379883
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-italic.woff2",
@@ -2858,8 +2442,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 48063,
-            "wastedBytes": 4497.515363128489
+            "totalBytes": 48054,
+            "wastedBytes": 4496.673184357539
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-lightit.woff2",
@@ -2868,8 +2452,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 47602,
-            "wastedBytes": 4454.377094972065
+            "totalBytes": 47611,
+            "wastedBytes": 4455.219273743014
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-regular.woff2",
@@ -2878,8 +2462,18 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 46558,
-            "wastedBytes": 4356.684357541897
+            "totalBytes": 47195,
+            "wastedBytes": 4416.2918994413385
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-light.woff2",
+            "cacheControl": {
+              "max-age": 2592000
+            },
+            "cacheLifetimeMs": 2592000000,
+            "cacheHitProbability": 0.9064245810055866,
+            "totalBytes": 46069,
+            "wastedBytes": 4310.925977653628
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-bold.woff2",
@@ -2888,8 +2482,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 35935,
-            "wastedBytes": 3362.6326815642437
+            "totalBytes": 35298,
+            "wastedBytes": 3303.0251396648023
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-medium.woff2",
@@ -2908,18 +2502,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 34407,
-            "wastedBytes": 3219.64944134078
-          },
-          {
-            "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/0-92c22bd3ff80830b384f.min.js",
-            "cacheControl": {
-              "max-age": 2592000
-            },
-            "cacheLifetimeMs": 2592000000,
-            "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 28752,
-            "wastedBytes": 2690.4804469273727
+            "totalBytes": 34289,
+            "wastedBytes": 3208.607541899439
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/6-92c22bd3ff80830b384f.min.js",
@@ -2928,8 +2512,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 28033,
-            "wastedBytes": 2623.1997206703895
+            "totalBytes": 28181,
+            "wastedBytes": 2637.0488826815626
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/fonts/icons/2.4.10/cnn-icons.woff2",
@@ -2942,14 +2526,24 @@
             "wastedBytes": 1998.2094972067027
           },
           {
+            "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/1-92c22bd3ff80830b384f.min.js",
+            "cacheControl": {
+              "max-age": 2592000
+            },
+            "cacheLifetimeMs": 2592000000,
+            "cacheHitProbability": 0.9064245810055866,
+            "totalBytes": 6041,
+            "wastedBytes": 565.289106145251
+          },
+          {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/49-92c22bd3ff80830b384f.min.js",
             "cacheControl": {
               "max-age": 2592000
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 6045,
-            "wastedBytes": 565.6634078212287
+            "totalBytes": 5512,
+            "wastedBytes": 515.7877094972064
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/2.218.0/assets/video_buffer_square_blk.gif",
@@ -2968,68 +2562,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 3782,
-            "wastedBytes": 353.9022346368713
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/usabilla.47d08e555bb6759c9290.bundle.js",
-            "cacheControl": {
-              "max-age": 2592000
-            },
-            "cacheLifetimeMs": 2592000000,
-            "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 2139,
-            "wastedBytes": 200.15782122905017
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/financial_libs.524cd111acd7ddcb5c27.bundle.js",
-            "cacheControl": {
-              "max-age": 2592000
-            },
-            "cacheLifetimeMs": 2592000000,
-            "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 612,
-            "wastedBytes": 57.26815642458097
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/grid_resize.4a9a21ba38c6766d3421.bundle.js",
-            "cacheControl": {
-              "max-age": 2592000
-            },
-            "cacheLifetimeMs": 2592000000,
-            "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 145,
-            "wastedBytes": 13.568435754189936
-          },
-          {
-            "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/1-92c22bd3ff80830b384f.min.js",
-            "cacheControl": {
-              "max-age": 2592000
-            },
-            "cacheLifetimeMs": 2592000000,
-            "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 101,
-            "wastedBytes": 9.451117318435749
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/listexpandable.761a28039df153599d56.bundle.js",
-            "cacheControl": {
-              "max-age": 2592000
-            },
-            "cacheLifetimeMs": 2592000000,
-            "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 100,
-            "wastedBytes": 9.357541899441335
-          },
-          {
-            "url": "https://www.i.cdn.cnn.com/.a/bundles/one_tap.97eefd55890d020b48de.bundle.js",
-            "cacheControl": {
-              "max-age": 2592000
-            },
-            "cacheLifetimeMs": 2592000000,
-            "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 90,
-            "wastedBytes": 8.421787709497202
+            "totalBytes": 3770,
+            "wastedBytes": 352.7793296089383
           },
           {
             "url": "https://www.i.cdn.cnn.com/.a/bundles/animations.d9f22c9312f2b39c2401.bundle.js",
@@ -3038,8 +2572,58 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 90,
-            "wastedBytes": 8.421787709497202
+            "totalBytes": 2715,
+            "wastedBytes": 254.05726256983226
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/bundles/usabilla.47d08e555bb6759c9290.bundle.js",
+            "cacheControl": {
+              "max-age": 2592000
+            },
+            "cacheLifetimeMs": 2592000000,
+            "cacheHitProbability": 0.9064245810055866,
+            "totalBytes": 2163,
+            "wastedBytes": 202.4036312849161
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/bundles/grid_resize.4a9a21ba38c6766d3421.bundle.js",
+            "cacheControl": {
+              "max-age": 2592000
+            },
+            "cacheLifetimeMs": 2592000000,
+            "cacheHitProbability": 0.9064245810055866,
+            "totalBytes": 1118,
+            "wastedBytes": 104.61731843575413
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/bundles/listexpandable.761a28039df153599d56.bundle.js",
+            "cacheControl": {
+              "max-age": 2592000
+            },
+            "cacheLifetimeMs": 2592000000,
+            "cacheHitProbability": 0.9064245810055866,
+            "totalBytes": 779,
+            "wastedBytes": 72.895251396648
+          },
+          {
+            "url": "https://www.i.cdn.cnn.com/.a/bundles/one_tap.97eefd55890d020b48de.bundle.js",
+            "cacheControl": {
+              "max-age": 2592000
+            },
+            "cacheLifetimeMs": 2592000000,
+            "cacheHitProbability": 0.9064245810055866,
+            "totalBytes": 698,
+            "wastedBytes": 65.31564245810051
+          },
+          {
+            "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/0-92c22bd3ff80830b384f.min.js",
+            "cacheControl": {
+              "max-age": 2592000
+            },
+            "cacheLifetimeMs": 2592000000,
+            "cacheHitProbability": 0.9064245810055866,
+            "totalBytes": 167,
+            "wastedBytes": 15.62709497206703
           },
           {
             "url": "https://tru.am/scripts/custom/cnn.js",
@@ -3049,12 +2633,12 @@
             },
             "cacheLifetimeMs": 2678400000,
             "cacheHitProbability": 0.9067039106145252,
-            "totalBytes": 1347,
-            "wastedBytes": 125.66983240223462
+            "totalBytes": 1348,
+            "wastedBytes": 125.7631284916201
           }
         ],
         "summary": {
-          "wastedBytes": 716420.9520545985
+          "wastedBytes": 719867.8790296529
         }
       }
     },
@@ -3062,10 +2646,10 @@
       "id": "total-byte-weight",
       "title": "Avoids enormous network payloads",
       "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/network-payloads).",
-      "score": 0.98,
+      "score": 0.96,
       "scoreDisplayMode": "numeric",
-      "rawValue": 2190650,
-      "displayValue": "Total size was 2,139 KB",
+      "rawValue": 2337212,
+      "displayValue": "Total size was 2,282 KB",
       "details": {
         "type": "table",
         "headings": [
@@ -3083,53 +2667,53 @@
         "items": [
           {
             "url": "https://www.cnn.com/.a/2.218.0/js/cnn-header-second-react.min.js",
-            "totalBytes": 384336,
-            "totalMs": 3961.9549300287717
+            "totalBytes": 383745,
+            "totalMs": 3051.932595588924
           },
           {
             "url": "https://www.cnn.com/.a/2.218.0/js/cnn-footer-lib-react.min.js",
-            "totalBytes": 224878,
-            "totalMs": 2318.1708212475805
+            "totalBytes": 225459,
+            "totalMs": 1793.0804859187303
           },
           {
             "url": "https://www.cnn.com/.asset/2.218.0/js/chunks/44-92c22bd3ff80830b384f.min.js",
-            "totalBytes": 176231,
-            "totalMs": 1816.6897695607502
+            "totalBytes": 176776,
+            "totalMs": 1405.9034945545288
           },
           {
             "url": "https://www.cnn.com/",
-            "totalBytes": 160465,
-            "totalMs": 1654.1648397419624
+            "totalBytes": 160455,
+            "totalMs": 1276.1022153388858
           },
           {
             "url": "https://www.cnn.com/optimizelyjs/131788053.js",
-            "totalBytes": 137647,
-            "totalMs": 1418.943867484884
+            "totalBytes": 137655,
+            "totalMs": 1094.7733037454386
           },
           {
             "url": "https://d2uap9jskdzp2.cloudfront.net/script.js",
-            "totalBytes": 102618,
-            "totalMs": 1057.8449351861198
+            "totalBytes": 102617,
+            "totalMs": 816.1153035519645
+          },
+          {
+            "url": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020062902.js",
+            "totalBytes": 90757,
+            "totalMs": 721.7924574336187
           },
           {
             "url": "https://agility.cnn.com/turner/cnn-prod/Bootstrap.js",
-            "totalBytes": 87878,
-            "totalMs": 905.8965991764196
+            "totalBytes": 87869,
+            "totalMs": 698.824128631782
           },
           {
             "url": "https://www.cnn.com/.a/bundles/header.aefd20da933a91d1c224.bundle.js",
-            "totalBytes": 85963,
-            "totalMs": 886.1556857803155
+            "totalBytes": 85940,
+            "totalMs": 683.4827483482837
           },
           {
             "url": "https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727",
-            "totalBytes": 81620,
-            "totalMs": 841.3855620835632
-          },
-          {
-            "url": "https://cdn.cookielaw.org/scripttemplates/6.0.0/otBannerSdk.js",
-            "totalBytes": 69742,
-            "totalMs": 718.9403561728972
+            "totalBytes": 81638,
+            "totalMs": 649.268845818678
           }
         ]
       }
@@ -3186,7 +2770,7 @@
       "score": null,
       "scoreDisplayMode": "error",
       "rawValue": null,
-      "errorMessage": "Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_FCP)"
+      "errorMessage": "Audit error: Required OptimizedImages gatherer encountered an error: All image optimizations failed"
     },
     "uses-optimized-images": {
       "id": "uses-optimized-images",
@@ -3195,7 +2779,7 @@
       "score": null,
       "scoreDisplayMode": "error",
       "rawValue": null,
-      "errorMessage": "Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_FCP)"
+      "errorMessage": "Audit error: Required OptimizedImages gatherer encountered an error: All image optimizations failed"
     },
     "uses-text-compression": {
       "id": "uses-text-compression",
@@ -3245,53 +2829,10 @@
       "id": "dom-size",
       "title": "Avoid an excessive DOM size",
       "description": "Browser engineers recommend pages contain fewer than ~1,500 DOM nodes. The sweet spot is a tree depth < 32 elements and fewer than 60 children/parent element. A large DOM can increase memory usage, cause longer [style calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), and produce costly [layout reflows](https://developers.google.com/speed/articles/reflow). [Learn more](https://developers.google.com/web/tools/lighthouse/audits/dom-size).",
-      "score": 0.01,
-      "scoreDisplayMode": "numeric",
-      "rawValue": 4090,
-      "displayValue": "4,090 nodes",
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "statistic",
-            "itemType": "text",
-            "text": "Statistic"
-          },
-          {
-            "key": "element",
-            "itemType": "code",
-            "text": "Element"
-          },
-          {
-            "key": "value",
-            "itemType": "text",
-            "text": "Value"
-          }
-        ],
-        "items": [
-          {
-            "statistic": "Total DOM Nodes",
-            "element": "",
-            "value": "4,090"
-          },
-          {
-            "statistic": "Maximum DOM Depth",
-            "element": {
-              "type": "code",
-              "value": ""
-            },
-            "value": "22"
-          },
-          {
-            "statistic": "Maximum Child Elements",
-            "element": {
-              "type": "code",
-              "value": "<head>"
-            },
-            "value": "160"
-          }
-        ]
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required DOMStats gatherer encountered an error: Protocol error (Runtime.evaluate): Cannot find context with specified id"
     },
     "external-anchors-use-rel-noopener": {
       "id": "external-anchors-use-rel-noopener",
@@ -3413,7 +2954,7 @@
           },
           {
             "name": "core-js",
-            "version": "core-js-global@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.11; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.5; core-js-pure@3.0.0; core-js-global@3.3.3; core-js-pure@2.6.0",
+            "version": "core-js-global@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.11; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.9; core-js-pure@2.6.5; core-js-pure@3.0.0",
             "npm": "core-js"
           }
         ],
@@ -3507,7 +3048,7 @@
       "rawValue": true,
       "displayValue": [
         "%.1d% legible text",
-        97.00153090851502
+        97.07209570783922
       ],
       "details": {
         "type": "table",
@@ -3537,61 +3078,51 @@
           {
             "source": "dynamic",
             "selector": "#onetrust-pc-sdk .vendor-options p",
-            "coverage": "0.96%",
-            "fontSize": "11px"
-          },
-          {
-            "source": "dynamic",
-            "selector": "#onetrust-pc-sdk .vendor-options p",
-            "coverage": "0.96%",
+            "coverage": "1.91%",
             "fontSize": "11px"
           },
           {
             "source": "dynamic",
             "selector": "#onetrust-pc-sdk .vendor-privacy-notice, #onetrust-pc-sdk .third-party-cookie-notice",
-            "coverage": "0.33%",
-            "fontSize": "11px"
-          },
-          {
-            "source": "dynamic",
-            "selector": "#onetrust-pc-sdk .vendor-privacy-notice, #onetrust-pc-sdk .third-party-cookie-notice",
-            "coverage": "0.33%",
-            "fontSize": "11px"
-          },
-          {
-            "source": "https://s3.amazonaws.com/content-marketing/widgets/LT_030119_CNN_RateTable_Blue_Responsive_HTML5/style.css:283:9",
-            "selector": "#terms",
-            "coverage": "0.18%",
-            "fontSize": "9px"
-          },
-          {
-            "source": "dynamic",
-            "selector": "#onetrust-pc-sdk .vendor-purpose-groups .vendor-opt-out-handler span",
-            "coverage": "0.08%",
+            "coverage": "0.65%",
             "fontSize": "11px"
           },
           {
             "source": "dynamic",
             "selector": "#onetrust-pc-sdk .vendor-purpose-groups .vendor-opt-out-handler span",
+            "coverage": "0.16%",
+            "fontSize": "11px"
+          },
+          {
+            "source": "dynamic",
+            "selector": "#onetrust-pc-sdk .host-description",
             "coverage": "0.08%",
             "fontSize": "11px"
           },
           {
-            "source": "dynamic",
-            "selector": "#onetrust-pc-sdk .host-description",
-            "coverage": "0.04%",
-            "fontSize": "11px"
+            "source": "https://www.cnn.com/",
+            "selector": {
+              "type": "node",
+              "selector": ".Flex-sc-1sqrs56-0.sc-eNQAEJ.bfHXlZ",
+              "snippet": "<div class=\"Text-sc-1amvtpj-0 gYetWy\" font-size=\",,14\">"
+            },
+            "coverage": "0.06%",
+            "fontSize": "0px"
           },
           {
-            "source": "dynamic",
-            "selector": "#onetrust-pc-sdk .host-description",
-            "coverage": "0.04%",
-            "fontSize": "11px"
+            "source": "https://www.cnn.com/",
+            "selector": {
+              "type": "node",
+              "selector": ".Flex-sc-1sqrs56-0.sc-eNQAEJ.bfHXlZ",
+              "snippet": "<div class=\"Text-sc-1amvtpj-0 gYetWy\" font-size=\",,14\">"
+            },
+            "coverage": "0.06%",
+            "fontSize": "0px"
           },
           {
             "source": "Legible text",
             "selector": "",
-            "coverage": "97.00%",
+            "coverage": "97.07%",
             "fontSize": "≥ 12px"
           }
         ]
@@ -3601,36 +3132,10 @@
       "id": "link-text",
       "title": "Links do not have descriptive text",
       "description": "Descriptive link text helps search engines understand your content. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/descriptive-link-text).",
-      "score": 0,
-      "scoreDisplayMode": "binary",
-      "rawValue": false,
-      "displayValue": "2 links found",
-      "details": {
-        "type": "table",
-        "headings": [
-          {
-            "key": "href",
-            "itemType": "url",
-            "text": "Link destination"
-          },
-          {
-            "key": "text",
-            "itemType": "text",
-            "text": "Link Text"
-          }
-        ],
-        "items": [
-          {
-            "href": "https://www.cnn.com/more",
-            "text": "More"
-          },
-          {
-            "href": "https://www.cnn.com/more",
-            "text": "More"
-          }
-        ],
-        "summary": {}
-      }
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required CrawlableLinks gatherer encountered an error: The asynchronous expression exceeded the allotted time of 60s"
     },
     "is-crawlable": {
       "id": "is-crawlable",
@@ -3975,7 +3480,7 @@
       "auditRefs": [
         {
           "id": "accesskeys",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-correct-attributes"
         },
         {
@@ -4015,7 +3520,7 @@
         },
         {
           "id": "audio-caption",
-          "weight": 0,
+          "weight": 4,
           "group": "a11y-correct-attributes"
         },
         {
@@ -4035,12 +3540,12 @@
         },
         {
           "id": "definition-list",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-well-structured"
         },
         {
           "id": "dlitem",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-well-structured"
         },
         {
@@ -4065,7 +3570,7 @@
         },
         {
           "id": "html-lang-valid",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-language"
         },
         {
@@ -4075,7 +3580,7 @@
         },
         {
           "id": "input-image-alt",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-correct-attributes"
         },
         {
@@ -4085,7 +3590,7 @@
         },
         {
           "id": "layout-table",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-describe-contents"
         },
         {
@@ -4105,7 +3610,7 @@
         },
         {
           "id": "meta-refresh",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-meta"
         },
         {
@@ -4115,7 +3620,7 @@
         },
         {
           "id": "object-alt",
-          "weight": 0,
+          "weight": 4,
           "group": "a11y-describe-contents"
         },
         {
@@ -4125,17 +3630,17 @@
         },
         {
           "id": "td-headers-attr",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-correct-attributes"
         },
         {
           "id": "th-has-data-cells",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-correct-attributes"
         },
         {
           "id": "valid-lang",
-          "weight": 0,
+          "weight": 1,
           "group": "a11y-language"
         },
         {
@@ -4194,7 +3699,7 @@
         }
       ],
       "id": "accessibility",
-      "score": 0.46
+      "score": null
     },
     "best-practices": {
       "title": "Best Practices",
@@ -4337,7 +3842,7 @@
         }
       ],
       "id": "seo",
-      "score": 0.91
+      "score": null
     }
   },
   "categoryGroups": {
@@ -4398,7 +3903,7 @@
     }
   },
   "timing": {
-    "total": 901120
+    "total": 2180144
   },
   "i18n": {
     "rendererFormattedStrings": {
@@ -4453,7 +3958,7 @@
       "lighthouse-core/audits/time-to-first-byte.js | displayValue": [
         {
           "values": {
-            "timeInMs": 18.674000000000007
+            "timeInMs": 18.375
           },
           "path": "audits[time-to-first-byte].displayValue"
         }
@@ -4515,7 +4020,7 @@
       "lighthouse-core/lib/i18n/i18n.js | displayValueMsSavings": [
         {
           "values": {
-            "wastedMs": 310.13599999999997
+            "wastedMs": 431.986
           },
           "path": "audits[uses-rel-preconnect].displayValue"
         }
@@ -4545,7 +4050,7 @@
       "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": [
         {
           "values": {
-            "itemCount": 49
+            "itemCount": 51
           },
           "path": "audits[uses-long-cache-ttl].displayValue"
         }
@@ -4566,7 +4071,7 @@
       "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": [
         {
           "values": {
-            "totalBytes": 2190650
+            "totalBytes": 2337212
           },
           "path": "audits[total-byte-weight].displayValue"
         }
@@ -4636,32 +4141,6 @@
       ],
       "lighthouse-core/audits/dobetterweb/dom-size.js | description": [
         "audits[dom-size].description"
-      ],
-      "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": [
-        {
-          "values": {
-            "itemCount": 4090
-          },
-          "path": "audits[dom-size].displayValue"
-        }
-      ],
-      "lighthouse-core/audits/dobetterweb/dom-size.js | columnStatistic": [
-        "audits[dom-size].details.headings[0].text"
-      ],
-      "lighthouse-core/audits/dobetterweb/dom-size.js | columnElement": [
-        "audits[dom-size].details.headings[1].text"
-      ],
-      "lighthouse-core/audits/dobetterweb/dom-size.js | columnValue": [
-        "audits[dom-size].details.headings[2].text"
-      ],
-      "lighthouse-core/audits/dobetterweb/dom-size.js | statisticDOMNodes": [
-        "audits[dom-size].details.items[0].statistic"
-      ],
-      "lighthouse-core/audits/dobetterweb/dom-size.js | statisticDOMDepth": [
-        "audits[dom-size].details.items[1].statistic"
-      ],
-      "lighthouse-core/audits/dobetterweb/dom-size.js | statisticDOMWidth": [
-        "audits[dom-size].details.items[2].statistic"
       ],
       "lighthouse-core/config/default-config.js | performanceCategoryTitle": [
         "categories.performance.title"

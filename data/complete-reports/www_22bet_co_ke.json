@@ -3,10 +3,10 @@
   "environment": {
     "networkUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
     "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
-    "benchmarkIndex": 37.77335984095427
+    "benchmarkIndex": 14.705882352941176
   },
   "lighthouseVersion": "3.2.1",
-  "fetchTime": "2020-07-06T19:56:33.308Z",
+  "fetchTime": "2020-07-06T20:14:18.639Z",
   "requestedUrl": "https://www.22bet.co.ke/",
   "finalUrl": "https://22bet.co.ke/",
   "runWarnings": [],
@@ -80,8 +80,8 @@
       "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-contentful-paint).",
       "score": 0,
       "scoreDisplayMode": "numeric",
-      "rawValue": 15836.011999999999,
-      "displayValue": "15.8 s"
+      "rawValue": 16139.239,
+      "displayValue": "16.1 s"
     },
     "first-meaningful-paint": {
       "id": "first-meaningful-paint",
@@ -89,8 +89,8 @@
       "description": "First Meaningful Paint measures when the primary content of a page is visible. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint).",
       "score": 0,
       "scoreDisplayMode": "numeric",
-      "rawValue": 15836.011999999999,
-      "displayValue": "15.8 s"
+      "rawValue": 16214.239,
+      "displayValue": "16.2 s"
     },
     "load-fast-enough-for-pwa": {
       "id": "load-fast-enough-for-pwa",
@@ -98,10 +98,10 @@
       "description": "A fast page load over a 3G network ensures a good mobile user experience. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/fast-3g).",
       "score": 0,
       "scoreDisplayMode": "binary",
-      "rawValue": 22939.381,
+      "rawValue": 27530.64,
       "displayValue": [
         "Interactive at %d s",
-        22.939381
+        27.53064
       ],
       "explanation": "Your page loads too slowly and is not interactive within 10 seconds. Look at the opportunities and diagnostics in the \"Performance\" section to learn how to improve."
     },
@@ -111,8 +111,8 @@
       "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/speed-index).",
       "score": 0,
       "scoreDisplayMode": "numeric",
-      "rawValue": 21734.804999999866,
-      "displayValue": "21.7 s"
+      "rawValue": 24943.208750000464,
+      "displayValue": "24.9 s"
     },
     "screenshot-thumbnails": {
       "id": "screenshot-thumbnails",
@@ -123,56 +123,56 @@
       "rawValue": true,
       "details": {
         "type": "filmstrip",
-        "scale": 8350,
+        "scale": 10501,
         "items": [
           {
-            "timing": 835,
-            "timestamp": 1036458908,
+            "timing": 1050,
+            "timestamp": 2103396984.9999998,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
-            "timing": 1670,
-            "timestamp": 1037293908,
+            "timing": 2100,
+            "timestamp": 2104447085,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
-            "timing": 2505,
-            "timestamp": 1038128908,
+            "timing": 3150,
+            "timestamp": 2105497184.9999995,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
-            "timing": 3340,
-            "timestamp": 1038963908,
+            "timing": 4200,
+            "timestamp": 2106547284.9999998,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
-            "timing": 4175,
-            "timestamp": 1039798908,
+            "timing": 5251,
+            "timestamp": 2107597384.9999998,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
-            "timing": 5010,
-            "timestamp": 1040633908,
+            "timing": 6301,
+            "timestamp": 2108647484.9999998,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
-            "timing": 5845,
-            "timestamp": 1041468908,
+            "timing": 7351,
+            "timestamp": 2109697585,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
-            "timing": 6680,
-            "timestamp": 1042303908,
+            "timing": 8401,
+            "timestamp": 2110747684.9999995,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
-            "timing": 7515,
-            "timestamp": 1043138908,
+            "timing": 9451,
+            "timestamp": 2111797784.9999998,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
-            "timing": 8350,
-            "timestamp": 1043973908,
+            "timing": 10501,
+            "timestamp": 2112847884.9999998,
             "data": "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"
           }
         ]
@@ -187,7 +187,7 @@
       "rawValue": true,
       "details": {
         "type": "screenshot",
-        "timestamp": 1043974.906,
+        "timestamp": 2112848.816,
         "data": "data:image/jpeg;base64,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"
       }
     },
@@ -197,7 +197,7 @@
       "description": "The score above is an estimate of how long your app takes to respond to user input, in milliseconds, during the busiest 5s window of page load. If your latency is higher than 50 ms, users may perceive your app as laggy. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency).",
       "score": 0,
       "scoreDisplayMode": "numeric",
-      "rawValue": 7612.800000000002,
+      "rawValue": 7612.8,
       "displayValue": "7,610 ms"
     },
     "errors-in-console": {
@@ -219,11 +219,11 @@
       "description": "Time To First Byte identifies the time at which your server sends a response. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/ttfb).",
       "score": 1,
       "scoreDisplayMode": "binary",
-      "rawValue": 147.76500000000004,
+      "rawValue": 151.897,
       "displayValue": "Root document took 150 ms",
       "details": {
         "type": "opportunity",
-        "overallSavingsMs": -452.23499999999996,
+        "overallSavingsMs": -448.103,
         "headings": [],
         "items": []
       }
@@ -234,17 +234,17 @@
       "description": "First CPU Idle marks the first time at which the page's main thread is quiet enough to handle input. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-interactive).",
       "score": 0,
       "scoreDisplayMode": "numeric",
-      "rawValue": 22879.381,
-      "displayValue": "22.9 s"
+      "rawValue": 27502.14,
+      "displayValue": "27.5 s"
     },
     "interactive": {
       "id": "interactive",
       "title": "Time to Interactive",
       "description": "Interactive marks the time at which the page is fully interactive. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive).",
-      "score": 0.01,
+      "score": 0,
       "scoreDisplayMode": "numeric",
-      "rawValue": 22939.381,
-      "displayValue": "22.9 s"
+      "rawValue": 27530.64,
+      "displayValue": "27.5 s"
     },
     "user-timings": {
       "id": "user-timings",
@@ -270,100 +270,100 @@
       "details": {
         "type": "criticalrequestchain",
         "chains": {
-          "3447586033AB363644C6BD60E0B8AE6C": {
+          "C73207E43F5C62AAD2C2B20DC874872A": {
             "request": {
               "url": "https://www.22bet.co.ke/",
-              "startTime": 1035.625056,
-              "endTime": 1036.401744,
-              "responseReceivedTime": 1036.4005280000001,
+              "startTime": 2102.348061,
+              "endTime": 2102.872836,
+              "responseReceivedTime": 2102.86229,
               "transferSize": 107
             },
             "children": {
-              "3447586033AB363644C6BD60E0B8AE6C:redirect": {
+              "C73207E43F5C62AAD2C2B20DC874872A:redirect": {
                 "request": {
                   "url": "https://22bet.co.ke/",
-                  "startTime": 1036.402228,
-                  "endTime": 1036.853093,
-                  "responseReceivedTime": 1036.8518569999999,
-                  "transferSize": 9485
+                  "startTime": 2102.873192,
+                  "endTime": 2103.31506,
+                  "responseReceivedTime": 2103.313401,
+                  "transferSize": 9482
                 },
                 "children": {
-                  "28019.2": {
+                  "39055.2": {
                     "request": {
                       "url": "https://v2l.ccdnss.com/default/min_js/counter.36ed4b81a8083ec7a18c1a9b74d37e41.js",
-                      "startTime": 1037.065543,
-                      "endTime": 1037.537613,
-                      "responseReceivedTime": 1037.3975739999998,
+                      "startTime": 2103.694776,
+                      "endTime": 2105.401153,
+                      "responseReceivedTime": 2105.349972,
                       "transferSize": 772
                     },
                     "children": {}
                   },
-                  "28019.3": {
+                  "39055.3": {
                     "request": {
                       "url": "https://v2l.ccdnss.com/bundle/library/vendor.ee9dd7101dda52b7d05c.js",
-                      "startTime": 1037.085384,
-                      "endTime": 1038.128929,
-                      "responseReceivedTime": 1037.435583,
+                      "startTime": 2103.728278,
+                      "endTime": 2105.981605,
+                      "responseReceivedTime": 2104.597223,
                       "transferSize": 120707
                     },
                     "children": {}
                   },
-                  "28019.4": {
+                  "39055.4": {
                     "request": {
                       "url": "https://v2l.ccdnss.com/genfiles/web-app-v2/dictionary/prod/main/en/dictionary_73568e0679c02a5d28749249034e2f52.js",
-                      "startTime": 1037.097759,
-                      "endTime": 1037.538827,
-                      "responseReceivedTime": 1037.398855,
+                      "startTime": 2103.729852,
+                      "endTime": 2105.349722,
+                      "responseReceivedTime": 2104.930585,
                       "transferSize": 17178
                     },
                     "children": {}
                   },
-                  "28019.5": {
+                  "39055.5": {
                     "request": {
                       "url": "https://v2l.ccdnss.com/styles/css/block-country/partners/bet22/main.ae92590a65c3aac1ca107cc31e51ae3f.css",
-                      "startTime": 1037.126717,
-                      "endTime": 1037.783767,
-                      "responseReceivedTime": 1037.782398,
+                      "startTime": 2103.820383,
+                      "endTime": 2105.427156,
+                      "responseReceivedTime": 2105.4014060000004,
                       "transferSize": 2875
                     },
                     "children": {}
                   },
-                  "28019.6": {
+                  "39055.6": {
                     "request": {
                       "url": "https://v2l.ccdnss.com/styles/css/auth/main.9f525d96c217916038c5038f4ee93b02.css",
-                      "startTime": 1037.128275,
-                      "endTime": 1037.524958,
-                      "responseReceivedTime": 1037.3882720000001,
-                      "transferSize": 6735
+                      "startTime": 2103.82172,
+                      "endTime": 2104.731416,
+                      "responseReceivedTime": 2104.594561,
+                      "transferSize": 6736
                     },
                     "children": {}
                   },
-                  "28019.7": {
+                  "39055.7": {
                     "request": {
                       "url": "https://v2l.ccdnss.com/styles/css/popup-doublewin/main.11af3ba23226e6aa8de6f6e6aba8c235.css",
-                      "startTime": 1037.129623,
-                      "endTime": 1037.518241,
-                      "responseReceivedTime": 1037.387099,
-                      "transferSize": 2132
+                      "startTime": 2103.823103,
+                      "endTime": 2104.760457,
+                      "responseReceivedTime": 2104.595811,
+                      "transferSize": 2131
                     },
                     "children": {}
                   },
-                  "28019.8": {
+                  "39055.8": {
                     "request": {
                       "url": "https://22bet.co.ke/bundle/app/Application/Desktop/application.6b93f199674727079351.bundle.js",
-                      "startTime": 1037.190504,
-                      "endTime": 1038.498209,
-                      "responseReceivedTime": 1037.315778,
+                      "startTime": 2103.940831,
+                      "endTime": 2106.562308,
+                      "responseReceivedTime": 2104.1588819999997,
                       "transferSize": 327189
                     },
                     "children": {}
                   },
-                  "28019.9": {
+                  "39055.9": {
                     "request": {
                       "url": "https://22bet.co.ke/bundle/app/Application/Desktop/application.5ae098b016f8fea2f53d.css",
-                      "startTime": 1037.314335,
-                      "endTime": 1038.186719,
-                      "responseReceivedTime": 1038.1843920000001,
+                      "startTime": 2104.242717,
+                      "endTime": 2105.508696,
+                      "responseReceivedTime": 2105.507402,
                       "transferSize": 9662
                     },
                     "children": {}
@@ -374,7 +374,7 @@
           }
         },
         "longestChain": {
-          "duration": 2873.153000000002,
+          "duration": 4214.246999999887,
           "length": 3,
           "transferSize": 327189
         }
@@ -386,8 +386,8 @@
       "description": "Redirects introduce additional delays before the page can be loaded. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/redirects).",
       "score": 1,
       "scoreDisplayMode": "numeric",
-      "rawValue": 981.3809999999999,
-      "displayValue": "Potential savings of 980 ms",
+      "rawValue": 797.1399999999999,
+      "displayValue": "Potential savings of 800 ms",
       "details": {
         "type": "opportunity",
         "headings": [
@@ -409,10 +409,10 @@
           },
           {
             "url": "https://22bet.co.ke/",
-            "wastedMs": 981.3809999999999
+            "wastedMs": 797.1399999999999
           }
         ],
-        "overallSavingsMs": 981.3809999999999
+        "overallSavingsMs": 797.1399999999999
       }
     },
     "webapp-install-banner": {
@@ -529,8 +529,8 @@
       "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this.",
       "score": 0,
       "scoreDisplayMode": "numeric",
-      "rawValue": 28711.847999999998,
-      "displayValue": "28.7 s",
+      "rawValue": 35909.80400000001,
+      "displayValue": "35.9 s",
       "details": {
         "type": "table",
         "headings": [
@@ -550,32 +550,32 @@
           {
             "group": "scriptEvaluation",
             "groupLabel": "Script Evaluation",
-            "duration": 17231.748000000003
+            "duration": 19823.728000000003
           },
           {
             "group": "other",
             "groupLabel": "Other",
-            "duration": 6073.675999999995
-          },
-          {
-            "group": "paintCompositeRender",
-            "groupLabel": "Rendering",
-            "duration": 2091.1720000000005
+            "duration": 6738.7360000000035
           },
           {
             "group": "parseHTML",
             "groupLabel": "Parse HTML & CSS",
-            "duration": 2023.004
+            "duration": 4233.252000000003
+          },
+          {
+            "group": "paintCompositeRender",
+            "groupLabel": "Rendering",
+            "duration": 3291.3360000000002
           },
           {
             "group": "styleLayout",
             "groupLabel": "Style & Layout",
-            "duration": 998.0759999999999
+            "duration": 1408.436
           },
           {
             "group": "scriptParseCompile",
             "groupLabel": "Script Parsing & Compilation",
-            "duration": 294.17199999999997
+            "duration": 414.31600000000003
           }
         ]
       }
@@ -584,10 +584,10 @@
       "id": "bootup-time",
       "title": "Reduce JavaScript execution time",
       "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/bootup).",
-      "score": 0.02,
+      "score": 0.01,
       "scoreDisplayMode": "numeric",
-      "rawValue": 17340.444,
-      "displayValue": "17.3 s",
+      "rawValue": 20097.004000000004,
+      "displayValue": "20.1 s",
       "details": {
         "type": "table",
         "headings": [
@@ -618,31 +618,31 @@
         "items": [
           {
             "url": "https://22bet.co.ke/bundle/app/Application/Desktop/application.6b93f199674727079351.bundle.js",
-            "total": 12226.215999999999,
-            "scripting": 12013.635999999999,
-            "scriptParseCompile": 1.372
+            "total": 14557.888000000003,
+            "scripting": 14553.544000000002,
+            "scriptParseCompile": 1.556
           },
           {
             "url": "https://22bet.co.ke/bundle/app/Application/Desktop/vendors~dynamic_jquery.e8117529744774f8269f.chunk.js",
-            "total": 4701.524,
-            "scripting": 4699.12,
-            "scriptParseCompile": 0.768
+            "total": 5127.328,
+            "scripting": 5125.360000000001,
+            "scriptParseCompile": 0.652
           },
           {
             "url": "https://22bet.co.ke/",
-            "total": 277.088,
-            "scripting": 1.708,
-            "scriptParseCompile": 275.38
+            "total": 242.852,
+            "scripting": 1.952,
+            "scriptParseCompile": 240.9
           },
           {
-            "url": "https://v2l.ccdnss.com/default/min_js/counter.36ed4b81a8083ec7a18c1a9b74d37e41.js",
-            "total": 135.616,
-            "scripting": 133.048,
-            "scriptParseCompile": 2.568
+            "url": "https://v2l.ccdnss.com/genfiles/web-app-v2/dictionary/prod/main/en/dictionary_73568e0679c02a5d28749249034e2f52.js",
+            "total": 168.936,
+            "scripting": 1.208,
+            "scriptParseCompile": 167.728
           }
         ],
         "summary": {
-          "wastedMs": 17340.444
+          "wastedMs": 20097.004000000004
         }
       }
     },
@@ -743,24 +743,24 @@
           {
             "url": "https://www.22bet.co.ke/",
             "startTime": 0,
-            "endTime": 776.6879999999219,
+            "endTime": 524.7749999998632,
             "transferSize": 107,
             "statusCode": 301,
             "mimeType": "text/html"
           },
           {
             "url": "https://22bet.co.ke/",
-            "startTime": 777.1719999998368,
-            "endTime": 1228.0369999998584,
-            "transferSize": 9485,
+            "startTime": 525.1309999998739,
+            "endTime": 966.9989999997597,
+            "transferSize": 9482,
             "statusCode": 200,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "https://v2l.ccdnss.com/default/min_js/counter.36ed4b81a8083ec7a18c1a9b74d37e41.js",
-            "startTime": 1440.4869999998482,
-            "endTime": 1912.5569999998788,
+            "startTime": 1346.7149999996764,
+            "endTime": 3053.0919999996513,
             "transferSize": 772,
             "statusCode": 200,
             "mimeType": "application/javascript",
@@ -768,8 +768,8 @@
           },
           {
             "url": "https://v2l.ccdnss.com/bundle/library/vendor.ee9dd7101dda52b7d05c.js",
-            "startTime": 1460.3279999998904,
-            "endTime": 2503.872999999885,
+            "startTime": 1380.2169999999023,
+            "endTime": 3633.5439999998016,
             "transferSize": 120707,
             "statusCode": 200,
             "mimeType": "application/javascript",
@@ -777,8 +777,8 @@
           },
           {
             "url": "https://v2l.ccdnss.com/genfiles/web-app-v2/dictionary/prod/main/en/dictionary_73568e0679c02a5d28749249034e2f52.js",
-            "startTime": 1472.7029999999104,
-            "endTime": 1913.770999999997,
+            "startTime": 1381.7909999997937,
+            "endTime": 3001.6609999997854,
             "transferSize": 17178,
             "statusCode": 200,
             "mimeType": "application/javascript",
@@ -786,8 +786,8 @@
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/block-country/partners/bet22/main.ae92590a65c3aac1ca107cc31e51ae3f.css",
-            "startTime": 1501.6610000000128,
-            "endTime": 2158.710999999812,
+            "startTime": 1472.3220000000765,
+            "endTime": 3079.095000000052,
             "transferSize": 2875,
             "statusCode": 200,
             "mimeType": "text/css",
@@ -795,26 +795,26 @@
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/auth/main.9f525d96c217916038c5038f4ee93b02.css",
-            "startTime": 1503.2189999999446,
-            "endTime": 1899.9019999998836,
-            "transferSize": 6735,
+            "startTime": 1473.6589999997705,
+            "endTime": 2383.3549999999377,
+            "transferSize": 6736,
             "statusCode": 200,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/popup-doublewin/main.11af3ba23226e6aa8de6f6e6aba8c235.css",
-            "startTime": 1504.5669999999518,
-            "endTime": 1893.184999999903,
-            "transferSize": 2132,
+            "startTime": 1475.0420000000304,
+            "endTime": 2412.395999999717,
+            "transferSize": 2131,
             "statusCode": 200,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "https://22bet.co.ke/bundle/app/Application/Desktop/application.6b93f199674727079351.bundle.js",
-            "startTime": 1565.447999999833,
-            "endTime": 2873.153000000002,
+            "startTime": 1592.7699999997458,
+            "endTime": 4214.246999999887,
             "transferSize": 327189,
             "statusCode": 200,
             "mimeType": "application/javascript",
@@ -822,8 +822,8 @@
           },
           {
             "url": "https://22bet.co.ke/bundle/app/Application/Desktop/application.5ae098b016f8fea2f53d.css",
-            "startTime": 1689.2789999999422,
-            "endTime": 2561.662999999953,
+            "startTime": 1894.6559999999408,
+            "endTime": 3160.634999999729,
             "transferSize": 9662,
             "statusCode": 200,
             "mimeType": "text/css",
@@ -831,8 +831,8 @@
           },
           {
             "url": "https://22bet.co.ke/bundle/app/Application/Desktop/vendors~dynamic_jquery.e8117529744774f8269f.chunk.js",
-            "startTime": 5619.195999999874,
-            "endTime": 5820.581999999831,
+            "startTime": 7157.202999999754,
+            "endTime": 7306.415999999899,
             "transferSize": 38259,
             "statusCode": 200,
             "mimeType": "application/javascript",
@@ -840,9 +840,9 @@
           },
           {
             "url": "https://v2l.ccdnss.com/default/img/bet22/error_connect/block_bg.jpg",
-            "startTime": 6696.831999999858,
-            "endTime": 6791.80099999985,
-            "transferSize": 27247,
+            "startTime": 8594.760999999835,
+            "endTime": 8657.76199999982,
+            "transferSize": 27248,
             "statusCode": 200,
             "mimeType": "image/jpeg",
             "resourceType": "Image"
@@ -856,36 +856,36 @@
       "description": "Collects all available metrics.",
       "score": null,
       "scoreDisplayMode": "informative",
-      "rawValue": 22939.381,
+      "rawValue": 27530.64,
       "details": {
         "items": [
           {
-            "firstContentfulPaint": 15836,
-            "firstMeaningfulPaint": 15836,
-            "firstCPUIdle": 22879,
-            "interactive": 22939,
-            "speedIndex": 21735,
+            "firstContentfulPaint": 16139,
+            "firstMeaningfulPaint": 16214,
+            "firstCPUIdle": 27502,
+            "interactive": 27531,
+            "speedIndex": 24943,
             "estimatedInputLatency": 7613,
             "observedNavigationStart": 0,
-            "observedNavigationStartTs": 1035623908,
-            "observedFirstPaint": 7246,
-            "observedFirstPaintTs": 1042870115,
-            "observedFirstContentfulPaint": 7246,
-            "observedFirstContentfulPaintTs": 1042870115,
-            "observedFirstMeaningfulPaint": 7246,
-            "observedFirstMeaningfulPaintTs": 1042870115,
-            "observedTraceEnd": 20839,
-            "observedTraceEndTs": 1056463036,
-            "observedLoad": 8849,
-            "observedLoadTs": 1044472529,
-            "observedDomContentLoaded": 6679,
-            "observedDomContentLoadedTs": 1042303000,
-            "observedFirstVisualChange": 8350,
-            "observedFirstVisualChangeTs": 1043973908,
-            "observedLastVisualChange": 8350,
-            "observedLastVisualChangeTs": 1043973908,
-            "observedSpeedIndex": 8351,
-            "observedSpeedIndexTs": 1043974906
+            "observedNavigationStartTs": 2102346885,
+            "observedFirstPaint": 9542,
+            "observedFirstPaintTs": 2111889001,
+            "observedFirstContentfulPaint": 9542,
+            "observedFirstContentfulPaintTs": 2111889001,
+            "observedFirstMeaningfulPaint": 9542,
+            "observedFirstMeaningfulPaintTs": 2111889001,
+            "observedTraceEnd": 28946,
+            "observedTraceEndTs": 2131293328,
+            "observedLoad": 11486,
+            "observedLoadTs": 2113832613,
+            "observedDomContentLoaded": 8568,
+            "observedDomContentLoadedTs": 2110915182,
+            "observedFirstVisualChange": 10501,
+            "observedFirstVisualChangeTs": 2112847885,
+            "observedLastVisualChange": 10501,
+            "observedLastVisualChangeTs": 2112847885,
+            "observedSpeedIndex": 10502,
+            "observedSpeedIndexTs": 2112848816
           }
         ]
       }
@@ -1373,7 +1373,7 @@
       "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/cache-policy).",
       "score": 0.67,
       "scoreDisplayMode": "numeric",
-      "rawValue": 76871.51275605212,
+      "rawValue": 76872.31275605212,
       "displayValue": "10 resources found",
       "details": {
         "type": "table",
@@ -1415,8 +1415,8 @@
             },
             "cacheLifetimeMs": 3600000,
             "cacheHitProbability": 0.2,
-            "totalBytes": 27247,
-            "wastedBytes": 21797.600000000002
+            "totalBytes": 27248,
+            "wastedBytes": 21798.4
           },
           {
             "url": "https://v2l.ccdnss.com/genfiles/web-app-v2/dictionary/prod/main/en/dictionary_73568e0679c02a5d28749249034e2f52.js",
@@ -1475,8 +1475,8 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 6735,
-            "wastedBytes": 630.2304469273739
+            "totalBytes": 6736,
+            "wastedBytes": 630.3240223463683
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/block-country/partners/bet22/main.ae92590a65c3aac1ca107cc31e51ae3f.css",
@@ -1495,12 +1495,12 @@
             },
             "cacheLifetimeMs": 2592000000,
             "cacheHitProbability": 0.9064245810055866,
-            "totalBytes": 2132,
-            "wastedBytes": 199.50279329608927
+            "totalBytes": 2131,
+            "wastedBytes": 199.40921787709485
           }
         ],
         "summary": {
-          "wastedBytes": 76871.51275605212
+          "wastedBytes": 76872.31275605212
         }
       }
     },
@@ -1510,7 +1510,7 @@
       "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/network-payloads).",
       "score": 1,
       "scoreDisplayMode": "numeric",
-      "rawValue": 562348,
+      "rawValue": 562346,
       "displayValue": "Total size was 549 KB",
       "details": {
         "type": "table",
@@ -1530,52 +1530,52 @@
           {
             "url": "https://22bet.co.ke/bundle/app/Application/Desktop/application.6b93f199674727079351.bundle.js",
             "totalBytes": 327189,
-            "totalMs": 729.0289146789803
+            "totalMs": 1413.4684213959338
           },
           {
             "url": "https://v2l.ccdnss.com/bundle/library/vendor.ee9dd7101dda52b7d05c.js",
             "totalBytes": 120707,
-            "totalMs": 268.9543144914887
+            "totalMs": 521.458645435632
           },
           {
             "url": "https://22bet.co.ke/bundle/app/Application/Desktop/vendors~dynamic_jquery.e8117529744774f8269f.chunk.js",
             "totalBytes": 38259,
-            "totalMs": 85.24711175101581
+            "totalMs": 165.28027633626755
           },
           {
             "url": "https://v2l.ccdnss.com/default/img/bet22/error_connect/block_bg.jpg",
-            "totalBytes": 27247,
-            "totalMs": 60.71063158681429
+            "totalBytes": 27248,
+            "totalMs": 117.71235446850723
           },
           {
             "url": "https://v2l.ccdnss.com/genfiles/web-app-v2/dictionary/prod/main/en/dictionary_73568e0679c02a5d28749249034e2f52.js",
             "totalBytes": 17178,
-            "totalMs": 38.275304782115306
+            "totalMs": 74.20958694436351
           },
           {
             "url": "https://22bet.co.ke/bundle/app/Application/Desktop/application.5ae098b016f8fea2f53d.css",
             "totalBytes": 9662,
-            "totalMs": 21.528466340947613
+            "totalMs": 41.74019263339389
           },
           {
             "url": "https://22bet.co.ke/",
-            "totalBytes": 9485,
-            "totalMs": 21.134082306343213
+            "totalBytes": 9482,
+            "totalMs": 40.962586063945444
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/auth/main.9f525d96c217916038c5038f4ee93b02.css",
-            "totalBytes": 6735,
-            "totalMs": 15.006646740455617
+            "totalBytes": 6736,
+            "totalMs": 29.099765843359684
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/block-country/partners/bet22/main.ae92590a65c3aac1ca107cc31e51ae3f.css",
             "totalBytes": 2875,
-            "totalMs": 6.40595536433703
+            "totalMs": 12.420104928690481
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/popup-doublewin/main.11af3ba23226e6aa8de6f6e6aba8c235.css",
-            "totalBytes": 2132,
-            "totalMs": 4.750433682353583
+            "totalBytes": 2131,
+            "totalMs": 9.205997774970232
           }
         ]
       }
@@ -1603,8 +1603,8 @@
       "description": "Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources).",
       "score": 0,
       "scoreDisplayMode": "numeric",
-      "rawValue": 11755,
-      "displayValue": "Potential savings of 11,760 ms",
+      "rawValue": 12368,
+      "displayValue": "Potential savings of 12,370 ms",
       "details": {
         "type": "opportunity",
         "headings": [
@@ -1633,15 +1633,15 @@
           {
             "url": "https://v2l.ccdnss.com/bundle/library/vendor.ee9dd7101dda52b7d05c.js",
             "totalBytes": 120707,
-            "wastedMs": 1350
+            "wastedMs": 1200
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/auth/main.9f525d96c217916038c5038f4ee93b02.css",
-            "totalBytes": 6735,
+            "totalBytes": 6736,
             "wastedMs": 150
           }
         ],
-        "overallSavingsMs": 11755
+        "overallSavingsMs": 12368
       }
     },
     "unminified-css": {
@@ -1719,9 +1719,9 @@
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/auth/main.9f525d96c217916038c5038f4ee93b02.css",
-            "wastedBytes": 6735,
+            "wastedBytes": 6736,
             "wastedPercent": 100,
-            "totalBytes": 6735
+            "totalBytes": 6736
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/block-country/partners/bet22/main.ae92590a65c3aac1ca107cc31e51ae3f.css",
@@ -1731,9 +1731,9 @@
           },
           {
             "url": "https://v2l.ccdnss.com/styles/css/popup-doublewin/main.11af3ba23226e6aa8de6f6e6aba8c235.css",
-            "wastedBytes": 2132,
+            "wastedBytes": 2131,
             "wastedPercent": 100,
-            "totalBytes": 2132
+            "totalBytes": 2131
           }
         ],
         "overallSavingsMs": 0,
@@ -1862,11 +1862,12 @@
     },
     "doctype": {
       "id": "doctype",
-      "title": "Page has the HTML doctype",
+      "title": "Page is missing the HTML doctype",
       "description": "Specifying a doctype prevents the browser from switching to quirks-mode.Read more on the [MDN Web Docs page](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "rawValue": true
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Required Doctype gatherer encountered an error: The asynchronous expression exceeded the allotted time of 60s"
     },
     "dom-size": {
       "id": "dom-size",
@@ -2789,7 +2790,7 @@
         }
       ],
       "id": "best-practices",
-      "score": 1
+      "score": null
     },
     "seo": {
       "title": "SEO",
@@ -2922,7 +2923,7 @@
     }
   },
   "timing": {
-    "total": 408858
+    "total": 974333
   },
   "i18n": {
     "rendererFormattedStrings": {
@@ -2953,43 +2954,43 @@
       "lighthouse-core/lib/i18n/i18n.js | seconds": [
         {
           "values": {
-            "timeInMs": 15836.011999999999
+            "timeInMs": 16139.239
           },
           "path": "audits[first-contentful-paint].displayValue"
         },
         {
           "values": {
-            "timeInMs": 15836.011999999999
+            "timeInMs": 16214.239
           },
           "path": "audits[first-meaningful-paint].displayValue"
         },
         {
           "values": {
-            "timeInMs": 21734.804999999866
+            "timeInMs": 24943.208750000464
           },
           "path": "audits[speed-index].displayValue"
         },
         {
           "values": {
-            "timeInMs": 22879.381
+            "timeInMs": 27502.14
           },
           "path": "audits[first-cpu-idle].displayValue"
         },
         {
           "values": {
-            "timeInMs": 22939.381
+            "timeInMs": 27530.64
           },
           "path": "audits.interactive.displayValue"
         },
         {
           "values": {
-            "timeInMs": 28711.847999999998
+            "timeInMs": 35909.80400000001
           },
           "path": "audits[mainthread-work-breakdown].displayValue"
         },
         {
           "values": {
-            "timeInMs": 17340.444
+            "timeInMs": 20097.004000000004
           },
           "path": "audits[bootup-time].displayValue"
         }
@@ -3015,7 +3016,7 @@
       "lighthouse-core/lib/i18n/i18n.js | ms": [
         {
           "values": {
-            "timeInMs": 7612.800000000002
+            "timeInMs": 7612.8
           },
           "path": "audits[estimated-input-latency].displayValue"
         }
@@ -3029,7 +3030,7 @@
       "lighthouse-core/audits/time-to-first-byte.js | displayValue": [
         {
           "values": {
-            "timeInMs": 147.76500000000004
+            "timeInMs": 151.897
           },
           "path": "audits[time-to-first-byte].displayValue"
         }
@@ -3075,13 +3076,13 @@
       "lighthouse-core/lib/i18n/i18n.js | displayValueMsSavings": [
         {
           "values": {
-            "wastedMs": 981.3809999999999
+            "wastedMs": 797.1399999999999
           },
           "path": "audits.redirects.displayValue"
         },
         {
           "values": {
-            "wastedMs": 11755
+            "wastedMs": 12368
           },
           "path": "audits[render-blocking-resources].displayValue"
         }
@@ -3174,7 +3175,7 @@
       "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": [
         {
           "values": {
-            "totalBytes": 562348
+            "totalBytes": 562346
           },
           "path": "audits[total-byte-weight].displayValue"
         }
