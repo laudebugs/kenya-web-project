@@ -17,14 +17,14 @@ For this simple project, I wanted to answer the question, are the websites that 
 2. Generating reports. Borrowing heavily from this [multiple-lighthouse](https://github.com/sahava/multisite-lighthouse) repository, I modified the code to accept a json file that contained the websites. I have a far more detailed process on generating reports on [this blog post](). Since my personal pc didn't have the raw power to generate all the reports at once, I ran the script `runLightHouse.js` on an AWS server and generated this [file](websiteData-n-reports.json). I also stored the full lighthouse reports for all the websites [here](complete-reports).<br/>
    To generate the reports locally and append the performance score and data download onto the json defining one site:
 
-```bash
-# install dependencies
-npm i
-# run script - the sampleRunLightHouse.js file will run lighthouse reports on only 5 websites - for not so powerful machines
-node sampleRunLightHouse.js
+   ```bash
+   # install dependencies
+   npm i
+   # run script - the sampleRunLightHouse.js file will run lighthouse reports on only 5 websites
+   node scripts/sampleRunLightHouse.js
 
-# To generate reports for all the websites, (only if you have a very powerful machine )
-node runLightHouse.js
-```
+   # To generate reports for all the websites, (only if you have a very powerful machine )
+   node scripts/runLightHouse.js
+   ```
 
 3. Examining the data

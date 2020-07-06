@@ -1,5 +1,4 @@
 node_modules
 debug.log
-Split.class
-test.js
-scraper.py
+scripts/Split.class
+scripts/test.js

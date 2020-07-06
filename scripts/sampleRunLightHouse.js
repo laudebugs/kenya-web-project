@@ -1,15 +1,15 @@
 const lh = require("./launchChromeAndRunLighthouse");
 const fs = require("fs");
-const configJson = JSON.parse(fs.readFileSync("config.json"));
+const configJson = JSON.parse(fs.readFileSync("scripts/config.json"));
 
 var data = [];
 try {
-  data = JSON.parse(fs.readFileSync("websiteData.json", "utf8"));
+  data = JSON.parse(fs.readFileSync("data/websiteData.json", "utf8"));
 } catch (e) {
   console.log("Error", e.stack);
 }
 
-data.forEach((thisOne) => {
+data.splice(0, 5).forEach((thisOne) => {
   var address = "https://www." + thisOne.site;
 
   lh.launchChromeAndRunLighthouse(address, configJson)
@@ -24,14 +24,14 @@ data.forEach((thisOne) => {
       thisOne["performance"] = performance;
       thisOne["size on home page load"] = size;
       fs.appendFile(
-        "websiteData-n-reports.json",
+        "data/sampleOutput.json",
         JSON.stringify(thisOne),
         "utf8",
         function (err) {
           if (err) throw err;
         }
       );
-      fs.appendFile("websiteData-n-reports.json", ",", "utf8", function (err) {
+      fs.appendFile("out.json", ",", "utf8", function (err) {
         if (err) throw err;
       });
     })

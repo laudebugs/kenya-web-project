@@ -1,10 +1,10 @@
 const lh = require("./launchChromeAndRunLighthouse");
 const fs = require("fs");
-const configJson = JSON.parse(fs.readFileSync("config.json"));
+const configJson = JSON.parse(fs.readFileSync("scripts/config.json"));
 
 var data = [];
 try {
-  data = JSON.parse(fs.readFileSync("websiteData.json", "utf8"));
+  data = JSON.parse(fs.readFileSync("data/websiteData.json", "utf8"));
 } catch (e) {
   console.log("Error", e.stack);
 }
@@ -19,11 +19,11 @@ data.splice(0, 5).forEach((thisOne) => {
         "." +
         configJson.lighthouseFlags.output;
       const folder = configJson.sortByDate
-        ? configJson.writeTo + "complete-reports" + "/"
+        ? configJson.writeTo + "data/complete-reports" + "/"
         : configJson.writeTo +
           file.replace("." + configJson.lighthouseFlags.output, "") +
           "/" +
-          "complete-reports" +
+          "data/complete-reports" +
           "/";
       const dest = folder + file;
 

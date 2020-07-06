@@ -1,3 +1,5 @@
+package scripts;
+
 import java.io.File;
 import java.io.FileWriter; // Import the FileWriter class
 import java.util.Scanner;
@@ -5,10 +7,10 @@ import java.util.Scanner;
 public class Split {
     public static void main(String[] args) {
         try {
-            File fileIn = new File("rawWebsiteData.txt");
+            File fileIn = new File("data/rawWebsiteData.txt");
             Scanner sc = new Scanner(fileIn);
 
-            FileWriter myWriter = new FileWriter("websiteData.json");
+            FileWriter myWriter = new FileWriter("data/websiteData.json");
             int i = 1;
             String info = "";
             myWriter.write("[\n");
