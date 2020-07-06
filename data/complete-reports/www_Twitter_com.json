@@ -3,10 +3,10 @@
   "environment": {
     "networkUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
     "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
-    "benchmarkIndex": 79.05138339920948
+    "benchmarkIndex": 50.09633911368015
   },
   "lighthouseVersion": "3.2.1",
-  "fetchTime": "2020-07-06T19:44:25.904Z",
+  "fetchTime": "2020-07-06T19:46:52.831Z",
   "requestedUrl": "https://www.twitter.com/",
   "finalUrl": "https://twitter.com/",
   "runWarnings": [
@@ -81,7 +81,7 @@
       "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-contentful-paint).",
       "score": 0.99,
       "scoreDisplayMode": "numeric",
-      "rawValue": 1521.8139999999999,
+      "rawValue": 1525.167,
       "displayValue": "1.5 s"
     },
     "first-meaningful-paint": {
@@ -90,7 +90,7 @@
       "description": "First Meaningful Paint measures when the primary content of a page is visible. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint).",
       "score": 0.99,
       "scoreDisplayMode": "numeric",
-      "rawValue": 1521.8139999999999,
+      "rawValue": 1525.167,
       "displayValue": "1.5 s"
     },
     "load-fast-enough-for-pwa": {
@@ -99,16 +99,16 @@
       "description": "A fast page load over a 3G network ensures a good mobile user experience. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/fast-3g).",
       "score": 1,
       "scoreDisplayMode": "binary",
-      "rawValue": 1873.478
+      "rawValue": 2291.8849999999998
     },
     "speed-index": {
       "id": "speed-index",
       "title": "Speed Index",
       "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/speed-index).",
-      "score": 1,
+      "score": 0.99,
       "scoreDisplayMode": "numeric",
-      "rawValue": 1521.8139999999999,
-      "displayValue": "1.5 s"
+      "rawValue": 2157.2246593158443,
+      "displayValue": "2.2 s"
     },
     "screenshot-thumbnails": {
       "id": "screenshot-thumbnails",
@@ -123,52 +123,52 @@
         "items": [
           {
             "timing": 300,
-            "timestamp": 306734706,
+            "timestamp": 453904714,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
             "timing": 600,
-            "timestamp": 307034706,
-            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1Ka0cy7hcOsewqIgFwD/ezjOfxxyevGADIl0HV2t7pY/EtykzJcLbSNawERmTBjZxsG8xEELjaCpw4dhvIBd0/SbqyuTJLrN7fRnOYbhIQvKoAQUjU8FGPXGZX4xsCgGnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k="
+            "timestamp": 454204714,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1ToAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
           },
           {
             "timing": 900,
-            "timestamp": 307334706,
+            "timestamp": 454504714,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1Ka0cy7hcOsewqIgFwD/ezjOfxxyevGADIl0HV2t7pY/EtykzJcLbSNawERmTBjZxsG8xEELjaCpw4dhvIBd0/SbqyuTJLrN7fRnOYbhIQvKoAQUjU8FGPXGZX4xsCgGnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k="
           },
           {
             "timing": 1200,
-            "timestamp": 307634706,
+            "timestamp": 454804714,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1Ka0cy7hcOsewqIgFwD/ezjOfxxyevGADIl0HV2t7pY/EtykzJcLbSNawERmTBjZxsG8xEELjaCpw4dhvIBd0/SbqyuTJLrN7fRnOYbhIQvKoAQUjU8FGPXGZX4xsCgGnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k="
           },
           {
             "timing": 1500,
-            "timestamp": 307934706,
+            "timestamp": 455104714,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1Ka0cy7hcOsewqIgFwD/ezjOfxxyevGADIl0HV2t7pY/EtykzJcLbSNawERmTBjZxsG8xEELjaCpw4dhvIBd0/SbqyuTJLrN7fRnOYbhIQvKoAQUjU8FGPXGZX4xsCgGnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k="
           },
           {
             "timing": 1800,
-            "timestamp": 308234706,
+            "timestamp": 455404714,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1Ka0cy7hcOsewqIgFwD/ezjOfxxyevGADIl0HV2t7pY/EtykzJcLbSNawERmTBjZxsG8xEELjaCpw4dhvIBd0/SbqyuTJLrN7fRnOYbhIQvKoAQUjU8FGPXGZX4xsCgGnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k="
           },
           {
             "timing": 2100,
-            "timestamp": 308534706,
+            "timestamp": 455704714,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1Ka0cy7hcOsewqIgFwD/ezjOfxxyevGADIl0HV2t7pY/EtykzJcLbSNawERmTBjZxsG8xEELjaCpw4dhvIBd0/SbqyuTJLrN7fRnOYbhIQvKoAQUjU8FGPXGZX4xsCgGnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k="
           },
           {
             "timing": 2400,
-            "timestamp": 308834706,
+            "timestamp": 456004714,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1Ka0cy7hcOsewqIgFwD/ezjOfxxyevGADIl0HV2t7pY/EtykzJcLbSNawERmTBjZxsG8xEELjaCpw4dhvIBd0/SbqyuTJLrN7fRnOYbhIQvKoAQUjU8FGPXGZX4xsCgGnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k="
           },
           {
             "timing": 2700,
-            "timestamp": 309134706,
+            "timestamp": 456304714,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1Ka0cy7hcOsewqIgFwD/ezjOfxxyevGADIl0HV2t7pY/EtykzJcLbSNawERmTBjZxsG8xEELjaCpw4dhvIBd0/SbqyuTJLrN7fRnOYbhIQvKoAQUjU8FGPXGZX4xsCgGnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k="
           },
           {
             "timing": 3000,
-            "timestamp": 309434706,
+            "timestamp": 456604714,
             "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1Ka0cy7hcOsewqIgFwD/ezjOfxxyevGADIl0HV2t7pY/EtykzJcLbSNawERmTBjZxsG8xEELjaCpw4dhvIBd0/SbqyuTJLrN7fRnOYbhIQvKoAQUjU8FGPXGZX4xsCgGnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k="
           }
         ]
@@ -183,7 +183,7 @@
       "rawValue": true,
       "details": {
         "type": "screenshot",
-        "timestamp": 306921.056,
+        "timestamp": 454398.49,
         "data": "data:image/jpeg;base64,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"
       }
     },
@@ -191,10 +191,10 @@
       "id": "estimated-input-latency",
       "title": "Estimated Input Latency",
       "description": "The score above is an estimate of how long your app takes to respond to user input, in milliseconds, during the busiest 5s window of page load. If your latency is higher than 50 ms, users may perceive your app as laggy. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency).",
-      "score": 1,
+      "score": 0.01,
       "scoreDisplayMode": "numeric",
-      "rawValue": 12.8,
-      "displayValue": "10 ms"
+      "rawValue": 258.8,
+      "displayValue": "260 ms"
     },
     "errors-in-console": {
       "id": "errors-in-console",
@@ -211,11 +211,11 @@
       "description": "Time To First Byte identifies the time at which your server sends a response. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/ttfb).",
       "score": 1,
       "scoreDisplayMode": "binary",
-      "rawValue": 51.26,
+      "rawValue": 54.21,
       "displayValue": "Root document took 50 ms",
       "details": {
         "type": "opportunity",
-        "overallSavingsMs": -548.74,
+        "overallSavingsMs": -545.79,
         "headings": [],
         "items": []
       }
@@ -224,19 +224,19 @@
       "id": "first-cpu-idle",
       "title": "First CPU Idle",
       "description": "First CPU Idle marks the first time at which the page's main thread is quiet enough to handle input. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-interactive).",
-      "score": 1,
+      "score": 0.99,
       "scoreDisplayMode": "numeric",
-      "rawValue": 1873.478,
-      "displayValue": "1.9 s"
+      "rawValue": 2270.8849999999998,
+      "displayValue": "2.3 s"
     },
     "interactive": {
       "id": "interactive",
       "title": "Time to Interactive",
       "description": "Interactive marks the time at which the page is fully interactive. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive).",
-      "score": 1,
+      "score": 0.99,
       "scoreDisplayMode": "numeric",
-      "rawValue": 1873.478,
-      "displayValue": "1.9 s"
+      "rawValue": 2291.8849999999998,
+      "displayValue": "2.3 s"
     },
     "user-timings": {
       "id": "user-timings",
@@ -262,22 +262,22 @@
       "details": {
         "type": "criticalrequestchain",
         "chains": {
-          "01947B3F2658F6A0E3BEE61F0A8BC7BF": {
+          "A1D74BC6B785E96D58247156F61AE66B": {
             "request": {
               "url": "https://www.twitter.com/",
-              "startTime": 306.435915,
-              "endTime": 306.594656,
-              "responseReceivedTime": 306.593611,
-              "transferSize": 383
+              "startTime": 453.606006,
+              "endTime": 453.766681,
+              "responseReceivedTime": 453.76455799999997,
+              "transferSize": 384
             },
             "children": {
-              "01947B3F2658F6A0E3BEE61F0A8BC7BF:redirect": {
+              "A1D74BC6B785E96D58247156F61AE66B:redirect": {
                 "request": {
                   "url": "https://twitter.com/",
-                  "startTime": 306.595061,
-                  "endTime": 306.648483,
-                  "responseReceivedTime": 306.647457,
-                  "transferSize": 2002
+                  "startTime": 453.767373,
+                  "endTime": 453.824058,
+                  "responseReceivedTime": 453.823369,
+                  "transferSize": 1980
                 },
                 "children": {}
               }
@@ -285,9 +285,9 @@
           }
         },
         "longestChain": {
-          "duration": 212.5679999999761,
+          "duration": 218.05200000000013,
           "length": 2,
-          "transferSize": 2002
+          "transferSize": 1980
         }
       }
     },
@@ -297,7 +297,7 @@
       "description": "Redirects introduce additional delays before the page can be loaded. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/redirects).",
       "score": 1,
       "scoreDisplayMode": "numeric",
-      "rawValue": 753.478,
+      "rawValue": 753.885,
       "displayValue": "Potential savings of 750 ms",
       "details": {
         "type": "opportunity",
@@ -320,10 +320,10 @@
           },
           {
             "url": "https://twitter.com/",
-            "wastedMs": 753.478
+            "wastedMs": 753.885
           }
         ],
-        "overallSavingsMs": 753.478
+        "overallSavingsMs": 753.885
       }
     },
     "webapp-install-banner": {
@@ -391,12 +391,12 @@
     },
     "mainthread-work-breakdown": {
       "id": "mainthread-work-breakdown",
-      "title": "Minimizes main-thread work",
+      "title": "Minimize main-thread work",
       "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this.",
-      "score": 0.98,
+      "score": 0.84,
       "scoreDisplayMode": "numeric",
-      "rawValue": 1391.5319999999992,
-      "displayValue": "1.4 s",
+      "rawValue": 2368.271999999999,
+      "displayValue": "2.4 s",
       "details": {
         "type": "table",
         "headings": [
@@ -416,32 +416,32 @@
           {
             "group": "other",
             "groupLabel": "Other",
-            "duration": 571.2719999999996
+            "duration": 1003.6279999999991
           },
           {
             "group": "paintCompositeRender",
             "groupLabel": "Rendering",
-            "duration": 513.3639999999999
-          },
-          {
-            "group": "styleLayout",
-            "groupLabel": "Style & Layout",
-            "duration": 137.644
-          },
-          {
-            "group": "scriptParseCompile",
-            "groupLabel": "Script Parsing & Compilation",
-            "duration": 90.12799999999999
+            "duration": 827.8399999999997
           },
           {
             "group": "parseHTML",
             "groupLabel": "Parse HTML & CSS",
-            "duration": 68.54
+            "duration": 182.28799999999995
           },
           {
             "group": "scriptEvaluation",
             "groupLabel": "Script Evaluation",
-            "duration": 10.584
+            "duration": 180.60799999999998
+          },
+          {
+            "group": "styleLayout",
+            "groupLabel": "Style & Layout",
+            "duration": 171.988
+          },
+          {
+            "group": "scriptParseCompile",
+            "groupLabel": "Script Parsing & Compilation",
+            "duration": 1.9200000000000002
           }
         ]
       }
@@ -556,16 +556,16 @@
           {
             "url": "https://www.twitter.com/",
             "startTime": 0,
-            "endTime": 158.7409999999636,
-            "transferSize": 383,
+            "endTime": 160.6750000000261,
+            "transferSize": 384,
             "statusCode": 301,
             "mimeType": ""
           },
           {
             "url": "https://twitter.com/",
-            "startTime": 159.14599999996426,
-            "endTime": 212.5679999999761,
-            "transferSize": 2002,
+            "startTime": 161.36700000004112,
+            "endTime": 218.05200000000013,
+            "transferSize": 1980,
             "statusCode": 429,
             "mimeType": "text/plain",
             "resourceType": "Document"
@@ -579,36 +579,36 @@
       "description": "Collects all available metrics.",
       "score": null,
       "scoreDisplayMode": "informative",
-      "rawValue": 1873.478,
+      "rawValue": 2291.8849999999998,
       "details": {
         "items": [
           {
-            "firstContentfulPaint": 1522,
-            "firstMeaningfulPaint": 1522,
-            "firstCPUIdle": 1873,
-            "interactive": 1873,
-            "speedIndex": 1522,
-            "estimatedInputLatency": 13,
+            "firstContentfulPaint": 1525,
+            "firstMeaningfulPaint": 1525,
+            "firstCPUIdle": 2271,
+            "interactive": 2292,
+            "speedIndex": 2157,
+            "estimatedInputLatency": 259,
             "observedNavigationStart": 0,
-            "observedNavigationStartTs": 306434706,
-            "observedFirstPaint": 540,
-            "observedFirstPaintTs": 306974886,
-            "observedFirstContentfulPaint": 540,
-            "observedFirstContentfulPaintTs": 306974886,
-            "observedFirstMeaningfulPaint": 540,
-            "observedFirstMeaningfulPaintTs": 306974886,
-            "observedTraceEnd": 1530,
-            "observedTraceEndTs": 307964662,
-            "observedLoad": 413,
-            "observedLoadTs": 306847722,
-            "observedDomContentLoaded": 412,
-            "observedDomContentLoadedTs": 306846969,
-            "observedFirstVisualChange": 486,
-            "observedFirstVisualChangeTs": 306920706,
-            "observedLastVisualChange": 486,
-            "observedLastVisualChangeTs": 306920706,
-            "observedSpeedIndex": 486,
-            "observedSpeedIndexTs": 306921056
+            "observedNavigationStartTs": 453604714,
+            "observedFirstPaint": 860,
+            "observedFirstPaintTs": 454464859,
+            "observedFirstContentfulPaint": 860,
+            "observedFirstContentfulPaintTs": 454464859,
+            "observedFirstMeaningfulPaint": 860,
+            "observedFirstMeaningfulPaintTs": 454464859,
+            "observedTraceEnd": 5617,
+            "observedTraceEndTs": 459221997,
+            "observedLoad": 654,
+            "observedLoadTs": 454258689,
+            "observedDomContentLoaded": 653,
+            "observedDomContentLoadedTs": 454257830,
+            "observedFirstVisualChange": 793,
+            "observedFirstVisualChangeTs": 454397714,
+            "observedLastVisualChange": 793,
+            "observedLastVisualChangeTs": 454397714,
+            "observedSpeedIndex": 794,
+            "observedSpeedIndexTs": 454398490
           }
         ]
       }
@@ -1063,7 +1063,7 @@
       "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/network-payloads).",
       "score": 1,
       "scoreDisplayMode": "numeric",
-      "rawValue": 2385,
+      "rawValue": 2364,
       "displayValue": "Total size was 2 KB",
       "details": {
         "type": "table",
@@ -1082,12 +1082,12 @@
         "items": [
           {
             "url": "https://twitter.com/",
-            "totalBytes": 2002,
+            "totalBytes": 1980,
             "totalMs": 0
           },
           {
             "url": "https://www.twitter.com/",
-            "totalBytes": 383,
+            "totalBytes": 384,
             "totalMs": 0
           }
         ]
@@ -1597,7 +1597,7 @@
         }
       ],
       "id": "performance",
-      "score": 1
+      "score": 0.99
     },
     "pwa": {
       "title": "Progressive Web App",
@@ -2098,7 +2098,7 @@
     }
   },
   "timing": {
-    "total": 13461
+    "total": 21422
   },
   "i18n": {
     "rendererFormattedStrings": {
@@ -2129,37 +2129,37 @@
       "lighthouse-core/lib/i18n/i18n.js | seconds": [
         {
           "values": {
-            "timeInMs": 1521.8139999999999
+            "timeInMs": 1525.167
           },
           "path": "audits[first-contentful-paint].displayValue"
         },
         {
           "values": {
-            "timeInMs": 1521.8139999999999
+            "timeInMs": 1525.167
           },
           "path": "audits[first-meaningful-paint].displayValue"
         },
         {
           "values": {
-            "timeInMs": 1521.8139999999999
+            "timeInMs": 2157.2246593158443
           },
           "path": "audits[speed-index].displayValue"
         },
         {
           "values": {
-            "timeInMs": 1873.478
+            "timeInMs": 2270.8849999999998
           },
           "path": "audits[first-cpu-idle].displayValue"
         },
         {
           "values": {
-            "timeInMs": 1873.478
+            "timeInMs": 2291.8849999999998
           },
           "path": "audits.interactive.displayValue"
         },
         {
           "values": {
-            "timeInMs": 1391.5319999999992
+            "timeInMs": 2368.271999999999
           },
           "path": "audits[mainthread-work-breakdown].displayValue"
         }
@@ -2185,7 +2185,7 @@
       "lighthouse-core/lib/i18n/i18n.js | ms": [
         {
           "values": {
-            "timeInMs": 12.8
+            "timeInMs": 258.8
           },
           "path": "audits[estimated-input-latency].displayValue"
         }
@@ -2199,7 +2199,7 @@
       "lighthouse-core/audits/time-to-first-byte.js | displayValue": [
         {
           "values": {
-            "timeInMs": 51.26
+            "timeInMs": 54.21
           },
           "path": "audits[time-to-first-byte].displayValue"
         }
@@ -2245,7 +2245,7 @@
       "lighthouse-core/lib/i18n/i18n.js | displayValueMsSavings": [
         {
           "values": {
-            "wastedMs": 753.478
+            "wastedMs": 753.885
           },
           "path": "audits.redirects.displayValue"
         }
@@ -2258,7 +2258,7 @@
         "audits.redirects.details.headings[1].label",
         "audits[mainthread-work-breakdown].details.headings[1].text"
       ],
-      "lighthouse-core/audits/mainthread-work-breakdown.js | title": [
+      "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": [
         "audits[mainthread-work-breakdown].title"
       ],
       "lighthouse-core/audits/mainthread-work-breakdown.js | description": [
@@ -2314,7 +2314,7 @@
       "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": [
         {
           "values": {
-            "totalBytes": 2385
+            "totalBytes": 2364
           },
           "path": "audits[total-byte-weight].displayValue"
         }
