@@ -4,12 +4,12 @@ const configJson = JSON.parse(fs.readFileSync("scripts/config.json"));
 
 var data = [];
 try {
-  data = JSON.parse(fs.readFileSync("data/websiteData.json", "utf8"));
+  data = JSON.parse(fs.readFileSync("data/missingSites.json", "utf8"));
 } catch (e) {
   console.log("Error", e.stack);
 }
 
-data.slice(300, 310).forEach((thisOne) => {
+data.forEach((thisOne) => {
   var address = "https://www." + thisOne.site;
   console.log("Starting analysis on " + address);
   lh.launchChromeAndRunLighthouse(address, configJson)
