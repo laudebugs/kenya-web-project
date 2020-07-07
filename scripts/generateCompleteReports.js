@@ -9,7 +9,7 @@ try {
   console.log("Error", e.stack);
 }
 
-data.splice(450, 499).forEach((thisOne) => {
+data.slice(300, 310).forEach((thisOne) => {
   var address = "https://www." + thisOne.site;
   console.log("Starting analysis on " + address);
   lh.launchChromeAndRunLighthouse(address, configJson)

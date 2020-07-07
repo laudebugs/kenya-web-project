@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsdoc-validator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/node_modules/devtools-timeline-model/node_modules/chrome-devtools-frontend/scripts/jsdoc-validator/jsdoc-validator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

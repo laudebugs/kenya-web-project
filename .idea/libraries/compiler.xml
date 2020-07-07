@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="compiler">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/node_modules/devtools-timeline-model/node_modules/chrome-devtools-frontend/scripts/closure/compiler.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

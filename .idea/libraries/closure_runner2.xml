@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="closure_runner">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/node_modules/chrome-devtools-frontend/scripts/closure/closure_runner/closure_runner.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
