@@ -1,0 +1,4338 @@
+{
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
+  "environment": {
+    "networkUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
+    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
+    "benchmarkIndex": 72.35621521335807
+  },
+  "lighthouseVersion": "3.2.1",
+  "fetchTime": "2020-07-07T16:35:00.524Z",
+  "requestedUrl": "https://www.twitch.tv/",
+  "finalUrl": "https://www.twitch.tv/",
+  "runWarnings": [],
+  "runtimeError": {
+    "code": "NO_ERROR",
+    "message": ""
+  },
+  "audits": {
+    "is-on-https": {
+      "id": "is-on-https",
+      "title": "Uses HTTPS",
+      "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/https).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "displayValue": "",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "redirects-http": {
+      "id": "redirects-http",
+      "title": "Redirects HTTP traffic to HTTPS",
+      "description": "If you've already set up HTTPS, make sure that you redirect all HTTP traffic to HTTPS. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/http-redirects-to-https).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true
+    },
+    "service-worker": {
+      "id": "service-worker",
+      "title": "Does not register a service worker",
+      "description": "The service worker is the technology that enables your app to use many Progressive Web App features, such as offline, add to homescreen, and push notifications. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/registered-service-worker).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false
+    },
+    "works-offline": {
+      "id": "works-offline",
+      "title": "Does not respond with a 200 when offline",
+      "description": "If you're building a Progressive Web App, consider using a service worker so that your app can work offline. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/http-200-when-offline).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "warnings": []
+    },
+    "viewport": {
+      "id": "viewport",
+      "title": "Does not have a `<meta name=\"viewport\">` tag with `width` or `initial-scale`",
+      "description": "Add a viewport meta tag to optimize your app for mobile screens. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/has-viewport-meta-tag).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "explanation": "No viewport meta tag found"
+    },
+    "without-javascript": {
+      "id": "without-javascript",
+      "title": "Does not provide fallback content when JavaScript is not available",
+      "description": "Your app should display some content when JavaScript is disabled, even if it's just a warning to the user that JavaScript is required to use the app. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/no-js).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "explanation": "The page body should render some content if its scripts are not available."
+    },
+    "first-contentful-paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-contentful-paint).",
+      "score": 0.96,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 1909.035,
+      "displayValue": "1.9 s"
+    },
+    "first-meaningful-paint": {
+      "id": "first-meaningful-paint",
+      "title": "First Meaningful Paint",
+      "description": "First Meaningful Paint measures when the primary content of a page is visible. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint).",
+      "score": 0,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 33450.0175,
+      "displayValue": "33.5 s"
+    },
+    "load-fast-enough-for-pwa": {
+      "id": "load-fast-enough-for-pwa",
+      "title": "Page load is not fast enough on 3G",
+      "description": "A fast page load over a 3G network ensures a good mobile user experience. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/fast-3g).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": 52426.62399999998,
+      "displayValue": [
+        "Interactive at %d s",
+        52.42662399999998
+      ],
+      "explanation": "Your page loads too slowly and is not interactive within 10 seconds. Look at the opportunities and diagnostics in the \"Performance\" section to learn how to improve."
+    },
+    "speed-index": {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/speed-index).",
+      "score": 0,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 72190.72355067133,
+      "displayValue": "72.2 s"
+    },
+    "screenshot-thumbnails": {
+      "id": "screenshot-thumbnails",
+      "title": "Screenshot Thumbnails",
+      "description": "This is what the load of your site looked like.",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "rawValue": true,
+      "details": {
+        "type": "filmstrip",
+        "scale": 48398,
+        "items": [
+          {
+            "timing": 4840,
+            "timestamp": 279045258.99999994,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP0Zsp/El78Tr6Gd7+z8P2cQaBI4Lc2l2rogUtISZhIr+flVAXasRyOfM9GrDDU8LCcGnOWjWt003too8rjy9W73su2to8vn/X6HY3T3alfs0MMo/iMspTH0wprzjIZbyX7SgT29skfdo52Yj8Cg/nQBJdPdJt+zRQy5+95spTH0wpzQAlq92zN9phhiGODFMXz+aigCzQAUAFABQAUAFABQAUAFAFKWS4F6FUN5OR0XjHfmgBKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAKv2BjqTXZuZShjRFtikZRSC+WB278neAfmx8owBltwBaoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA/wD/2Q=="
+          },
+          {
+            "timing": 9680,
+            "timestamp": 283885058.99999994,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP0Zsp/El78Tr6Kd7+z8P2cQaBI4Lc2l2rogUtISZhIr+flQAu1Yjkc+Z6NWGGp4WE4NOctGtbppvbRR5XHl6t3vZdtbR5fP+v0Oxunu1K/ZoYZR/EZZSmPphTXnGQy3kv2lAnt7ZI+7RzsxH4FB/OgCS6e6Tb9mihlz97zZSmPphTmgBLV7tmb7TDDEMcGKYvn81FAFmgAoAKACgAoAKACgAoAKAKUslwL0KobycjouRjvzQBRoICgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAD096ACgAoAKACgAoAKACgAoAKACgAoAKACgAoArfYT/aLXRuZWUxqgtikexSC+WDbd+SHwfmx8owBlsgFmgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD/9k="
+          },
+          {
+            "timing": 14519,
+            "timestamp": 288724859,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP0Zsp/El78Tr6Kd7+z8P2cQaBI4Lc2l2rogUtISZhIr+flQAu1Yjkc+Z6NWGGp4WE4NOctGtbppvbRR5XHl6t3vZdtbR5fP+v0Oxunu1K/ZoYZR/EZZSmPphTXnGQy3kv2lAnt7ZI+7RzsxH4FB/OgCS6e6Tb9mihlz97zZSmPphTmgBLV7tmb7TDDEMcGKYvn81FAFmgAoAKACgAoAKACgAoAKAKUslwL0KobycjouRjvzQBRoICgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAKtxYGe8trhbmWHyW3NEiIVlG1xtYlSQMsG+Ug5UDOCwYAtUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAf/9k="
+          },
+          {
+            "timing": 19359,
+            "timestamp": 293564659,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP0Zsp/El78Tr6Kd7+z8P2cQaBI4Lc2l2rogUtISZhIr+flQAu1Yjkc+Z6NWGGp4WE4NOctGtbppvbRR5XHl6t3vZdtbR5fP+v0Oxunu1K/ZoYZR/EZZSmPphTXnGQy3kv2lAnt7ZI+7RzsxH4FB/OgCS6e6Tb9mihlz97zZSmPphTmgBLV7tmb7TDDEMcGKYvn81FAFmgAoAKACgAoAKACgAoAKAKUslwL0KobycjouRjvzQBRoICgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAD/P8An8xQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAFYWJ/tF7s3MpUxogtikexSC+WB278neAfmx8gwBltwBZoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA/wD/2Q=="
+          },
+          {
+            "timing": 24199,
+            "timestamp": 298404459,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP0Zsp/El78Tr6Kd7+z8P2cQaBI4Lc2l2rogUtISZhIr+flQAu1Yjkc+Z6NWGGp4WE4NOctGtbppvbRR5XHl6t3vZdtbR5fP+v0Oxunu1K/ZoYZR/EZZSmPphTXnGQy3kv2lAnt7ZI+7RzsxH4FB/OgCS6e6Tb9mihlz97zZSmPphTmgBLV7tmb7TDDEMcGKYvn81FAFmgAoAKACgAoAKACgAoAKAKUslwL0KobycjouRjvzQBRoICgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAD096ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAq3Ngbi8tbhbqWHyHLNFGkZWYbWUKxKlsAtu+UqcqO2QQC1QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQB//2Q=="
+          },
+          {
+            "timing": 29039,
+            "timestamp": 303244258.99999994,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP0Zsp/El78Tr6Kd7+z8P2cQaBI4Lc2l2rogUtISZhIr+flQAu1Yjkc+Z6NWGGp4WE4NOctGtbppvbRR5XHl6t3vZdtbR5fP+v0Oxunu1K/ZoYZR/EZZSmPphTXnGQy3kv2lAnt7ZI+7RzsxH4FB/OgCS6e6Tb9mihlz97zZSmPphTmgBLV7tmb7TDDEMcGKYvn81FAFmgAoAKACgAoAKACgAoAKAKUslwL0KobycjouRjvzQBRoICgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAD09+aACgAoAKACgAoAKACgAoAKACgAoAKACgAoArXFglxdW87EboH8xQUQ87HXqQSOHPIIPboSCAWaACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAP/9k="
+          },
+          {
+            "timing": 33879,
+            "timestamp": 308084058.99999994,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP0Zsp/El78Tr6Kd7+z8P2cQaBI4Lc2l2rogUtISZhIr+flQAu1Yjkc+Z6NWGGp4WE4NOctGtbppvbRR5XHl6t3vZdtbR5fP+v0Oxunu1K/ZoYZR/EZZSmPphTXnGQy3kv2lAnt7ZI+7RzsxH4FB/OgCS6e6Tb9mihlz97zZSmPphTmgBLV7tmb7TDDEMcGKYvn81FAFmgAoAKACgAoAKACgAoAKAKUslwL0KobycjouRjvzQBRoICgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAD096ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAq/YT/aLXRuZWUxqi2xSPYpBfLg7d+SGAILEfKMAZYkAtUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAf//Z"
+          },
+          {
+            "timing": 38718,
+            "timestamp": 312923859,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP0Zsp/El78Tr6Kd7+z8P2cQaBI4Lc2l2rogUtISZhIr+flQAu1Yjkc+Z6NWGGp4WE4NOctGtbppvbRR5XHl6t3vZdtbR5fP+v0Oxunu1K/ZoYZR/EZZSmPphTXnGQy3kv2lAnt7ZI+7RzsxH4FB/OgCS6e6Tb9mihlz97zZSmPphTmgBLV7tmb7TDDEMcGKYvn81FAFmgAoAKACgAoAKACgAoAKAKUslwL0KobycjouRjvzQBRoICgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAKosT/aD3RuJGUoirAVTYhXflgdu7J34OSR8owBltwBaoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoA/wD/2Q=="
+          },
+          {
+            "timing": 43558,
+            "timestamp": 317763659,
+            "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAFoAeAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP0Zsp/El78Tr6Kd7+z8P2cQaBI4Lc2l2rogUtISZhIr+flQAu1Yjkc+Z6NWGGp4WE4NOctGtbppvbRR5XHl6t3vZdtbR5fP+v0Oxunu1K/ZoYZR/EZZSmPphTXnGQy3kv2lAnt7ZI+7RzsxH4FB/OgCS6e6Tb9mihlz97zZSmPphTmgBLV7tmb7TDDEMcGKYvn81FAFmgAoAKACgAoAKACgAoAKAKUslwL0KobycjouRjvzQBRoICgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAD/P8An8xQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAEH2KH7YboIgmZVVnCLuIXdgFsZwN7cZ4yfU5AJ6ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAP/2Q=="
+          },
+          {
+            "timing": 48398,
+            "timestamp": 322603459,
+            "data": "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"
+          }
+        ]
+      }
+    },
+    "final-screenshot": {
+      "id": "final-screenshot",
+      "title": "Final Screenshot",
+      "description": "The last screenshot captured of the pageload.",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "rawValue": true,
+      "details": {
+        "type": "screenshot",
+        "timestamp": 322603.762,
+        "data": "data:image/jpeg;base64,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"
+      }
+    },
+    "estimated-input-latency": {
+      "id": "estimated-input-latency",
+      "title": "Estimated Input Latency",
+      "description": "The score above is an estimate of how long your app takes to respond to user input, in milliseconds, during the busiest 5s window of page load. If your latency is higher than 50 ms, users may perceive your app as laggy. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency).",
+      "score": 0,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 7612.8,
+      "displayValue": "7,610 ms"
+    },
+    "errors-in-console": {
+      "id": "errors-in-console",
+      "title": "Browser errors were logged to the console",
+      "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns.",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": 1,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "description",
+            "itemType": "code",
+            "text": "Description"
+          }
+        ],
+        "items": [
+          {
+            "source": "network",
+            "description": "Failed to load resource: the server responded with a status of 400 ()",
+            "url": "https://api2.branch.io/v2/event/custom"
+          }
+        ]
+      }
+    },
+    "time-to-first-byte": {
+      "id": "time-to-first-byte",
+      "title": "Server response times are low (TTFB)",
+      "description": "Time To First Byte identifies the time at which your server sends a response. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/ttfb).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": 17.938999999999993,
+      "displayValue": "Root document took 20 ms",
+      "details": {
+        "type": "opportunity",
+        "overallSavingsMs": -582.061,
+        "headings": [],
+        "items": []
+      }
+    },
+    "first-cpu-idle": {
+      "id": "first-cpu-idle",
+      "title": "First CPU Idle",
+      "description": "First CPU Idle marks the first time at which the page's main thread is quiet enough to handle input. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-interactive).",
+      "score": 0,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 52228.123999999996,
+      "displayValue": "52.2 s"
+    },
+    "interactive": {
+      "id": "interactive",
+      "title": "Time to Interactive",
+      "description": "Interactive marks the time at which the page is fully interactive. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive).",
+      "score": 0,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 52426.62399999998,
+      "displayValue": "52.4 s"
+    },
+    "user-timings": {
+      "id": "user-timings",
+      "title": "User Timing marks and measures",
+      "description": "Consider instrumenting your app with the User Timing API to measure your app's real-world performance during key user experiences. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/user-timing).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "critical-request-chains": {
+      "id": "critical-request-chains",
+      "title": "Minimize Critical Requests Depth",
+      "description": "The Critical Request Chains below show you what resources are loaded with a high priority. Consider reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains).",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "rawValue": false,
+      "displayValue": "11 chains found",
+      "details": {
+        "type": "criticalrequestchain",
+        "chains": {
+          "D8D75EB4B016D3B624C5E257E9C075A6": {
+            "request": {
+              "url": "https://www.twitch.tv/",
+              "startTime": 274.206363,
+              "endTime": 274.338723,
+              "responseReceivedTime": 274.32655,
+              "transferSize": 31499
+            },
+            "children": {
+              "13593.2": {
+                "request": {
+                  "url": "https://polyfill.twitchsvc.net/v2/polyfill.min.js?unknown=polyfill&flags=gated&features=Array.prototype.find,Array.prototype.findIndex,Array.prototype.includes,default,fetch,Intl.~locale.en,Math.sign,Object.entries,Object.values,String.prototype.repeat,URL,HTMLCanvasElement.prototype.toBlob",
+                  "startTime": 274.496601,
+                  "endTime": 275.526974,
+                  "responseReceivedTime": 274.93424,
+                  "transferSize": 35465
+                },
+                "children": {}
+              },
+              "13593.3": {
+                "request": {
+                  "url": "https://static.twitchcdn.net/config/settings.4297a22afd38ecbba7989c30b320f55f.js",
+                  "startTime": 274.496931,
+                  "endTime": 274.831733,
+                  "responseReceivedTime": 274.670077,
+                  "transferSize": 28176
+                },
+                "children": {}
+              },
+              "13593.4": {
+                "request": {
+                  "url": "https://static.twitchcdn.net/assets/core-4496717ae92c98c206d8.css",
+                  "startTime": 274.497478,
+                  "endTime": 275.506788,
+                  "responseReceivedTime": 274.671305,
+                  "transferSize": 40385
+                },
+                "children": {}
+              },
+              "13593.5": {
+                "request": {
+                  "url": "https://static.twitchcdn.net/assets/vendor-9917f4483d0c1f86a05c.js",
+                  "startTime": 274.716627,
+                  "endTime": 276.562094,
+                  "responseReceivedTime": 275.143793,
+                  "transferSize": 320091
+                },
+                "children": {
+                  "13593.13": {
+                    "request": {
+                      "url": "https://static.twitchcdn.net/assets/Roobert-SemiBold-df85158a0012c224b021.woff2",
+                      "startTime": 317.951325,
+                      "endTime": 318.008216,
+                      "responseReceivedTime": 318.006715,
+                      "transferSize": 29766
+                    },
+                    "children": {}
+                  }
+                }
+              },
+              "13593.6": {
+                "request": {
+                  "url": "https://static.twitchcdn.net/assets/core-03faf632075f34f11482.js",
+                  "startTime": 274.716936,
+                  "endTime": 281.580424,
+                  "responseReceivedTime": 275.180858,
+                  "transferSize": 556376
+                },
+                "children": {}
+              },
+              "13593.11": {
+                "request": {
+                  "url": "https://static.twitchcdn.net/assets/Roobert-Regular-3fe213a3618624fd7b71.woff2",
+                  "startTime": 281.294582,
+                  "endTime": 281.383096,
+                  "responseReceivedTime": 281.31902099999996,
+                  "transferSize": 29586
+                },
+                "children": {}
+              },
+              "13593.21": {
+                "request": {
+                  "url": "https://static.twitchcdn.net/assets/pages.front-f0354ece2a6da098a8e3.css",
+                  "startTime": 316.282491,
+                  "endTime": 316.614192,
+                  "responseReceivedTime": 316.566371,
+                  "transferSize": 2817
+                },
+                "children": {}
+              },
+              "13593.28": {
+                "request": {
+                  "url": "blob:https://www.twitch.tv/0b0af6ed-a963-4a0b-80eb-4d27b44e9b9e",
+                  "startTime": 323.480277,
+                  "endTime": 323.659793,
+                  "responseReceivedTime": 323.659311,
+                  "transferSize": 0
+                },
+                "children": {}
+              },
+              "13593.43": {
+                "request": {
+                  "url": "https://static.twitchcdn.net/assets/features.auth.components.email-verification-manager-720bb4414ef2778e0161.css",
+                  "startTime": 345.337313,
+                  "endTime": 345.493398,
+                  "responseReceivedTime": 345.491223,
+                  "transferSize": 2076
+                },
+                "children": {}
+              },
+              "13593.45": {
+                "request": {
+                  "url": "https://static.twitchcdn.net/assets/features.verify-email-73ec6364406e477325d0.css",
+                  "startTime": 345.722749,
+                  "endTime": 345.918547,
+                  "responseReceivedTime": 345.75417300000004,
+                  "transferSize": 1254
+                },
+                "children": {}
+              },
+              "13593.47": {
+                "request": {
+                  "url": "https://static.twitchcdn.net/assets/features.provide-email-26ffd74736ea9ee4376f.css",
+                  "startTime": 345.918898,
+                  "endTime": 346.30695,
+                  "responseReceivedTime": 346.104426,
+                  "transferSize": 1052
+                },
+                "children": {}
+              }
+            }
+          },
+          "A857898852F366082D4D4B5DE6A1A938": {
+            "request": {
+              "url": "https://gql.twitch.tv/gql",
+              "startTime": 318.647416,
+              "endTime": 319.139038,
+              "responseReceivedTime": 319.13833300000005,
+              "transferSize": 0
+            },
+            "children": {}
+          }
+        },
+        "longestChain": {
+          "duration": 72100.58699999996,
+          "length": 2,
+          "transferSize": 1052
+        }
+      }
+    },
+    "redirects": {
+      "id": "redirects",
+      "title": "Avoid multiple page redirects",
+      "description": "Redirects introduce additional delays before the page can be loaded. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/redirects).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0
+      }
+    },
+    "webapp-install-banner": {
+      "id": "webapp-install-banner",
+      "title": "User will not be prompted to Install the Web App",
+      "description": "Browsers can proactively prompt users to add your app to their homescreen, which can lead to higher engagement. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/install-prompt).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "explanation": "Failures: No manifest was fetched,\nSite does not register a service worker.",
+      "details": {
+        "items": [
+          {
+            "failures": [
+              "No manifest was fetched",
+              "Site does not register a service worker"
+            ],
+            "isParseFailure": true,
+            "parseFailureReason": "No manifest was fetched"
+          }
+        ]
+      }
+    },
+    "splash-screen": {
+      "id": "splash-screen",
+      "title": "Is not configured for a custom splash screen",
+      "description": "A themed splash screen ensures a high-quality experience when users launch your app from their homescreens. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/custom-splash-screen).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "explanation": "Failures: No manifest was fetched.",
+      "details": {
+        "items": [
+          {
+            "failures": [
+              "No manifest was fetched"
+            ],
+            "isParseFailure": true,
+            "parseFailureReason": "No manifest was fetched"
+          }
+        ]
+      }
+    },
+    "themed-omnibox": {
+      "id": "themed-omnibox",
+      "title": "Address bar does not match brand colors",
+      "description": "The browser address bar can be themed to match your site. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/address-bar).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "explanation": "Failures: No manifest was fetched,\nNo `<meta name=\"theme-color\">` tag found.",
+      "details": {
+        "items": [
+          {
+            "failures": [
+              "No manifest was fetched",
+              "No `<meta name=\"theme-color\">` tag found"
+            ],
+            "themeColor": null,
+            "isParseFailure": true,
+            "parseFailureReason": "No manifest was fetched"
+          }
+        ]
+      }
+    },
+    "manifest-short-name-length": {
+      "id": "manifest-short-name-length",
+      "title": "The `short_name` won't be truncated on the homescreen",
+      "description": "Make your app's `short_name` fewer than 12 characters to ensure that it's not truncated on homescreens. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/manifest-short_name-is-not-truncated).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "content-width": {
+      "id": "content-width",
+      "title": "Content is sized correctly for the viewport",
+      "description": "If the width of your app's content doesn't match the width of the viewport, your app might not be optimized for mobile screens. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/content-sized-correctly-for-viewport).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "explanation": ""
+    },
+    "image-aspect-ratio": {
+      "id": "image-aspect-ratio",
+      "title": "Displays images with correct aspect ratio",
+      "description": "Image display dimensions should match natural aspect ratio. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/aspect-ratio).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "warnings": [],
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "deprecations": {
+      "id": "deprecations",
+      "title": "Avoids deprecated APIs",
+      "description": "Deprecated APIs will eventually be removed from the browser. [Learn more](https://www.chromestatus.com/features#deprecated).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "displayValue": "",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "mainthread-work-breakdown": {
+      "id": "mainthread-work-breakdown",
+      "title": "Minimize main-thread work",
+      "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this.",
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Invalid task timing data"
+    },
+    "bootup-time": {
+      "id": "bootup-time",
+      "title": "Reduce JavaScript execution time",
+      "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/bootup).",
+      "score": null,
+      "scoreDisplayMode": "error",
+      "rawValue": null,
+      "errorMessage": "Audit error: Invalid task timing data"
+    },
+    "uses-rel-preload": {
+      "id": "uses-rel-preload",
+      "title": "Preload key requests",
+      "description": "Consider using <link rel=preload> to prioritize fetching resources that are currently requested later in page load. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/preload).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0
+      }
+    },
+    "uses-rel-preconnect": {
+      "id": "uses-rel-preconnect",
+      "title": "Preconnect to required origins",
+      "description": "Consider adding preconnect or dns-prefetch resource hints to establish early connections to important third-party origins. [Learn more](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect).",
+      "score": 0.7,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 382.932,
+      "displayValue": "Potential savings of 380 ms",
+      "details": {
+        "type": "opportunity",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "wastedMs",
+            "valueType": "timespanMs",
+            "label": "Potential Savings (ms)"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://video-edge-ef7de6.pdx01.abs.hls.ttvnw.net",
+            "wastedMs": 382.932
+          }
+        ],
+        "overallSavingsMs": 382.932
+      }
+    },
+    "font-display": {
+      "id": "font-display",
+      "title": "Ensure text remains visible during webfont load",
+      "description": "Leverage the font-display CSS feature to ensure text is user-visible while webfonts are loading. [Learn more](https://developers.google.com/web/updates/2016/02/font-display).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "wastedMs",
+            "itemType": "ms",
+            "text": "Potential Savings (ms)"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://static.twitchcdn.net/assets/Roobert-Regular-3fe213a3618624fd7b71.woff2",
+            "wastedMs": 88.51400000003196
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/Roobert-SemiBold-df85158a0012c224b021.woff2",
+            "wastedMs": 56.89100000000735
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/Roobert-Bold-7fda562c82c09fbabec2.woff2",
+            "wastedMs": 86.10400000003438
+          }
+        ]
+      }
+    },
+    "network-requests": {
+      "id": "network-requests",
+      "title": "Network Requests",
+      "description": "Lists the network requests that were made during page load.",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "rawValue": 76,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "startTime",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "Start Time"
+          },
+          {
+            "key": "endTime",
+            "itemType": "ms",
+            "granularity": 1,
+            "text": "End Time"
+          },
+          {
+            "key": "transferSize",
+            "itemType": "bytes",
+            "displayUnit": "kb",
+            "granularity": 1,
+            "text": "Transfer Size"
+          },
+          {
+            "key": "statusCode",
+            "itemType": "text",
+            "text": "Status Code"
+          },
+          {
+            "key": "mimeType",
+            "itemType": "text",
+            "text": "MIME Type"
+          },
+          {
+            "key": "resourceType",
+            "itemType": "text",
+            "text": "Resource Type"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://www.twitch.tv/",
+            "startTime": 0,
+            "endTime": 132.36000000000558,
+            "transferSize": 31499,
+            "statusCode": 200,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://polyfill.twitchsvc.net/v2/polyfill.min.js?unknown=polyfill&flags=gated&features=Array.prototype.find,Array.prototype.findIndex,Array.prototype.includes,default,fetch,Intl.~locale.en,Math.sign,Object.entries,Object.values,String.prototype.repeat,URL,HTMLCanvasElement.prototype.toBlob",
+            "startTime": 290.237999999988,
+            "endTime": 1320.6109999999853,
+            "transferSize": 35465,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.twitchcdn.net/config/settings.4297a22afd38ecbba7989c30b320f55f.js",
+            "startTime": 290.5680000000075,
+            "endTime": 625.3699999999753,
+            "transferSize": 28176,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/core-4496717ae92c98c206d8.css",
+            "startTime": 291.1149999999907,
+            "endTime": 1300.4249999999615,
+            "transferSize": 40385,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/vendor-9917f4483d0c1f86a05c.js",
+            "startTime": 510.2640000000065,
+            "endTime": 2355.7309999999916,
+            "transferSize": 320091,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/core-03faf632075f34f11482.js",
+            "startTime": 510.5729999999653,
+            "endTime": 7374.060999999983,
+            "transferSize": 556376,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://video-edge-ef7de6.pdx01.abs.hls.ttvnw.net/v1/segment/CqEs2DnYWcgE_BBUsqDTnb88eIEKkPArRllpzzImt88qiDpk6IAR2s6d93i1PhWGRbNL4iGOyy6_5T58n97To6Zli5imFL6iJKYfSoXTaokz1VEhtXZ3qGSDD-yzb3cJnKwWaty5dNQHSnrPLTPg4j4UbtulVRjvBCYi82LrkOe-bwgqJrQ8tmFll4-JvWvm0pZS4lFN7RVZf0vr7nff6j6knaZxINK7wpvPFvdxe_uS14um6t4DsxzXENGr_7ss4tLMc1PmRg8R17qzyj0E72bwkJPNib9ZKal6z1W_3eV-96JxPl7RH8QXZbP4gvLDOFixz2jcg8LcWV1tZjxiNOdGJoMG-eGXW2dZ_pXAGOk8BwUb4NJjsFO4XoZ_zF0k4VwN6UHBPhOv6iuh_mTZjVfKXwN5MKX87bEZnBoKKAKWrIzxSzsAvzQVv0WjV5tX1YDXZ4hRh948F1Y6NIzb6M_U0Gedt-l3ICW9YEDPQEqBZhiXU2rrzrxth3ccTvuC2M6i2W347WU5O7M20lG02YeObS_7OqzoXt0S7wLocCgnC2LpDEie9DmwMbl4XqkxGS0NIJdWD7B9GMSob39vhjsmubf-C9-tfWOMvOMEKfb1tRAtAHYZRBNICMLs0_eNOxJ6vIM-nhlB7Ny5p1ePV1qJs1XqHAPGJHAzDRmvaf4_ZsP1E-L6BHGtEi6GHa2RyyskXILOD2R64ddgpZkAOlErMp2uHgDe5_gSKNUvmTpRNNYG1J_PNgFN1D4hd-pCaBa14DOh5_naTlj1T-y.ts",
+            "startTime": 3884.4609999999875,
+            "endTime": 4174.936000000002,
+            "transferSize": 108,
+            "statusCode": 204,
+            "mimeType": "text/plain",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/Roobert-Regular-3fe213a3618624fd7b71.woff2",
+            "startTime": 7088.218999999981,
+            "endTime": 7176.733000000013,
+            "transferSize": 29586,
+            "statusCode": 200,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/Roobert-SemiBold-df85158a0012c224b021.woff2",
+            "startTime": 43744.961999999985,
+            "endTime": 43801.852999999996,
+            "transferSize": 29766,
+            "statusCode": 200,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/pages.front-f0354ece2a6da098a8e3.css",
+            "startTime": 42076.12799999998,
+            "endTime": 42407.82899999999,
+            "transferSize": 2817,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/pages.front-57d8205db9e57a982d5c.js",
+            "startTime": 42076.49599999996,
+            "endTime": 42233.91399999997,
+            "transferSize": 47701,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/player-core-base-c97cadede465fd5983d5.js",
+            "startTime": 42572.971,
+            "endTime": 42786.57399999997,
+            "transferSize": 21545,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://gql.twitch.tv/gql",
+            "startTime": 44441.053000000014,
+            "endTime": 44932.67500000002,
+            "transferSize": 0,
+            "statusCode": 200,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://gql.twitch.tv/gql",
+            "startTime": 44932.882000000005,
+            "endTime": 45100.419999999984,
+            "transferSize": 2204,
+            "statusCode": 200,
+            "mimeType": "application/json",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1",
+            "startTime": 48849.42899999999,
+            "endTime": 48960.616000000016,
+            "transferSize": 1068,
+            "statusCode": 200,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://client-event-reporter.twitch.tv/v1/stats",
+            "startTime": 49149.65999999998,
+            "endTime": 49418.46900000002,
+            "transferSize": 0,
+            "statusCode": 200,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://client-event-reporter.twitch.tv/v1/stats",
+            "startTime": 49418.67300000001,
+            "endTime": 49581.99999999999,
+            "transferSize": 154,
+            "statusCode": 204,
+            "mimeType": "text/plain",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://gql.twitch.tv/gql",
+            "startTime": 49210.89000000001,
+            "endTime": 49419.12400000001,
+            "transferSize": 5294,
+            "statusCode": 200,
+            "mimeType": "application/json",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "blob:https://www.twitch.tv/0b0af6ed-a963-4a0b-80eb-4d27b44e9b9e",
+            "startTime": 49273.91399999999,
+            "endTime": 49453.42999999997,
+            "transferSize": 0,
+            "statusCode": 200,
+            "mimeType": "text/plain",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://www.googletagservices.com/tag/js/gpt.js",
+            "startTime": 50541.404,
+            "endTime": 50868.23299999998,
+            "transferSize": 17258,
+            "statusCode": 200,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
+            "startTime": 50544.005999999965,
+            "endTime": 50943.42699999999,
+            "transferSize": 27035,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/595a3dc1-b291-4371-ba8f-156420929c9f-profile_image-70x70.png",
+            "startTime": 53786.30099999998,
+            "endTime": 54072.070999999996,
+            "transferSize": 6887,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-profile_image-4cb867e7d0af1448-70x70.jpeg",
+            "startTime": 53787.36299999997,
+            "endTime": 54191.78199999999,
+            "transferSize": 3577,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aea44a4-d85b-401e-b9f5-cb6906d77594-profile_image-70x70.png",
+            "startTime": 53787.80799999998,
+            "endTime": 54292.671999999984,
+            "transferSize": 10900,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d41de3c-731d-41ae-b0e7-615ad74db8f3-profile_image-70x70.png",
+            "startTime": 53788.00699999999,
+            "endTime": 54351.86099999998,
+            "transferSize": 10402,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148b3e14-5df4-47e9-b168-2c4d93e3f3fb-profile_image-70x70.png",
+            "startTime": 53788.208,
+            "endTime": 54970.62599999998,
+            "transferSize": 9679,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d31a80e8-4bdd-44b8-a300-f95ddfc7255e-profile_image-70x70.png",
+            "startTime": 53788.51800000001,
+            "endTime": 54971.126999999964,
+            "transferSize": 4005,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/huskerrs-profile_image-da754786ed2851c1-70x70.jpeg",
+            "startTime": 54192.62900000001,
+            "endTime": 55976.24200000001,
+            "transferSize": 2962,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/27fdad08-a2c2-4e0b-8983-448c39519643-profile_image-70x70.png",
+            "startTime": 54291.62600000001,
+            "endTime": 55976.666999999965,
+            "transferSize": 3188,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cd921fcd-53fc-4b1d-be23-0787bc36b756-profile_image-70x70.png",
+            "startTime": 54291.79399999998,
+            "endTime": 56284.62999999999,
+            "transferSize": 8742,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f31df02-5d67-47af-849a-504cf21470c3-profile_image-70x70.png",
+            "startTime": 54291.91800000001,
+            "endTime": 56285.12000000001,
+            "transferSize": 11541,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/features.auth.components.email-verification-manager-720bb4414ef2778e0161.css",
+            "startTime": 71130.94999999998,
+            "endTime": 71287.035,
+            "transferSize": 2076,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/features.auth.components.email-verification-manager-4469f51d70856a788cdd.js",
+            "startTime": 71132.948,
+            "endTime": 71349.359,
+            "transferSize": 30260,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/features.verify-email-73ec6364406e477325d0.css",
+            "startTime": 71516.38600000001,
+            "endTime": 71712.18399999998,
+            "transferSize": 1254,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/features.verify-email-da19512232d1992f766f.js",
+            "startTime": 71517.84299999996,
+            "endTime": 71811.97099999998,
+            "transferSize": 6222,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/features.provide-email-26ffd74736ea9ee4376f.css",
+            "startTime": 71712.535,
+            "endTime": 72100.58699999996,
+            "transferSize": 1052,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/features.provide-email-6ad2f644e7cdc22a5f02.js",
+            "startTime": 71712.93199999997,
+            "endTime": 71899.10399999996,
+            "transferSize": 3897,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/features.whispers.components.whisper-threads-bar-759a6604f5224cf9f695.js",
+            "startTime": 71713.37399999998,
+            "endTime": 72195.68900000001,
+            "transferSize": 5177,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.twitchcdn.net/config/manifest.json?v=1",
+            "startTime": 72100.21899999998,
+            "endTime": 72341.856,
+            "transferSize": 1501,
+            "statusCode": 200,
+            "mimeType": "application/json",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/branch-sdk-7a20c9747489bd7223f7.js",
+            "startTime": 72341.08599999997,
+            "endTime": 72964.96500000001,
+            "transferSize": 23783,
+            "statusCode": 200,
+            "mimeType": "application/x-javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/Roobert-Bold-7fda562c82c09fbabec2.woff2",
+            "startTime": 93502.21899999997,
+            "endTime": 93588.323,
+            "transferSize": 29686,
+            "statusCode": 200,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/97756465-0b65-4e3c-8819-28e68fef35bf-profile_image-50x50.png",
+            "startTime": 86968.17399999997,
+            "endTime": 87042.17,
+            "transferSize": 5767,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_shivfps-440x248.jpg",
+            "startTime": 86968.50799999999,
+            "endTime": 87105.29800000001,
+            "transferSize": 18915,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/595a3dc1-b291-4371-ba8f-156420929c9f-profile_image-50x50.png",
+            "startTime": 86968.70899999999,
+            "endTime": 87042.396,
+            "transferSize": 4245,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sypherpk-440x248.jpg",
+            "startTime": 87188.68399999996,
+            "endTime": 87273.39,
+            "transferSize": 20240,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-188x250.jpg",
+            "startTime": 87272.11999999997,
+            "endTime": 87352.60299999999,
+            "transferSize": 17807,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-188x250.jpg",
+            "startTime": 87448.07800000001,
+            "endTime": 88152.61900000002,
+            "transferSize": 14021,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty:%20Modern%20Warfare-188x250.jpg",
+            "startTime": 87448.557,
+            "endTime": 88685.91499999996,
+            "transferSize": 13819,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Hyper%20Scape-188x250.jpg",
+            "startTime": 87448.92299999998,
+            "endTime": 88267.968,
+            "transferSize": 17225,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f31df02-5d67-47af-849a-504cf21470c3-profile_image-50x50.png",
+            "startTime": 87449.28099999999,
+            "endTime": 88268.29499999997,
+            "transferSize": 6433,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ops1x-440x248.jpg",
+            "startTime": 87449.66699999997,
+            "endTime": 88269.564,
+            "transferSize": 26810,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/418c2098-6778-405f-9dc7-486354851d4a-profile_image-50x50.png",
+            "startTime": 87450.019,
+            "endTime": 88362.92399999997,
+            "transferSize": 5076,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_calculator-440x248.jpg",
+            "startTime": 87450.36499999998,
+            "endTime": 89049.94699999997,
+            "transferSize": 38585,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/27fdad08-a2c2-4e0b-8983-448c39519643-profile_image-50x50.png",
+            "startTime": 87543.76200000002,
+            "endTime": 88435.14999999997,
+            "transferSize": 2380,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lirik-440x248.jpg",
+            "startTime": 87544.282,
+            "endTime": 89104.24100000001,
+            "transferSize": 19491,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f8af1f4e-43bc-41c8-85c4-14e07bd1450f-profile_image-50x50.png",
+            "startTime": 87544.64100000002,
+            "endTime": 89203.468,
+            "transferSize": 6665,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_amouranth-440x248.jpg",
+            "startTime": 87544.99299999997,
+            "endTime": 89530.14899999999,
+            "transferSize": 25777,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d41de3c-731d-41ae-b0e7-615ad74db8f3-profile_image-50x50.png",
+            "startTime": 87545.32899999998,
+            "endTime": 89574.098,
+            "transferSize": 6135,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_symfuhny-440x248.jpg",
+            "startTime": 87545.64499999997,
+            "endTime": 89815.68299999998,
+            "transferSize": 31740,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/huskerrs-profile_image-da754786ed2851c1-50x50.jpeg",
+            "startTime": 87628.08999999998,
+            "endTime": 89847.874,
+            "transferSize": 2115,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_huskerrs-440x248.jpg",
+            "startTime": 87628.49799999998,
+            "endTime": 90047.798,
+            "transferSize": 29602,
+            "statusCode": 200,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://video-edge-ef7de6.pdx01.abs.hls.ttvnw.net/v1/segment/CqEs2DnYWcgE_BBUsqDTnb88eIEKkPArRllpzzImt88qiDpk6IAR2s6d93i1PhWGRbNL4iGOyy6_5T58n97To6Zli5imFL6iJKYfSoXTaokz1VEhtXZ3qGSDD-yzb3cJnKwWaty5dNQHSnrPLTPg4j4UbtulVRjvBCYi82LrkOe-bwgqJrQ8tmFll4-JvWvm0pZS4lFN7RVZf0vr7nff6j6knaZxINK7wpvPFvdxe_uS14um6t4DsxzXENGr_7ss4tLMc1PmRg8R17qzyj0E72bwkJPNib9ZKal6z1W_3eV-96JxPl7RH8QXZbP4gvLDOFixz2jcg8LcWV1tZjxiNOdGJoMG-eGXW2dZ_pXAGOk8BwUb4NJjsFO4XoZ_zF0k4VwN6UHBPhOv6iuh_mTZjVfKXwN5MKX87bEZnBoKKAKWrIzxSzsAvzQVv0WjV5tX1YDXZ4hRh948F1Y6NIzb6M_U0Gedt-l3ICW9YEDPQEqBZhiXU2rrzrxth3ccTvuC2M6i2W347WU5O7M20lG02YeObS_7OqzoXt0S7wLocCgnC2LpDEie9DmwMbl4XqkxGS0NIJdWD7B9GMSob39vhjsmubf-C9-tfWOMvOMEKfb1tRAtAHYZRBNICMLs0_eNOxJ6vIM-nhlB7Ny5p1ePV1qJs1XqHAPGJHAzDRmvaf4_ZsP1E-L6BHGtEi6GHa2RyyskXILOD2R64ddgpZkAOlErMp2uHgDe5_gSKNUvmTpRNNYG1J_PNgFN1D4hd-pCaBa14DOh5_naTlj1T-y.ts",
+            "startTime": 95567.00899999999,
+            "endTime": 95855.639,
+            "transferSize": 108,
+            "statusCode": 204,
+            "mimeType": "",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://adservice.google.com/adsid/integrator.js?domain=www.twitch.tv",
+            "startTime": 96318.30600000001,
+            "endTime": 96856.093,
+            "transferSize": 765,
+            "statusCode": 200,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020062902.js",
+            "startTime": 96508.03100000002,
+            "endTime": 97111.79700000002,
+            "transferSize": 400,
+            "statusCode": 200,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://gql.twitch.tv/gql",
+            "startTime": 96477.621,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js",
+            "startTime": 99677.11500000002,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://client-event-reporter.twitch.tv/v1/stats",
+            "startTime": 107016.70999999999,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/clips-main-a6a7308baf2f7ee5ef8d.js",
+            "startTime": 109876.51399999998,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/clips-main-b021f749b044ccdf863e.css",
+            "startTime": 109877.08499999996,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/core-03faf632075f34f11482.js",
+            "startTime": 109877.43999999997,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/core-4496717ae92c98c206d8.css",
+            "startTime": 109877.71800000002,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/minimal-44ee88715b34636fb47f.css",
+            "startTime": 109878.016,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/minimal-9f563630bbc6e9958697.js",
+            "startTime": 109878.31899999997,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/pages.browse-5d80c8756d274e9ad829.css",
+            "startTime": 109878.62899999999,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/pages.browse-bfd45b0216b680288631.js",
+            "startTime": 109878.90299999998,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/pages.channel.components.channel-root-861f14a6257a15d6a6ec.js",
+            "startTime": 109879.19999999997,
+            "transferSize": 0,
+            "statusCode": -1,
+            "mimeType": "",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    "metrics": {
+      "id": "metrics",
+      "title": "Metrics",
+      "description": "Collects all available metrics.",
+      "score": null,
+      "scoreDisplayMode": "informative",
+      "rawValue": 52426.62399999998,
+      "details": {
+        "items": [
+          {
+            "firstContentfulPaint": 1909,
+            "firstMeaningfulPaint": 33450,
+            "firstCPUIdle": 52228,
+            "interactive": 52427,
+            "speedIndex": 72191,
+            "estimatedInputLatency": 7613,
+            "observedNavigationStart": 0,
+            "observedNavigationStartTs": 274205459,
+            "observedFirstPaint": 830,
+            "observedFirstPaintTs": 275035600,
+            "observedFirstContentfulPaint": 830,
+            "observedFirstContentfulPaintTs": 275035600,
+            "observedFirstMeaningfulPaint": 48598,
+            "observedFirstMeaningfulPaintTs": 322803890,
+            "observedTraceEnd": 53262,
+            "observedTraceEndTs": 327467882,
+            "observedLoad": 49849,
+            "observedLoadTs": 324054546,
+            "observedDomContentLoaded": 43126,
+            "observedDomContentLoadedTs": 317331728,
+            "observedFirstVisualChange": 5250,
+            "observedFirstVisualChangeTs": 279455459,
+            "observedLastVisualChange": 48398,
+            "observedLastVisualChangeTs": 322603459,
+            "observedSpeedIndex": 38480,
+            "observedSpeedIndexTs": 312685825
+          }
+        ]
+      }
+    },
+    "pwa-cross-browser": {
+      "id": "pwa-cross-browser",
+      "title": "Site works cross-browser",
+      "description": "To reach the most number of users, sites should work across every major browser. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist#site-works-cross-browser).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "pwa-page-transitions": {
+      "id": "pwa-page-transitions",
+      "title": "Page transitions don't feel like they block on the network",
+      "description": "Transitions should feel snappy as you tap around, even on a slow network, a key to perceived performance. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist#page-transitions-dont-feel-like-they-block-on-the-network).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "pwa-each-page-has-url": {
+      "id": "pwa-each-page-has-url",
+      "title": "Each page has a URL",
+      "description": "Ensure individual pages are deep linkable via the URLs and that URLs are unique for the purpose of shareability on social media. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist#each-page-has-a-url).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "accesskeys": {
+      "id": "accesskeys",
+      "title": "`[accesskey]` values are unique",
+      "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://dequeuniversity.com/rules/axe/2.2/accesskeys?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "aria-allowed-attr": {
+      "id": "aria-allowed-attr",
+      "title": "`[aria-*]` attributes match their roles",
+      "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-allowed-attr?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "aria-required-attr": {
+      "id": "aria-required-attr",
+      "title": "`[role]`s have all required `[aria-*]` attributes",
+      "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-required-attr?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "aria-required-children": {
+      "id": "aria-required-children",
+      "title": "Elements with `[role]` that require specific children `[role]`s, are present",
+      "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-required-children?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "aria-required-parent": {
+      "id": "aria-required-parent",
+      "title": "`[role]`s are contained by their required parent element",
+      "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-required-parent?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "aria-roles": {
+      "id": "aria-roles",
+      "title": "`[role]` values are valid",
+      "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-roles?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "aria-valid-attr-value": {
+      "id": "aria-valid-attr-value",
+      "title": "`[aria-*]` attributes have valid values",
+      "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-valid-attr-value?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "aria-valid-attr": {
+      "id": "aria-valid-attr",
+      "title": "`[aria-*]` attributes are valid and not misspelled",
+      "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://dequeuniversity.com/rules/axe/2.2/aria-valid-attr?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "audio-caption": {
+      "id": "audio-caption",
+      "title": "`<audio>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+      "description": "Captions make audio elements usable for deaf or hearing-impaired users, providing critical information such as who is talking, what they're saying, and other non-speech information. [Learn more](https://dequeuniversity.com/rules/axe/2.2/audio-caption?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "button-name": {
+      "id": "button-name",
+      "title": "Buttons have an accessible name",
+      "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://dequeuniversity.com/rules/axe/2.2/button-name?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "bypass": {
+      "id": "bypass",
+      "title": "The page contains a heading, skip link, or landmark region",
+      "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://dequeuniversity.com/rules/axe/2.2/bypass?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "color-contrast": {
+      "id": "color-contrast",
+      "title": "Background and foreground colors have a sufficient contrast ratio",
+      "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://dequeuniversity.com/rules/axe/2.2/color-contrast?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "definition-list": {
+      "id": "definition-list",
+      "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>` or `<template>` elements.",
+      "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://dequeuniversity.com/rules/axe/2.2/definition-list?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "dlitem": {
+      "id": "dlitem",
+      "title": "Definition list items are wrapped in `<dl>` elements",
+      "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://dequeuniversity.com/rules/axe/2.2/dlitem?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "document-title": {
+      "id": "document-title",
+      "title": "Document has a `<title>` element",
+      "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/title).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "duplicate-id": {
+      "id": "duplicate-id",
+      "title": "`[id]` attributes on the page are unique",
+      "description": "The value of an id attribute must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://dequeuniversity.com/rules/axe/2.2/duplicate-id?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "frame-title": {
+      "id": "frame-title",
+      "title": "`<frame>` or `<iframe>` elements do not have a title",
+      "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://dequeuniversity.com/rules/axe/2.2/frame-title?application=lighthouse).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "itemType": "node",
+            "text": "Failing Elements"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "selector": "#amznidpxl",
+              "path": "1,HTML,1,BODY,34,IFRAME",
+              "snippet": "<iframe src=\"https://s.amazon-adsystem.com/iui3?pid=a30f442a-e833-4300-a302-987199caf562\" height=\"1\" width=\"1\" scrolling=\"no\" frameborder=\"0\" id=\"amznidpxl\"></iframe>",
+              "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\""
+            }
+          }
+        ],
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "html-has-lang": {
+      "id": "html-has-lang",
+      "title": "`<html>` element has a `[lang]` attribute",
+      "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://dequeuniversity.com/rules/axe/2.2/html-lang?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "html-lang-valid": {
+      "id": "html-lang-valid",
+      "title": "`<html>` element has a valid value for its `[lang]` attribute",
+      "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://dequeuniversity.com/rules/axe/2.2/valid-lang?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "image-alt": {
+      "id": "image-alt",
+      "title": "Image elements have `[alt]` attributes",
+      "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://dequeuniversity.com/rules/axe/2.2/image-alt?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "input-image-alt": {
+      "id": "input-image-alt",
+      "title": "`<input type=\"image\">` elements have `[alt]` text",
+      "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://dequeuniversity.com/rules/axe/2.2/input-image-alt?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "label": {
+      "id": "label",
+      "title": "Form elements have associated labels",
+      "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://dequeuniversity.com/rules/axe/2.2/label?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "layout-table": {
+      "id": "layout-table",
+      "title": "Presentational `<table>` elements avoid using `<th>`, `<caption>` or the `[summary]` attribute.",
+      "description": "A table being used for layout purposes should not include data elements, such as the th or caption elements or the summary attribute, because this can create a confusing experience for screen reader users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/layout-table?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "link-name": {
+      "id": "link-name",
+      "title": "Links have a discernible name",
+      "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/link-name?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "list": {
+      "id": "list",
+      "title": "Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+      "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://dequeuniversity.com/rules/axe/2.2/list?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "listitem": {
+      "id": "listitem",
+      "title": "List items (`<li>`) are contained within `<ul>` or `<ol>` parent elements",
+      "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://dequeuniversity.com/rules/axe/2.2/listitem?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "meta-refresh": {
+      "id": "meta-refresh",
+      "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+      "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://dequeuniversity.com/rules/axe/2.2/meta-refresh?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "meta-viewport": {
+      "id": "meta-viewport",
+      "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+      "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://dequeuniversity.com/rules/axe/2.2/meta-viewport?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "object-alt": {
+      "id": "object-alt",
+      "title": "`<object>` elements have `[alt]` text",
+      "description": "Screen readers cannot translate non-text content. Adding alt text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/object-alt?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "tabindex": {
+      "id": "tabindex",
+      "title": "No element has a `[tabindex]` value greater than 0",
+      "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://dequeuniversity.com/rules/axe/2.2/tabindex?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "td-headers-attr": {
+      "id": "td-headers-attr",
+      "title": "Cells in a `<table>` element that use the `[headers]` attribute only refer to other cells of that same table.",
+      "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/td-headers-attr?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "th-has-data-cells": {
+      "id": "th-has-data-cells",
+      "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+      "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://dequeuniversity.com/rules/axe/2.2/th-has-data-cells?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "valid-lang": {
+      "id": "valid-lang",
+      "title": "`[lang]` attributes have a valid value",
+      "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://dequeuniversity.com/rules/axe/2.2/valid-lang?application=lighthouse).",
+      "score": null,
+      "scoreDisplayMode": "not-applicable",
+      "rawValue": true
+    },
+    "video-caption": {
+      "id": "video-caption",
+      "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+      "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://dequeuniversity.com/rules/axe/2.2/video-caption?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "video-description": {
+      "id": "video-description",
+      "title": "`<video>` elements contain a `<track>` element with `[kind=\"description\"]`",
+      "description": "Audio descriptions provide relevant information for videos that dialogue cannot, such as facial expressions and scenes. [Learn more](https://dequeuniversity.com/rules/axe/2.2/video-description?application=lighthouse).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "custom-controls-labels": {
+      "id": "custom-controls-labels",
+      "title": "Custom controls have associated labels",
+      "description": "Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#try_it_with_a_screen_reader).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "custom-controls-roles": {
+      "id": "custom-controls-roles",
+      "title": "Custom controls have ARIA roles",
+      "description": "Custom interactive controls have appropriate ARIA roles. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#try_it_with_a_screen_reader).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "focus-traps": {
+      "id": "focus-traps",
+      "title": "User focus is not accidentally trapped in a region",
+      "description": "A user can tab into and out of any control or region without accidentally trapping their focus. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#start_with_the_keyboard).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "focusable-controls": {
+      "id": "focusable-controls",
+      "title": "Interactive controls are keyboard focusable",
+      "description": "Custom interactive controls are keyboard focusable and display a focus indicator. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#start_with_the_keyboard).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "heading-levels": {
+      "id": "heading-levels",
+      "title": "Headings don't skip levels",
+      "description": "Headings are used to create an outline for the page and heading levels are not skipped. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#take_advantage_of_headings_and_landmarks).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "interactive-element-affordance": {
+      "id": "interactive-element-affordance",
+      "title": "Interactive elements indicate their purpose and state",
+      "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#interactive_elements_like_links_and_buttons_should_indicate_their_purpose_and_state).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "logical-tab-order": {
+      "id": "logical-tab-order",
+      "title": "The page has a logical tab order",
+      "description": "Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#start_with_the_keyboard).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "managed-focus": {
+      "id": "managed-focus",
+      "title": "The user's focus is directed to new content added to the page",
+      "description": "If new content, such as a dialog, is added to the page, the user's focus is directed to it. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#start_with_the_keyboard).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "offscreen-content-hidden": {
+      "id": "offscreen-content-hidden",
+      "title": "Offscreen content is hidden from assistive technology",
+      "description": "Offscreen content is hidden with display: none or aria-hidden=true. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#try_it_with_a_screen_reader).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "use-landmarks": {
+      "id": "use-landmarks",
+      "title": "HTML5 landmark elements are used to improve navigation",
+      "description": "Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#take_advantage_of_headings_and_landmarks).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "visual-order-follows-dom": {
+      "id": "visual-order-follows-dom",
+      "title": "Visual order on the page follows DOM order",
+      "description": "DOM order matches the visual order, improving navigation for assistive technology. [Learn more](https://developers.google.com/web/fundamentals/accessibility/how-to-review#try_it_with_a_screen_reader).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "uses-long-cache-ttl": {
+      "id": "uses-long-cache-ttl",
+      "title": "Serve static assets with an efficient cache policy",
+      "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/cache-policy).",
+      "score": 0.19,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 364399.96541666664,
+      "displayValue": "34 resources found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "cacheLifetimeMs",
+            "itemType": "ms",
+            "text": "Cache TTL",
+            "displayUnit": "duration"
+          },
+          {
+            "key": "totalBytes",
+            "itemType": "bytes",
+            "text": "Size (KB)",
+            "displayUnit": "kb",
+            "granularity": 1
+          }
+        ],
+        "items": [
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_calculator-440x248.jpg",
+            "cacheControl": {
+              "max-age": 300
+            },
+            "cacheLifetimeMs": 300000,
+            "cacheHitProbability": 0.041666666666666664,
+            "totalBytes": 38585,
+            "wastedBytes": 36977.29166666667
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_symfuhny-440x248.jpg",
+            "cacheControl": {
+              "max-age": 300
+            },
+            "cacheLifetimeMs": 300000,
+            "cacheHitProbability": 0.041666666666666664,
+            "totalBytes": 31740,
+            "wastedBytes": 30417.5
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_huskerrs-440x248.jpg",
+            "cacheControl": {
+              "max-age": 300
+            },
+            "cacheLifetimeMs": 300000,
+            "cacheHitProbability": 0.041666666666666664,
+            "totalBytes": 29602,
+            "wastedBytes": 28368.583333333336
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ops1x-440x248.jpg",
+            "cacheControl": {
+              "max-age": 300
+            },
+            "cacheLifetimeMs": 300000,
+            "cacheHitProbability": 0.041666666666666664,
+            "totalBytes": 26810,
+            "wastedBytes": 25692.916666666668
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_amouranth-440x248.jpg",
+            "cacheControl": {
+              "max-age": 300
+            },
+            "cacheLifetimeMs": 300000,
+            "cacheHitProbability": 0.041666666666666664,
+            "totalBytes": 25777,
+            "wastedBytes": 24702.958333333336
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sypherpk-440x248.jpg",
+            "cacheControl": {
+              "max-age": 300
+            },
+            "cacheLifetimeMs": 300000,
+            "cacheHitProbability": 0.041666666666666664,
+            "totalBytes": 20240,
+            "wastedBytes": 19396.666666666668
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lirik-440x248.jpg",
+            "cacheControl": {
+              "max-age": 300
+            },
+            "cacheLifetimeMs": 300000,
+            "cacheHitProbability": 0.041666666666666664,
+            "totalBytes": 19491,
+            "wastedBytes": 18678.875
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_shivfps-440x248.jpg",
+            "cacheControl": {
+              "max-age": 300
+            },
+            "cacheLifetimeMs": 300000,
+            "cacheHitProbability": 0.041666666666666664,
+            "totalBytes": 18915,
+            "wastedBytes": 18126.875
+          },
+          {
+            "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
+            "cacheControl": {
+              "public": true,
+              "max-age": 900
+            },
+            "cacheLifetimeMs": 900000,
+            "cacheHitProbability": 0.10625000000000001,
+            "totalBytes": 27035,
+            "wastedBytes": 24162.53125
+          },
+          {
+            "url": "https://www.googletagservices.com/tag/js/gpt.js",
+            "cacheControl": {
+              "private": true,
+              "max-age": 900,
+              "stale-while-revalidate": "3600"
+            },
+            "cacheLifetimeMs": 900000,
+            "cacheHitProbability": 0.10625000000000001,
+            "totalBytes": 17258,
+            "wastedBytes": 15424.337500000001
+          },
+          {
+            "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1",
+            "cacheControl": {
+              "private": true,
+              "max-age": 3000
+            },
+            "cacheLifetimeMs": 3000000,
+            "cacheHitProbability": 0.17916666666666667,
+            "totalBytes": 1068,
+            "wastedBytes": 876.65
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-188x250.jpg",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 17807,
+            "wastedBytes": 12108.759999999998
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Hyper%20Scape-188x250.jpg",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 17225,
+            "wastedBytes": 11712.999999999998
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-188x250.jpg",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 14021,
+            "wastedBytes": 9534.279999999999
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty:%20Modern%20Warfare-188x250.jpg",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 13819,
+            "wastedBytes": 9396.919999999998
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f31df02-5d67-47af-849a-504cf21470c3-profile_image-70x70.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 11541,
+            "wastedBytes": 7847.879999999999
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aea44a4-d85b-401e-b9f5-cb6906d77594-profile_image-70x70.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 10900,
+            "wastedBytes": 7411.999999999999
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d41de3c-731d-41ae-b0e7-615ad74db8f3-profile_image-70x70.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 10402,
+            "wastedBytes": 7073.36
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148b3e14-5df4-47e9-b168-2c4d93e3f3fb-profile_image-70x70.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 9679,
+            "wastedBytes": 6581.719999999999
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cd921fcd-53fc-4b1d-be23-0787bc36b756-profile_image-70x70.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 8742,
+            "wastedBytes": 5944.5599999999995
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/595a3dc1-b291-4371-ba8f-156420929c9f-profile_image-70x70.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 6887,
+            "wastedBytes": 4683.16
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f8af1f4e-43bc-41c8-85c4-14e07bd1450f-profile_image-50x50.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 6665,
+            "wastedBytes": 4532.2
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f31df02-5d67-47af-849a-504cf21470c3-profile_image-50x50.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 6433,
+            "wastedBytes": 4374.44
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d41de3c-731d-41ae-b0e7-615ad74db8f3-profile_image-50x50.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 6135,
+            "wastedBytes": 4171.799999999999
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/97756465-0b65-4e3c-8819-28e68fef35bf-profile_image-50x50.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 5767,
+            "wastedBytes": 3921.5599999999995
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/418c2098-6778-405f-9dc7-486354851d4a-profile_image-50x50.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 5076,
+            "wastedBytes": 3451.68
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/595a3dc1-b291-4371-ba8f-156420929c9f-profile_image-50x50.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 4245,
+            "wastedBytes": 2886.6
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d31a80e8-4bdd-44b8-a300-f95ddfc7255e-profile_image-70x70.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 4005,
+            "wastedBytes": 2723.3999999999996
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-profile_image-4cb867e7d0af1448-70x70.jpeg",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 3577,
+            "wastedBytes": 2432.3599999999997
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/27fdad08-a2c2-4e0b-8983-448c39519643-profile_image-70x70.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 3188,
+            "wastedBytes": 2167.8399999999997
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/huskerrs-profile_image-da754786ed2851c1-70x70.jpeg",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 2962,
+            "wastedBytes": 2014.1599999999999
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/27fdad08-a2c2-4e0b-8983-448c39519643-profile_image-50x50.png",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 2380,
+            "wastedBytes": 1618.3999999999999
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/huskerrs-profile_image-da754786ed2851c1-50x50.jpeg",
+            "cacheControl": {
+              "max-age": 14400
+            },
+            "cacheLifetimeMs": 14400000,
+            "cacheHitProbability": 0.32,
+            "totalBytes": 2115,
+            "wastedBytes": 1438.1999999999998
+          },
+          {
+            "url": "https://polyfill.twitchsvc.net/v2/polyfill.min.js?unknown=polyfill&flags=gated&features=Array.prototype.find,Array.prototype.findIndex,Array.prototype.includes,default,fetch,Intl.~locale.en,Math.sign,Object.entries,Object.values,String.prototype.repeat,URL,HTMLCanvasElement.prototype.toBlob",
+            "cacheControl": {
+              "public": true,
+              "s-maxage": "31536000",
+              "max-age": 604800,
+              "stale-while-revalidate": "604800",
+              "stale-if-error": "604800"
+            },
+            "cacheLifetimeMs": 604800000,
+            "cacheHitProbability": 0.9,
+            "totalBytes": 35465,
+            "wastedBytes": 3546.499999999999
+          }
+        ],
+        "summary": {
+          "wastedBytes": 364399.96541666664
+        }
+      }
+    },
+    "total-byte-weight": {
+      "id": "total-byte-weight",
+      "title": "Avoids enormous network payloads",
+      "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/network-payloads).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 1686167,
+      "displayValue": "Total size was 1,647 KB",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "itemType": "bytes",
+            "text": "Size (KB)"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://static.twitchcdn.net/assets/core-03faf632075f34f11482.js",
+            "totalBytes": 556376,
+            "totalMs": 3915.750086391277
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/vendor-9917f4483d0c1f86a05c.js",
+            "totalBytes": 320091,
+            "totalMs": 2252.7865344714187
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/pages.front-57d8205db9e57a982d5c.js",
+            "totalBytes": 47701,
+            "totalMs": 335.7175630705679
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/core-4496717ae92c98c206d8.css",
+            "totalBytes": 40385,
+            "totalMs": 284.2278733067416
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_calculator-440x248.jpg",
+            "totalBytes": 38585,
+            "totalMs": 271.55955160432404
+          },
+          {
+            "url": "https://polyfill.twitchsvc.net/v2/polyfill.min.js?unknown=polyfill&flags=gated&features=Array.prototype.find,Array.prototype.findIndex,Array.prototype.includes,default,fetch,Intl.~locale.en,Math.sign,Object.entries,Object.values,String.prototype.repeat,URL,HTMLCanvasElement.prototype.toBlob",
+            "totalBytes": 35465,
+            "totalMs": 249.60112732013357
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_symfuhny-440x248.jpg",
+            "totalBytes": 31740,
+            "totalMs": 223.38473935263045
+          },
+          {
+            "url": "https://www.twitch.tv/",
+            "totalBytes": 31499,
+            "totalMs": 221.68859183580676
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/features.auth.components.email-verification-manager-4469f51d70856a788cdd.js",
+            "totalBytes": 30260,
+            "totalMs": 212.96856373064264
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/Roobert-SemiBold-df85158a0012c224b021.woff2",
+            "totalBytes": 29766,
+            "totalMs": 209.49181321897913
+          }
+        ]
+      }
+    },
+    "offscreen-images": {
+      "id": "offscreen-images",
+      "title": "Defer offscreen images",
+      "description": "Consider lazy-loading offscreen and hidden images after all critical resources have finished loading to lower time to interactive. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/offscreen-images).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "Potential savings of 247 KB",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "thumbnail",
+            "label": ""
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Size (KB)"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Potential Savings (KB)"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_calculator-440x248.jpg",
+            "requestStartTime": 361.656728,
+            "totalBytes": 38125,
+            "wastedBytes": 38125,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_symfuhny-440x248.jpg",
+            "requestStartTime": 361.752008,
+            "totalBytes": 31269,
+            "wastedBytes": 31269,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_huskerrs-440x248.jpg",
+            "requestStartTime": 361.834861,
+            "totalBytes": 29132,
+            "wastedBytes": 29132,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ops1x-440x248.jpg",
+            "requestStartTime": 361.65603,
+            "totalBytes": 26338,
+            "wastedBytes": 26338,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_amouranth-440x248.jpg",
+            "requestStartTime": 361.751356,
+            "totalBytes": 25306,
+            "wastedBytes": 25306,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lirik-440x248.jpg",
+            "requestStartTime": 361.750645,
+            "totalBytes": 19029,
+            "wastedBytes": 19029,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-188x250.jpg",
+            "requestStartTime": 361.478483,
+            "totalBytes": 17309,
+            "wastedBytes": 17309,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Hyper%20Scape-188x250.jpg",
+            "requestStartTime": 361.655286,
+            "totalBytes": 16728,
+            "wastedBytes": 16728,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-188x250.jpg",
+            "requestStartTime": 361.654441,
+            "totalBytes": 13531,
+            "wastedBytes": 13531,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty:%20Modern%20Warfare-188x250.jpg",
+            "requestStartTime": 361.65492,
+            "totalBytes": 13350,
+            "wastedBytes": 13350,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f8af1f4e-43bc-41c8-85c4-14e07bd1450f-profile_image-50x50.png",
+            "requestStartTime": 361.751004,
+            "totalBytes": 6207,
+            "wastedBytes": 6207,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f31df02-5d67-47af-849a-504cf21470c3-profile_image-50x50.png",
+            "requestStartTime": 361.655644,
+            "totalBytes": 5976,
+            "wastedBytes": 5976,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d41de3c-731d-41ae-b0e7-615ad74db8f3-profile_image-50x50.png",
+            "requestStartTime": 361.751692,
+            "totalBytes": 5679,
+            "wastedBytes": 5679,
+            "wastedPercent": 100
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/418c2098-6778-405f-9dc7-486354851d4a-profile_image-50x50.png",
+            "requestStartTime": 361.656382,
+            "totalBytes": 4617,
+            "wastedBytes": 4617,
+            "wastedPercent": 100
+          }
+        ],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 252596
+      }
+    },
+    "render-blocking-resources": {
+      "id": "render-blocking-resources",
+      "title": "Eliminate render-blocking resources",
+      "description": "Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0
+      }
+    },
+    "unminified-css": {
+      "id": "unminified-css",
+      "title": "Minify CSS",
+      "description": "Minifying CSS files can reduce network payload sizes. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/minify-css).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "unminified-javascript": {
+      "id": "unminified-javascript",
+      "title": "Minify JavaScript",
+      "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn more](https://developers.google.com/speed/docs/insights/MinifyResources).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "unused-css-rules": {
+      "id": "unused-css-rules",
+      "title": "Defer unused CSS",
+      "description": "Remove unused rules from stylesheets to reduce unnecessary bytes consumed by network activity. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/unused-css).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "Potential savings of 4 KB",
+      "details": {
+        "type": "opportunity",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Size (KB)"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Potential Savings (KB)"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://static.twitchcdn.net/assets/pages.front-f0354ece2a6da098a8e3.css",
+            "wastedBytes": 2253,
+            "wastedPercent": 79.96797890374835,
+            "totalBytes": 2817
+          },
+          {
+            "url": "https://static.twitchcdn.net/assets/features.auth.components.email-verification-manager-720bb4414ef2778e0161.css",
+            "wastedBytes": 2076,
+            "wastedPercent": 100,
+            "totalBytes": 2076
+          }
+        ],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 4329
+      }
+    },
+    "uses-webp-images": {
+      "id": "uses-webp-images",
+      "title": "Serve images in next-gen formats",
+      "description": "Image formats like JPEG 2000, JPEG XR, and WebP often provide better compression than PNG or JPEG, which means faster downloads and less data consumption. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/webp).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "Potential savings of 26 KB",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "thumbnail",
+            "label": ""
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Size (KB)"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Potential Savings (KB)"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f31df02-5d67-47af-849a-504cf21470c3-profile_image-70x70.png",
+            "fromProtocol": true,
+            "isCrossOrigin": true,
+            "totalBytes": 11074,
+            "wastedBytes": 8900
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d41de3c-731d-41ae-b0e7-615ad74db8f3-profile_image-70x70.png",
+            "fromProtocol": true,
+            "isCrossOrigin": true,
+            "totalBytes": 9936,
+            "wastedBytes": 8842
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aea44a4-d85b-401e-b9f5-cb6906d77594-profile_image-70x70.png",
+            "fromProtocol": true,
+            "isCrossOrigin": true,
+            "totalBytes": 10434,
+            "wastedBytes": 8484
+          }
+        ],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 26226
+      }
+    },
+    "uses-optimized-images": {
+      "id": "uses-optimized-images",
+      "title": "Efficiently encode images",
+      "description": "Optimized images load faster and consume less cellular data. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/optimize-images).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "uses-text-compression": {
+      "id": "uses-text-compression",
+      "title": "Enable text compression",
+      "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/text-compression).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "uses-responsive-images": {
+      "id": "uses-responsive-images",
+      "title": "Properly size images",
+      "description": "Serve images that are appropriately-sized to save cellular data and improve load time. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/oversized-images).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "Potential savings of 151 KB",
+      "warnings": [],
+      "details": {
+        "type": "opportunity",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "thumbnail",
+            "label": ""
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Size (KB)"
+          },
+          {
+            "key": "wastedBytes",
+            "valueType": "bytes",
+            "label": "Potential Savings (KB)"
+          }
+        ],
+        "items": [
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_calculator-440x248.jpg",
+            "totalBytes": 38125,
+            "wastedBytes": 15317,
+            "wastedPercent": 40.17595307917888
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_symfuhny-440x248.jpg",
+            "totalBytes": 31269,
+            "wastedBytes": 12563,
+            "wastedPercent": 40.17595307917888
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_huskerrs-440x248.jpg",
+            "totalBytes": 29132,
+            "wastedBytes": 11704,
+            "wastedPercent": 40.17595307917888
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ops1x-440x248.jpg",
+            "totalBytes": 26338,
+            "wastedBytes": 10582,
+            "wastedPercent": 40.17595307917888
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_amouranth-440x248.jpg",
+            "totalBytes": 25306,
+            "wastedBytes": 10167,
+            "wastedPercent": 40.17595307917888
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f31df02-5d67-47af-849a-504cf21470c3-profile_image-70x70.png",
+            "totalBytes": 11074,
+            "wastedBytes": 9040,
+            "wastedPercent": 81.63265306122449
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aea44a4-d85b-401e-b9f5-cb6906d77594-profile_image-70x70.png",
+            "totalBytes": 10434,
+            "wastedBytes": 8518,
+            "wastedPercent": 81.63265306122449
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d41de3c-731d-41ae-b0e7-615ad74db8f3-profile_image-70x70.png",
+            "totalBytes": 9936,
+            "wastedBytes": 8111,
+            "wastedPercent": 81.63265306122449
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sypherpk-440x248.jpg",
+            "totalBytes": 19778,
+            "wastedBytes": 7946,
+            "wastedPercent": 40.17595307917888
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lirik-440x248.jpg",
+            "totalBytes": 19029,
+            "wastedBytes": 7645,
+            "wastedPercent": 40.17595307917888
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148b3e14-5df4-47e9-b168-2c4d93e3f3fb-profile_image-70x70.png",
+            "totalBytes": 9214,
+            "wastedBytes": 7522,
+            "wastedPercent": 81.63265306122449
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_shivfps-440x248.jpg",
+            "totalBytes": 18454,
+            "wastedBytes": 7414,
+            "wastedPercent": 40.17595307917888
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cd921fcd-53fc-4b1d-be23-0787bc36b756-profile_image-70x70.png",
+            "totalBytes": 8277,
+            "wastedBytes": 6757,
+            "wastedPercent": 81.63265306122449
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/595a3dc1-b291-4371-ba8f-156420929c9f-profile_image-70x70.png",
+            "totalBytes": 6432,
+            "wastedBytes": 5251,
+            "wastedPercent": 81.63265306122449
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-188x250.jpg",
+            "totalBytes": 17309,
+            "wastedBytes": 3941,
+            "wastedPercent": 22.765957446808514
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Hyper%20Scape-188x250.jpg",
+            "totalBytes": 16728,
+            "wastedBytes": 3808,
+            "wastedPercent": 22.765957446808514
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-188x250.jpg",
+            "totalBytes": 13531,
+            "wastedBytes": 3080,
+            "wastedPercent": 22.765957446808514
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty:%20Modern%20Warfare-188x250.jpg",
+            "totalBytes": 13350,
+            "wastedBytes": 3039,
+            "wastedPercent": 22.765957446808514
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d31a80e8-4bdd-44b8-a300-f95ddfc7255e-profile_image-70x70.png",
+            "totalBytes": 3548,
+            "wastedBytes": 2896,
+            "wastedPercent": 81.63265306122449
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-profile_image-4cb867e7d0af1448-70x70.jpeg",
+            "totalBytes": 3120,
+            "wastedBytes": 2547,
+            "wastedPercent": 81.63265306122449
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f8af1f4e-43bc-41c8-85c4-14e07bd1450f-profile_image-50x50.png",
+            "totalBytes": 6207,
+            "wastedBytes": 2235,
+            "wastedPercent": 36
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/27fdad08-a2c2-4e0b-8983-448c39519643-profile_image-70x70.png",
+            "totalBytes": 2732,
+            "wastedBytes": 2230,
+            "wastedPercent": 81.63265306122449
+          },
+          {
+            "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f31df02-5d67-47af-849a-504cf21470c3-profile_image-50x50.png",
+            "totalBytes": 5976,
+            "wastedBytes": 2151,
+            "wastedPercent": 36
+          }
+        ],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 154464
+      }
+    },
+    "efficient-animated-content": {
+      "id": "efficient-animated-content",
+      "title": "Use video formats for animated content",
+      "description": "Large GIFs are inefficient for delivering animated content. Consider using MPEG4/WebM videos for animations and PNG/WebP for static images instead of GIF to save network bytes. [Learn more](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 0,
+      "displayValue": "",
+      "details": {
+        "type": "opportunity",
+        "headings": [],
+        "items": [],
+        "overallSavingsMs": 0,
+        "overallSavingsBytes": 0
+      }
+    },
+    "appcache-manifest": {
+      "id": "appcache-manifest",
+      "title": "Avoids Application Cache",
+      "description": "Application Cache is deprecated. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/appcache).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "displayValue": ""
+    },
+    "doctype": {
+      "id": "doctype",
+      "title": "Page has the HTML doctype",
+      "description": "Specifying a doctype prevents the browser from switching to quirks-mode.Read more on the [MDN Web Docs page](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true
+    },
+    "dom-size": {
+      "id": "dom-size",
+      "title": "Avoid an excessive DOM size",
+      "description": "Browser engineers recommend pages contain fewer than ~1,500 DOM nodes. The sweet spot is a tree depth < 32 elements and fewer than 60 children/parent element. A large DOM can increase memory usage, cause longer [style calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), and produce costly [layout reflows](https://developers.google.com/speed/articles/reflow). [Learn more](https://developers.google.com/web/tools/lighthouse/audits/dom-size).",
+      "score": 0.52,
+      "scoreDisplayMode": "numeric",
+      "rawValue": 1370,
+      "displayValue": "1,370 nodes",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "statistic",
+            "itemType": "text",
+            "text": "Statistic"
+          },
+          {
+            "key": "element",
+            "itemType": "code",
+            "text": "Element"
+          },
+          {
+            "key": "value",
+            "itemType": "text",
+            "text": "Value"
+          }
+        ],
+        "items": [
+          {
+            "statistic": "Total DOM Nodes",
+            "element": "",
+            "value": "1,370"
+          },
+          {
+            "statistic": "Maximum DOM Depth",
+            "element": {
+              "type": "code",
+              "value": "<path d=\"M10 8a2 2 0 100 4 2 2 0 000-4z\">"
+            },
+            "value": "41"
+          },
+          {
+            "statistic": "Maximum Child Elements",
+            "element": {
+              "type": "code",
+              "value": "<head>"
+            },
+            "value": "54"
+          }
+        ]
+      }
+    },
+    "external-anchors-use-rel-noopener": {
+      "id": "external-anchors-use-rel-noopener",
+      "title": "Links to cross-origin destinations are safe",
+      "description": "Add `rel=\"noopener\"` or `rel=\"noreferrer\"` to any external links to improve performance and prevent security vulnerabilities. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/noopener).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "warnings": [],
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "geolocation-on-start": {
+      "id": "geolocation-on-start",
+      "title": "Avoids requesting the geolocation permission on page load",
+      "description": "Users are mistrustful of or confused by sites that request their location without context. Consider tying the request to user gestures instead. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/geolocation-on-load).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "no-document-write": {
+      "id": "no-document-write",
+      "title": "Avoids `document.write()`",
+      "description": "For users on slow connections, external scripts dynamically injected via `document.write()` can delay page load by tens of seconds. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/document-write).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "no-vulnerable-libraries": {
+      "id": "no-vulnerable-libraries",
+      "title": "Avoids front-end JavaScript libraries with known security vulnerabilities",
+      "description": "Some third-party scripts may contain known security vulnerabilities that are easily identified and exploited by attackers. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/vulnerabilities).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "displayValue": "",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": [],
+        "summary": {}
+      }
+    },
+    "js-libraries": {
+      "id": "js-libraries",
+      "title": "Detected JavaScript libraries",
+      "description": "All front-end JavaScript libraries detected on the page.",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "name",
+            "itemType": "text",
+            "text": "Name"
+          },
+          {
+            "key": "version",
+            "itemType": "text",
+            "text": "Version"
+          }
+        ],
+        "items": [
+          {
+            "name": "React",
+            "version": null,
+            "npm": "react"
+          },
+          {
+            "name": "React (Fast path)",
+            "version": null,
+            "npm": "react"
+          },
+          {
+            "name": "core-js",
+            "version": null,
+            "npm": "core-js"
+          }
+        ],
+        "summary": {}
+      }
+    },
+    "no-websql": {
+      "id": "no-websql",
+      "title": "Avoids WebSQL DB",
+      "description": "Web SQL is deprecated. Consider using IndexedDB instead. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/web-sql).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "displayValue": ""
+    },
+    "notification-on-start": {
+      "id": "notification-on-start",
+      "title": "Avoids requesting the notification permission on page load",
+      "description": "Users are mistrustful of or confused by sites that request to send notifications without context. Consider tying the request to user gestures instead. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/notifications-on-load).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "password-inputs-can-be-pasted-into": {
+      "id": "password-inputs-can-be-pasted-into",
+      "title": "Allows users to paste into password fields",
+      "description": "Preventing password pasting undermines good security policy. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/password-pasting).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "uses-http2": {
+      "id": "uses-http2",
+      "title": "Does not use HTTP/2 for all of its resources",
+      "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers, multiplexing, and server push. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/http2).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "displayValue": "1 request not served via HTTP/2",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "protocol",
+            "itemType": "text",
+            "text": "Protocol"
+          }
+        ],
+        "items": [
+          {
+            "protocol": "http/1.1",
+            "url": "https://www.twitch.tv/"
+          }
+        ]
+      }
+    },
+    "uses-passive-event-listeners": {
+      "id": "uses-passive-event-listeners",
+      "title": "Does not use passive listeners to improve scrolling performance",
+      "description": "Consider marking your touch and wheel event listeners as `passive` to improve your page's scroll performance. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/passive-event-listeners).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "itemType": "url",
+            "text": "URL"
+          },
+          {
+            "key": "label",
+            "itemType": "text",
+            "text": "Location"
+          }
+        ],
+        "items": [
+          {
+            "label": "line: 0",
+            "url": "https://static.twitchcdn.net/assets/core-03faf632075f34f11482.js"
+          }
+        ]
+      }
+    },
+    "meta-description": {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/description).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true
+    },
+    "http-status-code": {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "description": "Pages with unsuccessful HTTP status codes may not be indexed properly. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/successful-http-code).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true
+    },
+    "font-size": {
+      "id": "font-size",
+      "title": "Document doesn't use legible font sizes",
+      "description": "Font sizes less than 12px are too small to be legible and require mobile visitors to “pinch to zoom” in order to read. Strive to have >60% of page text ≥12px. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/font-sizes).",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "rawValue": false,
+      "explanation": "Text is illegible because of a missing viewport config"
+    },
+    "link-text": {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "description": "Descriptive link text helps search engines understand your content. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/descriptive-link-text).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": [],
+        "summary": {}
+      }
+    },
+    "is-crawlable": {
+      "id": "is-crawlable",
+      "title": "Page isn’t blocked from indexing",
+      "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/indexing).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "robots-txt": {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed.",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": [],
+        "summary": {}
+      }
+    },
+    "hreflang": {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/hreflang).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "plugins": {
+      "id": "plugins",
+      "title": "Document avoids plugins",
+      "description": "Search engines can't index plugin content, and many devices restrict plugins or don't support them. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/plugins).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true,
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "canonical": {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "description": "Canonical links suggest which URL to show in search results. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/canonical).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "rawValue": true
+    },
+    "mobile-friendly": {
+      "id": "mobile-friendly",
+      "title": "Page is mobile friendly",
+      "description": "Take the [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) to check for audits not covered by Lighthouse, like sizing tap targets appropriately. [Learn more](https://developers.google.com/search/mobile-sites/).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    },
+    "structured-data": {
+      "id": "structured-data",
+      "title": "Structured data is valid",
+      "description": "Run the [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/) and the [Structured Data Linter](http://linter.structured-data.org/) to validate structured data. [Learn more](https://developers.google.com/search/docs/guides/mark-up-content).",
+      "score": null,
+      "scoreDisplayMode": "manual",
+      "rawValue": false
+    }
+  },
+  "configSettings": {
+    "output": "json",
+    "maxWaitForLoad": 45000,
+    "throttlingMethod": "simulate",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "auditMode": false,
+    "gatherMode": false,
+    "disableStorageReset": false,
+    "disableDeviceEmulation": true,
+    "emulatedFormFactor": "mobile",
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "onlyAudits": null,
+    "onlyCategories": null,
+    "skipAudits": null
+  },
+  "categories": {
+    "performance": {
+      "title": "Performance",
+      "auditRefs": [
+        {
+          "id": "first-contentful-paint",
+          "weight": 3,
+          "group": "metrics"
+        },
+        {
+          "id": "first-meaningful-paint",
+          "weight": 1,
+          "group": "metrics"
+        },
+        {
+          "id": "speed-index",
+          "weight": 4,
+          "group": "metrics"
+        },
+        {
+          "id": "interactive",
+          "weight": 5,
+          "group": "metrics"
+        },
+        {
+          "id": "first-cpu-idle",
+          "weight": 2,
+          "group": "metrics"
+        },
+        {
+          "id": "estimated-input-latency",
+          "weight": 0,
+          "group": "metrics"
+        },
+        {
+          "id": "render-blocking-resources",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-responsive-images",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "offscreen-images",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "unminified-css",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "unminified-javascript",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "unused-css-rules",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-optimized-images",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-webp-images",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-text-compression",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-rel-preconnect",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "time-to-first-byte",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "redirects",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "uses-rel-preload",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "efficient-animated-content",
+          "weight": 0,
+          "group": "load-opportunities"
+        },
+        {
+          "id": "total-byte-weight",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "dom-size",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "critical-request-chains",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "network-requests",
+          "weight": 0
+        },
+        {
+          "id": "metrics",
+          "weight": 0
+        },
+        {
+          "id": "user-timings",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "bootup-time",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "screenshot-thumbnails",
+          "weight": 0
+        },
+        {
+          "id": "final-screenshot",
+          "weight": 0
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "weight": 0,
+          "group": "diagnostics"
+        },
+        {
+          "id": "font-display",
+          "weight": 0,
+          "group": "diagnostics"
+        }
+      ],
+      "id": "performance",
+      "score": 0.19
+    },
+    "pwa": {
+      "title": "Progressive Web App",
+      "description": "These checks validate the aspects of a Progressive Web App, as specified by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist).",
+      "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+      "auditRefs": [
+        {
+          "id": "load-fast-enough-for-pwa",
+          "weight": 7
+        },
+        {
+          "id": "works-offline",
+          "weight": 5
+        },
+        {
+          "id": "webapp-install-banner",
+          "weight": 3
+        },
+        {
+          "id": "is-on-https",
+          "weight": 2
+        },
+        {
+          "id": "redirects-http",
+          "weight": 2
+        },
+        {
+          "id": "viewport",
+          "weight": 2
+        },
+        {
+          "id": "service-worker",
+          "weight": 1
+        },
+        {
+          "id": "without-javascript",
+          "weight": 1
+        },
+        {
+          "id": "splash-screen",
+          "weight": 1
+        },
+        {
+          "id": "themed-omnibox",
+          "weight": 1
+        },
+        {
+          "id": "content-width",
+          "weight": 1
+        },
+        {
+          "id": "manifest-short-name-length",
+          "weight": 0
+        },
+        {
+          "id": "pwa-cross-browser",
+          "weight": 0
+        },
+        {
+          "id": "pwa-page-transitions",
+          "weight": 0
+        },
+        {
+          "id": "pwa-each-page-has-url",
+          "weight": 0
+        }
+      ],
+      "id": "pwa",
+      "score": 0.19
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+      "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+      "auditRefs": [
+        {
+          "id": "accesskeys",
+          "weight": 0,
+          "group": "a11y-correct-attributes"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "weight": 3,
+          "group": "a11y-aria"
+        },
+        {
+          "id": "aria-required-attr",
+          "weight": 0,
+          "group": "a11y-aria"
+        },
+        {
+          "id": "aria-required-children",
+          "weight": 0,
+          "group": "a11y-aria"
+        },
+        {
+          "id": "aria-required-parent",
+          "weight": 0,
+          "group": "a11y-aria"
+        },
+        {
+          "id": "aria-roles",
+          "weight": 0,
+          "group": "a11y-aria"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "weight": 2,
+          "group": "a11y-aria"
+        },
+        {
+          "id": "aria-valid-attr",
+          "weight": 5,
+          "group": "a11y-aria"
+        },
+        {
+          "id": "audio-caption",
+          "weight": 0,
+          "group": "a11y-correct-attributes"
+        },
+        {
+          "id": "button-name",
+          "weight": 10,
+          "group": "a11y-element-names"
+        },
+        {
+          "id": "bypass",
+          "weight": 10,
+          "group": "a11y-describe-contents"
+        },
+        {
+          "id": "color-contrast",
+          "weight": 6,
+          "group": "a11y-color-contrast"
+        },
+        {
+          "id": "definition-list",
+          "weight": 0,
+          "group": "a11y-well-structured"
+        },
+        {
+          "id": "dlitem",
+          "weight": 0,
+          "group": "a11y-well-structured"
+        },
+        {
+          "id": "document-title",
+          "weight": 2,
+          "group": "a11y-describe-contents"
+        },
+        {
+          "id": "duplicate-id",
+          "weight": 5,
+          "group": "a11y-well-structured"
+        },
+        {
+          "id": "frame-title",
+          "weight": 5,
+          "group": "a11y-describe-contents"
+        },
+        {
+          "id": "html-has-lang",
+          "weight": 4,
+          "group": "a11y-language"
+        },
+        {
+          "id": "html-lang-valid",
+          "weight": 1,
+          "group": "a11y-language"
+        },
+        {
+          "id": "image-alt",
+          "weight": 8,
+          "group": "a11y-correct-attributes"
+        },
+        {
+          "id": "input-image-alt",
+          "weight": 0,
+          "group": "a11y-correct-attributes"
+        },
+        {
+          "id": "label",
+          "weight": 10,
+          "group": "a11y-describe-contents"
+        },
+        {
+          "id": "layout-table",
+          "weight": 0,
+          "group": "a11y-describe-contents"
+        },
+        {
+          "id": "link-name",
+          "weight": 9,
+          "group": "a11y-element-names"
+        },
+        {
+          "id": "list",
+          "weight": 0,
+          "group": "a11y-well-structured"
+        },
+        {
+          "id": "listitem",
+          "weight": 0,
+          "group": "a11y-well-structured"
+        },
+        {
+          "id": "meta-refresh",
+          "weight": 0,
+          "group": "a11y-meta"
+        },
+        {
+          "id": "meta-viewport",
+          "weight": 0,
+          "group": "a11y-meta"
+        },
+        {
+          "id": "object-alt",
+          "weight": 0,
+          "group": "a11y-describe-contents"
+        },
+        {
+          "id": "tabindex",
+          "weight": 0,
+          "group": "a11y-correct-attributes"
+        },
+        {
+          "id": "td-headers-attr",
+          "weight": 0,
+          "group": "a11y-correct-attributes"
+        },
+        {
+          "id": "th-has-data-cells",
+          "weight": 0,
+          "group": "a11y-correct-attributes"
+        },
+        {
+          "id": "valid-lang",
+          "weight": 0,
+          "group": "a11y-language"
+        },
+        {
+          "id": "video-caption",
+          "weight": 4,
+          "group": "a11y-describe-contents"
+        },
+        {
+          "id": "video-description",
+          "weight": 3,
+          "group": "a11y-describe-contents"
+        },
+        {
+          "id": "logical-tab-order",
+          "weight": 0
+        },
+        {
+          "id": "focusable-controls",
+          "weight": 0
+        },
+        {
+          "id": "interactive-element-affordance",
+          "weight": 0
+        },
+        {
+          "id": "managed-focus",
+          "weight": 0
+        },
+        {
+          "id": "focus-traps",
+          "weight": 0
+        },
+        {
+          "id": "custom-controls-labels",
+          "weight": 0
+        },
+        {
+          "id": "custom-controls-roles",
+          "weight": 0
+        },
+        {
+          "id": "visual-order-follows-dom",
+          "weight": 0
+        },
+        {
+          "id": "offscreen-content-hidden",
+          "weight": 0
+        },
+        {
+          "id": "heading-levels",
+          "weight": 0
+        },
+        {
+          "id": "use-landmarks",
+          "weight": 0
+        }
+      ],
+      "id": "accessibility",
+      "score": 0.94
+    },
+    "best-practices": {
+      "title": "Best Practices",
+      "auditRefs": [
+        {
+          "id": "appcache-manifest",
+          "weight": 1
+        },
+        {
+          "id": "no-websql",
+          "weight": 1
+        },
+        {
+          "id": "is-on-https",
+          "weight": 1
+        },
+        {
+          "id": "uses-http2",
+          "weight": 1
+        },
+        {
+          "id": "uses-passive-event-listeners",
+          "weight": 1
+        },
+        {
+          "id": "no-document-write",
+          "weight": 1
+        },
+        {
+          "id": "external-anchors-use-rel-noopener",
+          "weight": 1
+        },
+        {
+          "id": "geolocation-on-start",
+          "weight": 1
+        },
+        {
+          "id": "doctype",
+          "weight": 1
+        },
+        {
+          "id": "no-vulnerable-libraries",
+          "weight": 1
+        },
+        {
+          "id": "js-libraries",
+          "weight": 0
+        },
+        {
+          "id": "notification-on-start",
+          "weight": 1
+        },
+        {
+          "id": "deprecations",
+          "weight": 1
+        },
+        {
+          "id": "password-inputs-can-be-pasted-into",
+          "weight": 1
+        },
+        {
+          "id": "errors-in-console",
+          "weight": 1
+        },
+        {
+          "id": "image-aspect-ratio",
+          "weight": 1
+        }
+      ],
+      "id": "best-practices",
+      "score": 0.8
+    },
+    "seo": {
+      "title": "SEO",
+      "description": "These checks ensure that your page is optimized for search engine results ranking. There are additional factors Lighthouse does not check that may affect your search ranking. [Learn more](https://support.google.com/webmasters/answer/35769).",
+      "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
+      "auditRefs": [
+        {
+          "id": "viewport",
+          "weight": 1,
+          "group": "seo-mobile"
+        },
+        {
+          "id": "document-title",
+          "weight": 1,
+          "group": "seo-content"
+        },
+        {
+          "id": "meta-description",
+          "weight": 1,
+          "group": "seo-content"
+        },
+        {
+          "id": "http-status-code",
+          "weight": 1,
+          "group": "seo-crawl"
+        },
+        {
+          "id": "link-text",
+          "weight": 1,
+          "group": "seo-content"
+        },
+        {
+          "id": "is-crawlable",
+          "weight": 1,
+          "group": "seo-crawl"
+        },
+        {
+          "id": "robots-txt",
+          "weight": 1,
+          "group": "seo-crawl"
+        },
+        {
+          "id": "hreflang",
+          "weight": 1,
+          "group": "seo-content"
+        },
+        {
+          "id": "canonical",
+          "weight": 1,
+          "group": "seo-content"
+        },
+        {
+          "id": "font-size",
+          "weight": 1,
+          "group": "seo-mobile"
+        },
+        {
+          "id": "plugins",
+          "weight": 1,
+          "group": "seo-content"
+        },
+        {
+          "id": "mobile-friendly",
+          "weight": 0
+        },
+        {
+          "id": "structured-data",
+          "weight": 0
+        }
+      ],
+      "id": "seo",
+      "score": 0.82
+    }
+  },
+  "categoryGroups": {
+    "metrics": {
+      "title": "Metrics"
+    },
+    "load-opportunities": {
+      "title": "Opportunities",
+      "description": "These optimizations can speed up your page load."
+    },
+    "diagnostics": {
+      "title": "Diagnostics",
+      "description": "More information about the performance of your application."
+    },
+    "a11y-color-contrast": {
+      "title": "Color Contrast Is Satisfactory",
+      "description": "These are opportunities to improve the legibility of your content."
+    },
+    "a11y-describe-contents": {
+      "title": "Elements Describe Contents Well",
+      "description": "These are opportunities to make your content easier to understand for a user of assistive technology, like a screen reader."
+    },
+    "a11y-well-structured": {
+      "title": "Elements Are Well Structured",
+      "description": "These are opportunities to make sure your HTML is appropriately structured."
+    },
+    "a11y-aria": {
+      "title": "ARIA Attributes Follow Best Practices",
+      "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader."
+    },
+    "a11y-correct-attributes": {
+      "title": "Elements Use Attributes Correctly",
+      "description": "These are opportunities to improve the configuration of your HTML elements."
+    },
+    "a11y-element-names": {
+      "title": "Elements Have Discernible Names",
+      "description": "These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader."
+    },
+    "a11y-language": {
+      "title": "Page Specifies Valid Language",
+      "description": "These are opportunities to improve the interpretation of your content by users in different locales."
+    },
+    "a11y-meta": {
+      "title": "Meta Tags Used Properly",
+      "description": "These are opportunities to improve the user experience of your site."
+    },
+    "seo-mobile": {
+      "title": "Mobile Friendly",
+      "description": "Make sure your pages are mobile friendly so users don’t have to pinch or zoom in order to read the content pages. [Learn more](https://developers.google.com/search/mobile-sites/)."
+    },
+    "seo-content": {
+      "title": "Content Best Practices",
+      "description": "Format your HTML in a way that enables crawlers to better understand your app’s content."
+    },
+    "seo-crawl": {
+      "title": "Crawling and Indexing",
+      "description": "To appear in search results, crawlers need access to your app."
+    }
+  },
+  "timing": {
+    "total": 1347639
+  },
+  "i18n": {
+    "rendererFormattedStrings": {
+      "auditGroupExpandTooltip": "Show audits",
+      "crcInitialNavigation": "Initial Navigation",
+      "crcLongestDurationLabel": "Maximum critical path latency:",
+      "errorLabel": "Error!",
+      "errorMissingAuditInfo": "Report error: no audit information",
+      "labDataTitle": "Lab Data",
+      "lsPerformanceCategoryDescription": "[Lighthouse](https://developers.google.com/web/tools/lighthouse/) analysis of the current page on emulated 3G. Values are estimated and may vary.",
+      "manualAuditsGroupTitle": "Additional items to manually check",
+      "notApplicableAuditsGroupTitle": "Not applicable",
+      "opportunityResourceColumnLabel": "Opportunity",
+      "opportunitySavingsColumnLabel": "Estimated Savings",
+      "passedAuditsGroupTitle": "Passed audits",
+      "scorescaleLabel": "Score scale:",
+      "toplevelWarningsMessage": "There were issues affecting this run of Lighthouse:",
+      "varianceDisclaimer": "Values are estimated and may vary.",
+      "warningHeader": "Warnings: "
+    },
+    "icuMessagePaths": {
+      "lighthouse-core/audits/metrics/first-contentful-paint.js | title": [
+        "audits[first-contentful-paint].title"
+      ],
+      "lighthouse-core/audits/metrics/first-contentful-paint.js | description": [
+        "audits[first-contentful-paint].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | seconds": [
+        {
+          "values": {
+            "timeInMs": 1909.035
+          },
+          "path": "audits[first-contentful-paint].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 33450.0175
+          },
+          "path": "audits[first-meaningful-paint].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 72190.72355067133
+          },
+          "path": "audits[speed-index].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 52228.123999999996
+          },
+          "path": "audits[first-cpu-idle].displayValue"
+        },
+        {
+          "values": {
+            "timeInMs": 52426.62399999998
+          },
+          "path": "audits.interactive.displayValue"
+        }
+      ],
+      "lighthouse-core/audits/metrics/first-meaningful-paint.js | title": [
+        "audits[first-meaningful-paint].title"
+      ],
+      "lighthouse-core/audits/metrics/first-meaningful-paint.js | description": [
+        "audits[first-meaningful-paint].description"
+      ],
+      "lighthouse-core/audits/metrics/speed-index.js | title": [
+        "audits[speed-index].title"
+      ],
+      "lighthouse-core/audits/metrics/speed-index.js | description": [
+        "audits[speed-index].description"
+      ],
+      "lighthouse-core/audits/metrics/estimated-input-latency.js | title": [
+        "audits[estimated-input-latency].title"
+      ],
+      "lighthouse-core/audits/metrics/estimated-input-latency.js | description": [
+        "audits[estimated-input-latency].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | ms": [
+        {
+          "values": {
+            "timeInMs": 7612.8
+          },
+          "path": "audits[estimated-input-latency].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/time-to-first-byte.js | title": [
+        "audits[time-to-first-byte].title"
+      ],
+      "lighthouse-core/audits/time-to-first-byte.js | description": [
+        "audits[time-to-first-byte].description"
+      ],
+      "lighthouse-core/audits/time-to-first-byte.js | displayValue": [
+        {
+          "values": {
+            "timeInMs": 17.938999999999993
+          },
+          "path": "audits[time-to-first-byte].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/metrics/first-cpu-idle.js | title": [
+        "audits[first-cpu-idle].title"
+      ],
+      "lighthouse-core/audits/metrics/first-cpu-idle.js | description": [
+        "audits[first-cpu-idle].description"
+      ],
+      "lighthouse-core/audits/metrics/interactive.js | title": [
+        "audits.interactive.title"
+      ],
+      "lighthouse-core/audits/metrics/interactive.js | description": [
+        "audits.interactive.description"
+      ],
+      "lighthouse-core/audits/user-timings.js | title": [
+        "audits[user-timings].title"
+      ],
+      "lighthouse-core/audits/user-timings.js | description": [
+        "audits[user-timings].description"
+      ],
+      "lighthouse-core/audits/critical-request-chains.js | title": [
+        "audits[critical-request-chains].title"
+      ],
+      "lighthouse-core/audits/critical-request-chains.js | description": [
+        "audits[critical-request-chains].description"
+      ],
+      "lighthouse-core/audits/critical-request-chains.js | displayValue": [
+        {
+          "values": {
+            "itemCount": 11
+          },
+          "path": "audits[critical-request-chains].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/redirects.js | title": [
+        "audits.redirects.title"
+      ],
+      "lighthouse-core/audits/redirects.js | description": [
+        "audits.redirects.description"
+      ],
+      "lighthouse-core/audits/mainthread-work-breakdown.js | failureTitle": [
+        "audits[mainthread-work-breakdown].title"
+      ],
+      "lighthouse-core/audits/mainthread-work-breakdown.js | description": [
+        "audits[mainthread-work-breakdown].description"
+      ],
+      "lighthouse-core/audits/bootup-time.js | failureTitle": [
+        "audits[bootup-time].title"
+      ],
+      "lighthouse-core/audits/bootup-time.js | description": [
+        "audits[bootup-time].description"
+      ],
+      "lighthouse-core/audits/uses-rel-preload.js | title": [
+        "audits[uses-rel-preload].title"
+      ],
+      "lighthouse-core/audits/uses-rel-preload.js | description": [
+        "audits[uses-rel-preload].description"
+      ],
+      "lighthouse-core/audits/uses-rel-preconnect.js | title": [
+        "audits[uses-rel-preconnect].title"
+      ],
+      "lighthouse-core/audits/uses-rel-preconnect.js | description": [
+        "audits[uses-rel-preconnect].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | displayValueMsSavings": [
+        {
+          "values": {
+            "wastedMs": 382.932
+          },
+          "path": "audits[uses-rel-preconnect].displayValue"
+        }
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnURL": [
+        "audits[uses-rel-preconnect].details.headings[0].label",
+        "audits[font-display].details.headings[0].text",
+        "audits[uses-long-cache-ttl].details.headings[0].text",
+        "audits[total-byte-weight].details.headings[0].text",
+        "audits[offscreen-images].details.headings[1].label",
+        "audits[unused-css-rules].details.headings[0].label",
+        "audits[uses-webp-images].details.headings[1].label",
+        "audits[uses-responsive-images].details.headings[1].label"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnWastedMs": [
+        "audits[uses-rel-preconnect].details.headings[1].label",
+        "audits[font-display].details.headings[1].text"
+      ],
+      "lighthouse-core/audits/font-display.js | failureTitle": [
+        "audits[font-display].title"
+      ],
+      "lighthouse-core/audits/font-display.js | description": [
+        "audits[font-display].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | failureTitle": [
+        "audits[uses-long-cache-ttl].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | description": [
+        "audits[uses-long-cache-ttl].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-long-cache-ttl.js | displayValue": [
+        {
+          "values": {
+            "itemCount": 34
+          },
+          "path": "audits[uses-long-cache-ttl].displayValue"
+        }
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnCacheTTL": [
+        "audits[uses-long-cache-ttl].details.headings[1].text"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnSize": [
+        "audits[uses-long-cache-ttl].details.headings[2].text",
+        "audits[total-byte-weight].details.headings[1].text",
+        "audits[offscreen-images].details.headings[2].label",
+        "audits[unused-css-rules].details.headings[1].label",
+        "audits[uses-webp-images].details.headings[2].label",
+        "audits[uses-responsive-images].details.headings[2].label"
+      ],
+      "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | title": [
+        "audits[total-byte-weight].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | description": [
+        "audits[total-byte-weight].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/total-byte-weight.js | displayValue": [
+        {
+          "values": {
+            "totalBytes": 1686167
+          },
+          "path": "audits[total-byte-weight].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/byte-efficiency/offscreen-images.js | title": [
+        "audits[offscreen-images].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/offscreen-images.js | description": [
+        "audits[offscreen-images].description"
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | displayValueByteSavings": [
+        {
+          "values": {
+            "wastedBytes": 252596
+          },
+          "path": "audits[offscreen-images].displayValue"
+        },
+        {
+          "values": {
+            "wastedBytes": 4329
+          },
+          "path": "audits[unused-css-rules].displayValue"
+        },
+        {
+          "values": {
+            "wastedBytes": 26226
+          },
+          "path": "audits[uses-webp-images].displayValue"
+        },
+        {
+          "values": {
+            "wastedBytes": 154464
+          },
+          "path": "audits[uses-responsive-images].displayValue"
+        }
+      ],
+      "lighthouse-core/lib/i18n/i18n.js | columnWastedBytes": [
+        "audits[offscreen-images].details.headings[3].label",
+        "audits[unused-css-rules].details.headings[2].label",
+        "audits[uses-webp-images].details.headings[3].label",
+        "audits[uses-responsive-images].details.headings[3].label"
+      ],
+      "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | title": [
+        "audits[render-blocking-resources].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js | description": [
+        "audits[render-blocking-resources].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unminified-css.js | title": [
+        "audits[unminified-css].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unminified-css.js | description": [
+        "audits[unminified-css].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | title": [
+        "audits[unminified-javascript].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unminified-javascript.js | description": [
+        "audits[unminified-javascript].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | title": [
+        "audits[unused-css-rules].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/unused-css-rules.js | description": [
+        "audits[unused-css-rules].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | title": [
+        "audits[uses-webp-images].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-webp-images.js | description": [
+        "audits[uses-webp-images].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | title": [
+        "audits[uses-optimized-images].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-optimized-images.js | description": [
+        "audits[uses-optimized-images].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | title": [
+        "audits[uses-text-compression].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-text-compression.js | description": [
+        "audits[uses-text-compression].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | title": [
+        "audits[uses-responsive-images].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/uses-responsive-images.js | description": [
+        "audits[uses-responsive-images].description"
+      ],
+      "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | title": [
+        "audits[efficient-animated-content].title"
+      ],
+      "lighthouse-core/audits/byte-efficiency/efficient-animated-content.js | description": [
+        "audits[efficient-animated-content].description"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | failureTitle": [
+        "audits[dom-size].title"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | description": [
+        "audits[dom-size].description"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | displayValue": [
+        {
+          "values": {
+            "itemCount": 1370
+          },
+          "path": "audits[dom-size].displayValue"
+        }
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | columnStatistic": [
+        "audits[dom-size].details.headings[0].text"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | columnElement": [
+        "audits[dom-size].details.headings[1].text"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | columnValue": [
+        "audits[dom-size].details.headings[2].text"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | statisticDOMNodes": [
+        "audits[dom-size].details.items[0].statistic"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | statisticDOMDepth": [
+        "audits[dom-size].details.items[1].statistic"
+      ],
+      "lighthouse-core/audits/dobetterweb/dom-size.js | statisticDOMWidth": [
+        "audits[dom-size].details.items[2].statistic"
+      ],
+      "lighthouse-core/config/default-config.js | performanceCategoryTitle": [
+        "categories.performance.title"
+      ],
+      "lighthouse-core/config/default-config.js | metricGroupTitle": [
+        "categoryGroups.metrics.title"
+      ],
+      "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": [
+        "categoryGroups[load-opportunities].title"
+      ],
+      "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": [
+        "categoryGroups[load-opportunities].description"
+      ],
+      "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": [
+        "categoryGroups.diagnostics.title"
+      ],
+      "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": [
+        "categoryGroups.diagnostics.description"
+      ]
+    }
+  }
+}
