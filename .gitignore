@@ -2,3 +2,4 @@ node_modules
 debug.log
 scripts/Split.class
 scripts/test.js
+.idea
