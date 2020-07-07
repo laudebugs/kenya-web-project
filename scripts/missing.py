@@ -26,7 +26,9 @@ file.write("[")
 
 for w in allWebsites:
     if(("www_"+w['site'].replace(".", "_")+".json")not in onlyfiles):
-        file.write(str(json.dumps(w))+",")
+        file.write(str(json.dumps(w)))
+        if(w != allWebsites[len(allWebsites)-1]):
+            file.write(",")
 
 
 file.write("]")
