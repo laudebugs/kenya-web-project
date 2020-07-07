@@ -17,7 +17,7 @@ public class Split {
             while (sc.hasNextLine()) {
                 switch (i) {
                     case 1:
-                        info += "{\"rank\":\"" + sc.nextLine() + "\",";
+                        info += "{\"rank\":" + sc.nextLine() + ",";
                         break;
                     case 2:
                         info += "\"site\":\"" + sc.nextLine() + "\",";

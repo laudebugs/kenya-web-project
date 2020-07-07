@@ -1,6 +1,6 @@
 [
   {
-    "rank": "1",
+    "rank": 1,
     "site": "Google.com",
     "daily time on site": "14:11",
     "daily pageviews per visitor": "15.63",
@@ -8,7 +8,7 @@
     "total Sites Linking In": "1,922,142"
   },
   {
-    "rank": "2",
+    "rank": 2,
     "site": "Youtube.com",
     "daily time on site": "14:06",
     "daily pageviews per visitor": "7.94",
@@ -16,7 +16,7 @@
     "total Sites Linking In": "1,479,058"
   },
   {
-    "rank": "3",
+    "rank": 3,
     "site": "Nation.co.ke",
     "daily time on site": "5:30",
     "daily pageviews per visitor": "2.52",
@@ -24,7 +24,7 @@
     "total Sites Linking In": "9,260"
   },
   {
-    "rank": "4",
+    "rank": 4,
     "site": "Tuko.co.ke",
     "daily time on site": "6:55",
     "daily pageviews per visitor": "2.38",
@@ -32,7 +32,7 @@
     "total Sites Linking In": "2,267"
   },
   {
-    "rank": "5",
+    "rank": 5,
     "site": "Standardmedia.co.ke",
     "daily time on site": "4:45",
     "daily pageviews per visitor": "2.00",
@@ -40,7 +40,7 @@
     "total Sites Linking In": "7,027"
   },
   {
-    "rank": "6",
+    "rank": 6,
     "site": "Kra.go.ke",
     "daily time on site": "19:24",
     "daily pageviews per visitor": "5.57",
@@ -48,7 +48,7 @@
     "total Sites Linking In": "447"
   },
   {
-    "rank": "7",
+    "rank": 7,
     "site": "Kenyans.co.ke",
     "daily time on site": "5:24",
     "daily pageviews per visitor": "2.90",
@@ -56,7 +56,7 @@
     "total Sites Linking In": "3,593"
   },
   {
-    "rank": "8",
+    "rank": 8,
     "site": "Yahoo.com",
     "daily time on site": "4:39",
     "daily pageviews per visitor": "4.41",
@@ -64,7 +64,7 @@
     "total Sites Linking In": "443,835"
   },
   {
-    "rank": "9",
+    "rank": 9,
     "site": "Facebook.com",
     "daily time on site": "18:45",
     "daily pageviews per visitor": "8.21",
@@ -72,7 +72,7 @@
     "total Sites Linking In": "3,281,624"
   },
   {
-    "rank": "10",
+    "rank": 10,
     "site": "Citizentv.co.ke",
     "daily time on site": "3:05",
     "daily pageviews per visitor": "1.70",
@@ -80,7 +80,7 @@
     "total Sites Linking In": "1,506"
   },
   {
-    "rank": "11",
+    "rank": 11,
     "site": "Jumia.co.ke",
     "daily time on site": "13:15",
     "daily pageviews per visitor": "6.88",
@@ -88,7 +88,7 @@
     "total Sites Linking In": "180"
   },
   {
-    "rank": "12",
+    "rank": 12,
     "site": "Netflix.com",
     "daily time on site": "3:58",
     "daily pageviews per visitor": "3.07",
@@ -96,7 +96,7 @@
     "total Sites Linking In": "13,905"
   },
   {
-    "rank": "13",
+    "rank": 13,
     "site": "Wikipedia.org",
     "daily time on site": "4:02",
     "daily pageviews per visitor": "3.03",
@@ -104,7 +104,7 @@
     "total Sites Linking In": "1,199,562"
   },
   {
-    "rank": "14",
+    "rank": 14,
     "site": "Zoom.us",
     "daily time on site": "7:58",
     "daily pageviews per visitor": "3.61",
@@ -112,7 +112,7 @@
     "total Sites Linking In": "2,494"
   },
   {
-    "rank": "15",
+    "rank": 15,
     "site": "Ghafla.com",
     "daily time on site": "5:60",
     "daily pageviews per visitor": "2.80",
@@ -120,7 +120,7 @@
     "total Sites Linking In": "722"
   },
   {
-    "rank": "16",
+    "rank": 16,
     "site": "Amazon.com",
     "daily time on site": "9:25",
     "daily pageviews per visitor": "8.54",
@@ -128,7 +128,7 @@
     "total Sites Linking In": "499,853"
   },
   {
-    "rank": "17",
+    "rank": 17,
     "site": "Bet9ja.com",
     "daily time on site": "8:49",
     "daily pageviews per visitor": "3.84",
@@ -136,7 +136,7 @@
     "total Sites Linking In": "15,076"
   },
   {
-    "rank": "18",
+    "rank": 18,
     "site": "Sde.co.ke",
     "daily time on site": "2:46",
     "daily pageviews per visitor": "1.50",
@@ -144,7 +144,7 @@
     "total Sites Linking In": "1,008"
   },
   {
-    "rank": "19",
+    "rank": 19,
     "site": "Grammarly.com",
     "daily time on site": "3:17",
     "daily pageviews per visitor": "2.19",
@@ -152,7 +152,7 @@
     "total Sites Linking In": "2,034"
   },
   {
-    "rank": "20",
+    "rank": 20,
     "site": "Microsoft.com",
     "daily time on site": "3:58",
     "daily pageviews per visitor": "3.16",
@@ -160,7 +160,7 @@
     "total Sites Linking In": "356,823"
   },
   {
-    "rank": "21",
+    "rank": 21,
     "site": "Google.co.ke",
     "daily time on site": "3:23",
     "daily pageviews per visitor": "3.19",
@@ -168,7 +168,7 @@
     "total Sites Linking In": "3,338"
   },
   {
-    "rank": "22",
+    "rank": 22,
     "site": "Jiji.co.ke",
     "daily time on site": "8:24",
     "daily pageviews per visitor": "5.40",
@@ -176,7 +176,7 @@
     "total Sites Linking In": "62"
   },
   {
-    "rank": "23",
+    "rank": 23,
     "site": "Bongacams.com",
     "daily time on site": "2:50",
     "daily pageviews per visitor": "1.60",
@@ -184,7 +184,7 @@
     "total Sites Linking In": "123,407"
   },
   {
-    "rank": "24",
+    "rank": 24,
     "site": "K24tv.co.ke",
     "daily time on site": "2:46",
     "daily pageviews per visitor": "1.70",
@@ -192,7 +192,7 @@
     "total Sites Linking In": "478"
   },
   {
-    "rank": "25",
+    "rank": 25,
     "site": "Mpasho.co.ke",
     "daily time on site": "4:19",
     "daily pageviews per visitor": "2.70",
@@ -200,7 +200,7 @@
     "total Sites Linking In": "623"
   },
   {
-    "rank": "26",
+    "rank": 26,
     "site": "Twitter.com",
     "daily time on site": "12:45",
     "daily pageviews per visitor": "9.98",
@@ -208,7 +208,7 @@
     "total Sites Linking In": "2,374,826"
   },
   {
-    "rank": "27",
+    "rank": 27,
     "site": "Turnitin.com",
     "daily time on site": "8:18",
     "daily pageviews per visitor": "4.00",
@@ -216,7 +216,7 @@
     "total Sites Linking In": "2,564"
   },
   {
-    "rank": "28",
+    "rank": 28,
     "site": "Ecitizen.go.ke",
     "daily time on site": "10:34",
     "daily pageviews per visitor": "7.80",
@@ -224,7 +224,7 @@
     "total Sites Linking In": "188"
   },
   {
-    "rank": "29",
+    "rank": 29,
     "site": "Instagram.com",
     "daily time on site": "8:44",
     "daily pageviews per visitor": "8.75",
@@ -232,7 +232,7 @@
     "total Sites Linking In": "936,360"
   },
   {
-    "rank": "30",
+    "rank": 30,
     "site": "Office.com",
     "daily time on site": "7:54",
     "daily pageviews per visitor": "7.06",
@@ -240,7 +240,7 @@
     "total Sites Linking In": "7,151"
   },
   {
-    "rank": "31",
+    "rank": 31,
     "site": "Stackoverflow.com",
     "daily time on site": "6:12",
     "daily pageviews per visitor": "3.96",
@@ -248,7 +248,7 @@
     "total Sites Linking In": "34,664"
   },
   {
-    "rank": "32",
+    "rank": 32,
     "site": "Microsoftonline.com",
     "daily time on site": "1:10",
     "daily pageviews per visitor": "1.88",
@@ -256,7 +256,7 @@
     "total Sites Linking In": "891"
   },
   {
-    "rank": "33",
+    "rank": 33,
     "site": "Researchgate.net",
     "daily time on site": "2:39",
     "daily pageviews per visitor": "2.12",
@@ -264,7 +264,7 @@
     "total Sites Linking In": "12,114"
   },
   {
-    "rank": "34",
+    "rank": 34,
     "site": "Live.com",
     "daily time on site": "5:02",
     "daily pageviews per visitor": "5.20",
@@ -272,7 +272,7 @@
     "total Sites Linking In": "39,976"
   },
   {
-    "rank": "35",
+    "rank": 35,
     "site": "The-star.co.ke",
     "daily time on site": "3:28",
     "daily pageviews per visitor": "1.80",
@@ -280,7 +280,7 @@
     "total Sites Linking In": "913"
   },
   {
-    "rank": "36",
+    "rank": 36,
     "site": "Kenyamoja.com",
     "daily time on site": "3:40",
     "daily pageviews per visitor": "2.20",
@@ -288,7 +288,7 @@
     "total Sites Linking In": "741"
   },
   {
-    "rank": "37",
+    "rank": 37,
     "site": "Myshopify.com",
     "daily time on site": "23:02",
     "daily pageviews per visitor": "15.43",
@@ -296,7 +296,7 @@
     "total Sites Linking In": "129"
   },
   {
-    "rank": "38",
+    "rank": 38,
     "site": "Aliexpress.com",
     "daily time on site": "11:30",
     "daily pageviews per visitor": "9.97",
@@ -304,7 +304,7 @@
     "total Sites Linking In": "27,569"
   },
   {
-    "rank": "39",
+    "rank": 39,
     "site": "Crowd1.com",
     "daily time on site": "16:21",
     "daily pageviews per visitor": "5.15",
@@ -312,7 +312,7 @@
     "total Sites Linking In": "2,313"
   },
   {
-    "rank": "40",
+    "rank": 40,
     "site": "Betensured.com",
     "daily time on site": "2:52",
     "daily pageviews per visitor": "1.70",
@@ -320,7 +320,7 @@
     "total Sites Linking In": "587"
   },
   {
-    "rank": "41",
+    "rank": 41,
     "site": "Nih.gov",
     "daily time on site": "3:41",
     "daily pageviews per visitor": "3.24",
@@ -328,7 +328,7 @@
     "total Sites Linking In": "121,739"
   },
   {
-    "rank": "42",
+    "rank": 42,
     "site": "Blogspot.com",
     "daily time on site": "3:49",
     "daily pageviews per visitor": "2.89",
@@ -336,7 +336,7 @@
     "total Sites Linking In": "14,230"
   },
   {
-    "rank": "43",
+    "rank": 43,
     "site": "Reddit.com",
     "daily time on site": "5:45",
     "daily pageviews per visitor": "4.43",
@@ -344,7 +344,7 @@
     "total Sites Linking In": "237,034"
   },
   {
-    "rank": "44",
+    "rank": 44,
     "site": "Biznakenya.com",
     "daily time on site": "2:58",
     "daily pageviews per visitor": "1.50",
@@ -352,7 +352,7 @@
     "total Sites Linking In": "622"
   },
   {
-    "rank": "45",
+    "rank": 45,
     "site": "Bbc.com",
     "daily time on site": "3:24",
     "daily pageviews per visitor": "2.57",
@@ -360,7 +360,7 @@
     "total Sites Linking In": "64,472"
   },
   {
-    "rank": "46",
+    "rank": 46,
     "site": "Wordpress.com",
     "daily time on site": "3:30",
     "daily pageviews per visitor": "2.52",
@@ -368,7 +368,7 @@
     "total Sites Linking In": "43,263"
   },
   {
-    "rank": "47",
+    "rank": 47,
     "site": "Iqoption.com",
     "daily time on site": "1:33",
     "daily pageviews per visitor": "1.38",
@@ -376,7 +376,7 @@
     "total Sites Linking In": "530"
   },
   {
-    "rank": "48",
+    "rank": 48,
     "site": "Storiespace.com",
     "daily time on site": "1:05",
     "daily pageviews per visitor": "1.07",
@@ -384,7 +384,7 @@
     "total Sites Linking In": "72"
   },
   {
-    "rank": "49",
+    "rank": 49,
     "site": "1337x.to",
     "daily time on site": "5:18",
     "daily pageviews per visitor": "7.65",
@@ -392,7 +392,7 @@
     "total Sites Linking In": "504"
   },
   {
-    "rank": "50",
+    "rank": 50,
     "site": "Equitybankgroup.com",
     "daily time on site": "8:45",
     "daily pageviews per visitor": "4.00",
@@ -400,7 +400,7 @@
     "total Sites Linking In": "179"
   },
   {
-    "rank": "51",
+    "rank": 51,
     "site": "Safaricom.co.ke",
     "daily time on site": "6:21",
     "daily pageviews per visitor": "3.40",
@@ -408,7 +408,7 @@
     "total Sites Linking In": "577"
   },
   {
-    "rank": "52",
+    "rank": 52,
     "site": "Betika.com",
     "daily time on site": "4:48",
     "daily pageviews per visitor": "2.60",
@@ -416,7 +416,7 @@
     "total Sites Linking In": "80"
   },
   {
-    "rank": "53",
+    "rank": 53,
     "site": "Coursehero.com",
     "daily time on site": "2:56",
     "daily pageviews per visitor": "2.71",
@@ -424,7 +424,7 @@
     "total Sites Linking In": "877"
   },
   {
-    "rank": "54",
+    "rank": 54,
     "site": "Y2mate.com",
     "daily time on site": "3:38",
     "daily pageviews per visitor": "3.02",
@@ -432,7 +432,7 @@
     "total Sites Linking In": "593"
   },
   {
-    "rank": "55",
+    "rank": 55,
     "site": "Whatsapp.com",
     "daily time on site": "3:10",
     "daily pageviews per visitor": "1.23",
@@ -440,7 +440,7 @@
     "total Sites Linking In": "14,862"
   },
   {
-    "rank": "56",
+    "rank": 56,
     "site": "Ntsa.go.ke",
     "daily time on site": "11:17",
     "daily pageviews per visitor": "6.10",
@@ -448,7 +448,7 @@
     "total Sites Linking In": "143"
   },
   {
-    "rank": "57",
+    "rank": 57,
     "site": "Bing.com",
     "daily time on site": "2:35",
     "daily pageviews per visitor": "2.76",
@@ -456,7 +456,7 @@
     "total Sites Linking In": "57,304"
   },
   {
-    "rank": "58",
+    "rank": 58,
     "site": "Studypool.com",
     "daily time on site": "24:29",
     "daily pageviews per visitor": "14.00",
@@ -464,7 +464,7 @@
     "total Sites Linking In": "88"
   },
   {
-    "rank": "59",
+    "rank": 59,
     "site": "Uonbi.ac.ke",
     "daily time on site": "6:16",
     "daily pageviews per visitor": "3.90",
@@ -472,7 +472,7 @@
     "total Sites Linking In": "4,333"
   },
   {
-    "rank": "60",
+    "rank": 60,
     "site": "Betingonnet.com",
     "daily time on site": "0:50",
     "daily pageviews per visitor": "1.20",
@@ -480,7 +480,7 @@
     "total Sites Linking In": "65"
   },
   {
-    "rank": "61",
+    "rank": 61,
     "site": "Paypal-mobilemoney.com",
     "daily time on site": "3:13",
     "daily pageviews per visitor": "2.90",
@@ -488,7 +488,7 @@
     "total Sites Linking In": "76"
   },
   {
-    "rank": "62",
+    "rank": 62,
     "site": "Businessdailyafrica.com",
     "daily time on site": "3:48",
     "daily pageviews per visitor": "2.00",
@@ -496,7 +496,7 @@
     "total Sites Linking In": "1,402"
   },
   {
-    "rank": "63",
+    "rank": 63,
     "site": "Cnn.com",
     "daily time on site": "4:08",
     "daily pageviews per visitor": "2.26",
@@ -504,7 +504,7 @@
     "total Sites Linking In": "153,450"
   },
   {
-    "rank": "64",
+    "rank": 64,
     "site": "Savefrom.net",
     "daily time on site": "2:59",
     "daily pageviews per visitor": "1.44",
@@ -512,7 +512,7 @@
     "total Sites Linking In": "6,030"
   },
   {
-    "rank": "65",
+    "rank": 65,
     "site": "Psckjobs.go.ke",
     "daily time on site": "11:36",
     "daily pageviews per visitor": "5.20",
@@ -520,7 +520,7 @@
     "total Sites Linking In": "103"
   },
   {
-    "rank": "66",
+    "rank": 66,
     "site": "Paypal.com",
     "daily time on site": "5:04",
     "daily pageviews per visitor": "6.42",
@@ -528,7 +528,7 @@
     "total Sites Linking In": "24,102"
   },
   {
-    "rank": "67",
+    "rank": 67,
     "site": "Medium.com",
     "daily time on site": "2:54",
     "daily pageviews per visitor": "2.24",
@@ -536,7 +536,7 @@
     "total Sites Linking In": "8,212"
   },
   {
-    "rank": "68",
+    "rank": 68,
     "site": "Xvideos.com",
     "daily time on site": "13:47",
     "daily pageviews per visitor": "9.75",
@@ -544,7 +544,7 @@
     "total Sites Linking In": "4,670"
   },
   {
-    "rank": "69",
+    "rank": 69,
     "site": "Freepik.com",
     "daily time on site": "11:11",
     "daily pageviews per visitor": "7.08",
@@ -552,7 +552,7 @@
     "total Sites Linking In": "11,866"
   },
   {
-    "rank": "70",
+    "rank": 70,
     "site": "Dstv.com",
     "daily time on site": "3:39",
     "daily pageviews per visitor": "3.23",
@@ -560,7 +560,7 @@
     "total Sites Linking In": "963"
   },
   {
-    "rank": "71",
+    "rank": 71,
     "site": "Fmovies.to",
     "daily time on site": "4:06",
     "daily pageviews per visitor": "4.03",
@@ -568,7 +568,7 @@
     "total Sites Linking In": "243"
   },
   {
-    "rank": "72",
+    "rank": 72,
     "site": "Healthline.com",
     "daily time on site": "3:21",
     "daily pageviews per visitor": "5.37",
@@ -576,7 +576,7 @@
     "total Sites Linking In": "8,553"
   },
   {
-    "rank": "73",
+    "rank": 73,
     "site": "Livescore.com",
     "daily time on site": "4:32",
     "daily pageviews per visitor": "3.04",
@@ -584,7 +584,7 @@
     "total Sites Linking In": "2,423"
   },
   {
-    "rank": "74",
+    "rank": 74,
     "site": "Github.com",
     "daily time on site": "6:33",
     "daily pageviews per visitor": "6.17",
@@ -592,7 +592,7 @@
     "total Sites Linking In": "55,270"
   },
   {
-    "rank": "75",
+    "rank": 75,
     "site": "Victorspredict.com",
     "daily time on site": "19:29",
     "daily pageviews per visitor": "6.70",
@@ -600,7 +600,7 @@
     "total Sites Linking In": "771"
   },
   {
-    "rank": "76",
+    "rank": 76,
     "site": "Adobe.com",
     "daily time on site": "3:53",
     "daily pageviews per visitor": "3.74",
@@ -608,7 +608,7 @@
     "total Sites Linking In": "381,800"
   },
   {
-    "rank": "77",
+    "rank": 77,
     "site": "Pornhub.com",
     "daily time on site": "10:03",
     "daily pageviews per visitor": "3.25",
@@ -616,7 +616,7 @@
     "total Sites Linking In": "5,627"
   },
   {
-    "rank": "78",
+    "rank": 78,
     "site": "Linkedin.com",
     "daily time on site": "10:22",
     "daily pageviews per visitor": "8.41",
@@ -624,7 +624,7 @@
     "total Sites Linking In": "908,867"
   },
   {
-    "rank": "79",
+    "rank": 79,
     "site": "Instructure.com",
     "daily time on site": "10:54",
     "daily pageviews per visitor": "8.96",
@@ -632,7 +632,7 @@
     "total Sites Linking In": "1,096"
   },
   {
-    "rank": "80",
+    "rank": 80,
     "site": "Showmax.com",
     "daily time on site": "3:55",
     "daily pageviews per visitor": "3.98",
@@ -640,7 +640,7 @@
     "total Sites Linking In": "107"
   },
   {
-    "rank": "81",
+    "rank": 81,
     "site": "Pd.co.ke",
     "daily time on site": "2:53",
     "daily pageviews per visitor": "1.60",
@@ -648,7 +648,7 @@
     "total Sites Linking In": "241"
   },
   {
-    "rank": "82",
+    "rank": 82,
     "site": "Capitalfm.co.ke",
     "daily time on site": "6:48",
     "daily pageviews per visitor": "2.90",
@@ -656,7 +656,7 @@
     "total Sites Linking In": "1,226"
   },
   {
-    "rank": "83",
+    "rank": 83,
     "site": "Imdb.com",
     "daily time on site": "3:45",
     "daily pageviews per visitor": "4.85",
@@ -664,7 +664,7 @@
     "total Sites Linking In": "198,513"
   },
   {
-    "rank": "84",
+    "rank": 84,
     "site": "Telegram.org",
     "daily time on site": "6:40",
     "daily pageviews per visitor": "3.66",
@@ -672,7 +672,7 @@
     "total Sites Linking In": "1,168"
   },
   {
-    "rank": "85",
+    "rank": 85,
     "site": "22bet.co.ke",
     "daily time on site": "1:44",
     "daily pageviews per visitor": "1.20",
@@ -680,7 +680,7 @@
     "total Sites Linking In": "71"
   },
   {
-    "rank": "86",
+    "rank": 86,
     "site": "Pigiame.co.ke",
     "daily time on site": "3:56",
     "daily pageviews per visitor": "2.70",
@@ -688,7 +688,7 @@
     "total Sites Linking In": "102"
   },
   {
-    "rank": "87",
+    "rank": 87,
     "site": "Kahawatungu.com",
     "daily time on site": "3:50",
     "daily pageviews per visitor": "2.20",
@@ -696,7 +696,7 @@
     "total Sites Linking In": "99"
   },
   {
-    "rank": "88",
+    "rank": 88,
     "site": "Uvocorp.com",
     "daily time on site": "38:13",
     "daily pageviews per visitor": "11.00",
@@ -704,7 +704,7 @@
     "total Sites Linking In": "109"
   },
   {
-    "rank": "89",
+    "rank": 89,
     "site": "Tsc.go.ke",
     "daily time on site": "13:19",
     "daily pageviews per visitor": "6.40",
@@ -712,7 +712,7 @@
     "total Sites Linking In": "133"
   },
   {
-    "rank": "90",
+    "rank": 90,
     "site": "Sciencedirect.com",
     "daily time on site": "2:47",
     "daily pageviews per visitor": "2.19",
@@ -720,7 +720,7 @@
     "total Sites Linking In": "49,315"
   },
   {
-    "rank": "91",
+    "rank": 91,
     "site": "Mku.ac.ke",
     "daily time on site": "15:51",
     "daily pageviews per visitor": "10.00",
@@ -728,7 +728,7 @@
     "total Sites Linking In": "1,176"
   },
   {
-    "rank": "92",
+    "rank": 92,
     "site": "Ghris.go.ke",
     "daily time on site": "10:58",
     "daily pageviews per visitor": "5.10",
@@ -736,7 +736,7 @@
     "total Sites Linking In": "73"
   },
   {
-    "rank": "93",
+    "rank": 93,
     "site": "Msn.com",
     "daily time on site": "3:31",
     "daily pageviews per visitor": "3.07",
@@ -744,7 +744,7 @@
     "total Sites Linking In": "132,984"
   },
   {
-    "rank": "94",
+    "rank": 94,
     "site": "Dailymail.co.uk",
     "daily time on site": "4:11",
     "daily pageviews per visitor": "2.05",
@@ -752,7 +752,7 @@
     "total Sites Linking In": "101,891"
   },
   {
-    "rank": "95",
+    "rank": 95,
     "site": "Pirate-bay.net",
     "daily time on site": "1:47",
     "daily pageviews per visitor": "1.20",
@@ -760,7 +760,7 @@
     "total Sites Linking In": "70"
   },
   {
-    "rank": "96",
+    "rank": 96,
     "site": "Wetransfer.com",
     "daily time on site": "2:42",
     "daily pageviews per visitor": "1.61",
@@ -768,7 +768,7 @@
     "total Sites Linking In": "2,067"
   },
   {
-    "rank": "97",
+    "rank": 97,
     "site": "Sportsmole.co.uk",
     "daily time on site": "2:37",
     "daily pageviews per visitor": "1.80",
@@ -776,7 +776,7 @@
     "total Sites Linking In": "1,825"
   },
   {
-    "rank": "98",
+    "rank": 98,
     "site": "Nairobihot.com",
     "daily time on site": "5:53",
     "daily pageviews per visitor": "3.50",
@@ -784,7 +784,7 @@
     "total Sites Linking In": "251"
   },
   {
-    "rank": "99",
+    "rank": 99,
     "site": "Ask.com",
     "daily time on site": "2:08",
     "daily pageviews per visitor": "2.12",
@@ -792,7 +792,7 @@
     "total Sites Linking In": "16,903"
   },
   {
-    "rank": "100",
+    "rank": 100,
     "site": "Kcbgroup.com",
     "daily time on site": "10:31",
     "daily pageviews per visitor": "3.90",
@@ -800,7 +800,7 @@
     "total Sites Linking In": "84"
   },
   {
-    "rank": "101",
+    "rank": 101,
     "site": "Chegg.com",
     "daily time on site": "9:05",
     "daily pageviews per visitor": "7.48",
@@ -808,7 +808,7 @@
     "total Sites Linking In": "1,471"
   },
   {
-    "rank": "102",
+    "rank": 102,
     "site": "Googlevideo.com",
     "daily time on site": "3:12",
     "daily pageviews per visitor": "2.65",
@@ -816,7 +816,7 @@
     "total Sites Linking In": "397"
   },
   {
-    "rank": "103",
+    "rank": 103,
     "site": "Worldometers.info",
     "daily time on site": "3:29",
     "daily pageviews per visitor": "1.79",
@@ -824,7 +824,7 @@
     "total Sites Linking In": "5,732"
   },
   {
-    "rank": "104",
+    "rank": 104,
     "site": "Itnuzleafan.com",
     "daily time on site": "1:09",
     "daily pageviews per visitor": "1.29",
@@ -832,7 +832,7 @@
     "total Sites Linking In": "42"
   },
   {
-    "rank": "105",
+    "rank": 105,
     "site": "Canva.com",
     "daily time on site": "7:34",
     "daily pageviews per visitor": "4.48",
@@ -840,7 +840,7 @@
     "total Sites Linking In": "3,010"
   },
   {
-    "rank": "106",
+    "rank": 106,
     "site": "Livejasmin.com",
     "daily time on site": "2:51",
     "daily pageviews per visitor": "1.83",
@@ -848,7 +848,7 @@
     "total Sites Linking In": "14,506"
   },
   {
-    "rank": "107",
+    "rank": 107,
     "site": "Speaker-news.com",
     "daily time on site": "1:05",
     "daily pageviews per visitor": "1.10",
@@ -856,7 +856,7 @@
     "total Sites Linking In": "39"
   },
   {
-    "rank": "108",
+    "rank": 108,
     "site": "Softonic.com",
     "daily time on site": "2:59",
     "daily pageviews per visitor": "2.74",
@@ -864,7 +864,7 @@
     "total Sites Linking In": "16,532"
   },
   {
-    "rank": "109",
+    "rank": 109,
     "site": "Kilimall.co.ke",
     "daily time on site": "6:16",
     "daily pageviews per visitor": "3.20",
@@ -872,7 +872,7 @@
     "total Sites Linking In": "152"
   },
   {
-    "rank": "110",
+    "rank": 110,
     "site": "Alibaba.com",
     "daily time on site": "11:35",
     "daily pageviews per visitor": "9.09",
@@ -880,7 +880,7 @@
     "total Sites Linking In": "38,497"
   },
   {
-    "rank": "111",
+    "rank": 111,
     "site": "Smallpdf.com",
     "daily time on site": "4:01",
     "daily pageviews per visitor": "1.99",
@@ -888,7 +888,7 @@
     "total Sites Linking In": "1,089"
   },
   {
-    "rank": "112",
+    "rank": 112,
     "site": "Springer.com",
     "daily time on site": "2:46",
     "daily pageviews per visitor": "2.43",
@@ -896,7 +896,7 @@
     "total Sites Linking In": "37,172"
   },
   {
-    "rank": "113",
+    "rank": 113,
     "site": "Cheki.co.ke",
     "daily time on site": "6:58",
     "daily pageviews per visitor": "3.70",
@@ -904,7 +904,7 @@
     "total Sites Linking In": "116"
   },
   {
-    "rank": "114",
+    "rank": 114,
     "site": "Kopokopo.com",
     "daily time on site": "7:17",
     "daily pageviews per visitor": "4.10",
@@ -912,7 +912,7 @@
     "total Sites Linking In": "144"
   },
   {
-    "rank": "115",
+    "rank": 115,
     "site": "Trello.com",
     "daily time on site": "9:10",
     "daily pageviews per visitor": "5.81",
@@ -920,7 +920,7 @@
     "total Sites Linking In": "2,906"
   },
   {
-    "rank": "116",
+    "rank": 116,
     "site": "Radio.or.ke",
     "daily time on site": "2:30",
     "daily pageviews per visitor": "2.10",
@@ -928,7 +928,7 @@
     "total Sites Linking In": "77"
   },
   {
-    "rank": "117",
+    "rank": 117,
     "site": "Ebay.com",
     "daily time on site": "10:10",
     "daily pageviews per visitor": "7.74",
@@ -936,7 +936,7 @@
     "total Sites Linking In": "100,406"
   },
   {
-    "rank": "118",
+    "rank": 118,
     "site": "Itpatratr.com",
     "daily time on site": "1:35",
     "daily pageviews per visitor": "1.09",
@@ -944,7 +944,7 @@
     "total Sites Linking In": "39"
   },
   {
-    "rank": "119",
+    "rank": 119,
     "site": "Nhif.or.ke",
     "daily time on site": "5:42",
     "daily pageviews per visitor": "3.20",
@@ -952,7 +952,7 @@
     "total Sites Linking In": "163"
   },
   {
-    "rank": "120",
+    "rank": 120,
     "site": "Speedtest.net",
     "daily time on site": "3:31",
     "daily pageviews per visitor": "1.98",
@@ -960,7 +960,7 @@
     "total Sites Linking In": "12,467"
   },
   {
-    "rank": "121",
+    "rank": 121,
     "site": "Slideshare.net",
     "daily time on site": "2:57",
     "daily pageviews per visitor": "2.05",
@@ -968,7 +968,7 @@
     "total Sites Linking In": "135,761"
   },
   {
-    "rank": "122",
+    "rank": 122,
     "site": "Kenyalaw.org",
     "daily time on site": "4:58",
     "daily pageviews per visitor": "3.10",
@@ -976,7 +976,7 @@
     "total Sites Linking In": "748"
   },
   {
-    "rank": "123",
+    "rank": 123,
     "site": "Caasimada.net",
     "daily time on site": "3:43",
     "daily pageviews per visitor": "1.70",
@@ -984,7 +984,7 @@
     "total Sites Linking In": "1,371"
   },
   {
-    "rank": "124",
+    "rank": 124,
     "site": "Forbes.com",
     "daily time on site": "2:10",
     "daily pageviews per visitor": "1.81",
@@ -992,7 +992,7 @@
     "total Sites Linking In": "83,641"
   },
   {
-    "rank": "125",
+    "rank": 125,
     "site": "Absabank.co.ke",
     "daily time on site": "10:14",
     "daily pageviews per visitor": "4.10",
@@ -1000,7 +1000,7 @@
     "total Sites Linking In": "39"
   },
   {
-    "rank": "126",
+    "rank": 126,
     "site": "Publicservice.go.ke",
     "daily time on site": "3:05",
     "daily pageviews per visitor": "2.20",
@@ -1008,7 +1008,7 @@
     "total Sites Linking In": "128"
   },
   {
-    "rank": "127",
+    "rank": 127,
     "site": "Yts.mx",
     "daily time on site": "4:22",
     "daily pageviews per visitor": "4.22",
@@ -1016,7 +1016,7 @@
     "total Sites Linking In": "52"
   },
   {
-    "rank": "128",
+    "rank": 128,
     "site": "Vimeo.com",
     "daily time on site": "4:13",
     "daily pageviews per visitor": "3.37",
@@ -1024,7 +1024,7 @@
     "total Sites Linking In": "263,254"
   },
   {
-    "rank": "129",
+    "rank": 129,
     "site": "Rarbgget.org",
     "daily time on site": "6:09",
     "daily pageviews per visitor": "7.77",
@@ -1032,7 +1032,7 @@
     "total Sites Linking In": "71"
   },
   {
-    "rank": "130",
+    "rank": 130,
     "site": "Betway.co.ke",
     "daily time on site": "2:21",
     "daily pageviews per visitor": "1.60",
@@ -1040,7 +1040,7 @@
     "total Sites Linking In": "84"
   },
   {
-    "rank": "131",
+    "rank": 131,
     "site": "Mozzartbet.co.ke",
     "daily time on site": "4:22",
     "daily pageviews per visitor": "1.70",
@@ -1048,7 +1048,7 @@
     "total Sites Linking In": "72"
   },
   {
-    "rank": "132",
+    "rank": 132,
     "site": "Uselnk.com",
     "daily time on site": "1:17",
     "daily pageviews per visitor": "1.39",
@@ -1056,7 +1056,7 @@
     "total Sites Linking In": "70"
   },
   {
-    "rank": "133",
+    "rank": 133,
     "site": "Fuzu.com",
     "daily time on site": "6:48",
     "daily pageviews per visitor": "5.70",
@@ -1064,7 +1064,7 @@
     "total Sites Linking In": "81"
   },
   {
-    "rank": "134",
+    "rank": 134,
     "site": "Amazonaws.com",
     "daily time on site": "3:29",
     "daily pageviews per visitor": "2.73",
@@ -1072,7 +1072,7 @@
     "total Sites Linking In": "76,931"
   },
   {
-    "rank": "135",
+    "rank": 135,
     "site": "Semanticscholar.org",
     "daily time on site": "1:41",
     "daily pageviews per visitor": "1.39",
@@ -1080,7 +1080,7 @@
     "total Sites Linking In": "285"
   },
   {
-    "rank": "136",
+    "rank": 136,
     "site": "Wiley.com",
     "daily time on site": "2:31",
     "daily pageviews per visitor": "2.17",
@@ -1088,7 +1088,7 @@
     "total Sites Linking In": "55,981"
   },
   {
-    "rank": "137",
+    "rank": 137,
     "site": "Homeworkmarket.com",
     "daily time on site": "3:56",
     "daily pageviews per visitor": "3.20",
@@ -1096,7 +1096,7 @@
     "total Sites Linking In": "514"
   },
   {
-    "rank": "138",
+    "rank": 138,
     "site": "Pulselive.co.ke",
     "daily time on site": "2:02",
     "daily pageviews per visitor": "1.40",
@@ -1104,7 +1104,7 @@
     "total Sites Linking In": "120"
   },
   {
-    "rank": "139",
+    "rank": 139,
     "site": "Wcncs.site",
     "daily time on site": "1:09",
     "daily pageviews per visitor": "1.00",
@@ -1112,7 +1112,7 @@
     "total Sites Linking In": "1"
   },
   {
-    "rank": "140",
+    "rank": 140,
     "site": "Illuminaija.com",
     "daily time on site": "2:53",
     "daily pageviews per visitor": "2.40",
@@ -1120,7 +1120,7 @@
     "total Sites Linking In": "914"
   },
   {
-    "rank": "141",
+    "rank": 141,
     "site": "Myjobmag.co.ke",
     "daily time on site": "4:34",
     "daily pageviews per visitor": "3.50",
@@ -1128,7 +1128,7 @@
     "total Sites Linking In": "72"
   },
   {
-    "rank": "142",
+    "rank": 142,
     "site": "Strathmore.edu",
     "daily time on site": "9:25",
     "daily pageviews per visitor": "6.20",
@@ -1136,7 +1136,7 @@
     "total Sites Linking In": "461"
   },
   {
-    "rank": "143",
+    "rank": 143,
     "site": "Get-express-vpn.com",
     "daily time on site": "1:04",
     "daily pageviews per visitor": "1.13",
@@ -1144,7 +1144,7 @@
     "total Sites Linking In": "84"
   },
   {
-    "rank": "144",
+    "rank": 144,
     "site": "Safaricom.com",
     "daily time on site": "4:25",
     "daily pageviews per visitor": "1.50",
@@ -1152,7 +1152,7 @@
     "total Sites Linking In": "137"
   },
   {
-    "rank": "145",
+    "rank": 145,
     "site": "Dropbox.com",
     "daily time on site": "4:36",
     "daily pageviews per visitor": "3.79",
@@ -1160,7 +1160,7 @@
     "total Sites Linking In": "32,670"
   },
   {
-    "rank": "146",
+    "rank": 146,
     "site": "Goodreads.com",
     "daily time on site": "3:40",
     "daily pageviews per visitor": "3.31",
@@ -1168,7 +1168,7 @@
     "total Sites Linking In": "57,746"
   },
   {
-    "rank": "147",
+    "rank": 147,
     "site": "Tandfonline.com",
     "daily time on site": "2:21",
     "daily pageviews per visitor": "1.85",
@@ -1176,7 +1176,7 @@
     "total Sites Linking In": "102,318"
   },
   {
-    "rank": "148",
+    "rank": 148,
     "site": "Premierleague.com",
     "daily time on site": "4:55",
     "daily pageviews per visitor": "3.05",
@@ -1184,7 +1184,7 @@
     "total Sites Linking In": "3,086"
   },
   {
-    "rank": "149",
+    "rank": 149,
     "site": "Investopedia.com",
     "daily time on site": "2:36",
     "daily pageviews per visitor": "1.65",
@@ -1192,7 +1192,7 @@
     "total Sites Linking In": "15,404"
   },
   {
-    "rank": "150",
+    "rank": 150,
     "site": "Apple.com",
     "daily time on site": "3:42",
     "daily pageviews per visitor": "3.65",
@@ -1200,7 +1200,7 @@
     "total Sites Linking In": "264,788"
   },
   {
-    "rank": "151",
+    "rank": 151,
     "site": "Brightermonday.co.ke",
     "daily time on site": "4:46",
     "daily pageviews per visitor": "3.30",
@@ -1208,7 +1208,7 @@
     "total Sites Linking In": "99"
   },
   {
-    "rank": "152",
+    "rank": 152,
     "site": "Totalsportek.com",
     "daily time on site": "1:09",
     "daily pageviews per visitor": "2.00",
@@ -1216,7 +1216,7 @@
     "total Sites Linking In": "307"
   },
   {
-    "rank": "153",
+    "rank": 153,
     "site": "Chaturbate.com",
     "daily time on site": "11:21",
     "daily pageviews per visitor": "8.57",
@@ -1224,7 +1224,7 @@
     "total Sites Linking In": "54,249"
   },
   {
-    "rank": "154",
+    "rank": 154,
     "site": "Theguardian.com",
     "daily time on site": "2:39",
     "daily pageviews per visitor": "2.79",
@@ -1232,7 +1232,7 @@
     "total Sites Linking In": "66,647"
   },
   {
-    "rank": "155",
+    "rank": 155,
     "site": "Sofascore.com",
     "daily time on site": "6:21",
     "daily pageviews per visitor": "3.50",
@@ -1240,7 +1240,7 @@
     "total Sites Linking In": "343"
   },
   {
-    "rank": "156",
+    "rank": 156,
     "site": "Nytimes.com",
     "daily time on site": "3:13",
     "daily pageviews per visitor": "2.63",
@@ -1248,7 +1248,7 @@
     "total Sites Linking In": "222,554"
   },
   {
-    "rank": "157",
+    "rank": 157,
     "site": "Biblegateway.com",
     "daily time on site": "4:35",
     "daily pageviews per visitor": "1.42",
@@ -1256,7 +1256,7 @@
     "total Sites Linking In": "22,733"
   },
   {
-    "rank": "158",
+    "rank": 158,
     "site": "Fiverr.com",
     "daily time on site": "13:55",
     "daily pageviews per visitor": "7.59",
@@ -1264,7 +1264,7 @@
     "total Sites Linking In": "13,562"
   },
   {
-    "rank": "159",
+    "rank": 159,
     "site": "Odibets.com",
     "daily time on site": "3:10",
     "daily pageviews per visitor": "1.60",
@@ -1272,7 +1272,7 @@
     "total Sites Linking In": "74"
   },
   {
-    "rank": "160",
+    "rank": 160,
     "site": "Fmovies.wtf",
     "daily time on site": "3:54",
     "daily pageviews per visitor": "3.95",
@@ -1280,7 +1280,7 @@
     "total Sites Linking In": "77"
   },
   {
-    "rank": "161",
+    "rank": 161,
     "site": "Kuccps.net",
     "daily time on site": "12:39",
     "daily pageviews per visitor": "6.90",
@@ -1288,7 +1288,7 @@
     "total Sites Linking In": "130"
   },
   {
-    "rank": "162",
+    "rank": 162,
     "site": "Goal.com",
     "daily time on site": "3:28",
     "daily pageviews per visitor": "2.34",
@@ -1296,7 +1296,7 @@
     "total Sites Linking In": "9,209"
   },
   {
-    "rank": "163",
+    "rank": 163,
     "site": "Helb.co.ke",
     "daily time on site": "7:21",
     "daily pageviews per visitor": "4.20",
@@ -1304,7 +1304,7 @@
     "total Sites Linking In": "694"
   },
   {
-    "rank": "164",
+    "rank": 164,
     "site": "Sonkonews.com",
     "daily time on site": "9:52",
     "daily pageviews per visitor": "3.30",
@@ -1312,7 +1312,7 @@
     "total Sites Linking In": "159"
   },
   {
-    "rank": "165",
+    "rank": 165,
     "site": "Ffmovies.to",
     "daily time on site": "3:50",
     "daily pageviews per visitor": "3.60",
@@ -1320,7 +1320,7 @@
     "total Sites Linking In": "66"
   },
   {
-    "rank": "166",
+    "rank": 166,
     "site": "Un.org",
     "daily time on site": "3:04",
     "daily pageviews per visitor": "2.07",
@@ -1328,7 +1328,7 @@
     "total Sites Linking In": "60,640"
   },
   {
-    "rank": "167",
+    "rank": 167,
     "site": "Kenyaplex.com",
     "daily time on site": "6:16",
     "daily pageviews per visitor": "4.00",
@@ -1336,7 +1336,7 @@
     "total Sites Linking In": "123"
   },
   {
-    "rank": "168",
+    "rank": 168,
     "site": "Jumia.com",
     "daily time on site": "4:48",
     "daily pageviews per visitor": "2.91",
@@ -1344,7 +1344,7 @@
     "total Sites Linking In": "341"
   },
   {
-    "rank": "169",
+    "rank": 169,
     "site": "Academia.edu",
     "daily time on site": "2:38",
     "daily pageviews per visitor": "1.87",
@@ -1352,7 +1352,7 @@
     "total Sites Linking In": "29,086"
   },
   {
-    "rank": "170",
+    "rank": 170,
     "site": "Sagepub.com",
     "daily time on site": "2:07",
     "daily pageviews per visitor": "1.75",
@@ -1360,7 +1360,7 @@
     "total Sites Linking In": "30,917"
   },
   {
-    "rank": "171",
+    "rank": 171,
     "site": "Thepiratebay.org",
     "daily time on site": "3:01",
     "daily pageviews per visitor": "4.21",
@@ -1368,7 +1368,7 @@
     "total Sites Linking In": "8,041"
   },
   {
-    "rank": "172",
+    "rank": 172,
     "site": "Gsmarena.com",
     "daily time on site": "4:36",
     "daily pageviews per visitor": "3.64",
@@ -1376,7 +1376,7 @@
     "total Sites Linking In": "8,480"
   },
   {
-    "rank": "173",
+    "rank": 173,
     "site": "Conference.ke",
     "daily time on site": "8:20",
     "daily pageviews per visitor": "5.10",
@@ -1384,7 +1384,7 @@
     "total Sites Linking In": "38"
   },
   {
-    "rank": "174",
+    "rank": 174,
     "site": "Tradingview.com",
     "daily time on site": "6:08",
     "daily pageviews per visitor": "3.32",
@@ -1392,7 +1392,7 @@
     "total Sites Linking In": "760"
   },
   {
-    "rank": "175",
+    "rank": 175,
     "site": "Flashscore.co.ke",
     "daily time on site": "12:48",
     "daily pageviews per visitor": "11.00",
@@ -1400,7 +1400,7 @@
     "total Sites Linking In": "73"
   },
   {
-    "rank": "176",
+    "rank": 176,
     "site": "Who.int",
     "daily time on site": "2:29",
     "daily pageviews per visitor": "1.98",
@@ -1408,7 +1408,7 @@
     "total Sites Linking In": "60,209"
   },
   {
-    "rank": "177",
+    "rank": 177,
     "site": "Wix.com",
     "daily time on site": "7:59",
     "daily pageviews per visitor": "6.15",
@@ -1416,7 +1416,7 @@
     "total Sites Linking In": "31,139"
   },
   {
-    "rank": "178",
+    "rank": 178,
     "site": "Quizlet.com",
     "daily time on site": "5:48",
     "daily pageviews per visitor": "3.75",
@@ -1424,7 +1424,7 @@
     "total Sites Linking In": "6,171"
   },
   {
-    "rank": "179",
+    "rank": 179,
     "site": "Truehost.co.ke",
     "daily time on site": "18:41",
     "daily pageviews per visitor": "5.70",
@@ -1432,7 +1432,7 @@
     "total Sites Linking In": "77"
   },
   {
-    "rank": "180",
+    "rank": 180,
     "site": "Fast.com",
     "daily time on site": "2:13",
     "daily pageviews per visitor": "1.01",
@@ -1440,7 +1440,7 @@
     "total Sites Linking In": "318"
   },
   {
-    "rank": "181",
+    "rank": 181,
     "site": "Qa-world.com",
     "daily time on site": "13:51",
     "daily pageviews per visitor": "4.10",
@@ -1448,7 +1448,7 @@
     "total Sites Linking In": "70"
   },
   {
-    "rank": "182",
+    "rank": 182,
     "site": "Spotify.com",
     "daily time on site": "3:21",
     "daily pageviews per visitor": "4.41",
@@ -1456,7 +1456,7 @@
     "total Sites Linking In": "16,492"
   },
   {
-    "rank": "183",
+    "rank": 183,
     "site": "Etsy.com",
     "daily time on site": "9:58",
     "daily pageviews per visitor": "6.80",
@@ -1464,7 +1464,7 @@
     "total Sites Linking In": "129,516"
   },
   {
-    "rank": "184",
+    "rank": 184,
     "site": "Academia-research.com",
     "daily time on site": "20:46",
     "daily pageviews per visitor": "1.60",
@@ -1472,7 +1472,7 @@
     "total Sites Linking In": "226"
   },
   {
-    "rank": "185",
+    "rank": 185,
     "site": "Abdurantom.com",
     "daily time on site": "0:42",
     "daily pageviews per visitor": "1.16",
@@ -1480,7 +1480,7 @@
     "total Sites Linking In": "44"
   },
   {
-    "rank": "186",
+    "rank": 186,
     "site": "Office365.com",
     "daily time on site": "12:11",
     "daily pageviews per visitor": "10.70",
@@ -1488,7 +1488,7 @@
     "total Sites Linking In": "1,781"
   },
   {
-    "rank": "187",
+    "rank": 187,
     "site": "Stackexchange.com",
     "daily time on site": "2:20",
     "daily pageviews per visitor": "2.43",
@@ -1496,7 +1496,7 @@
     "total Sites Linking In": "13,655"
   },
   {
-    "rank": "188",
+    "rank": 188,
     "site": "Xnxx.com",
     "daily time on site": "12:37",
     "daily pageviews per visitor": "9.38",
@@ -1504,7 +1504,7 @@
     "total Sites Linking In": "2,068"
   },
   {
-    "rank": "189",
+    "rank": 189,
     "site": "Jstor.org",
     "daily time on site": "2:31",
     "daily pageviews per visitor": "2.04",
@@ -1512,7 +1512,7 @@
     "total Sites Linking In": "22,983"
   },
   {
-    "rank": "190",
+    "rank": 190,
     "site": "Hp.com",
     "daily time on site": "3:56",
     "daily pageviews per visitor": "3.07",
@@ -1520,7 +1520,7 @@
     "total Sites Linking In": "37,428"
   },
   {
-    "rank": "191",
+    "rank": 191,
     "site": "Geeksforgeeks.org",
     "daily time on site": "3:31",
     "daily pageviews per visitor": "2.19",
@@ -1528,7 +1528,7 @@
     "total Sites Linking In": "973"
   },
   {
-    "rank": "192",
+    "rank": 192,
     "site": "Careerpointkenya.co.ke",
     "daily time on site": "3:33",
     "daily pageviews per visitor": "2.50",
@@ -1536,7 +1536,7 @@
     "total Sites Linking In": "105"
   },
   {
-    "rank": "193",
+    "rank": 193,
     "site": "Verbit.co",
     "daily time on site": "39:52",
     "daily pageviews per visitor": "12.00",
@@ -1544,7 +1544,7 @@
     "total Sites Linking In": "72"
   },
   {
-    "rank": "194",
+    "rank": 194,
     "site": "Shutterstock.com",
     "daily time on site": "7:06",
     "daily pageviews per visitor": "6.10",
@@ -1552,7 +1552,7 @@
     "total Sites Linking In": "19,805"
   },
   {
-    "rank": "195",
+    "rank": 195,
     "site": "Myway.com",
     "daily time on site": "2:32",
     "daily pageviews per visitor": "1.26",
@@ -1560,7 +1560,7 @@
     "total Sites Linking In": "5,720"
   },
   {
-    "rank": "196",
+    "rank": 196,
     "site": "Soap2day.to",
     "daily time on site": "4:31",
     "daily pageviews per visitor": "5.86",
@@ -1568,7 +1568,7 @@
     "total Sites Linking In": "63"
   },
   {
-    "rank": "197",
+    "rank": 197,
     "site": "Cnet.com",
     "daily time on site": "2:15",
     "daily pageviews per visitor": "3.01",
@@ -1576,7 +1576,7 @@
     "total Sites Linking In": "61,964"
   },
   {
-    "rank": "198",
+    "rank": 198,
     "site": "Pdfdrive.com",
     "daily time on site": "7:17",
     "daily pageviews per visitor": "7.99",
@@ -1584,7 +1584,7 @@
     "total Sites Linking In": "264"
   },
   {
-    "rank": "199",
+    "rank": 199,
     "site": "Sky.garden",
     "daily time on site": "7:23",
     "daily pageviews per visitor": "4.30",
@@ -1592,7 +1592,7 @@
     "total Sites Linking In": "69"
   },
   {
-    "rank": "200",
+    "rank": 200,
     "site": "Chron.com",
     "daily time on site": "1:41",
     "daily pageviews per visitor": "1.30",
@@ -1600,7 +1600,7 @@
     "total Sites Linking In": "24,047"
   },
   {
-    "rank": "201",
+    "rank": 201,
     "site": "Doubleclick.net",
     "daily time on site": "1:03",
     "daily pageviews per visitor": "1.84",
@@ -1608,7 +1608,7 @@
     "total Sites Linking In": "16,367"
   },
   {
-    "rank": "202",
+    "rank": 202,
     "site": "Coursera.org",
     "daily time on site": "10:58",
     "daily pageviews per visitor": "7.10",
@@ -1616,7 +1616,7 @@
     "total Sites Linking In": "2,595"
   },
   {
-    "rank": "203",
+    "rank": 203,
     "site": "Remotasks.com",
     "daily time on site": "12:28",
     "daily pageviews per visitor": "4.37",
@@ -1624,7 +1624,7 @@
     "total Sites Linking In": "73"
   },
   {
-    "rank": "204",
+    "rank": 204,
     "site": "Utorrent.com",
     "daily time on site": "1:26",
     "daily pageviews per visitor": "1.35",
@@ -1632,7 +1632,7 @@
     "total Sites Linking In": "10,186"
   },
   {
-    "rank": "205",
+    "rank": 205,
     "site": "Udemy.com",
     "daily time on site": "10:42",
     "daily pageviews per visitor": "7.75",
@@ -1640,7 +1640,7 @@
     "total Sites Linking In": "2,597"
   },
   {
-    "rank": "206",
+    "rank": 206,
     "site": "Study.com",
     "daily time on site": "2:05",
     "daily pageviews per visitor": "1.52",
@@ -1648,7 +1648,7 @@
     "total Sites Linking In": "3,363"
   },
   {
-    "rank": "207",
+    "rank": 207,
     "site": "Pinterest.com",
     "daily time on site": "5:53",
     "daily pageviews per visitor": "5.65",
@@ -1656,7 +1656,7 @@
     "total Sites Linking In": "997,451"
   },
   {
-    "rank": "208",
+    "rank": 208,
     "site": "Ilovepdf.com",
     "daily time on site": "5:58",
     "daily pageviews per visitor": "3.72",
@@ -1664,7 +1664,7 @@
     "total Sites Linking In": "609"
   },
   {
-    "rank": "209",
+    "rank": 209,
     "site": "Nssfkenya.co.ke",
     "daily time on site": "14:50",
     "daily pageviews per visitor": "6.80",
@@ -1672,7 +1672,7 @@
     "total Sites Linking In": "51"
   },
   {
-    "rank": "210",
+    "rank": 210,
     "site": "Sabs-news.info",
     "daily time on site": "0:46",
     "daily pageviews per visitor": "1.20",
@@ -1680,7 +1680,7 @@
     "total Sites Linking In": "38"
   },
   {
-    "rank": "211",
+    "rank": 211,
     "site": "Amplereads.com",
     "daily time on site": "53:02",
     "daily pageviews per visitor": "44.00",
@@ -1688,7 +1688,7 @@
     "total Sites Linking In": "68"
   },
   {
-    "rank": "212",
+    "rank": 212,
     "site": "Phoneplacekenya.com",
     "daily time on site": "4:35",
     "daily pageviews per visitor": "3.60",
@@ -1696,7 +1696,7 @@
     "total Sites Linking In": "78"
   },
   {
-    "rank": "213",
+    "rank": 213,
     "site": "M-pesa.com",
     "daily time on site": "9:14",
     "daily pageviews per visitor": "3.10",
@@ -1704,7 +1704,7 @@
     "total Sites Linking In": "74"
   },
   {
-    "rank": "214",
+    "rank": 214,
     "site": "Legit.ng",
     "daily time on site": "11:60",
     "daily pageviews per visitor": "4.63",
@@ -1712,7 +1712,7 @@
     "total Sites Linking In": "7,054"
   },
   {
-    "rank": "215",
+    "rank": 215,
     "site": "Yesmovies.ag",
     "daily time on site": "4:05",
     "daily pageviews per visitor": "5.00",
@@ -1720,7 +1720,7 @@
     "total Sites Linking In": "69"
   },
   {
-    "rank": "216",
+    "rank": 216,
     "site": "Duckduckgo.com",
     "daily time on site": "3:52",
     "daily pageviews per visitor": "1.14",
@@ -1728,7 +1728,7 @@
     "total Sites Linking In": "3,055"
   },
   {
-    "rank": "217",
+    "rank": 217,
     "site": "B-ok.africa",
     "daily time on site": "8:60",
     "daily pageviews per visitor": "7.90",
@@ -1736,7 +1736,7 @@
     "total Sites Linking In": "1"
   },
   {
-    "rank": "218",
+    "rank": 218,
     "site": "Webmd.com",
     "daily time on site": "2:18",
     "daily pageviews per visitor": "1.89",
@@ -1744,7 +1744,7 @@
     "total Sites Linking In": "38,940"
   },
   {
-    "rank": "219",
+    "rank": 219,
     "site": "Twimg.com",
     "daily time on site": "2:24",
     "daily pageviews per visitor": "2.40",
@@ -1752,7 +1752,7 @@
     "total Sites Linking In": "7,062"
   },
   {
-    "rank": "220",
+    "rank": 220,
     "site": "Kenya.go.ke",
     "daily time on site": "5:54",
     "daily pageviews per visitor": "2.80",
@@ -1760,7 +1760,7 @@
     "total Sites Linking In": "249"
   },
   {
-    "rank": "221",
+    "rank": 221,
     "site": "Medicalnewstoday.com",
     "daily time on site": "2:58",
     "daily pageviews per visitor": "3.55",
@@ -1768,7 +1768,7 @@
     "total Sites Linking In": "12,978"
   },
   {
-    "rank": "222",
+    "rank": 222,
     "site": "Cnyakundi.com",
     "daily time on site": "5:33",
     "daily pageviews per visitor": "3.30",
@@ -1776,7 +1776,7 @@
     "total Sites Linking In": "107"
   },
   {
-    "rank": "223",
+    "rank": 223,
     "site": "Glassdoor.com",
     "daily time on site": "3:21",
     "daily pageviews per visitor": "3.30",
@@ -1784,7 +1784,7 @@
     "total Sites Linking In": "4,596"
   },
   {
-    "rank": "224",
+    "rank": 224,
     "site": "W3schools.com",
     "daily time on site": "5:43",
     "daily pageviews per visitor": "3.99",
@@ -1792,7 +1792,7 @@
     "total Sites Linking In": "24,279"
   },
   {
-    "rank": "225",
+    "rank": 225,
     "site": "Beforward.jp",
     "daily time on site": "12:36",
     "daily pageviews per visitor": "9.40",
@@ -1800,7 +1800,7 @@
     "total Sites Linking In": "269"
   },
   {
-    "rank": "226",
+    "rank": 226,
     "site": "Phonestablets.co.ke",
     "daily time on site": "30:54",
     "daily pageviews per visitor": "25.00",
@@ -1808,7 +1808,7 @@
     "total Sites Linking In": "78"
   },
   {
-    "rank": "227",
+    "rank": 227,
     "site": "Pixabay.com",
     "daily time on site": "7:12",
     "daily pageviews per visitor": "7.56",
@@ -1816,7 +1816,7 @@
     "total Sites Linking In": "7,513"
   },
   {
-    "rank": "228",
+    "rank": 228,
     "site": "Taboola.com",
     "daily time on site": "3:42",
     "daily pageviews per visitor": "5.20",
@@ -1824,7 +1824,7 @@
     "total Sites Linking In": "1,198"
   },
   {
-    "rank": "229",
+    "rank": 229,
     "site": "Brainytermpapers.com",
     "daily time on site": "50:58",
     "daily pageviews per visitor": "41.00",
@@ -1832,7 +1832,7 @@
     "total Sites Linking In": "31"
   },
   {
-    "rank": "230",
+    "rank": 230,
     "site": "Wootly.ch",
     "daily time on site": "2:53",
     "daily pageviews per visitor": "3.00",
@@ -1840,7 +1840,7 @@
     "total Sites Linking In": "117"
   },
   {
-    "rank": "231",
+    "rank": 231,
     "site": "Tutorialspoint.com",
     "daily time on site": "2:52",
     "daily pageviews per visitor": "2.01",
@@ -1848,7 +1848,7 @@
     "total Sites Linking In": "4,090"
   },
   {
-    "rank": "232",
+    "rank": 232,
     "site": "Usiu.ac.ke",
     "daily time on site": "7:44",
     "daily pageviews per visitor": "3.60",
@@ -1856,7 +1856,7 @@
     "total Sites Linking In": "265"
   },
   {
-    "rank": "233",
+    "rank": 233,
     "site": "Venasnews.co.ke",
     "daily time on site": "3:08",
     "daily pageviews per visitor": "1.60",
@@ -1864,7 +1864,7 @@
     "total Sites Linking In": "320"
   },
   {
-    "rank": "234",
+    "rank": 234,
     "site": "Archive.org",
     "daily time on site": "5:22",
     "daily pageviews per visitor": "7.48",
@@ -1872,7 +1872,7 @@
     "total Sites Linking In": "100,505"
   },
   {
-    "rank": "235",
+    "rank": 235,
     "site": "Jobwebkenya.com",
     "daily time on site": "5:46",
     "daily pageviews per visitor": "3.40",
@@ -1880,7 +1880,7 @@
     "total Sites Linking In": "91"
   },
   {
-    "rank": "236",
+    "rank": 236,
     "site": "Buyrentkenya.com",
     "daily time on site": "5:54",
     "daily pageviews per visitor": "4.00",
@@ -1888,7 +1888,7 @@
     "total Sites Linking In": "110"
   },
   {
-    "rank": "237",
+    "rank": 237,
     "site": "Tagged.com",
     "daily time on site": "15:36",
     "daily pageviews per visitor": "9.30",
@@ -1896,7 +1896,7 @@
     "total Sites Linking In": "5,202"
   },
   {
-    "rank": "238",
+    "rank": 238,
     "site": "Sbtjapan.com",
     "daily time on site": "18:24",
     "daily pageviews per visitor": "7.80",
@@ -1904,7 +1904,7 @@
     "total Sites Linking In": "397"
   },
   {
-    "rank": "239",
+    "rank": 239,
     "site": "1377x.to",
     "daily time on site": "5:04",
     "daily pageviews per visitor": "7.04",
@@ -1912,7 +1912,7 @@
     "total Sites Linking In": "116"
   },
   {
-    "rank": "240",
+    "rank": 240,
     "site": "Edmodo.com",
     "daily time on site": "7:09",
     "daily pageviews per visitor": "3.62",
@@ -1920,7 +1920,7 @@
     "total Sites Linking In": "3,011"
   },
   {
-    "rank": "241",
+    "rank": 241,
     "site": "Kemu.ac.ke",
     "daily time on site": "9:16",
     "daily pageviews per visitor": "6.50",
@@ -1928,7 +1928,7 @@
     "total Sites Linking In": "220"
   },
   {
-    "rank": "242",
+    "rank": 242,
     "site": "Sc.com",
     "daily time on site": "2:01",
     "daily pageviews per visitor": "2.29",
@@ -1936,7 +1936,7 @@
     "total Sites Linking In": "450"
   },
   {
-    "rank": "243",
+    "rank": 243,
     "site": "Aljazeera.com",
     "daily time on site": "2:40",
     "daily pageviews per visitor": "1.74",
@@ -1944,7 +1944,7 @@
     "total Sites Linking In": "19,046"
   },
   {
-    "rank": "244",
+    "rank": 244,
     "site": "Britannica.com",
     "daily time on site": "2:27",
     "daily pageviews per visitor": "1.48",
@@ -1952,7 +1952,7 @@
     "total Sites Linking In": "26,522"
   },
   {
-    "rank": "245",
+    "rank": 245,
     "site": "Techweez.com",
     "daily time on site": "2:57",
     "daily pageviews per visitor": "2.20",
@@ -1960,7 +1960,7 @@
     "total Sites Linking In": "254"
   },
   {
-    "rank": "246",
+    "rank": 246,
     "site": "Fmovie.sc",
     "daily time on site": "3:35",
     "daily pageviews per visitor": "4.51",
@@ -1968,7 +1968,7 @@
     "total Sites Linking In": "70"
   },
   {
-    "rank": "247",
+    "rank": 247,
     "site": "Telkom.co.ke",
     "daily time on site": "4:25",
     "daily pageviews per visitor": "2.20",
@@ -1976,7 +1976,7 @@
     "total Sites Linking In": "139"
   },
   {
-    "rank": "248",
+    "rank": 248,
     "site": "Trontv.com",
     "daily time on site": "2:02",
     "daily pageviews per visitor": "1.14",
@@ -1984,7 +1984,7 @@
     "total Sites Linking In": "71"
   },
   {
-    "rank": "249",
+    "rank": 249,
     "site": "Education.go.ke",
     "daily time on site": "29:47",
     "daily pageviews per visitor": "4.50",
@@ -1992,7 +1992,7 @@
     "total Sites Linking In": "751"
   },
   {
-    "rank": "250",
+    "rank": 250,
     "site": "Nca.go.ke",
     "daily time on site": "11:07",
     "daily pageviews per visitor": "5.50",
@@ -2000,7 +2000,7 @@
     "total Sites Linking In": "88"
   },
   {
-    "rank": "251",
+    "rank": 251,
     "site": "Hesgoal.com",
     "daily time on site": "3:19",
     "daily pageviews per visitor": "2.10",
@@ -2008,7 +2008,7 @@
     "total Sites Linking In": "128"
   },
   {
-    "rank": "252",
+    "rank": 252,
     "site": "Jtl.co.ke",
     "daily time on site": "2:44",
     "daily pageviews per visitor": "1.90",
@@ -2016,7 +2016,7 @@
     "total Sites Linking In": "79"
   },
   {
-    "rank": "253",
+    "rank": 253,
     "site": "Skysports.com",
     "daily time on site": "3:22",
     "daily pageviews per visitor": "2.67",
@@ -2024,7 +2024,7 @@
     "total Sites Linking In": "4,987"
   },
   {
-    "rank": "254",
+    "rank": 254,
     "site": "Kenyayote.com",
     "daily time on site": "4:35",
     "daily pageviews per visitor": "2.60",
@@ -2032,7 +2032,7 @@
     "total Sites Linking In": "222"
   },
   {
-    "rank": "255",
+    "rank": 255,
     "site": "Jkuat.ac.ke",
     "daily time on site": "4:38",
     "daily pageviews per visitor": "3.20",
@@ -2040,7 +2040,7 @@
     "total Sites Linking In": "590"
   },
   {
-    "rank": "256",
+    "rank": 256,
     "site": "Kenyawebexperts.com",
     "daily time on site": "5:53",
     "daily pageviews per visitor": "3.10",
@@ -2048,7 +2048,7 @@
     "total Sites Linking In": "187"
   },
   {
-    "rank": "257",
+    "rank": 257,
     "site": "Kabarak.ac.ke",
     "daily time on site": "23:23",
     "daily pageviews per visitor": "10.00",
@@ -2056,7 +2056,7 @@
     "total Sites Linking In": "139"
   },
   {
-    "rank": "258",
+    "rank": 258,
     "site": "Newsnow.co.uk",
     "daily time on site": "5:37",
     "daily pageviews per visitor": "3.57",
@@ -2064,7 +2064,7 @@
     "total Sites Linking In": "1,883"
   },
   {
-    "rank": "259",
+    "rank": 259,
     "site": "Wingubox.com",
     "daily time on site": "21:04",
     "daily pageviews per visitor": "3.10",
@@ -2072,7 +2072,7 @@
     "total Sites Linking In": "77"
   },
   {
-    "rank": "260",
+    "rank": 260,
     "site": "Ueab.ac.ke",
     "daily time on site": "24:59",
     "daily pageviews per visitor": "7.00",
@@ -2080,7 +2080,7 @@
     "total Sites Linking In": "62"
   },
   {
-    "rank": "261",
+    "rank": 261,
     "site": "Kenyan-post.com",
     "daily time on site": "7:07",
     "daily pageviews per visitor": "4.40",
@@ -2088,7 +2088,7 @@
     "total Sites Linking In": "231"
   },
   {
-    "rank": "262",
+    "rank": 262,
     "site": "Sci-hub.tw",
     "daily time on site": "6:13",
     "daily pageviews per visitor": "3.38",
@@ -2096,7 +2096,7 @@
     "total Sites Linking In": "631"
   },
   {
-    "rank": "263",
+    "rank": 263,
     "site": "Pexels.com",
     "daily time on site": "7:13",
     "daily pageviews per visitor": "7.78",
@@ -2104,7 +2104,7 @@
     "total Sites Linking In": "2,300"
   },
   {
-    "rank": "264",
+    "rank": 264,
     "site": "Bet365.com",
     "daily time on site": "1:58",
     "daily pageviews per visitor": "1.62",
@@ -2112,7 +2112,7 @@
     "total Sites Linking In": "2,135"
   },
   {
-    "rank": "265",
+    "rank": 265,
     "site": "Series9.to",
     "daily time on site": "5:48",
     "daily pageviews per visitor": "4.10",
@@ -2120,7 +2120,7 @@
     "total Sites Linking In": "68"
   },
   {
-    "rank": "266",
+    "rank": 266,
     "site": "Mozilla.org",
     "daily time on site": "2:21",
     "daily pageviews per visitor": "1.76",
@@ -2128,7 +2128,7 @@
     "total Sites Linking In": "86,314"
   },
   {
-    "rank": "267",
+    "rank": 267,
     "site": "Success-is-in-reach.com",
     "daily time on site": "1:01",
     "daily pageviews per visitor": "1.00",
@@ -2136,7 +2136,7 @@
     "total Sites Linking In": "67"
   },
   {
-    "rank": "268",
+    "rank": 268,
     "site": "Cambridge.org",
     "daily time on site": "5:14",
     "daily pageviews per visitor": "3.41",
@@ -2144,7 +2144,7 @@
     "total Sites Linking In": "23,079"
   },
   {
-    "rank": "269",
+    "rank": 269,
     "site": "Writerbay.com",
     "daily time on site": "30:41",
     "daily pageviews per visitor": "3.90",
@@ -2152,7 +2152,7 @@
     "total Sites Linking In": "129"
   },
   {
-    "rank": "270",
+    "rank": 270,
     "site": "Tutorke.com",
     "daily time on site": "80:39",
     "daily pageviews per visitor": "31.00",
@@ -2160,7 +2160,7 @@
     "total Sites Linking In": "62"
   },
   {
-    "rank": "271",
+    "rank": 271,
     "site": "Co-opnet.co.ke",
     "daily time on site": "9:09",
     "daily pageviews per visitor": "5.10",
@@ -2168,7 +2168,7 @@
     "total Sites Linking In": "52"
   },
   {
-    "rank": "272",
+    "rank": 272,
     "site": "Upwork.com",
     "daily time on site": "15:05",
     "daily pageviews per visitor": "11.10",
@@ -2176,7 +2176,7 @@
     "total Sites Linking In": "1,856"
   },
   {
-    "rank": "273",
+    "rank": 273,
     "site": "Ku.ac.ke",
     "daily time on site": "6:02",
     "daily pageviews per visitor": "3.20",
@@ -2184,7 +2184,7 @@
     "total Sites Linking In": "2,564"
   },
   {
-    "rank": "274",
+    "rank": 274,
     "site": "Skype.com",
     "daily time on site": "3:12",
     "daily pageviews per visitor": "2.69",
@@ -2192,7 +2192,7 @@
     "total Sites Linking In": "36,708"
   },
   {
-    "rank": "275",
+    "rank": 275,
     "site": "Amazon.co.uk",
     "daily time on site": "4:32",
     "daily pageviews per visitor": "5.04",
@@ -2200,7 +2200,7 @@
     "total Sites Linking In": "76,900"
   },
   {
-    "rank": "276",
+    "rank": 276,
     "site": "Cdc.gov",
     "daily time on site": "2:32",
     "daily pageviews per visitor": "1.93",
@@ -2208,7 +2208,7 @@
     "total Sites Linking In": "60,075"
   },
   {
-    "rank": "277",
+    "rank": 277,
     "site": "Standardchartered.com",
     "daily time on site": "6:23",
     "daily pageviews per visitor": "5.38",
@@ -2216,7 +2216,7 @@
     "total Sites Linking In": "1,388"
   },
   {
-    "rank": "278",
+    "rank": 278,
     "site": "S3arch.page",
     "daily time on site": "2:56",
     "daily pageviews per visitor": "1.01",
@@ -2224,7 +2224,7 @@
     "total Sites Linking In": "0"
   },
   {
-    "rank": "279",
+    "rank": 279,
     "site": "Weebly.com",
     "daily time on site": "3:06",
     "daily pageviews per visitor": "2.40",
@@ -2232,7 +2232,7 @@
     "total Sites Linking In": "10,682"
   },
   {
-    "rank": "280",
+    "rank": 280,
     "site": "Biomedcentral.com",
     "daily time on site": "2:20",
     "daily pageviews per visitor": "1.78",
@@ -2240,7 +2240,7 @@
     "total Sites Linking In": "13,030"
   },
   {
-    "rank": "281",
+    "rank": 281,
     "site": "Writershub.org",
     "daily time on site": "17:14",
     "daily pageviews per visitor": "15.00",
@@ -2248,7 +2248,7 @@
     "total Sites Linking In": "81"
   },
   {
-    "rank": "282",
+    "rank": 282,
     "site": "Waveapps.com",
     "daily time on site": "10:39",
     "daily pageviews per visitor": "7.91",
@@ -2256,7 +2256,7 @@
     "total Sites Linking In": "203"
   },
   {
-    "rank": "283",
+    "rank": 283,
     "site": "Property24.co.ke",
     "daily time on site": "7:13",
     "daily pageviews per visitor": "8.60",
@@ -2264,7 +2264,7 @@
     "total Sites Linking In": "87"
   },
   {
-    "rank": "284",
+    "rank": 284,
     "site": "Soundcloud.com",
     "daily time on site": "3:41",
     "daily pageviews per visitor": "3.25",
@@ -2272,7 +2272,7 @@
     "total Sites Linking In": "65,366"
   },
   {
-    "rank": "285",
+    "rank": 285,
     "site": "Purdue.edu",
     "daily time on site": "3:07",
     "daily pageviews per visitor": "2.28",
@@ -2280,7 +2280,7 @@
     "total Sites Linking In": "22,907"
   },
   {
-    "rank": "286",
+    "rank": 286,
     "site": "Eztv.io",
     "daily time on site": "2:42",
     "daily pageviews per visitor": "3.60",
@@ -2288,7 +2288,7 @@
     "total Sites Linking In": "87"
   },
   {
-    "rank": "287",
+    "rank": 287,
     "site": "Gstatic.com",
     "daily time on site": "1:07",
     "daily pageviews per visitor": "1.11",
@@ -2296,7 +2296,7 @@
     "total Sites Linking In": "55,839"
   },
   {
-    "rank": "288",
+    "rank": 288,
     "site": "Soccervista.com",
     "daily time on site": "9:30",
     "daily pageviews per visitor": "6.70",
@@ -2304,7 +2304,7 @@
     "total Sites Linking In": "321"
   },
   {
-    "rank": "289",
+    "rank": 289,
     "site": "Herokuapp.com",
     "daily time on site": "3:17",
     "daily pageviews per visitor": "2.29",
@@ -2312,7 +2312,7 @@
     "total Sites Linking In": "90"
   },
   {
-    "rank": "290",
+    "rank": 290,
     "site": "Justnaija.com",
     "daily time on site": "4:11",
     "daily pageviews per visitor": "3.50",
@@ -2320,7 +2320,7 @@
     "total Sites Linking In": "1,179"
   },
   {
-    "rank": "291",
+    "rank": 291,
     "site": "Gutenberg.org",
     "daily time on site": "2:58",
     "daily pageviews per visitor": "2.88",
@@ -2328,7 +2328,7 @@
     "total Sites Linking In": "27,504"
   },
   {
-    "rank": "292",
+    "rank": 292,
     "site": "Pinimg.com",
     "daily time on site": "2:13",
     "daily pageviews per visitor": "1.86",
@@ -2336,7 +2336,7 @@
     "total Sites Linking In": "16,579"
   },
   {
-    "rank": "293",
+    "rank": 293,
     "site": "Theeastafrican.co.ke",
     "daily time on site": "2:47",
     "daily pageviews per visitor": "1.40",
@@ -2344,7 +2344,7 @@
     "total Sites Linking In": "1,186"
   },
   {
-    "rank": "294",
+    "rank": 294,
     "site": "Victormatara.com",
     "daily time on site": "2:20",
     "daily pageviews per visitor": "1.60",
@@ -2352,7 +2352,7 @@
     "total Sites Linking In": "466"
   },
   {
-    "rank": "295",
+    "rank": 295,
     "site": "123movies2020.org",
     "daily time on site": "3:55",
     "daily pageviews per visitor": "4.40",
@@ -2360,7 +2360,7 @@
     "total Sites Linking In": "0"
   },
   {
-    "rank": "296",
+    "rank": 296,
     "site": "Truehost.cloud",
     "daily time on site": "18:50",
     "daily pageviews per visitor": "12.00",
@@ -2368,7 +2368,7 @@
     "total Sites Linking In": "74"
   },
   {
-    "rank": "297",
+    "rank": 297,
     "site": "Anu.ac.ke",
     "daily time on site": "34:51",
     "daily pageviews per visitor": "11.00",
@@ -2376,7 +2376,7 @@
     "total Sites Linking In": "143"
   },
   {
-    "rank": "298",
+    "rank": 298,
     "site": "Behance.net",
     "daily time on site": "5:07",
     "daily pageviews per visitor": "4.95",
@@ -2384,7 +2384,7 @@
     "total Sites Linking In": "26,962"
   },
   {
-    "rank": "299",
+    "rank": 299,
     "site": "Eacdirectory.co.ke",
     "daily time on site": "18:60",
     "daily pageviews per visitor": "5.90",
@@ -2392,7 +2392,7 @@
     "total Sites Linking In": "216"
   },
   {
-    "rank": "300",
+    "rank": 300,
     "site": "Cloudfront.net",
     "daily time on site": "2:31",
     "daily pageviews per visitor": "2.00",
@@ -2400,7 +2400,7 @@
     "total Sites Linking In": "33,842"
   },
   {
-    "rank": "301",
+    "rank": 301,
     "site": "Wikihow.com",
     "daily time on site": "2:14",
     "daily pageviews per visitor": "2.81",
@@ -2408,7 +2408,7 @@
     "total Sites Linking In": "35,837"
   },
   {
-    "rank": "302",
+    "rank": 302,
     "site": "The31news.com",
     "daily time on site": "0:44",
     "daily pageviews per visitor": "1.50",
@@ -2416,7 +2416,7 @@
     "total Sites Linking In": "38"
   },
   {
-    "rank": "303",
+    "rank": 303,
     "site": "Zoho.com",
     "daily time on site": "14:20",
     "daily pageviews per visitor": "13.40",
@@ -2424,7 +2424,7 @@
     "total Sites Linking In": "5,985"
   },
   {
-    "rank": "304",
+    "rank": 304,
     "site": "Oup.com",
     "daily time on site": "2:19",
     "daily pageviews per visitor": "1.78",
@@ -2432,7 +2432,7 @@
     "total Sites Linking In": "11,658"
   },
   {
-    "rank": "305",
+    "rank": 305,
     "site": "Citethisforme.com",
     "daily time on site": "6:29",
     "daily pageviews per visitor": "3.18",
@@ -2440,7 +2440,7 @@
     "total Sites Linking In": "646"
   },
   {
-    "rank": "307",
+    "rank": 307,
     "site": "Xhamster.com",
     "daily time on site": "12:28",
     "daily pageviews per visitor": "9.92",
@@ -2448,7 +2448,7 @@
     "total Sites Linking In": "3,462"
   },
   {
-    "rank": "308",
+    "rank": 308,
     "site": "Businesstoday.co.ke",
     "daily time on site": "2:34",
     "daily pageviews per visitor": "1.70",
@@ -2456,7 +2456,7 @@
     "total Sites Linking In": "120"
   },
   {
-    "rank": "309",
+    "rank": 309,
     "site": "Tiktok.com",
     "daily time on site": "4:36",
     "daily pageviews per visitor": "4.23",
@@ -2464,7 +2464,7 @@
     "total Sites Linking In": "1,217"
   },
   {
-    "rank": "310",
+    "rank": 310,
     "site": "Africastalking.com",
     "daily time on site": "5:16",
     "daily pageviews per visitor": "5.00",
@@ -2472,7 +2472,7 @@
     "total Sites Linking In": "95"
   },
   {
-    "rank": "311",
+    "rank": 311,
     "site": "Pesapal.com",
     "daily time on site": "5:31",
     "daily pageviews per visitor": "4.30",
@@ -2480,7 +2480,7 @@
     "total Sites Linking In": "188"
   },
   {
-    "rank": "312",
+    "rank": 312,
     "site": "Kenyanbulletin.com",
     "daily time on site": "10:54",
     "daily pageviews per visitor": "4.50",
@@ -2488,7 +2488,7 @@
     "total Sites Linking In": "66"
   },
   {
-    "rank": "313",
+    "rank": 313,
     "site": "Familybank.co.ke",
     "daily time on site": "13:13",
     "daily pageviews per visitor": "3.50",
@@ -2496,7 +2496,7 @@
     "total Sites Linking In": "99"
   },
   {
-    "rank": "314",
+    "rank": 314,
     "site": "Elsevier.com",
     "daily time on site": "2:38",
     "daily pageviews per visitor": "2.29",
@@ -2504,7 +2504,7 @@
     "total Sites Linking In": "17,780"
   },
   {
-    "rank": "315",
+    "rank": 315,
     "site": "Reliefweb.int",
     "daily time on site": "2:48",
     "daily pageviews per visitor": "1.90",
@@ -2512,7 +2512,7 @@
     "total Sites Linking In": "4,822"
   },
   {
-    "rank": "316",
+    "rank": 316,
     "site": "Bible.com",
     "daily time on site": "5:19",
     "daily pageviews per visitor": "3.96",
@@ -2520,7 +2520,7 @@
     "total Sites Linking In": "1,544"
   },
   {
-    "rank": "317",
+    "rank": 317,
     "site": "Mixcloud.com",
     "daily time on site": "3:10",
     "daily pageviews per visitor": "1.98",
@@ -2528,7 +2528,7 @@
     "total Sites Linking In": "9,519"
   },
   {
-    "rank": "318",
+    "rank": 318,
     "site": "Quora.com",
     "daily time on site": "3:52",
     "daily pageviews per visitor": "2.61",
@@ -2536,7 +2536,7 @@
     "total Sites Linking In": "11,593"
   },
   {
-    "rank": "319",
+    "rank": 319,
     "site": "Advance-africa.com",
     "daily time on site": "3:32",
     "daily pageviews per visitor": "2.20",
@@ -2544,7 +2544,7 @@
     "total Sites Linking In": "209"
   },
   {
-    "rank": "320",
+    "rank": 320,
     "site": "Kplc.co.ke",
     "daily time on site": "3:51",
     "daily pageviews per visitor": "2.70",
@@ -2552,7 +2552,7 @@
     "total Sites Linking In": "277"
   },
   {
-    "rank": "321",
+    "rank": 321,
     "site": "Mgid.com",
     "daily time on site": "4:15",
     "daily pageviews per visitor": "2.47",
@@ -2560,7 +2560,7 @@
     "total Sites Linking In": "916"
   },
   {
-    "rank": "322",
+    "rank": 322,
     "site": "Confirmbets.com",
     "daily time on site": "3:20",
     "daily pageviews per visitor": "1.60",
@@ -2568,7 +2568,7 @@
     "total Sites Linking In": "300"
   },
   {
-    "rank": "323",
+    "rank": 323,
     "site": "Wixsite.com",
     "daily time on site": "2:28",
     "daily pageviews per visitor": "1.75",
@@ -2576,7 +2576,7 @@
     "total Sites Linking In": "53,938"
   },
   {
-    "rank": "324",
+    "rank": 324,
     "site": "Sportbible.com",
     "daily time on site": "2:14",
     "daily pageviews per visitor": "1.20",
@@ -2584,7 +2584,7 @@
     "total Sites Linking In": "2,438"
   },
   {
-    "rank": "325",
+    "rank": 325,
     "site": "Discord.com",
     "daily time on site": "8:48",
     "daily pageviews per visitor": "4.52",
@@ -2592,7 +2592,7 @@
     "total Sites Linking In": "108"
   },
   {
-    "rank": "326",
+    "rank": 326,
     "site": "A3yqjsrczwwp.com",
     "daily time on site": "0:42",
     "daily pageviews per visitor": "1.04",
@@ -2600,7 +2600,7 @@
     "total Sites Linking In": "2"
   },
   {
-    "rank": "327",
+    "rank": 327,
     "site": "123movies.la",
     "daily time on site": "2:54",
     "daily pageviews per visitor": "4.17",
@@ -2608,7 +2608,7 @@
     "total Sites Linking In": "92"
   },
   {
-    "rank": "328",
+    "rank": 328,
     "site": "Cyber.co.ke",
     "daily time on site": "2:05",
     "daily pageviews per visitor": "1.40",
@@ -2616,7 +2616,7 @@
     "total Sites Linking In": "46"
   },
   {
-    "rank": "329",
+    "rank": 329,
     "site": "Okta.com",
     "daily time on site": "1:06",
     "daily pageviews per visitor": "3.23",
@@ -2624,7 +2624,7 @@
     "total Sites Linking In": "278"
   },
   {
-    "rank": "330",
+    "rank": 330,
     "site": "Techmoran.com",
     "daily time on site": "7:28",
     "daily pageviews per visitor": "2.80",
@@ -2632,7 +2632,7 @@
     "total Sites Linking In": "287"
   },
   {
-    "rank": "331",
+    "rank": 331,
     "site": "Freelancercareers.org",
     "daily time on site": "50:35",
     "daily pageviews per visitor": "23.00",
@@ -2640,7 +2640,7 @@
     "total Sites Linking In": "70"
   },
   {
-    "rank": "332",
+    "rank": 332,
     "site": "Worldbank.org",
     "daily time on site": "3:06",
     "daily pageviews per visitor": "2.12",
@@ -2648,7 +2648,7 @@
     "total Sites Linking In": "31,620"
   },
   {
-    "rank": "333",
+    "rank": 333,
     "site": "Slack.com",
     "daily time on site": "15:50",
     "daily pageviews per visitor": "7.70",
@@ -2656,7 +2656,7 @@
     "total Sites Linking In": "1,694"
   },
   {
-    "rank": "334",
+    "rank": 334,
     "site": "Babypips.com",
     "daily time on site": "6:36",
     "daily pageviews per visitor": "4.81",
@@ -2664,7 +2664,7 @@
     "total Sites Linking In": "1,198"
   },
   {
-    "rank": "335",
+    "rank": 335,
     "site": "Riarauniversity.ac.ke",
     "daily time on site": "14:09",
     "daily pageviews per visitor": "10.00",
@@ -2672,7 +2672,7 @@
     "total Sites Linking In": "44"
   },
   {
-    "rank": "336",
+    "rank": 336,
     "site": "Neuvoo.com",
     "daily time on site": "2:18",
     "daily pageviews per visitor": "2.25",
@@ -2680,7 +2680,7 @@
     "total Sites Linking In": "550"
   },
   {
-    "rank": "337",
+    "rank": 337,
     "site": "Thepirate-bay.org",
     "daily time on site": "0:28",
     "daily pageviews per visitor": "1.03",
@@ -2688,7 +2688,7 @@
     "total Sites Linking In": "66"
   },
   {
-    "rank": "338",
+    "rank": 338,
     "site": "Indeed.com",
     "daily time on site": "5:24",
     "daily pageviews per visitor": "4.40",
@@ -2696,7 +2696,7 @@
     "total Sites Linking In": "9,941"
   },
   {
-    "rank": "339",
+    "rank": 339,
     "site": "Roblox.com",
     "daily time on site": "17:20",
     "daily pageviews per visitor": "8.85",
@@ -2704,7 +2704,7 @@
     "total Sites Linking In": "1,043"
   },
   {
-    "rank": "340",
+    "rank": 340,
     "site": "Zuricart.co.ke",
     "daily time on site": "15:36",
     "daily pageviews per visitor": "13.00",
@@ -2712,7 +2712,7 @@
     "total Sites Linking In": "47"
   },
   {
-    "rank": "341",
+    "rank": 341,
     "site": "Zippyshare.com",
     "daily time on site": "3:05",
     "daily pageviews per visitor": "2.96",
@@ -2720,7 +2720,7 @@
     "total Sites Linking In": "27,086"
   },
   {
-    "rank": "342",
+    "rank": 342,
     "site": "Forexfactory.com",
     "daily time on site": "4:41",
     "daily pageviews per visitor": "2.66",
@@ -2728,7 +2728,7 @@
     "total Sites Linking In": "2,027"
   },
   {
-    "rank": "343",
+    "rank": 343,
     "site": "Airbnb.com",
     "daily time on site": "8:27",
     "daily pageviews per visitor": "13.50",
@@ -2736,7 +2736,7 @@
     "total Sites Linking In": "6,741"
   },
   {
-    "rank": "344",
+    "rank": 344,
     "site": "Statista.com",
     "daily time on site": "2:32",
     "daily pageviews per visitor": "2.37",
@@ -2744,7 +2744,7 @@
     "total Sites Linking In": "5,220"
   },
   {
-    "rank": "345",
+    "rank": 345,
     "site": "Fireflycloud.net",
     "daily time on site": "11:53",
     "daily pageviews per visitor": "6.90",
@@ -2752,7 +2752,7 @@
     "total Sites Linking In": "92"
   },
   {
-    "rank": "346",
+    "rank": 346,
     "site": "Zendesk.com",
     "daily time on site": "10:19",
     "daily pageviews per visitor": "7.33",
@@ -2760,7 +2760,7 @@
     "total Sites Linking In": "3,674"
   },
   {
-    "rank": "347",
+    "rank": 347,
     "site": "T.me",
     "daily time on site": "1:58",
     "daily pageviews per visitor": "1.54",
@@ -2768,7 +2768,7 @@
     "total Sites Linking In": "28,904"
   },
   {
-    "rank": "348",
+    "rank": 348,
     "site": "Biblehub.com",
     "daily time on site": "3:57",
     "daily pageviews per visitor": "3.01",
@@ -2776,7 +2776,7 @@
     "total Sites Linking In": "5,642"
   },
   {
-    "rank": "349",
+    "rank": 349,
     "site": "Lumenlearning.com",
     "daily time on site": "2:22",
     "daily pageviews per visitor": "1.39",
@@ -2784,7 +2784,7 @@
     "total Sites Linking In": "203"
   },
   {
-    "rank": "350",
+    "rank": 350,
     "site": "Godaddy.com",
     "daily time on site": "6:53",
     "daily pageviews per visitor": "6.62",
@@ -2792,7 +2792,7 @@
     "total Sites Linking In": "22,702"
   },
   {
-    "rank": "351",
+    "rank": 351,
     "site": "Essayshark.com",
     "daily time on site": "5:25",
     "daily pageviews per visitor": "3.10",
@@ -2800,7 +2800,7 @@
     "total Sites Linking In": "187"
   },
   {
-    "rank": "352",
+    "rank": 352,
     "site": "Kmtc.ac.ke",
     "daily time on site": "13:49",
     "daily pageviews per visitor": "12.00",
@@ -2808,7 +2808,7 @@
     "total Sites Linking In": "219"
   },
   {
-    "rank": "353",
+    "rank": 353,
     "site": "Indiatimes.com",
     "daily time on site": "3:59",
     "daily pageviews per visitor": "2.92",
@@ -2816,7 +2816,7 @@
     "total Sites Linking In": "42,045"
   },
   {
-    "rank": "354",
+    "rank": 354,
     "site": "Goojara.ch",
     "daily time on site": "6:36",
     "daily pageviews per visitor": "6.00",
@@ -2824,7 +2824,7 @@
     "total Sites Linking In": "83"
   },
   {
-    "rank": "355",
+    "rank": 355,
     "site": "Filehorse.com",
     "daily time on site": "2:41",
     "daily pageviews per visitor": "2.57",
@@ -2832,7 +2832,7 @@
     "total Sites Linking In": "1,638"
   },
   {
-    "rank": "356",
+    "rank": 356,
     "site": "Searchmes.xyz",
     "daily time on site": "0:19",
     "daily pageviews per visitor": "1.00",
@@ -2840,7 +2840,7 @@
     "total Sites Linking In": "62"
   },
   {
-    "rank": "357",
+    "rank": 357,
     "site": "Taleo.net",
     "daily time on site": "5:22",
     "daily pageviews per visitor": "3.82",
@@ -2848,7 +2848,7 @@
     "total Sites Linking In": "1,787"
   },
   {
-    "rank": "358",
+    "rank": 358,
     "site": "Kpa.co.ke",
     "daily time on site": "4:44",
     "daily pageviews per visitor": "1.90",
@@ -2856,7 +2856,7 @@
     "total Sites Linking In": "198"
   },
   {
-    "rank": "359",
+    "rank": 359,
     "site": "Freesupertips.com",
     "daily time on site": "6:32",
     "daily pageviews per visitor": "5.10",
@@ -2864,7 +2864,7 @@
     "total Sites Linking In": "73"
   },
   {
-    "rank": "360",
+    "rank": 360,
     "site": "Intuit.com",
     "daily time on site": "9:53",
     "daily pageviews per visitor": "5.59",
@@ -2872,7 +2872,7 @@
     "total Sites Linking In": "8,517"
   },
   {
-    "rank": "361",
+    "rank": 361,
     "site": "Craigslist.org",
     "daily time on site": "7:55",
     "daily pageviews per visitor": "8.01",
@@ -2880,7 +2880,7 @@
     "total Sites Linking In": "19,240"
   },
   {
-    "rank": "362",
+    "rank": 362,
     "site": "Topelitewriters.com",
     "daily time on site": "16:42",
     "daily pageviews per visitor": "14.00",
@@ -2888,7 +2888,7 @@
     "total Sites Linking In": "38"
   },
   {
-    "rank": "363",
+    "rank": 363,
     "site": "Levidia.ch",
     "daily time on site": "3:32",
     "daily pageviews per visitor": "3.90",
@@ -2896,7 +2896,7 @@
     "total Sites Linking In": "94"
   },
   {
-    "rank": "364",
+    "rank": 364,
     "site": "Redtube.com",
     "daily time on site": "6:50",
     "daily pageviews per visitor": "3.59",
@@ -2904,7 +2904,7 @@
     "total Sites Linking In": "3,153"
   },
   {
-    "rank": "365",
+    "rank": 365,
     "site": "Kitchendose.com",
     "daily time on site": "9:48",
     "daily pageviews per visitor": "5.30",
@@ -2912,7 +2912,7 @@
     "total Sites Linking In": "27"
   },
   {
-    "rank": "366",
+    "rank": 366,
     "site": "Watchserieshd.tv",
     "daily time on site": "3:30",
     "daily pageviews per visitor": "4.70",
@@ -2920,7 +2920,7 @@
     "total Sites Linking In": "71"
   },
   {
-    "rank": "367",
+    "rank": 367,
     "site": "Chess.com",
     "daily time on site": "19:16",
     "daily pageviews per visitor": "8.85",
@@ -2928,7 +2928,7 @@
     "total Sites Linking In": "2,173"
   },
   {
-    "rank": "368",
+    "rank": 368,
     "site": "Problogger.com",
     "daily time on site": "2:53",
     "daily pageviews per visitor": "2.60",
@@ -2936,7 +2936,7 @@
     "total Sites Linking In": "440"
   },
   {
-    "rank": "369",
+    "rank": 369,
     "site": "Khg97644rvbg.com",
     "daily time on site": "0:42",
     "daily pageviews per visitor": "1.05",
@@ -2944,7 +2944,7 @@
     "total Sites Linking In": "2"
   },
   {
-    "rank": "370",
+    "rank": 370,
     "site": "Pdf2doc.com",
     "daily time on site": "2:16",
     "daily pageviews per visitor": "1.01",
@@ -2952,7 +2952,7 @@
     "total Sites Linking In": "289"
   },
   {
-    "rank": "371",
+    "rank": 371,
     "site": "Unsplash.com",
     "daily time on site": "5:55",
     "daily pageviews per visitor": "6.44",
@@ -2960,7 +2960,7 @@
     "total Sites Linking In": "4,998"
   },
   {
-    "rank": "372",
+    "rank": 372,
     "site": "State.gov",
     "daily time on site": "5:49",
     "daily pageviews per visitor": "4.55",
@@ -2968,7 +2968,7 @@
     "total Sites Linking In": "33,081"
   },
   {
-    "rank": "373",
+    "rank": 373,
     "site": "Biblestudytools.com",
     "daily time on site": "2:44",
     "daily pageviews per visitor": "1.84",
@@ -2976,7 +2976,7 @@
     "total Sites Linking In": "4,045"
   },
   {
-    "rank": "374",
+    "rank": 374,
     "site": "Studenthomeworks.com",
     "daily time on site": "41:43",
     "daily pageviews per visitor": "38.00",
@@ -2984,7 +2984,7 @@
     "total Sites Linking In": "42"
   },
   {
-    "rank": "375",
+    "rank": 375,
     "site": "Themeforest.net",
     "daily time on site": "4:37",
     "daily pageviews per visitor": "6.23",
@@ -2992,7 +2992,7 @@
     "total Sites Linking In": "59,386"
   },
   {
-    "rank": "376",
+    "rank": 376,
     "site": "Thestartmagazine.com",
     "daily time on site": "2:06",
     "daily pageviews per visitor": "1.70",
@@ -3000,7 +3000,7 @@
     "total Sites Linking In": "12,780"
   },
   {
-    "rank": "377",
+    "rank": 377,
     "site": "Filehippo.com",
     "daily time on site": "2:41",
     "daily pageviews per visitor": "2.58",
@@ -3008,7 +3008,7 @@
     "total Sites Linking In": "16,115"
   },
   {
-    "rank": "378",
+    "rank": 378,
     "site": "Custhelp.com",
     "daily time on site": "3:10",
     "daily pageviews per visitor": "2.73",
@@ -3016,7 +3016,7 @@
     "total Sites Linking In": "5,809"
   },
   {
-    "rank": "379",
+    "rank": 379,
     "site": "Blackboard.com",
     "daily time on site": "8:14",
     "daily pageviews per visitor": "5.10",
@@ -3024,7 +3024,7 @@
     "total Sites Linking In": "2,805"
   },
   {
-    "rank": "380",
+    "rank": 380,
     "site": "Theelephant.info",
     "daily time on site": "6:23",
     "daily pageviews per visitor": "2.90",
@@ -3032,7 +3032,7 @@
     "total Sites Linking In": "61"
   },
   {
-    "rank": "381",
+    "rank": 381,
     "site": "Flutterwave.com",
     "daily time on site": "7:53",
     "daily pageviews per visitor": "5.35",
@@ -3040,7 +3040,7 @@
     "total Sites Linking In": "92"
   },
   {
-    "rank": "382",
+    "rank": 382,
     "site": "Bluehost.com",
     "daily time on site": "6:42",
     "daily pageviews per visitor": "5.85",
@@ -3048,7 +3048,7 @@
     "total Sites Linking In": "38,520"
   },
   {
-    "rank": "383",
+    "rank": 383,
     "site": "Tendersoko.com",
     "daily time on site": "9:11",
     "daily pageviews per visitor": "6.90",
@@ -3056,7 +3056,7 @@
     "total Sites Linking In": "70"
   },
   {
-    "rank": "384",
+    "rank": 384,
     "site": "Mzizi.co.ke",
     "daily time on site": "21:35",
     "daily pageviews per visitor": "7.50",
@@ -3064,7 +3064,7 @@
     "total Sites Linking In": "66"
   },
   {
-    "rank": "385",
+    "rank": 385,
     "site": "Bbc.co.uk",
     "daily time on site": "3:20",
     "daily pageviews per visitor": "3.31",
@@ -3072,7 +3072,7 @@
     "total Sites Linking In": "215,802"
   },
   {
-    "rank": "386",
+    "rank": 386,
     "site": "Reuters.com",
     "daily time on site": "2:58",
     "daily pageviews per visitor": "1.98",
@@ -3080,7 +3080,7 @@
     "total Sites Linking In": "84,557"
   },
   {
-    "rank": "387",
+    "rank": 387,
     "site": "Demotrader.org",
     "daily time on site": "0:52",
     "daily pageviews per visitor": "1.16",
@@ -3088,7 +3088,7 @@
     "total Sites Linking In": "3"
   },
   {
-    "rank": "388",
+    "rank": 388,
     "site": "Tripadvisor.com",
     "daily time on site": "2:39",
     "daily pageviews per visitor": "2.95",
@@ -3096,7 +3096,7 @@
     "total Sites Linking In": "51,360"
   },
   {
-    "rank": "389",
+    "rank": 389,
     "site": "Tubidy.mobi",
     "daily time on site": "9:40",
     "daily pageviews per visitor": "5.90",
@@ -3104,7 +3104,7 @@
     "total Sites Linking In": "354"
   },
   {
-    "rank": "390",
+    "rank": 390,
     "site": "Gotranscript.com",
     "daily time on site": "6:02",
     "daily pageviews per visitor": "4.20",
@@ -3112,7 +3112,7 @@
     "total Sites Linking In": "83"
   },
   {
-    "rank": "391",
+    "rank": 391,
     "site": "Binary.com",
     "daily time on site": "10:06",
     "daily pageviews per visitor": "3.61",
@@ -3120,7 +3120,7 @@
     "total Sites Linking In": "2,791"
   },
   {
-    "rank": "392",
+    "rank": 392,
     "site": "Edx.org",
     "daily time on site": "7:05",
     "daily pageviews per visitor": "5.81",
@@ -3128,7 +3128,7 @@
     "total Sites Linking In": "1,760"
   },
   {
-    "rank": "393",
+    "rank": 393,
     "site": "Jw.org",
     "daily time on site": "8:50",
     "daily pageviews per visitor": "6.84",
@@ -3136,7 +3136,7 @@
     "total Sites Linking In": "2,728"
   },
   {
-    "rank": "394",
+    "rank": 394,
     "site": "Footeks.com",
     "daily time on site": "1:55",
     "daily pageviews per visitor": "1.70",
@@ -3144,7 +3144,7 @@
     "total Sites Linking In": "35"
   },
   {
-    "rank": "395",
+    "rank": 395,
     "site": "Harvard.edu",
     "daily time on site": "3:08",
     "daily pageviews per visitor": "2.68",
@@ -3152,7 +3152,7 @@
     "total Sites Linking In": "79,182"
   },
   {
-    "rank": "396",
+    "rank": 396,
     "site": "Qualifiednursingtutors.com",
     "daily time on site": "26:44",
     "daily pageviews per visitor": "21.00",
@@ -3160,7 +3160,7 @@
     "total Sites Linking In": "27"
   },
   {
-    "rank": "397",
+    "rank": 397,
     "site": "Nicsorts-accarade.com",
     "daily time on site": "0:28",
     "daily pageviews per visitor": "1.70",
@@ -3168,7 +3168,7 @@
     "total Sites Linking In": "72"
   },
   {
-    "rank": "398",
+    "rank": 398,
     "site": "Dailymotion.com",
     "daily time on site": "3:05",
     "daily pageviews per visitor": "2.84",
@@ -3176,7 +3176,7 @@
     "total Sites Linking In": "108,307"
   },
   {
-    "rank": "399",
+    "rank": 399,
     "site": "Samsung.com",
     "daily time on site": "3:44",
     "daily pageviews per visitor": "3.10",
@@ -3184,7 +3184,7 @@
     "total Sites Linking In": "32,367"
   },
   {
-    "rank": "400",
+    "rank": 400,
     "site": "Carimports.co.ke",
     "daily time on site": "35:23",
     "daily pageviews per visitor": "26.00",
@@ -3192,7 +3192,7 @@
     "total Sites Linking In": "29"
   },
   {
-    "rank": "401",
+    "rank": 401,
     "site": "Kenyanbusinessfeed.com",
     "daily time on site": "6:30",
     "daily pageviews per visitor": "3.70",
@@ -3200,7 +3200,7 @@
     "total Sites Linking In": "40"
   },
   {
-    "rank": "402",
+    "rank": 402,
     "site": "Umgc.edu",
     "daily time on site": "10:19",
     "daily pageviews per visitor": "7.60",
@@ -3208,7 +3208,7 @@
     "total Sites Linking In": "77"
   },
   {
-    "rank": "403",
+    "rank": 403,
     "site": "Esf397vsf1nk.com",
     "daily time on site": "0:41",
     "daily pageviews per visitor": "1.05",
@@ -3216,7 +3216,7 @@
     "total Sites Linking In": "2"
   },
   {
-    "rank": "404",
+    "rank": 404,
     "site": "Powerofpositivity.com",
     "daily time on site": "2:31",
     "daily pageviews per visitor": "1.60",
@@ -3224,7 +3224,7 @@
     "total Sites Linking In": "3,011"
   },
   {
-    "rank": "405",
+    "rank": 405,
     "site": "Uwaziimobile.com",
     "daily time on site": "1:04",
     "daily pageviews per visitor": "1.00",
@@ -3232,7 +3232,7 @@
     "total Sites Linking In": "66"
   },
   {
-    "rank": "406",
+    "rank": 406,
     "site": "Yourdictionary.com",
     "daily time on site": "2:54",
     "daily pageviews per visitor": "2.07",
@@ -3240,7 +3240,7 @@
     "total Sites Linking In": "7,517"
   },
   {
-    "rank": "407",
+    "rank": 407,
     "site": "Tmz.co.ke",
     "daily time on site": "56:34",
     "daily pageviews per visitor": "19.00",
@@ -3248,7 +3248,7 @@
     "total Sites Linking In": "38"
   },
   {
-    "rank": "408",
+    "rank": 408,
     "site": "Health.go.ke",
     "daily time on site": "2:26",
     "daily pageviews per visitor": "1.80",
@@ -3256,7 +3256,7 @@
     "total Sites Linking In": "262"
   },
   {
-    "rank": "409",
+    "rank": 409,
     "site": "Cuea.edu",
     "daily time on site": "9:45",
     "daily pageviews per visitor": "5.30",
@@ -3264,7 +3264,7 @@
     "total Sites Linking In": "261"
   },
   {
-    "rank": "410",
+    "rank": 410,
     "site": "Grooksom.com",
     "daily time on site": "1:07",
     "daily pageviews per visitor": "2.05",
@@ -3272,7 +3272,7 @@
     "total Sites Linking In": "66"
   },
   {
-    "rank": "411",
+    "rank": 411,
     "site": "A4mt150303tl.com",
     "daily time on site": "0:40",
     "daily pageviews per visitor": "1.09",
@@ -3280,7 +3280,7 @@
     "total Sites Linking In": "2"
   },
   {
-    "rank": "412",
+    "rank": 412,
     "site": "Khanacademy.org",
     "daily time on site": "5:01",
     "daily pageviews per visitor": "2.85",
@@ -3288,7 +3288,7 @@
     "total Sites Linking In": "8,294"
   },
   {
-    "rank": "413",
+    "rank": 413,
     "site": "Kwust.ac.ke",
     "daily time on site": "33:11",
     "daily pageviews per visitor": "14.00",
@@ -3296,7 +3296,7 @@
     "total Sites Linking In": "33"
   },
   {
-    "rank": "414",
+    "rank": 414,
     "site": "Twitch.tv",
     "daily time on site": "5:60",
     "daily pageviews per visitor": "3.33",
@@ -3304,7 +3304,7 @@
     "total Sites Linking In": "12,705"
   },
   {
-    "rank": "415",
+    "rank": 415,
     "site": "Vk77lnizckm6.com",
     "daily time on site": "0:41",
     "daily pageviews per visitor": "1.05",
@@ -3312,7 +3312,7 @@
     "total Sites Linking In": "2"
   },
   {
-    "rank": "416",
+    "rank": 416,
     "site": "Kenyahotgirls.com",
     "daily time on site": "36:17",
     "daily pageviews per visitor": "15.00",
@@ -3320,7 +3320,7 @@
     "total Sites Linking In": "44"
   },
   {
-    "rank": "417",
+    "rank": 417,
     "site": "Bovic.co.ke",
     "daily time on site": "37:36",
     "daily pageviews per visitor": "15.00",
@@ -3328,7 +3328,7 @@
     "total Sites Linking In": "66"
   },
   {
-    "rank": "418",
+    "rank": 418,
     "site": "Kissanime.ru",
     "daily time on site": "9:22",
     "daily pageviews per visitor": "6.97",
@@ -3336,7 +3336,7 @@
     "total Sites Linking In": "255"
   },
   {
-    "rank": "419",
+    "rank": 419,
     "site": "Tinder.com",
     "daily time on site": "9:38",
     "daily pageviews per visitor": "5.09",
@@ -3344,7 +3344,7 @@
     "total Sites Linking In": "250"
   },
   {
-    "rank": "420",
+    "rank": 420,
     "site": "Nairobiwire.com",
     "daily time on site": "4:11",
     "daily pageviews per visitor": "2.30",
@@ -3352,7 +3352,7 @@
     "total Sites Linking In": "405"
   },
   {
-    "rank": "421",
+    "rank": 421,
     "site": "Mit.edu",
     "daily time on site": "6:46",
     "daily pageviews per visitor": "4.56",
@@ -3360,7 +3360,7 @@
     "total Sites Linking In": "85,275"
   },
   {
-    "rank": "422",
+    "rank": 422,
     "site": "Lsk.or.ke",
     "daily time on site": "8:60",
     "daily pageviews per visitor": "5.50",
@@ -3368,7 +3368,7 @@
     "total Sites Linking In": "129"
   },
   {
-    "rank": "423",
+    "rank": 423,
     "site": "Ed.gov",
     "daily time on site": "3:41",
     "daily pageviews per visitor": "3.83",
@@ -3376,7 +3376,7 @@
     "total Sites Linking In": "27,452"
   },
   {
-    "rank": "424",
+    "rank": 424,
     "site": "Tumblr.com",
     "daily time on site": "4:00",
     "daily pageviews per visitor": "3.54",
@@ -3384,7 +3384,7 @@
     "total Sites Linking In": "125,244"
   },
   {
-    "rank": "425",
+    "rank": 425,
     "site": "Made-in-china.com",
     "daily time on site": "3:06",
     "daily pageviews per visitor": "3.23",
@@ -3392,7 +3392,7 @@
     "total Sites Linking In": "10,807"
   },
   {
-    "rank": "426",
+    "rank": 426,
     "site": "Mp3juices.cc",
     "daily time on site": "2:14",
     "daily pageviews per visitor": "1.01",
@@ -3400,7 +3400,7 @@
     "total Sites Linking In": "145"
   },
   {
-    "rank": "427",
+    "rank": 427,
     "site": "Washingtonpost.com",
     "daily time on site": "3:03",
     "daily pageviews per visitor": "3.07",
@@ -3408,7 +3408,7 @@
     "total Sites Linking In": "90,760"
   },
   {
-    "rank": "428",
+    "rank": 428,
     "site": "4brands.co.ke",
     "daily time on site": "26:01",
     "daily pageviews per visitor": "10.00",
@@ -3416,7 +3416,7 @@
     "total Sites Linking In": "39"
   },
   {
-    "rank": "429",
+    "rank": 429,
     "site": "Kenic.or.ke",
     "daily time on site": "4:45",
     "daily pageviews per visitor": "4.60",
@@ -3424,7 +3424,7 @@
     "total Sites Linking In": "142"
   },
   {
-    "rank": "430",
+    "rank": 430,
     "site": "Immigration.go.ke",
     "daily time on site": "10:34",
     "daily pageviews per visitor": "6.30",
@@ -3432,7 +3432,7 @@
     "total Sites Linking In": "231"
   },
   {
-    "rank": "431",
+    "rank": 431,
     "site": "Wondershare.com",
     "daily time on site": "2:28",
     "daily pageviews per visitor": "1.75",
@@ -3440,7 +3440,7 @@
     "total Sites Linking In": "2,992"
   },
   {
-    "rank": "432",
+    "rank": 432,
     "site": "Afluencer.com",
     "daily time on site": "12:10",
     "daily pageviews per visitor": "3.70",
@@ -3448,7 +3448,7 @@
     "total Sites Linking In": "43"
   },
   {
-    "rank": "433",
+    "rank": 433,
     "site": "Lightdl.xyz",
     "daily time on site": "4:24",
     "daily pageviews per visitor": "2.90",
@@ -3456,7 +3456,7 @@
     "total Sites Linking In": "78"
   },
   {
-    "rank": "434",
+    "rank": 434,
     "site": "Scribd.com",
     "daily time on site": "2:44",
     "daily pageviews per visitor": "2.25",
@@ -3464,7 +3464,7 @@
     "total Sites Linking In": "108,490"
   },
   {
-    "rank": "435",
+    "rank": 435,
     "site": "Au79nt5wic4x.com",
     "daily time on site": "0:50",
     "daily pageviews per visitor": "1.10",
@@ -3472,7 +3472,7 @@
     "total Sites Linking In": "38"
   },
   {
-    "rank": "436",
+    "rank": 436,
     "site": "Safefinder.com",
     "daily time on site": "1:36",
     "daily pageviews per visitor": "1.00",
@@ -3480,7 +3480,7 @@
     "total Sites Linking In": "107"
   },
   {
-    "rank": "437",
+    "rank": 437,
     "site": "Pharmacyboardkenya.org",
     "daily time on site": "5:26",
     "daily pageviews per visitor": "3.70",
@@ -3488,7 +3488,7 @@
     "total Sites Linking In": "126"
   },
   {
-    "rank": "438",
+    "rank": 438,
     "site": "Ukbestwritings.com",
     "daily time on site": "7:50",
     "daily pageviews per visitor": "7.00",
@@ -3496,7 +3496,7 @@
     "total Sites Linking In": "1"
   },
   {
-    "rank": "439",
+    "rank": 439,
     "site": "Wish.com",
     "daily time on site": "4:55",
     "daily pageviews per visitor": "3.94",
@@ -3504,7 +3504,7 @@
     "total Sites Linking In": "561"
   },
   {
-    "rank": "440",
+    "rank": 440,
     "site": "Nssf.or.ke",
     "daily time on site": "2:35",
     "daily pageviews per visitor": "1.90",
@@ -3512,7 +3512,7 @@
     "total Sites Linking In": "99"
   },
   {
-    "rank": "441",
+    "rank": 441,
     "site": "Rottentomatoes.com",
     "daily time on site": "2:21",
     "daily pageviews per visitor": "2.33",
@@ -3520,7 +3520,7 @@
     "total Sites Linking In": "15,604"
   },
   {
-    "rank": "442",
+    "rank": 442,
     "site": "Magnetdl.com",
     "daily time on site": "5:02",
     "daily pageviews per visitor": "5.90",
@@ -3528,7 +3528,7 @@
     "total Sites Linking In": "158"
   },
   {
-    "rank": "443",
+    "rank": 443,
     "site": "Corporatestaffing.co.ke",
     "daily time on site": "4:20",
     "daily pageviews per visitor": "3.30",
@@ -3536,7 +3536,7 @@
     "total Sites Linking In": "91"
   },
   {
-    "rank": "444",
+    "rank": 444,
     "site": "Nic-bank.com",
     "daily time on site": "4:02",
     "daily pageviews per visitor": "2.80",
@@ -3544,7 +3544,7 @@
     "total Sites Linking In": "118"
   },
   {
-    "rank": "445",
+    "rank": 445,
     "site": "Kobo.com",
     "daily time on site": "2:43",
     "daily pageviews per visitor": "3.07",
@@ -3552,7 +3552,7 @@
     "total Sites Linking In": "818"
   },
   {
-    "rank": "446",
+    "rank": 446,
     "site": "Centralbank.go.ke",
     "daily time on site": "3:16",
     "daily pageviews per visitor": "1.90",
@@ -3560,7 +3560,7 @@
     "total Sites Linking In": "366"
   },
   {
-    "rank": "447",
+    "rank": 447,
     "site": "Shopit.co.ke",
     "daily time on site": "3:18",
     "daily pageviews per visitor": "2.40",
@@ -3568,7 +3568,7 @@
     "total Sites Linking In": "202"
   },
   {
-    "rank": "448",
+    "rank": 448,
     "site": "Ttoc8ok.com",
     "daily time on site": "0:28",
     "daily pageviews per visitor": "1.00",
@@ -3576,7 +3576,7 @@
     "total Sites Linking In": "41"
   },
   {
-    "rank": "449",
+    "rank": 449,
     "site": "Ofgogoatan.com",
     "daily time on site": "2:06",
     "daily pageviews per visitor": "1.33",
@@ -3584,7 +3584,7 @@
     "total Sites Linking In": "165"
   },
   {
-    "rank": "450",
+    "rank": 450,
     "site": "Uct.ac.za",
     "daily time on site": "9:24",
     "daily pageviews per visitor": "6.95",
@@ -3592,7 +3592,7 @@
     "total Sites Linking In": "5,006"
   },
   {
-    "rank": "451",
+    "rank": 451,
     "site": "Moviesjoy.net",
     "daily time on site": "5:46",
     "daily pageviews per visitor": "5.69",
@@ -3600,7 +3600,7 @@
     "total Sites Linking In": "72"
   },
   {
-    "rank": "452",
+    "rank": 452,
     "site": "Fao.org",
     "daily time on site": "2:36",
     "daily pageviews per visitor": "1.80",
@@ -3608,7 +3608,7 @@
     "total Sites Linking In": "29,441"
   },
   {
-    "rank": "453",
+    "rank": 453,
     "site": "Ryynoljdarrw.com",
     "daily time on site": "0:41",
     "daily pageviews per visitor": "1.05",
@@ -3616,7 +3616,7 @@
     "total Sites Linking In": "2"
   },
   {
-    "rank": "454",
+    "rank": 454,
     "site": "Yourhomeworksolutions.com",
     "daily time on site": "8:37",
     "daily pageviews per visitor": "5.40",
@@ -3624,7 +3624,7 @@
     "total Sites Linking In": "42"
   },
   {
-    "rank": "455",
+    "rank": 455,
     "site": "Thesun.co.uk",
     "daily time on site": "2:23",
     "daily pageviews per visitor": "1.46",
@@ -3632,7 +3632,7 @@
     "total Sites Linking In": "17,982"
   },
   {
-    "rank": "456",
+    "rank": 456,
     "site": "Forebet.com",
     "daily time on site": "7:04",
     "daily pageviews per visitor": "3.50",
@@ -3640,7 +3640,7 @@
     "total Sites Linking In": "126"
   },
   {
-    "rank": "457",
+    "rank": 457,
     "site": "Registrar-servers.com",
     "daily time on site": "11:10",
     "daily pageviews per visitor": "11.00",
@@ -3648,7 +3648,7 @@
     "total Sites Linking In": "86"
   },
   {
-    "rank": "458",
+    "rank": 458,
     "site": "Atlassian.com",
     "daily time on site": "2:03",
     "daily pageviews per visitor": "2.40",
@@ -3656,7 +3656,7 @@
     "total Sites Linking In": "5,015"
   },
   {
-    "rank": "459",
+    "rank": 459,
     "site": "Getintopc.com",
     "daily time on site": "3:59",
     "daily pageviews per visitor": "4.92",
@@ -3664,7 +3664,7 @@
     "total Sites Linking In": "1,698"
   },
   {
-    "rank": "460",
+    "rank": 460,
     "site": "Unreshiramor.com",
     "daily time on site": "1:10",
     "daily pageviews per visitor": "1.56",
@@ -3672,7 +3672,7 @@
     "total Sites Linking In": "38"
   },
   {
-    "rank": "461",
+    "rank": 461,
     "site": "Tuvuti.com",
     "daily time on site": "62:59",
     "daily pageviews per visitor": "15.00",
@@ -3680,7 +3680,7 @@
     "total Sites Linking In": "68"
   },
   {
-    "rank": "462",
+    "rank": 462,
     "site": "Mediafire.com",
     "daily time on site": "2:42",
     "daily pageviews per visitor": "2.38",
@@ -3688,7 +3688,7 @@
     "total Sites Linking In": "194,724"
   },
   {
-    "rank": "463",
+    "rank": 463,
     "site": "Stanbicbank.co.ke",
     "daily time on site": "6:50",
     "daily pageviews per visitor": "4.10",
@@ -3696,7 +3696,7 @@
     "total Sites Linking In": "96"
   },
   {
-    "rank": "464",
+    "rank": 464,
     "site": "Feedly.com",
     "daily time on site": "5:52",
     "daily pageviews per visitor": "5.86",
@@ -3704,7 +3704,7 @@
     "total Sites Linking In": "39,917"
   },
   {
-    "rank": "465",
+    "rank": 465,
     "site": "Co-opbank.co.ke",
     "daily time on site": "2:56",
     "daily pageviews per visitor": "2.50",
@@ -3712,7 +3712,7 @@
     "total Sites Linking In": "134"
   },
   {
-    "rank": "466",
+    "rank": 466,
     "site": "Teacher.co.ke",
     "daily time on site": "7:51",
     "daily pageviews per visitor": "5.20",
@@ -3720,7 +3720,7 @@
     "total Sites Linking In": "64"
   },
   {
-    "rank": "467",
+    "rank": 467,
     "site": "Primewire.li",
     "daily time on site": "5:29",
     "daily pageviews per visitor": "6.00",
@@ -3728,7 +3728,7 @@
     "total Sites Linking In": "73"
   },
   {
-    "rank": "468",
+    "rank": 468,
     "site": "Vitalsource.com",
     "daily time on site": "7:56",
     "daily pageviews per visitor": "20.50",
@@ -3736,7 +3736,7 @@
     "total Sites Linking In": "301"
   },
   {
-    "rank": "469",
+    "rank": 469,
     "site": "Truecaller.com",
     "daily time on site": "2:54",
     "daily pageviews per visitor": "3.34",
@@ -3744,7 +3744,7 @@
     "total Sites Linking In": "751"
   },
   {
-    "rank": "470",
+    "rank": 470,
     "site": "Mayoclinic.org",
     "daily time on site": "2:17",
     "daily pageviews per visitor": "1.35",
@@ -3752,7 +3752,7 @@
     "total Sites Linking In": "14,524"
   },
   {
-    "rank": "471",
+    "rank": 471,
     "site": "Zetech.ac.ke",
     "daily time on site": "21:47",
     "daily pageviews per visitor": "5.70",
@@ -3760,7 +3760,7 @@
     "total Sites Linking In": "102"
   },
   {
-    "rank": "472",
+    "rank": 472,
     "site": "Flourish.studio",
     "daily time on site": "8:36",
     "daily pageviews per visitor": "4.73",
@@ -3768,7 +3768,7 @@
     "total Sites Linking In": "96"
   },
   {
-    "rank": "473",
+    "rank": 473,
     "site": "Paxful.com",
     "daily time on site": "12:59",
     "daily pageviews per visitor": "7.11",
@@ -3776,7 +3776,7 @@
     "total Sites Linking In": "142"
   },
   {
-    "rank": "474",
+    "rank": 474,
     "site": "Internetdownloadmanager.com",
     "daily time on site": "2:23",
     "daily pageviews per visitor": "1.28",
@@ -3784,7 +3784,7 @@
     "total Sites Linking In": "6,788"
   },
   {
-    "rank": "475",
+    "rank": 475,
     "site": "Apkpure.com",
     "daily time on site": "2:54",
     "daily pageviews per visitor": "3.15",
@@ -3792,7 +3792,7 @@
     "total Sites Linking In": "477"
   },
   {
-    "rank": "476",
+    "rank": 476,
     "site": "Ytmp3.cc",
     "daily time on site": "4:26",
     "daily pageviews per visitor": "1.01",
@@ -3800,7 +3800,7 @@
     "total Sites Linking In": "90"
   },
   {
-    "rank": "477",
+    "rank": 477,
     "site": "Express.co.uk",
     "daily time on site": "2:01",
     "daily pageviews per visitor": "1.33",
@@ -3808,7 +3808,7 @@
     "total Sites Linking In": "14,895"
   },
   {
-    "rank": "478",
+    "rank": 478,
     "site": "Xqheb9yszyrd.com",
     "daily time on site": "0:43",
     "daily pageviews per visitor": "1.07",
@@ -3816,7 +3816,7 @@
     "total Sites Linking In": "2"
   },
   {
-    "rank": "479",
+    "rank": 479,
     "site": "Files.wordpress.com",
     "daily time on site": "1:47",
     "daily pageviews per visitor": "1.42",
@@ -3824,7 +3824,7 @@
     "total Sites Linking In": "232,914"
   },
   {
-    "rank": "480",
+    "rank": 480,
     "site": "Treasury.go.ke",
     "daily time on site": "6:55",
     "daily pageviews per visitor": "2.20",
@@ -3832,7 +3832,7 @@
     "total Sites Linking In": "405"
   },
   {
-    "rank": "481",
+    "rank": 481,
     "site": "Zapmeta.ws",
     "daily time on site": "0:60",
     "daily pageviews per visitor": "1.24",
@@ -3840,7 +3840,7 @@
     "total Sites Linking In": "127"
   },
   {
-    "rank": "482",
+    "rank": 482,
     "site": "Merriam-webster.com",
     "daily time on site": "2:30",
     "daily pageviews per visitor": "1.90",
@@ -3848,7 +3848,7 @@
     "total Sites Linking In": "22,068"
   },
   {
-    "rank": "483",
+    "rank": 483,
     "site": "Medscape.com",
     "daily time on site": "2:51",
     "daily pageviews per visitor": "2.15",
@@ -3856,7 +3856,7 @@
     "total Sites Linking In": "15,284"
   },
   {
-    "rank": "484",
+    "rank": 484,
     "site": "Nationmedia.com",
     "daily time on site": "2:50",
     "daily pageviews per visitor": "1.90",
@@ -3864,7 +3864,7 @@
     "total Sites Linking In": "734"
   },
   {
-    "rank": "485",
+    "rank": 485,
     "site": "Kenyatalk.com",
     "daily time on site": "4:27",
     "daily pageviews per visitor": "1.40",
@@ -3872,7 +3872,7 @@
     "total Sites Linking In": "78"
   },
   {
-    "rank": "486",
+    "rank": 486,
     "site": "Thebalancecareers.com",
     "daily time on site": "2:05",
     "daily pageviews per visitor": "1.36",
@@ -3880,7 +3880,7 @@
     "total Sites Linking In": "131"
   },
   {
-    "rank": "487",
+    "rank": 487,
     "site": "Livescore.cz",
     "daily time on site": "5:23",
     "daily pageviews per visitor": "1.30",
@@ -3888,7 +3888,7 @@
     "total Sites Linking In": "183"
   },
   {
-    "rank": "488",
+    "rank": 488,
     "site": "Allafrica.com",
     "daily time on site": "2:19",
     "daily pageviews per visitor": "1.60",
@@ -3896,7 +3896,7 @@
     "total Sites Linking In": "15,907"
   },
   {
-    "rank": "489",
+    "rank": 489,
     "site": "Seesaw.me",
     "daily time on site": "5:15",
     "daily pageviews per visitor": "2.97",
@@ -3904,7 +3904,7 @@
     "total Sites Linking In": "490"
   },
   {
-    "rank": "490",
+    "rank": 490,
     "site": "Waldenu.edu",
     "daily time on site": "4:01",
     "daily pageviews per visitor": "3.31",
@@ -3912,7 +3912,7 @@
     "total Sites Linking In": "1,305"
   },
   {
-    "rank": "491",
+    "rank": 491,
     "site": "Internet-start.net",
     "daily time on site": "1:58",
     "daily pageviews per visitor": "1.40",
@@ -3920,7 +3920,7 @@
     "total Sites Linking In": "114"
   },
   {
-    "rank": "492",
+    "rank": 492,
     "site": "Y2mate.guru",
     "daily time on site": "1:11",
     "daily pageviews per visitor": "1.06",
@@ -3928,7 +3928,7 @@
     "total Sites Linking In": "65"
   },
   {
-    "rank": "493",
+    "rank": 493,
     "site": "Wikileaks.org",
     "daily time on site": "4:11",
     "daily pageviews per visitor": "4.00",
@@ -3936,7 +3936,7 @@
     "total Sites Linking In": "6,082"
   },
   {
-    "rank": "494",
+    "rank": 494,
     "site": "Ugandahotgirls.com",
     "daily time on site": "17:30",
     "daily pageviews per visitor": "9.70",
@@ -3944,7 +3944,7 @@
     "total Sites Linking In": "27"
   },
   {
-    "rank": "495",
+    "rank": 495,
     "site": "Gomovies-online.me",
     "daily time on site": "4:08",
     "daily pageviews per visitor": "5.40",
@@ -3952,7 +3952,7 @@
     "total Sites Linking In": "48"
   },
   {
-    "rank": "496",
+    "rank": 496,
     "site": "Apa.org",
     "daily time on site": "1:58",
     "daily pageviews per visitor": "1.57",
@@ -3960,7 +3960,7 @@
     "total Sites Linking In": "20,893"
   },
   {
-    "rank": "497",
+    "rank": 497,
     "site": "Cnbc.com",
     "daily time on site": "3:10",
     "daily pageviews per visitor": "1.75",
@@ -3968,7 +3968,7 @@
     "total Sites Linking In": "26,011"
   },
   {
-    "rank": "498",
+    "rank": 498,
     "site": "Hearthis.at",
     "daily time on site": "6:15",
     "daily pageviews per visitor": "3.50",
@@ -3976,7 +3976,7 @@
     "total Sites Linking In": "288"
   },
   {
-    "rank": "499",
+    "rank": 499,
     "site": "Calculator.co.ke",
     "daily time on site": "2:53",
     "daily pageviews per visitor": "1.50",
@@ -3984,7 +3984,7 @@
     "total Sites Linking In": "87"
   },
   {
-    "rank": "500",
+    "rank": 500,
     "site": "Wordpress.org",
     "daily time on site": "2:57",
     "daily pageviews per visitor": "3.14",
