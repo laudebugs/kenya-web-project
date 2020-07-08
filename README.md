@@ -65,5 +65,5 @@ The dataset made available still needs work. For instance, comparing the time sp
 However, I am glad to make the dataset available, free of use and for more research to be done. Especially at a time when the internet is crucial to keep systems moving during Covid-19, we need to examine more closely how Kenyans use the internet.
 
 ## Future Work
--[ ] Label each website according to category such as entertainment, utility, education to be able to examine the dataset in more detail.
--[ ] Analyze how sites in a certain group or category compare with each other
+- [ ] Label each website according to category such as entertainment, utility, education to be able to examine the dataset in more detail.
+- [ ] Analyze how sites in a certain group or category compare with each other
