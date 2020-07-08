@@ -22,23 +22,18 @@ onlyfiles = [f for f in listdir(
 # An array to hold missing websites
 missing = []
 # The file to hold the missing websites
-file = open('data/missingSites.json', 'a')
-
-# Add an opening bracket
-file.write("[")
+file = open('data/missingSites.json', 'w')
 
 # loop through all the websites
 for w in allWebsites:
     # check if the website has a corrensponding report
     if(("www_"+w['site'].replace(".", "_")+".json")not in onlyfiles):
         # if not, add the website data to the missing file
-        file.write(str(json.dumps(w)))
-        # Separate the json files for each file with a comma
-        if(w != allWebsites[len(allWebsites)-1]):
-            file.write(",")
+        missing.append(w)
+        
 
 # Add an enclosing bracket
-file.write("]")
+file.write(json.dumps(missing))
 
 # close the files
 myfile.close()
