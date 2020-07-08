@@ -10,9 +10,11 @@ try {
 } catch (e) {
   console.log("Error", e.stack);
 }
-
+fs.appendFile("out.json", "[", "utf8", function (err) {
+  if (err) throw err;
+});
 // run lighthouse on a sample of the websites
-data.splice(0, 5).forEach((thisSite) => {
+data.splice(0, 1).forEach((thisSite) => {
   // append the protocol and www
   var address = "https://www." + thisSite.site;
 
@@ -32,7 +34,7 @@ data.splice(0, 5).forEach((thisSite) => {
       // Add performance and size onto the website data
       thisSite["performance"] = performance;
       thisSite["size on home page load"] = size;
-
+      console.log("saving report to data/sampleOutput.json");
       // Append the combined website data to the output file
       fs.appendFile(
         "data/sampleOutput.json",
@@ -42,9 +44,15 @@ data.splice(0, 5).forEach((thisSite) => {
           if (err) throw err;
         }
       );
-      fs.appendFile("out.json", ",", "utf8", function (err) {
-        if (err) throw err;
-      });
+      if (data.indexOf(thisSite) != data.length - 1) {
+        fs.appendFile("out.json", ",", "utf8", function (err) {
+          if (err) throw err;
+        });
+      } else {
+        fs.appendFile("out.json", "]", "utf8", function (err) {
+          if (err) throw err;
+        });
+      }
     })
     .catch((err) => console.log(err));
 });
