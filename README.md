@@ -59,6 +59,8 @@ The scripts are made available in the analysis folder. Each script should be run
    ```
    ![time spent on site](analysis/graphs/TimeSpentOnWebsite.png)
 We can see that on average, Kenyans spend 7.2682 minutes on a website with the most common time spent on a site being 3 minutes according to the graph above⬆️.
+   ![Size of web page downloaded](analysis/graphs/Size%20of%20the%20web%20page%20downloaded.png)
+The optimal size of a web page is 0 - 1 MB downloaded once a use logs onto a site. This is of course, not taking into account cached resources that might reduce the size of the page downloaded.
 ### PostScript
 The dataset made available still needs work. For instance, comparing the time spent on a particular website with another and doesn't take into account the fact that different websites serve different functions. For instance, a person logging into the Kenya Revenue Authority website would perhaps use the site for a specific predertemined use case while a person using YouTube might not have a goal in mind while using the site. And therefore, comparing how, for instance, the size of the page corelates with the amount of time spent makes a lot of assumptions such as the function of each site. <br/>
 

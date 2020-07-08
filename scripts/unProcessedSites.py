@@ -34,11 +34,12 @@ processed = []
 combinedReports = json.loads(open('data/combinedWebsiteData.json').read())
 
 for doc in combinedReports:
-    if (doc['performance']==None):
+    if (doc['performance'] == None):
         # outputFile.write(json.dumps(doc));
         # outputFile.write(",");
         unprocessedFiles.append(doc)
-        filePath = 'data/complete-reports/'+ ("www_"+doc['site'].replace(".", "_")+".json")
+        filePath = 'data/complete-reports/' + \
+            ("www_"+doc['site'].replace(".", "_")+".json")
         if(path.exists(filePath)):
             os.remove(filePath)
     else:
