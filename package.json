@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "lighthouse": "^6.1.1"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
   }
 }
