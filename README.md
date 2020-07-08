@@ -58,6 +58,7 @@ The scripts are made available in the analysis folder. Each script should be run
    python3 analysis/timeSpent.py
    ```
    ![time spent on site](analysis/graphs/TimeSpentOnWebsite.png)
+  <br/> 
 We can see that on average, Kenyans spend 7.2682 minutes on a website with the most common time spent on a site being 3 minutes according to the graph above⬆️.
    ![Size of web page downloaded](analysis/graphs/Size%20of%20the%20web%20page%20downloaded.png)
 The optimal size of a web page is 0 - 1 MB downloaded once a use logs onto a site. This is of course, not taking into account cached resources that might reduce the size of the page downloaded.
